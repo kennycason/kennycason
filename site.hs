@@ -2,8 +2,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
-
-
+import Data.List (sortBy,isSuffixOf)
+import System.FilePath.Posix (takeBaseName,takeDirectory,(</>))
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -33,7 +33,7 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about.markdown", "contact.markdown", "games.markdown", "euler.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -77,6 +77,30 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
+
+-- niceRoute functions
+niceRoute :: Routes
+niceRoute = customRoute createIndexRoute
+  where
+    createIndexRoute ident = takeDirectory p
+                                 </> drop 11 (takeBaseName p)
+                                 </> "index.html"
+                           where p = toFilePath ident
+
+cleanIndexUrls :: Item String -> Compiler (Item String)
+cleanIndexUrls = return . fmap (withUrls clean)
+    where
+        idx = "index.html"
+        clean url
+            | idx `isSuffixOf` url = take (length url - length idx) url
+            | otherwise = url
+
+postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
+postList sortFilter = do
+    posts <- sortFilter =<< loadAll "posts/*"
+    itemTpl <- loadBody "templates/post-item.html"
+    list <- applyTemplateList itemTpl postCtx posts
+    return list 
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
