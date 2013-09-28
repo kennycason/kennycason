@@ -1,27 +1,20 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
-import           Hakyll
-import Data.List (sortBy,isSuffixOf)
-import System.FilePath.Posix (takeBaseName,takeDirectory,(</>))
+import Hakyll
+import Control.Applicative ((<$>))
+import Data.List (isPrefixOf)
+import Data.Monoid (mappend)
+import Data.Text (pack,unpack,replace,empty)
+import System.FilePath (takeFileName)
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-    -- stand alone pages
-    match "marine/**" $ do
-        route   idRoute
-        compile copyFileCompiler
 
-    match "resume/**" $ do
-        route   idRoute
-        compile copyFileCompiler
+    -- Build tags
+    tags <- buildTags "posts/*" (fromCapture "tags/*.html")
 
-    match "tictactoe/**" $ do
-        route   idRoute
-        compile copyFileCompiler 
-
-    -- core classes
-    match "images/**" $ do
+    -- copy resources
+    match ("images/**" .||. "js/**" .||. "marine/**" .||. "tictactoe/**" .||. "resume/**") $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -29,9 +22,6 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "js/*" $ do
-        route   idRoute
-        compile copyFileCompiler
 
     match (fromList ["about.markdown", "contact.markdown", "games.markdown", "euler.markdown"]) $ do
         route   $ setExtension "html"
@@ -42,8 +32,11 @@ main = hakyll $ do
     match "posts/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= loadAndApplyTemplate "templates/post.html"    (tagsCtx tags)
+            >>= (externalizeUrls $ feedRoot feedConfiguration)
+            >>= saveSnapshot "content"
+            >>= (unExternalizeUrls $ feedRoot feedConfiguration)
+            >>= loadAndApplyTemplate "templates/default.html" (tagsCtx tags)
             >>= relativizeUrls
 
     create ["archive.html"] $ do
@@ -75,35 +68,89 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
 
+    -- Post tags
+    tagsRules tags $ \tag pattern -> do
+        let title = "Posts tagged '" ++ tag ++ "'"
+        route idRoute
+        compile $ do
+            list <- postList tags pattern recentFirst
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/posts.html"
+                        (constField "title" title `mappend`
+                            constField "body" list `mappend`
+                            defaultContext)
+                >>= loadAndApplyTemplate "templates/default.html"
+                        (constField "title" title `mappend`
+                            defaultContext)
+                >>= relativizeUrls
+
+    -- Render RSS feed
+    create ["rss.xml"] $ do
+        route idRoute
+        compile $ do
+            loadAllSnapshots "posts/*" "content"
+                >>= recentFirst
+                >>= renderRss feedConfiguration feedCtx 
+
     match "templates/*" $ compile templateCompiler
 
 
--- niceRoute functions
-niceRoute :: Routes
-niceRoute = customRoute createIndexRoute
-  where
-    createIndexRoute ident = takeDirectory p
-                                 </> drop 11 (takeBaseName p)
-                                 </> "index.html"
-                           where p = toFilePath ident
 
-cleanIndexUrls :: Item String -> Compiler (Item String)
-cleanIndexUrls = return . fmap (withUrls clean)
-    where
-        idx = "index.html"
-        clean url
-            | idx `isSuffixOf` url = take (length url - length idx) url
-            | otherwise = url
 
-postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
-postList sortFilter = do
-    posts <- sortFilter =<< loadAll "posts/*"
-    itemTpl <- loadBody "templates/post-item.html"
-    list <- applyTemplateList itemTpl postCtx posts
-    return list 
+-- Contexts
 
---------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+tagsCtx :: Tags -> Context String
+tagsCtx tags =
+    tagsField "prettytags" tags `mappend`
+    postCtx
+
+feedCtx :: Context String
+feedCtx =
+    bodyField "description" `mappend`
+    postCtx
+
+-- Feed configuration
+
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+    { feedTitle = "Kenny Cason's Blog - RSS feed"
+    , feedDescription = "Software, Math, and Language"
+    , feedAuthorName = "Kenny Cason"
+    , feedAuthorEmail = "kenneth.cason@gmail.com"
+    , feedRoot = "http://www.kennycason.com"
+    }
+
+
+-- Auxiliary compilers
+
+externalizeUrls :: String -> Item String -> Compiler (Item String)
+externalizeUrls root item = return $ fmap (externalizeUrlsWith root) item
+
+externalizeUrlsWith :: String -- ^ Path to the site root
+                    -> String -- ^ HTML to externalize
+                    -> String -- ^ Resulting HTML
+externalizeUrlsWith root = withUrls ext
+  where
+    ext x = if isExternal x then x else root ++ x
+
+unExternalizeUrls :: String -> Item String -> Compiler (Item String)
+unExternalizeUrls root item = return $ fmap (unExternalizeUrlsWith root) item
+
+unExternalizeUrlsWith :: String -- ^ Path to the site root
+                      -> String -- ^ HTML to unExternalize
+                      -> String -- ^ Resulting HTML
+unExternalizeUrlsWith root = withUrls unExt
+  where
+    unExt x = if root `isPrefixOf` x then unpack $ replace (pack root) empty (pack x) else x
+
+postList :: Tags -> Pattern -> ([Item String] -> Compiler [Item String])
+         -> Compiler String
+postList tags pattern preprocess' = do
+    postItemTpl <- loadBody "templates/postitem.html"
+    posts <- preprocess' =<< loadAll pattern
+    applyTemplateList postItemTpl (tagsCtx tags) posts

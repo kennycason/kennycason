@@ -1,5 +1,6 @@
 ---
-title: S.P.Q.R.T
+title: S.P.Q.R
+tags: future, science fiction
 ---
 
 ``` haskell
