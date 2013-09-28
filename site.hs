@@ -5,6 +5,7 @@ import Control.Applicative ((<$>))
 import Data.List (isPrefixOf)
 import Data.Monoid (mappend)
 import Data.Text (pack,unpack,replace,empty)
+import Data.Char (toLower)
 import System.FilePath (takeFileName)
 --------------------------------------------------------------------------------
 main :: IO ()
