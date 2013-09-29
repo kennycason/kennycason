@@ -5,6 +5,23 @@ body {
     width: 1000px;
 }
 
+a:link {
+    text-decoration:none;
+    color: #111;
+}
+a:visited {
+    text-decoration:none;
+    color: inherit;
+}
+a:hover {
+    text-decoration:underline;
+    color: inherit;
+}
+a:active {
+    text-decoration:underline;
+    color: inherit;
+}
+
 div#header {
     border-bottom: 2px solid black;
     margin-bottom: 30px;
