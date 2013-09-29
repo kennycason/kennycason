@@ -21,4 +21,4 @@ Version Downloads with project files (All you really need is the source):
 <a href="/code/c/SDL/Game_Demo/Game_Demo_linux_codeblocks.zip">Version 1: Project file for Code::Blocks (Linux)</a>
 
 Also, for a Sprite class with rotations, animations, etc. Check out my ongoing Sprite library, also written in C++ using SDL
-<a href="http://ken-soft.com/?p=234">SDL Sprite Library</a>
+<a href="/posts/2009-01-02-sprite-class-in-c-using-sdl.html">SDL Sprite Library</a>

@@ -7,6 +7,8 @@ import Data.Monoid (mappend)
 import Data.Text (pack,unpack,replace,empty)
 import Data.Char (toLower)
 import System.FilePath (takeFileName)
+
+-- http://qnikst.github.io/posts/2013-02-04-hakyll-latex.html
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -120,6 +122,7 @@ feedCtx :: Context String
 feedCtx =
     bodyField "description" `mappend`
     postCtx
+
 
 -- Feed configuration
 

@@ -39,8 +39,8 @@ Downloadable Jars (simple to complex):
 </ul>
 
 If you're only interested in the Transformation algorithms, check the below link:
-<a href="http://ken-soft.com/2009/01/08/graph4d-rotation4d-project-to-2d/" >Graph4D</a> - demonstrates methods and actual source code for rotating a 4D vector.
-<a href="http://ken-soft.com/2008/12/25/graph3d-java-project-3d-points-to-2d/" >Graph3D</a> - demonstrates methods and actual source code for rotating a 3D vector.
+<a href="/posts/2009-01-08-graph4d-rotation4d-project-to-2d.html" >Graph4D</a> - demonstrates methods and actual source code for rotating a 4D vector.
+<a href="/posts/2008-12-25-graph3d-java-project-3d-points-to-2d.html" >Graph3D</a> - demonstrates methods and actual source code for rotating a 3D vector.
 <table ><tr>
 <td><a href="/code/java/kubix/Kubix-RandomCubes.png" target="_blank" alt="3D rotating cube engine java" ><img src="/code/java/kubix/Kubix-RandomCubes.png" width="190" /></a></td>
 <td><a href="/images/cube3D/Screenshot-Cubes3D.png" target="_blank" alt="3D rotating cube engine java" ><img src="/code/java/cube3D/Screenshot-Cubes3D.png" width="190" /></a></td>

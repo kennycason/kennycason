@@ -19,27 +19,27 @@ To view a demo of some of the Sprites classes features, and have access to some 
 
 All examples use these sprites
 <table><tr><td><a href="/code/c/SDL/Sprite/samus_normal_run.bmp" target="_blank" ><img width="90%" src="/code/c/SDL/Sprite/samus_normal_run.bmp"  alt="SDL Sprite C++"/></a></td>
-<td><a href="http://ken-soft.com/code/c/SDL/Sprite/character.bmp" target="_blank" ><img width="90%" src="http://ken-soft.com/code/c/SDL/Sprite/character.bmp"  alt="SDL Sprite C++"/></a></td></tr></table>
+<td><a href="/code/c/SDL/Sprite/character.bmp" target="_blank" ><img width="90%" src="/code/c/SDL/Sprite/character.bmp"  alt="SDL Sprite C++"/></a></td></tr></table>
 
 <b>Demo using special effects </b>
-<pre lang="CPP" line="1">
-    // Initialize SDL, etc
-   ...
-   ...
-   Sprite* s1 = new Sprite("sprites/samus_normal_run.bmp",10,60); // load a BMP that contains 10 frames
-                                                // set the animation speed to 60 milliseconds
-      // set RGB(255,0,255) as transparent, rotate 180 degrees, flip horizontal and reverse animation
-  s1->setTransparency(255,0,255)->rotate180()->flipHorizontal()->reverseAnimation();
-   // etc
-    ...
-    ...
 
-    // Main loop
-    // clear background to black, RGB(0,0,0)
-    SDL_FillRect(screen, 0, SDL_MapRGB(screen->format, 0, 0, 0));
-    // animate and draw the sprite
-    s1->animate()->draw(screen,0,0);
-    SDL_Flip(screen);
-    
+```cpp
+// Initialize SDL, etc
+...
+...
+Sprite* s1 = new Sprite("sprites/samus_normal_run.bmp",10,60); // load a BMP that contains 10 frames
+                                                // set the animation speed to 60 milliseconds
+// set RGB(255,0,255) as transparent, rotate 180 degrees, flip horizontal and reverse animation
+s1->setTransparency(255,0,255)->rotate180()->flipHorizontal()->reverseAnimation();
+// etc
+...
+...
+
+// Main loop
+// clear background to black, RGB(0,0,0)
+SDL_FillRect(screen, 0, SDL_MapRGB(screen->format, 0, 0, 0));
+// animate and draw the sprite
+s1->animate()->draw(screen,0,0);
+SDL_Flip(screen);
 
 ```

@@ -7,6 +7,15 @@
         <title>KennyCason.com - $title$</title>
         <link rel="stylesheet" type="text/css" href="/css/default.css" />
         <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/js/jquery.jslatex.packed.js"></script>
+
+        <script type="text/javascript">
+            $$(document).ready(function () {
+                $$(".latex").latex();
+            });
+        </script>
     </head>
     <body>
         <div id="header">
@@ -23,7 +32,6 @@
         </div>
         <div id="content">
             <h1>$title$</h1>
-
             $body$
         </div>
         <div id="footer">
