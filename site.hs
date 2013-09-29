@@ -15,7 +15,13 @@ main = hakyll $ do
     tags <- buildTags "posts/*" (fromCapture "tags/*.html")
 
     -- copy resources
-    match ("images/**" .||. "js/**" .||. "marine/**" .||. "tictactoe/**" .||. "resume/**") $ do
+    match ("images/**" 
+            .||. "js/**" 
+            .||. "marine/**" 
+            .||. "tictactoe/**" 
+            .||. "resume/**"
+            .||. "pdf/**"
+            .||. "code/**") $ do
         route   idRoute
         compile copyFileCompiler
 

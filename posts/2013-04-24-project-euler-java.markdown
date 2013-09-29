@@ -1,5 +1,5 @@
 ---
-title: Project Euler – Java
+title: Project Euler - Java
 author: Kenny Cason
 tags: algorithms, Mathematics, project euler
 ---

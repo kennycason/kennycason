@@ -1,11 +1,11 @@
 ---
 title: Self-Organizing Map / 自己組織化写像 / 自組織映射網路
 author: Kenny Cason
-tags: artificial intelligence, machine learning, self-organizing map, 自己組織化写像, 自組織映射網路
+tags: Artificial Intelligence, machine learning, Self-Organizing Map, 自己組織化写像, 自組織映射網路
 ---
 
 Source code on Github: <a href="https://github.com/kennycason/selforganizingmap" target="_blank">here</a>
-<table>
+<table width="600px">
 <tr>
 <td>
 8 colors, 3D Vector(R,G,B)

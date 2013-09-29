@@ -1,0 +1,101 @@
+#!/bin/bash
+
+# AUTHOR: Kenneth Cason
+# EMAIL:  kenneth.cason@gmail.com
+# SITE:   www.Ken-Soft.com	
+
+# usage
+usage() {
+  echo "BUILDASM ASM_FILE"
+  echo "    [-o | --output OUTPUT_FILE]"
+  echo "    [-e | --error ERROR_FILE]"
+  echo ""
+  echo "BUIDNASM is a simple bash script that compiles, links, and executes an Assembly file written in NASM."
+  echo "It first compiles the NNN.asm file using:"
+  echo "   nasm -Z ERROR -f elf NNN.asm -o OUTPUT"
+  echo "By default all Errors are written out to ERRORNASM, unless specified otherwise using the optional -e parameter."
+  echo "By default the OUTPUT is set to the base of the input file."
+  echo "(i.e. NNNN.asm will output NNNN"
+  echo ""
+  echo "AUTHOR: Kenneth Cason"
+  echo "EMAIL:  kenneth.cason@gmail.com"
+  echo "SITE:   www.Ken-Soft.com"
+}
+
+if [ "$1" == "-h" ]
+then
+  usage
+  exit 0
+fi
+
+# Set Input File (.asm)
+if [ -e $1 ]
+then
+  FILE=$1 
+else
+  echo "Input File Not Found!"
+  exit 1
+fi
+
+# get the base of the file (i.e. BASE.asm)
+BASE=(`echo $FILE | tr '.' ' '`)
+BASE=${BASE[0]}
+
+# default output
+OUTPUT=$BASE
+# Default error file
+ERRORFILE="ERRORNASM"
+
+# If it exists already, delete it.
+if [ -e $BASE ] 
+then
+  echo "Deleting Old Executable: $BASE"
+  rm $BASE
+fi
+
+# Process all parameters
+
+while [ "$2" != "" ]
+do
+  echo "IN WHILE PARAM $2"
+  case $2 in
+      -e | --error ) shift
+                     ERRORFILE=$2
+                     ;;
+      -o | --output ) shift
+                      OUTPUT=$2
+                     ;;
+      -h | --help )  usage
+                     exit 0
+                     ;;
+      * )            echo "Command Not Recognized!"
+                     exit 1
+                     ;;
+  esac
+  shift
+done
+
+# Compile the file
+echo "Compiling $FILE"
+if [ -e $ERRORFILE ] 
+then
+  # echo "Resetting Error File: $ERRORFILE"
+  rm $ERRORFILE
+fi
+nasm -Z $ERRORFILE -f elf $FILE
+if [ -s $ERRORFILE ] 
+then 
+  echo "Errors occurred during compile time! (Errors saved to: $ERRORFILE)"
+  cat $ERRORFILE 
+  exit 1
+else
+  echo "Compiled Successfully!"
+fi
+
+# Link into an executable
+echo "Linking $BASE.o"
+ld $BASE.o -o $OUTPUT
+
+# run file
+echo "Executing $OUTPUT"
+./$OUTPUT

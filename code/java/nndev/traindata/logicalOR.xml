@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wccs SYSTEM "data.dtd">
+
+<!-- Author: Kenny Cason -->
+<!-- Email: kenneth.cason AT gmail DOT com -->
+<!-- Website: www.Ken-Soft.com -->
+<!-- Date: 2008 Nov 1 -->
+
+<!-- Logical OR -->
+<traindata>
+  <innodes>45</innodes>
+  <midlayers>3</midlayers>
+  <midnodes>10</midnodes>
+  <outnodes>15</outnodes>
+  <learnrate>10.5</learnrate>
+  <maxcycles>100000</maxcycles>
+  <error>.0001</error>
+  <numdata>4</numdata>
+  <inwidth>9</inwidth>
+  <inheight>5</inheight>
+  <outwidth>3</outwidth>
+  <outheight>5</outheight>
+  <data>
+    <i>1</i><i>1</i><i>1</i><i>0</i><i>0</i><i>0</i><i>1</i><i>1</i><i>1</i>
+    <i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i>
+    <i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i>
+    <i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i>
+    <i>1</i><i>1</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>1</i><i>1</i>
+    <o>1</o><o>1</o><o>1</o>
+    <o>1</o><o>0</o><o>1</o>
+    <o>1</o><o>0</o><o>1</o>
+    <o>1</o><o>0</o><o>1</o>
+    <o>1</o><o>1</o><o>1</o>
+  </data>
+  <data>
+    <i>1</i><i>1</i><i>1</i><i>0</i><i>0</i><i>0</i><i>1</i><i>1</i><i>0</i>
+    <i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i>
+    <i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i>
+    <i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i>
+    <i>1</i><i>1</i><i>1</i><i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i>
+    <o>1</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+  </data>
+  <data>
+    <i>1</i><i>1</i><i>0</i><i>0</i><i>0</i><i>0</i><i>1</i><i>1</i><i>1</i>
+    <i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i>
+    <i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>1</i><i>0</i><i>1</i>
+    <i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i>
+    <i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i><i>1</i><i>1</i><i>1</i>
+    <o>1</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+  </data>
+  <data>
+    <i>1</i><i>1</i><i>0</i><i>0</i><i>0</i><i>0</i><i>1</i><i>1</i><i>0</i>
+    <i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i>
+    <i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i><i>1</i><i>0</i>
+    <i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i>
+    <i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i><i>0</i><i>1</i><i>0</i>
+    <o>1</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+    <o>0</o><o>1</o><o>0</o>
+  </data>
+</traindata>
