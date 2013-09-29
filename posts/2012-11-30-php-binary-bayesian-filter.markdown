@@ -6,11 +6,12 @@ tags: Bayesian Filter, classfication, nlp, PHP, Spam
 
 This is a simple Binary Bayesian Filter. The reason for the Interfaces and Abstract classes is because I am still mid-ways through my Java to PHP port :)
 
-Also notice that this model calculates <code>P(A|B)</code> by assigning probability values rather than frequency counts. <code>P(A|B) = P(A & B) / P(B)</code>
+Also notice that this model calculates <pre>P(A|B)</pre> by assigning probability values rather than frequency counts. <pre>P(A|B) = P(A & B) / P(B)</pre>
+
 
 Sample Usage
 
-```php
+```{.php .numberLines startFrom="1"}
 $neg = File::read(LIB_DIR . 'classify/bayes/data/NEG'); // my file loading methods, you can use your own
 $pos = File::read(LIB_DIR . 'classify/bayes/data/POS');
 
@@ -35,7 +36,7 @@ for($i = 0; $i < count($reviews); $i++) {
 
 PositiveNegativeBayesianFilter.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 require_once("AbstractBayesianBinaryFilter.php");
@@ -215,7 +216,7 @@ class PositiveNegativeBayesianFilter extends AbstractBayesianBinaryFilter {
 
 AbstractBayesianBinaryFilter.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 require_once("IBayesianBinaryFilter.php");
@@ -251,7 +252,7 @@ abstract class AbstractBayesianBinaryFilter implements IBayesianBinaryFilter {
 
 IBayesianBinaryFilter.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 require_once("IBayesianFilter.php");
@@ -272,7 +273,7 @@ interface IBayesianBinaryFilter extends IBayesianFilter {
 
 IBayesianFilter.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 /**
@@ -293,7 +294,7 @@ interface IBayesianFilter {
 
 IBayesianFilter.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 /**
@@ -314,7 +315,7 @@ interface IBayesianFilter {
 
 Word.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 /**

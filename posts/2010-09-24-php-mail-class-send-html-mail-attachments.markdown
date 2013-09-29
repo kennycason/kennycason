@@ -7,7 +7,7 @@ tags: attachments, HTML, mail, PHP
 This is a sample class to send mail using PHP. It also demonstrates how to attach images.
 
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php 
 
 class Mail {

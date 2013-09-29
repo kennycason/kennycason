@@ -23,7 +23,8 @@ All examples use these sprites
 
 <b>Demo using special effects </b>
 
-```cpp
+
+```{.cpp .numberLines startFrom="1"}
 // Initialize SDL, etc
 ...
 ...
@@ -41,5 +42,4 @@ SDL_FillRect(screen, 0, SDL_MapRGB(screen->format, 0, 0, 0));
 // animate and draw the sprite
 s1->animate()->draw(screen,0,0);
 SDL_Flip(screen);
-
 ```

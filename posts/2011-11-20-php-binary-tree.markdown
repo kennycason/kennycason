@@ -7,7 +7,7 @@ tags: binary tree, btree, PHP
 A simple binary tree in php, will add a delete function later :P
 
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 /**
@@ -140,7 +140,7 @@ class BinaryTree {
 A Unit test (using SimpleTest)
 
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 define('SIMPLE_TEST', '../simpletest/'); 

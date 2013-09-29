@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: jGames, jQuery, jTicTacToe, Tic Tac Toe
 ---
 
-jTicTacToe is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+jTicTacToe is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. 
     <table>
         <tr><td><div id="tictactoe"></div></td><td><div id="tictactoe_anim"></div></td></tr>
     </table>
@@ -12,20 +12,20 @@ jTicTacToe is one module within the <a href="http://ken-soft.com/2011/08/08/jgam
 <strong>Display Static Tic Tac Toe State</strong>
 First include the following lines to your webpage
 
-```javascript
+```{.html .numberLines startFrom="1"}
     <script type="text/javascript" src="js/jgames/jquery.jgames.js"></script>
     <link href="js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 
 ```
 Create an empty div tag and give it an ID, i.e. "tictactoe". This is where the tic tac toe board will be rendered to.
 
-```javascript
+```{.html .numberLines startFrom="1"}
 <div id="tictactoe"></div>
 
 ```
 Next, create the state of the tic tac toe board using Javascript. The below state represents every piece in the Tic Tac Toe game and renders the tic tac toe above left tic tac toe board.
 
-```javascript
+```{.javascript .numberLines startFrom="1"}
         var board_tictactoe = [
             ["o", "o", "x"],
             ["o", "x", "x"],
@@ -37,7 +37,7 @@ Next, create the state of the tic tac toe board using Javascript. The below stat
 <strong>Creating an Animation</strong>
 Creating an animation is very easy. You simply pass an array of states, and the time interval between states (in milliseconds) to the <b>tictactoeAnimator()</b> function. Below is the code to render the above right Tic Tac Toe animation.
 
-```javascript
+```{.javascript .numberLines startFrom="1"}
         var board_tictactoe_anim =
         [
             [
@@ -79,9 +79,10 @@ Creating an animation is very easy. You simply pass an array of states, and the 
 
         $("#tictactoe_anim").tictactoeAnimator(board_tictactoe_anim, 1000);
 ```
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#tictactoe").tictactoe(board_tictactoe);$("#tictactoe_anim").tictactoeAnimator(board_tictactoe_anim, 1000);});

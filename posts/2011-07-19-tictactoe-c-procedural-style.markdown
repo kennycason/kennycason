@@ -7,7 +7,7 @@ tags: C++, Computer, Game, Programming
 This is a simple version of TicTacToe written in C. <br/>
 I wrote this primarily to help a friend of mine. It has virtually no error checking (primarily in regards to the scanf functions, so don't mess up while inputting!)
 
-<pre lang="c" line="0">
+```{.cpp .numberLines startFrom="1"}
 #include <stdio.h>
 
 char board[3][3];

@@ -6,7 +6,7 @@ tags: C++, Programming
 
 Earlier this year I was playing around with making simple programming languages and came across <a href="http://en.wikipedia.org/wiki/Brainfuck" target="_blank">"BrainFuck"</a>. I, being bored decided to write my own BrainFuck Interpreter and of course made a few changes along the way (only in I/O functions, added integer support since BrainFuck only deals with characters). If interested, I recommend reading more information about BrainFuck on Wikipedia.
 
-The Full download including Source and examples can be found <a href="http://ken-soft.com/code/c/bf/bf.zip" target="_blank">HERE</a>.
+The Full download including Source and examples can be found <a href="/code/c/bf/bf.zip" target="_blank">HERE</a>.
 
 Here are the basic rules of BrainFuck with some added I/O Functions.<br/>
 <table class="table" border="1">
@@ -55,8 +55,9 @@ Here are the basic rules of BrainFuck with some added I/O Functions.<br/>
 <br/>
 <b>CP</b> is the Cell Pointer<br/>
 <b>Below are various scripts written in BrainFuck<b/>
-<a href="http://ken-soft.com/code/c/bf/helloworld.bf" target="_blank">Hello World</a><br/>
-<pre lang="bf" line="1">
+<a href="/code/c/bf/helloworld.bf" target="_blank">Hello World</a><br/>
+
+```{.c .numberLines startFrom="1"}
 +++++ +++++
 [
     > +++++ ++
@@ -80,11 +81,11 @@ c
 > + c
 > c
 M
-
 ```
 
-<a href="http://ken-soft.com/code/c/bf/helloworld2.bf" target="_blank">Hello World Version 2</a><br/>
-<pre lang="bf" line="1">
+<a href="/code/c/bf/helloworld2.bf" target="_blank">Hello World Version 2</a><br/>
+
+```{.c .numberLines startFrom="1"}
 +++++
 [
     > +++++ +++++ +++
@@ -112,11 +113,11 @@ M
 > + c
 
 M
-
 ```
 
 <a href="http://ken-soft.com/code/c/bf/nestedloop.bf" target="_blank">3 Nested While loops</a><br/>
-<pre lang="bf" line="1">
+
+```{.c .numberLines startFrom="1"}
 +++
 M
 [
@@ -132,12 +133,11 @@ M
     < -
 ]
 M
-
 ```
 
 <b>Below is the source for the BrainFuck Interpreter</b>
 
-```c
+```{.c .numberLines startFrom="1"}
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -326,5 +326,4 @@ void printDataBuffer() {
     }
     printf("\nIP = %d\n", IP);
 }
-
 ```

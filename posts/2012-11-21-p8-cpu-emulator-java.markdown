@@ -12,7 +12,7 @@ Based on the documentation found <a href="http://www.rexfisher.com/P8/P8_Instruc
 
 P8.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 import java.io.BufferedReader;
@@ -430,7 +430,7 @@ public class P8 {
 
 Registers.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 public class Registers {
@@ -463,7 +463,7 @@ public class Registers {
 
 MMU.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 public class MMU extends AbstractObservableBuffer {
@@ -478,7 +478,7 @@ public class MMU extends AbstractObservableBuffer {
 
 Port.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 public class Port extends AbstractObservableBuffer {
@@ -493,7 +493,7 @@ public class Port extends AbstractObservableBuffer {
 
 AbstractObservableBuffer.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 import java.util.Observable;
@@ -555,7 +555,7 @@ public class AbstractObservableBuffer extends Observable {
 
 IPortListener.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 import java.util.Observer;
@@ -568,7 +568,7 @@ interface IPortListener extends Observer {
 
 SinglePortListener.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 import java.util.LinkedList;
@@ -619,7 +619,7 @@ public class SinglePortListener implements IPortListener {
 
 test.asm
 
-```java
+```{.asm .numberLines startFrom="1"}
 01100110	; ADD A, data(0x4)
 00000100
 01101110	; SUB A, data(0x1)
@@ -635,7 +635,7 @@ test.asm
 
 MMUTest.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 import static org.junit.Assert.*;
@@ -708,7 +708,7 @@ public class MMUTest {
 
 P8Test.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.cpu.p8;
 
 import static org.junit.Assert.assertEquals;

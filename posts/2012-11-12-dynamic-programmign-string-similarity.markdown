@@ -9,7 +9,7 @@ For more information regarding Dynamic Programming check <a href="http://en.wiki
 
 DynamicStringSimularity.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.algo.matching;
 
 public class DynamicStringSimularity {
@@ -110,7 +110,7 @@ public class DynamicStringSimularity {
 
 DynamicStringSimularityTest.java
 
-```java
+```{.java .numberLines startFrom="1"}
 package lib.algo.matching;
 
 import org.junit.Test;

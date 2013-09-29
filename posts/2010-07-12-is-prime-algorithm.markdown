@@ -8,7 +8,7 @@ I was randomly surfing around the internet when I stumbled upon Google Labs Apti
 
 The core function isPrime() is below
 
-```c
+```{.c .numberLines startFrom="1"}
 bool isPrime(unsigned long long n) {
     // prime numbers are natural by definition
     if(n <= 1) {
@@ -24,8 +24,8 @@ bool isPrime(unsigned long long n) {
     }
     return true; // it is prime!
 }
-
 ```
+
 <b>note:</b> I use long long just to allow the calculation of bigger numbers. Though if the number gets to large enough this algorithm can still slow down a bit, as it could potentially have to iterate from 3 to the square root of the number being tested. For most cases this algorithm executes plenty fast enough and it is definitely better than iterating over every number between 1 and N, as many sites do.
 
 

@@ -10,7 +10,7 @@ I ended up downloading the implementation from GlassFish: <a href="http://downlo
 
 SmtpMail.java
 
-```java
+```{.java .numberLines startFrom="1"}
 import java.util.Properties;
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -69,7 +69,7 @@ public class SmtpMail {
 
 SmtpAuthenticator.java
 
-```java
+```{.java .numberLines startFrom="1"}
 import javax.mail.Authenticator;
 import javax.mail.PasswordAuthentication;
 
@@ -97,7 +97,7 @@ public class SmtpAuthenticator extends Authenticator {
 
 MailConfig.java
 
-```java
+```{.java .numberLines startFrom="1"}
 public class MailConfig {
 	
 	public String host = "";
@@ -114,7 +114,7 @@ public class MailConfig {
 
 MailConfigFactory.java
 
-```java
+```{.java .numberLines startFrom="1"}
 public class MailConfigFactory {
 	
 	private MailConfigFactory() {
@@ -137,7 +137,7 @@ public class MailConfigFactory {
 
 SmtpMailTest.java
 
-```java
+```{.java .numberLines startFrom="1"}
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;

@@ -5,19 +5,21 @@ tags: Game of Life, Programming, Simulation
 ---
 
 In this little simulation demo I created four simple rules, of which can be activated by uncommenting them out in the source code. Though nothing too complex emerges, I still liked some the resulting behavior. 
-Particularly, rule1(), results in colors slowly grouping together in various forms. It may be hard to immediately noticed so watch carefully. This was motivated by <a href="http://ken-soft.com/?p=481">John Conway's Game of Life</a>.
+Particularly, rule1(), results in colors slowly grouping together in various forms. It may be hard to immediately noticed so watch carefully. This was motivated by <a href="/posts/2009-12-22-john-conways-game-of-life-mutation-cc.html">John Conway's Game of Life</a>.
 The program was written in C/C++, all graphics are done using <a href="http://www.libsdl.org">SDL</a>
-The whole source can be found here <a href="http://ken-soft.com/code/c/Life2/main.cpp">main.cpp</a>
-<b>Compile</b><code>g++ main.cpp -lSDL</code>
-<b>Run</b><code>./a.out</code>
-<table><tr><td><a href="http://ken-soft.com/code/c/Life2/Life-1.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-1.png" width="275" alt="Game of Life Patterns" /></td>
-<td><a href="http://ken-soft.com/code/c/Life2/Life-4.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-4.png" width="275" alt="Game of Life Patterns" /></td></tr>
-<tr><td><a href="http://ken-soft.com/code/c/Life2/Life-8.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-8.png" width="275" alt="Game of Life Patterns" /></td>
-<td><a href="http://ken-soft.com/code/c/Life2/Life-9.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-9.png" width="275" alt="Game of Life Patterns" /></td></tr></table>
+The whole source can be found here <a href="/code/c/Life2/main.cpp">main.cpp</a><br/>
+
+<b>Compile</b><pre>g++ main.cpp -lSDL</pre>
+<b>Run</b><pre>./a.out</pre>
+
+<table><tr><td><a href="/code/c/Life2/Life-1.png" target="_blank"><img src="/code/c/Life2/Life-1.png" width="400px" alt="Game of Life Patterns" /></td>
+<td><a href="/code/c/Life2/Life-4.png" target="_blank"><img src="/code/c/Life2/Life-4.png" width="400px" alt="Game of Life Patterns" /></td></tr>
+<tr><td><a href="/code/c/Life2/Life-8.png" target="_blank"><img src="/code/c/Life2/Life-8.png" width="400px" alt="Game of Life Patterns" /></td>
+<td><a href="/code/c/Life2/Life-9.png" target="_blank"><img src="/code/c/Life2/Life-9.png" width="400px" alt="Game of Life Patterns" /></td></tr></table>
 
 Rule1()
 
-```c
+```{.php .numberLines startFrom="1"}
 for(int x = 0; x < worldWidth; x++) {
     for(int y = 0; y < worldHeight; y++) {
         int r = world[x][y].r;

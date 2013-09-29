@@ -15,14 +15,15 @@ Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www
 <b>Help Files</b> - Online help documentation to ease use  
 
 <a href="/dl/mmm.zip"><b>Download Here</b></a>
-For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="/pdf/mmm/help/"><b>Online Help</b></a>
+<!--
+For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="/pdf/mmm/help/"><b>Online Help</b></a>-->
 
-<table width="100%"><tr><td><a href="/code/pb/mmm/2nd_layer.JPG"><img width="195" src="/code/pb/mmm/2nd_layer.JPG" /></a></td><td><a href="/images/mmm/all_layers.JPG"><img width="195" src="/code/pb/mmm/all_layers.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="/code/pb/mmm/up_to_3rd_layer.JPG"><img width="195" src="/code/pb/mmm/up_to_3rd_layer.JPG"alt="2D Tile Map Maker" /></a></td  ></tr><tr><td><a href="/code/pb/mmm/show_image.JPG"><img width="195" src="/code/pb/mmm/show_image.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="/code/pb/mmm/map16x16.JPG"><img width="195" src="/code/pb/mmm/map16x16.JPG" alt="2D Tile Map Maker"/></a></td><td width="195"><a href="/code/pb/mmm/sprite_sheet.JPG"><img width="195" src="/code/pb/mmm/sprite_sheet.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
-<table width="100%"><tr><td><a href="/code/pb/mmm/cave.JPG"><img width="500" src="/code/pb/mmm/cave.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
+<table><tr><td><a href="/code/pb/mmm/2nd_layer.JPG"><img width="333px" src="/code/pb/mmm/2nd_layer.JPG" /></a></td><td><a href="/images/mmm/all_layers.JPG"><img width="333px" src="/code/pb/mmm/all_layers.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="/code/pb/mmm/up_to_3rd_layer.JPG"><img width="333px" src="/code/pb/mmm/up_to_3rd_layer.JPG"alt="2D Tile Map Maker" /></a></td  ></tr><tr><td><a href="/code/pb/mmm/show_image.JPG"><img width="333px" src="/code/pb/mmm/show_image.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="/code/pb/mmm/map16x16.JPG"><img width="333px" src="/code/pb/mmm/map16x16.JPG" alt="2D Tile Map Maker"/></a></td><td width="333px"><a href="/code/pb/mmm/sprite_sheet.JPG"><img width="333px" src="/code/pb/mmm/sprite_sheet.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
+<table><tr><td><a href="/code/pb/mmm/cave.JPG"><img width="900px" src="/code/pb/mmm/cave.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
 
 
-<b>Credits</b>
-<b>Programmer</b>
-- Kenny Cason
-<b>Beta Testers</b>
-- University of Arkansas Game Development Club
+<b>Credits</b><br/>
+<b>Programmer</b><br/>
+- Kenny Cason<br/>
+<b>Beta Testers</b><br/>
+- University of Arkansas Game Development Club<br/>

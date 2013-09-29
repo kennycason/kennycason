@@ -8,14 +8,14 @@ I can't remember when I wrote this but I found this little snippet in my library
 
 It's very simple and just uses Yahoo! Finance to get the quote. To use the Class simply use the below code:
 
-```php
+```{.php .numberLines startFrom="1"}
   $currency = new Currency();
   print_r($currency->convert('USD', 'JPY', 100));
 
 ```
 It should then echo out something like:
 
-```php
+```{.php .numberLines startFrom="1"}
 Array ( [currency] => USDJPY [rate] => 85.995 [date] => 12/28/2012 [time] => 5:55pm [value] => 85.995 )
 
 ```
@@ -25,7 +25,7 @@ I.e. 100 USD is now worth $85.995 in Japan, this is called 円高(endaka) in Jap
 
 Currency.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 class Currency {

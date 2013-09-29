@@ -8,7 +8,7 @@ A simple class that can easily be used to convert between Base10 and any other B
 
 Base2.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 class Base2 extends BaseN {
@@ -18,11 +18,11 @@ class Base2 extends BaseN {
     }
 
 }
-
 ```
+
 Base8.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 class Base8 extends BaseN {
@@ -34,9 +34,10 @@ class Base8 extends BaseN {
 }
 
 ```
+
 Base16.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 class Base16 extends BaseN {
@@ -46,11 +47,10 @@ class Base16 extends BaseN {
     }
 
 }
-
 ```
 Base62.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 class Base62 extends BaseN {
@@ -60,11 +60,11 @@ class Base62 extends BaseN {
     }
 
 }
-
 ```
+
 BaseN.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 abstract class BaseN {
@@ -105,13 +105,11 @@ abstract class BaseN {
     }
 
 }
-
-
 ```
 
 Usage Example:
 
-```php
+```{.php .numberLines startFrom="1"}
 $base = new Base16();
 for($i = 0; $i < 100; $i++) {
       $b16 = $base->encode($i);
@@ -120,6 +118,8 @@ for($i = 0; $i < 100; $i++) {
 }
 
 ```
+
+<pre>
 Output:
 
 0 => encode b16 => 0 => decode b10 => 0
@@ -222,3 +222,4 @@ Output:
 97 => encode b16 => 61 => decode b10 => 97
 98 => encode b16 => 62 => decode b10 => 98
 99 => encode b16 => 63 => decode b10 => 99
+</pre>

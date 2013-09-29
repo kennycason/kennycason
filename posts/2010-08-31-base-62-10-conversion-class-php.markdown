@@ -6,7 +6,7 @@ tags: alphanumeric, base10, base62, baseN, convert, PHP, URL Shortener
 
 This class can be used convert a base N number into base 10, and back. (Which makes it ideal for usage in technologies such as URL shorteners.)
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 /**
  * BNID - Base N <=> 10 converter
@@ -82,16 +82,19 @@ for($i = 0; $i <= $max; $i++) {
 }
 */
 ?>
-
 ```
 
 If you want to use this as a URL shortener, below is a quick demo of how to use URL Rewrite to accept www.page.com/<BaseNID> and forward it to some page to process the ID (i.e. convert to base 10 ID and query a URL from the Database using the ID). The below implementation will work for a base 62 alphabet comprised of [0-9][A-Z][a-z], which is the demo I posted.
 place the below text in <b>.htaccess</b> in your websites root directory<br/>
-<code>Options +FollowSymlinks
+
+<pre>Options +FollowSymlinks
 RewriteEngine on
 RewriteBase /yourrootdirectory/
 RewriteRule ^(([A-Z]*[a-z]*[0-9]*)*)$ main.php?b62id=$1 [L,QSA]
-</code>
+</pre>
 
 So it should take a domain  www.abc.com, if you specify <b>www.abc.com/zA4F</b>, it would forward to <b>www.abc.com/main.php?id=14576711</b>
-<b>Here is a sample Demo</b><a href="/code/php/baseconvert/AABCz23" target="blank">/code/php/baseconvert/AABCz23</a>
+<!--
+<b>Here is a sample Demo</b>
+<a href="/code/php/baseconvert/AABCz23" target="blank">/code/php/baseconvert/AABCz23</a>
+-->

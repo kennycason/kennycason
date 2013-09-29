@@ -8,7 +8,7 @@ A small timer class I wrote:
 
 Timer.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 class Timer {
@@ -66,7 +66,7 @@ class Timer {
 
 TimerDemo.php
 
-```php
+```{.php .numberLines startFrom="1"}
 require_once('Timer.php');
 
 // timer test, milliseconds

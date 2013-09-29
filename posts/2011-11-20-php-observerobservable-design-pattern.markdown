@@ -8,7 +8,7 @@ This is a PHP implementation of the Java Observer/Observable classes.
 
 Observable.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 /**
@@ -88,7 +88,7 @@ class Observable {
 
 Observer.php
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 /**
@@ -105,7 +105,7 @@ interface Observer {
 
 A Unit test (using SimpleTest)
 
-```php
+```{.php .numberLines startFrom="1"}
 <?php
 
 define('SIMPLE_TEST', '../simpletest/'); 

@@ -20,7 +20,8 @@ for example we know that all phones beginning with 479 fall into Northwest Arkan
 
 So know we know that we can send emails to specific phone emails, but how do you do it? It's also very simple. Again, another quick search on Google will yield many results for how to do it using PHP or various other methods. I prefer PHP. Just stick the below code in a file called something.php and run it over the server. With a few small modifications this can be implemented to send messages one at a time, bulk, or even iteratively send messages to a large number of cell phones. I would not encourage anyone to abuse this. Just some food for thought. 
 
-```php<?php
+```{.php .numberLines startFrom="1"}
+<?php
   $to = "479XXXXXXX@txt.att.net";
   $subject = "Spam";
   $body = "This is Spam!!";
@@ -28,15 +29,16 @@ So know we know that we can send emails to specific phone emails, but how do you
 ?>
 ```
 
+<!--
 Here is a simple implementation that created. you can send messages to standarde emails like gmail, etc, and phones provided you know the phone number and carrier.
-<a href="/sms/sendsms.php">Send SMS using PHP</a>
+<a href="/sms/sendsms.php">Send SMS using PHP</a> -->
 
 I'm fairly certain a phone company and users alike would not appreciate this very much. Perhaps before this begins to be more and more exploited maybe phone companies should do more to allow users to have a more secure and unique phone E-mail address. Much like the phones of Japan. Then if you start getting more spam than you'd like, you can easily change your phone's E-mail, without having to change your phone number. ;)
 Example usage: Your friend uses <b>AT&T</b> and his phone number is <b>1234567890</b>. 
 The resulting email to send a SMS: <b>1234567890@txt.att.net</b>
 and to send a MMS: <b>1234567890@mms.att.net</b>
 Before anyone decides to go on a spamming spree I recommend consulting laws governing the usage of messaging and SPAM.<a href="http://www.fcc.gov/cgb/consumerfacts/canspam.html" target="_blank">FCC.GOV</a>
-<a href='http://networking.ringofsaturn.com/Telecommunications/mobile-phone-emails.php' target="_blank">Expanded List of Phone and Pager Email Formats</a><table border="0" bgcolor="#222" color="#000000" align="left"><tr bgcolor="#111"><td>American Provider</td><td>Email Extension</td></tr><tr><td>AT&amp;T (Cingular)</td><td>@txt.att.net</td></tr><tr><td>Boost Mobile</td><td>@myboostmobile.com </td></tr><tr><td>Virgin Mobile USA</td><td>@vmobl.com</td></tr>
+<a href='http://networking.ringofsaturn.com/Telecommunications/mobile-phone-emails.php' target="_blank">Expanded List of Phone and Pager Email Formats</a><table border="1"  align="left"><tr ><td>American Provider</td><td>Email Extension</td></tr><tr><td>AT&amp;T (Cingular)</td><td>@txt.att.net</td></tr><tr><td>Boost Mobile</td><td>@myboostmobile.com </td></tr><tr><td>Virgin Mobile USA</td><td>@vmobl.com</td></tr>
 <tr><td>Verizon</td><td>@vtext.com</td></tr><tr><td>Alltel</td><td>@message.alltel.com</td></tr>
-<tr><td>Sprint PCS</td><td>@messaging.sprintpcs.com</td></tr><tr><td>T-Mobile</td><td>@tmomail.net</td></tr><tr><td>Nextel</td><td>@messaging.nextel.com</td></tr><tr bgcolor="#111"><td>Japanese Provider</td><td>Email Extension</td></tr><tr><td>AU KDDI</td><td>@ezweb.ne.jp</td></tr><tr><td>NTT Docomo</td><td>@docomo.ne.jp</td></tr>
+<tr><td>Sprint PCS</td><td>@messaging.sprintpcs.com</td></tr><tr><td>T-Mobile</td><td>@tmomail.net</td></tr><tr><td>Nextel</td><td>@messaging.nextel.com</td></tr><tr ><td>Japanese Provider</td><td>Email Extension</td></tr><tr><td>AU KDDI</td><td>@ezweb.ne.jp</td></tr><tr><td>NTT Docomo</td><td>@docomo.ne.jp</td></tr>
 <tr><td>Softbank</td><td>@softbank.ne.jp</td></tr></table>
