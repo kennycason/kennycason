@@ -22,25 +22,83 @@ a:active {
     color: inherit;
 }
 
-div#header {
+#header {
+    height:75px;
     border-bottom: 2px solid black;
-    margin-bottom: 30px;
-    padding: 12px 0px 12px 0px;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 0px;
 }
 
-div#logo a {
-    color: black;
+.haskell {
+    background-image: url('/images/haskell-logo.png');
+    display:block;
+    width:200px;
+    height:141px;
     float: left;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
 }
 
-div#header #navigation {
+.haskell-small {
+    background-image: url('/images/haskell-logo-small.png');
+    display:block;
+    width:100px;
+    height:70px;
+    float: left;
+}
+
+.haskell-smaller {
+    background-image: url('/images/haskell-logo-smaller.png');
+    display:block;
+    width:50px;
+    height:35px;
+    float: left;
+}
+
+.github-smaller {
+    background-image: url('/images/github-smaller-greyscale.png');
+    display:block;
+    width:35px;
+    height:35px;
+    float: left;
+}
+
+.datarank-small {
+    background-image: url('/images/datarank_logo_blue_small.png');
+    background-image: url('/images/datarank_logo_blue_small_greyscale.png');
+    display:block;
+    width:158px;
+    height:35px;
+    float: left;
+}
+
+
+#header #logo-large {
+    background-image: url('/images/logos/logo-greyscale.png');
+    display:block;
+    width:450px;
+    height:110px;
+    float: left;
+}
+
+#header #logo {
+    background-image: url('/images/logos/logo-greyscale2.png');
+    display:block;
+    width:307px;
+    height:75px;
+    float: left;
+}
+
+#header .header-icon {
+    float:right;
+    margin-top: 7px;
+    margin-left:10px;
+}
+
+
+#header #navigation {
     text-align: right;
 }
 
-div#header #navigation a {
+#header #navigation a {
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -49,7 +107,7 @@ div#header #navigation a {
     text-transform: uppercase;
 } 
 
-div#footer {
+#footer {
     border-top: solid 2px black;
     color: #555;
     font-size: 12px;
