@@ -12,21 +12,68 @@ The Jar file can be downloaded here: <a href="/code/java/graph4D/Graph4D.jar">Gr
 Before looking at the source, let's take a look at some of the fundamental mathematics behind the software.
 If you are uncomfortable with the thought of 4D matrix rotations, then I recommend reading Wikipedia, or checking out my article about 3D graphing, which can be found <a href="http://ken-soft.com/2008/12/25/graph3d-java-project-3d-points-to-2d/">here</a>. In this example, I will only show the 4D rotation matrices. Note that for each rotation matrix, 2 axises are held still while the vector is rotated around the other two axises. This may be hard to visualize at first, but It will become clear after a while.
 
-<div class="latex">
-\\left[\\begin{array}{cccc}
-w1 & w2 & w3 & w4       \\\\
-x1 & x2 & x3 & x4       \\\\
-y1 & y2 & y3 & y4       \\\\
-z1 & z2 & z3 & z4
-\\end{array}\\right]
-</div>
+
 <table><tr><td>
-<tr><td>rotXY = delim{[}{matrix{4}{4}{{cos(theta)} {sin(theta)} 0 0 {-sin(theta)} {cos(theta)} 0 0 0 0 1 0 0 0 0 1}}{]}</td>
-<td>[m]rotYZ = delim{[}{matrix{4}{4}{1 0 0 0 0 {cos(theta)} {sin(theta)} 0 0 {-sin(theta)} {cos(theta)} 0 0 0 0 1}}{]}[/m]</td></tr>
-<tr><td>[m]rotXZ = delim{[}{matrix{4}{4}{{cos(theta)} 0 {-sin(theta)} 0 0 1 0 0 {sin(theta)} 0 {cos(theta)} 0 0 0 0 1}}{]}[/m]</td>
-<td>[m]rotXU = delim{[}{matrix{4}{4}{{cos(theta)} 0 0 {sin(theta)} 0 1 0 0 0 0 1 0 {-sin(theta)} 0 0 {cos(theta)}}}{]}[/m]</td></tr>
-<tr><td>[m]rotYU = delim{[}{matrix{4}{4}{1 0 0 0 0 {cos(theta)} 0 {-sin(theta)} 0 0 1 0  0 {sin(theta)} 0 {cos(theta)}}}{]}[/m]</td>
-<td>[m]rotZU = delim{[}{matrix{4}{4}{1 0 0 0 0 1 0 0 0 0 {cos(theta)} {-sin(theta)} 0 0 {sin(theta)} {cos(theta)}}}{]}[/m]</td></tr>
+<tr><td>
+	<div class="latex">
+	rotXY = \\left[\\begin{array}{cccc}
+	cos(\\theta) & sin(\\theta) & 0 & 0       \\\\
+	-sin(\\theta) & cos(\\theta) & 0 & 0       \\\\
+	0 & 0 & 1 & 0      \\\\
+	0 & 0 & 0 & 1
+	\\end{array}\\right]
+	</div>
+</td>
+<td>
+	<div class="latex">
+	rotYZ = \\left[\\begin{array}{cccc}
+	1 & 0 & 0 & 0       \\\\
+	0 & cos(\\theta) & sin(\\theta) & 0       \\\\
+	0 & -sin(\\theta) & cos(\\theta) & 0      \\\\
+	0 & 0 & 0 & 1
+	\\end{array}\\right]
+	</div>
+</td></tr>
+<tr><td>
+	<div class="latex">
+	rotXZ = \\left[\\begin{array}{cccc}
+	cos(\\theta) & 0 & -sin(\\theta) & 0       \\\\
+	0 & 1 & 0 & 0      \\\\
+	sin(\\theta) & 0 & cos(\\theta) & 0      \\\\
+	0 & 0 & 0 & 1
+	\\end{array}\\right]
+	</div>
+</td>
+<td>
+	<div class="latex">
+	rotXU = \\left[\\begin{array}{cccc}
+	cos(\\theta) & 0 & 0 & sin(\\theta)       \\\\
+	0 & 1 & 0 & 0      \\\\
+	0 & 0 & 1 & 0      \\\\
+	-sin(\\theta) & 0 & 0 & cos(\\theta)     \\\\    
+	\\end{array}\\right]
+	</div>
+</td></tr>
+<tr><td>
+	<div class="latex">
+	rotYU = \\left[\\begin{array}{cccc}
+	1 &  0 & 0 & 0 \\\\
+	0 & cos(\\theta) & 0 & -sin(\\theta) \\\\
+	0 & 0 & 1 & 0 \\\\
+	0 & sin(\\theta) & 0 & cos(\\theta)
+	\\end{array}\\right]
+	</div>
+</td>
+<td>
+	<div class="latex">
+	rotZU = \\left[\\begin{array}{cccc}
+	1 & 0 & 0 & 0      \\\\
+	0 & 1 & 0 & 0		\\\\
+	0 & 0 & cos(\\theta) & -sin(\\theta)       \\\\
+	0 & 0 & sin(\\theta) & cos(\\theta)       
+	\\end{array}\\right]
+	</div>
+</td></tr>
 </table>
 The source code can be found below as well as being bundled into the Jar file.
 
