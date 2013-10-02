@@ -1,0 +1,269 @@
+body {
+    color: black;
+    font-size: 16px;
+    margin: 0px auto 0px auto;
+    width: 1000px;
+}
+
+a :link {
+    text-decoration:none;
+    color: #444;
+}
+a:visited {
+    text-decoration:none;
+    color: inherit;
+}
+a:hover {
+    text-decoration:underline;
+    /*color: inherit;*/
+    color: #0099ff;
+}
+a:active {
+    text-decoration:underline;
+    color: inherit;
+}
+
+
+#header {
+    float:left;
+    width:1000px;
+    height:75px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding: 5px 0px 0px 0px;
+
+    #logo {
+        background-image: url('/images/logos/logo-greyscale2.png');
+        display:block;
+        width:307px;
+        height:75px;
+        float: left;
+        
+        :hover {
+            background-image: url('/images/logos/logo2-smaller.png');
+        }
+    }
+
+    .header-icon {
+        float:right;
+        margin-top: 7px;
+        margin-left:10px;
+    }
+
+
+    #navigation {
+        text-align: right;
+     
+        a {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 12px;
+            text-decoration: none;
+            text-transform: uppercase;
+
+            :hover {
+                 color: #0099ff;
+            }
+        }
+    } 
+}
+
+.haskell-smaller {
+    background-image: url('/images/haskell-logo-smaller.png');
+    display:block;
+    width:50px;
+    height:35px;
+    float: left;
+
+    :hover {
+        background-image: url('/images/haskell-logo-smaller-color.png');
+    }
+}
+
+.github-smaller {
+    background-image: url('/images/github-smaller-greyscale.png');
+    display:block;
+    width:35px;
+    height:35px;
+    float: left;
+
+    :hover {
+        background-image: url('/images/github-smaller.png');
+    }
+}
+
+.datarank-small {
+    background-image: url('/images/datarank_logo_blue_small_greyscale.png');
+    display:block;
+    width:158px;
+    height:35px;
+    float: left;
+
+    :hover {
+        background-image: url('/images/datarank_logo_blue_small.png');
+    }
+}
+
+#content {
+    width:1000px;
+
+    .left-column {
+        float:left;
+        width:700px;
+    }
+
+    .right-column {
+        float:left;
+        width:300px;
+
+        #sociallinks {
+            float:left;
+            width:300px;
+        }
+
+    }
+
+}
+
+
+
+.social {
+    display: inline-block;
+      position: relative;
+    width: 200px;
+    padding: 16px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgba(231, 231, 231, 0.6);
+    box-shadow: 8px 8px 0 0px rgba(0, 0, 0, 0.25);
+
+}
+
+
+$navColor: #111;
+nav.social-bar {
+      padding-top: 8px;
+      padding-left: 8px;
+      padding-right: 8px;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            display: inline;
+
+            a:hover {
+               opacity: 0.7;
+               text-decoration: none;
+            }
+
+            a.github {
+                border-left: 50px solid $navColor;
+                color: $navColor;
+
+                :hover {
+                    border-left: 50px solid #4183c4;
+                    color: #4183c4;
+                }
+            }
+
+            a.linkedin {
+                border-left: 50px solid $navColor + #111;
+                color: $navColor + #111;
+
+                :hover {
+                    border-left: 50px solid #34526f;
+                    color: #34526f;
+                }
+            }
+
+            a.facebook {
+                border-left: 50px solid $navColor + #222;
+                color: $navColor + #222;
+
+                :hover {
+                    border-left: 50px solid #365998;
+                    color: #365998;
+                }
+            }
+
+            a.weibo {
+                border-left: 50px solid $navColor + #333;
+                color: $navColor + #333;
+
+                :hover {
+                    border-left: 50px solid #db4a39;
+                    color: #db4a39;
+                }
+            }
+
+            a.twitter {
+                border-left: 50px solid $navColor + #444;
+                color: $navColor + #444;
+
+                :hover {
+                    border-left: 50px solid #00a0d1;
+                    color: #00a0d1;
+                }
+            }
+
+            a.tags {
+                border-left: 50px solid $navColor + #555;
+                color: $navColor + #555;
+
+                :hover {
+                    border-left: 50px solid #634d40;
+                    color: #634d40;
+                }
+            }
+
+            a.twitter {
+                border-left: 50px solid $navColor + #444;
+                color: $navColor + #444;
+
+                :hover {
+                    border-left: 50px solid #00a0d1;
+                    color: #00a0d1;
+                }
+            }
+
+/*            a.instagram {
+                border-left: 50px solid #634d40;
+                color: #634d40;
+            }
+
+            a.scriptogram {
+                border-left: 50px solid #0088cc;
+                color: #0088cc;
+            }*/
+        }
+    }
+}
+
+#footer {
+    float:left;
+    width:1000px;
+    border-top: solid 2px black;
+    color: #555;
+    font-size: 12px;
+    margin-top: 30px;
+    padding: 12px 0px 12px 0px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+div.info {
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+}

@@ -3,16 +3,19 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title>KennyCason.com - $title$</title>
 
+        $if(metaKeywords)$
+            $metaKeywords$
+        $endif$
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"></meta>
         <meta content="http://kennycason.com/images/logos/ks.png" property="og:image"></meta>
         <meta content="Kenny Cason" property="og:site_name"></meta>
         <meta content="20611488" property="fb:admins"></meta>
         <meta content="Kenny Cason - Software and the World" property="og:description"></meta>
 
-        <link rel="stylesheet" type="text/css" href="/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
         <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -22,6 +25,15 @@
             $$(document).ready(function () {
                 $$(".latex").latex();
             });
+        </script>
+        <script>
+        (function(){window.addEventListener("DOMContentLoaded",function(){
+            var url=document.location;
+            var links=document.getElementById("sociallinks")
+                              .getElementsByTagName('a');
+            for (var i=0;i!=links.length;i++){
+                links[i].setAttribute("href",
+                    links[i].href.replace('$url$',url));}})})();
         </script>
     </head>
     <body>
@@ -43,19 +55,18 @@
                 
                 </div>
             </a>
-            <a href="https://github.com/kennycason" target="_new">
-                <div class="github-smaller header-icon">
-                
-                </div>
-            </a> 
             <a href="https://www.datarank.com" target="_new">
                 <div class="datarank-small header-icon" style="margin-top:10px;">
-                
                 </div>
             </a> 
         </div>
         <div id="content">
+            <div class="left-column">
             $body$
+            </div>
+            <div class="right-column">
+                $partial("templates/right-column.html")$
+            </div>
         </div>
         <div id="footer">
 

@@ -54,7 +54,7 @@ Here are the basic rules of BrainFuck with some added I/O Functions.<br/>
 </tbody></table>
 <br/>
 <b>CP</b> is the Cell Pointer<br/>
-<b>Below are various scripts written in BrainFuck<b/>
+Below are various scripts written in BrainFuck
 <a href="/code/c/bf/helloworld.bf" target="_blank">Hello World</a><br/>
 
 ```{.c .numberLines startFrom="1"}

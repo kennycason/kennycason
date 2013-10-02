@@ -32,7 +32,8 @@ Polynomial Kernel
 
 
 **Problem Loaders**
-<pre lang="java" line="0">
+
+```{.java .numberLines startFrom="1"}
 IProblemLoader loader = new LibSVMProblemLoader();
 		
 Problem train = loader.load("svm/data/libsvm/linear_train.libsvm");
@@ -71,7 +72,8 @@ this simple format does not allow for sparse vectors
 ```
 
 Sample Outputs
-<code>
+
+```{.numberLines startFrom="1"}
 Loading problem: svm/data/linear_train.svm
 -1: 1 1 
 -1: 1 -1 
@@ -101,4 +103,4 @@ Testing...
 7/7 correct
 Accuracy=1.0
 Done.
-</code>
+```
