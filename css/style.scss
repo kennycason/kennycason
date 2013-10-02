@@ -243,6 +243,77 @@ nav.social-bar {
     }
 }
 
+.addthis_toolbox {
+    margin-left: 7px;
+
+    .custom_images {
+
+        a {
+            margin-right: 9px;
+            float: left;
+            display:block;
+            width:32px;
+            height:32px;
+        }
+
+        .addthis_button_twitter {
+            background-image: url('/images/socialicons/twitter-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/twitter.png');
+            }
+        }
+
+        .addthis_button_delicious {
+            background-image: url('/images/socialicons/delicious-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/delicious.png');
+            }
+        } 
+
+        .addthis_button_facebook {
+            background-image: url('/images/socialicons/facebook-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/facebook.png');
+            }
+        }
+
+        .addthis_button_digg {
+            background-image: url('/images/socialicons/digg-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/digg.png');
+            }
+        }
+
+        .addthis_button_stumbleupon {
+            background-image: url('/images/socialicons/stumbleupon-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/stumbleupon.png');
+            }
+        }
+
+        .addthis_button_favorites {
+            background-image: url('/images/socialicons/favorites-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/favorites.png');
+            }
+        }
+
+        .addthis_button_more {
+            background-image: url('/images/socialicons/more-grayscale.png');
+
+            :hover {
+                background-image: url('/images/socialicons/more.png');
+            }
+        }
+    }
+}
+
 
 .post-date {
     font-size: 10px;

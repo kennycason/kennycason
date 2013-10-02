@@ -12,10 +12,10 @@ The source code unique to Minesweeper exclusively starts <a href="https://github
 <table>
     <tr>
         <td>
-            <img src="https://raw.github.com/kennycason/java_games/master/doc/screenshots/minesweeper_winning.jpg" width="300px"/>
+            <img src="https://raw.github.com/kennycason/java_games/master/doc/screenshots/minesweeper_winning.jpg" width="350px"/>
         </td>
         <td>
-            <img src="https://raw.github.com/kennycason/java_games/master/doc/screenshots/minesweeper1.png" width="300px"/>
+            <img src="https://raw.github.com/kennycason/java_games/master/doc/screenshots/minesweeper1.png" width="350px"/>
         </td>
     </tr>
 </table>

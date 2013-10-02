@@ -11,18 +11,18 @@ You can follow the project's status on GitHub: <a href="https://github.com/kenny
 <table width="600px">
     <tr>
         <td>
-            <img src="/images/zelda/zelda8.png" width="500px"/>
+            <img src="/images/zelda/zelda8.png" width="350px"/>
         </td>
         <td>
-            <img src="/images/zelda/zelda5.png" width="500px"/>
+            <img src="/images/zelda/zelda5.png" width="350px"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="/images/zelda/zelda7.png" width="500px"/>
+            <img src="/images/zelda/zelda7.png" width="350px"/>
         </td>
         <td>
-            <img src="/images/zelda/zelda6.png" width="500px"/>
+            <img src="/images/zelda/zelda6.png" width="350px"/>
         </td>
     </tr>
 </table>
