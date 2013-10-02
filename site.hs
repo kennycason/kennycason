@@ -159,7 +159,7 @@ cleanIndexUrls = return . fmap (withUrls clean)
 
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "date" "<span class=\"post-date\">%B %e, %Y</span>" `mappend`
     (defaultContext <> metaKeywordCtx)
 
 tagsCtx :: Tags -> Context String
