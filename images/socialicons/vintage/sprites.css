@@ -1,0 +1,46 @@
+.facebook-128, .twitter-128, .reddit-128, .linkedin-128, .delicious-128, .digg-128, .rss-128{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook-128{
+	background-position: 0 0;
+	width: 128px;
+	height: 128px;
+}
+
+.twitter-128{
+	background-position: -128px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.reddit-128{
+	background-position: -382px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.linkedin-128{
+	background-position: -256px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.delicious-128{
+	background-position: -640px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.digg-128{
+	background-position: -512px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.rss-128{
+	background-position: -768px 0;
+	width: 128px;
+	height: 128px;
+}
+

@@ -10,31 +10,31 @@ If you don't want the Graph utility the single Vector3D.h file can be found <a h
 
 Below is a few of the graphs that I created. All of which can be found in main.cpp (there is a section in the code where you can uncomment the function that you want to graph!)
 <table>
-<tr><td><a href="/code/c/vector3D/Vector3D-01.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-01.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-02.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-02.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-03.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-03.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-32.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-32.png" width="250px" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="/code/c/vector3D/Vector3D-01.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-01.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-02.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-02.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-03.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-03.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-32.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-32.png" width="170px" alt="3D  graph" /></a></td></tr>
 
-<tr><td><a href="/code/c/vector3D/Vector3D-33.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-33.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-07.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-07.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-26.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-26.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-27.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-27.png" width="250px" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="/code/c/vector3D/Vector3D-33.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-33.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-07.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-07.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-26.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-26.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-27.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-27.png" width="170px" alt="3D  graph" /></a></td></tr>
 
-<tr><td><a href="/code/c/vector3D/Vector3D-12.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-12.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-13.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-13.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-14.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-14.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-28.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-28.png" width="250px" alt="3D  graph" /></a></td></tr>
-
-
-<tr><td><a href="/code/c/vector3D/Vector3D-16.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-16.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-17.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-17.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-19.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-19.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-29.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-29.png" width="250px" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="/code/c/vector3D/Vector3D-12.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-12.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-13.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-13.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-14.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-14.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-28.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-28.png" width="170px" alt="3D  graph" /></a></td></tr>
 
 
-<tr><td><a href="/code/c/vector3D/Vector3D-21.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-21.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-22.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-22.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-24.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-24.png" width="250px" alt="3D  graph" /></a></td><td>
-<a href="/code/c/vector3D/Vector3D-25.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-25.png" width="250px" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="/code/c/vector3D/Vector3D-16.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-16.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-17.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-17.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-19.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-19.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-29.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-29.png" width="170px" alt="3D  graph" /></a></td></tr>
+
+
+<tr><td><a href="/code/c/vector3D/Vector3D-21.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-21.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-22.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-22.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-24.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-24.png" width="170px" alt="3D  graph" /></a></td><td>
+<a href="/code/c/vector3D/Vector3D-25.png" target="_blank" ><img src="/code/c/vector3D/Vector3D-25.png" width="170px" alt="3D  graph" /></a></td></tr>
 
 </table>

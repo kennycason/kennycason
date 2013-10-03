@@ -8,8 +8,8 @@ This is a simple 2D representation of a Rubik's Cube written in Java. Its main p
 
 The Jar file can be downloaded here: <a href="/code/java/rc/RC.jar">Rubik's Cube.jar</a> Just click it to run it. If you have any problems running it, check to ensure that Java is correctly installed on your machine.
 <table width=100%><tr><td>
-<a href="/code/java/rc/RC01.png" target="_blank" ><img src="/code/java/rc/RC01.png" width="400px" alt="Rubik's Cube 2D java"/></a></td><td>
-<a href="/code/java/rc/RC02.png" target="_blank" ><img src="/code/java/rc/RC02.png" width="400px"  alt="Rubik's Cube 2D java"/></a></td></tr></table>
+<a href="/code/java/rc/RC01.png" target="_blank" ><img src="/code/java/rc/RC01.png" width="340px" alt="Rubik's Cube 2D java"/></a></td><td>
+<a href="/code/java/rc/RC02.png" target="_blank" ><img src="/code/java/rc/RC02.png" width="340px"  alt="Rubik's Cube 2D java"/></a></td></tr></table>
 
 <p><a href="/code/java/rc/RubiksCubeGUI.java">RubiksCubeGUI.java</a></p> 
 RubiksCube.java is the main wrapper class to Cube3D

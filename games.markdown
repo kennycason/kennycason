@@ -13,15 +13,15 @@ title: Games
 	<a href="/marine">Marine</a>
 </td><td>
 	<a href="/marine">
-		<img src="/marine/img/screenshots/screenshot1.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot9.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot2.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot3.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot4.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot5.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot6.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot7.png" width="150px"/>
-		<img src="/marine/img/screenshots/screenshot8.png" width="150px"/>
+		<img src="/marine/img/screenshots/screenshot1.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot9.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot2.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot3.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot4.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot5.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot6.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot7.png" width="180px"/>
+		<img src="/marine/img/screenshots/screenshot8.png" width="180px"/>
 	</a>
 </td></tr>
 </table>
