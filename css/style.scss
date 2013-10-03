@@ -153,8 +153,8 @@ a {
 .social {
     display: inline-block;
       position: relative;
-    width: 200px;
-    padding: 16px;
+    width: 210px;
+    padding: 8px;
     margin-bottom: 10px;
     margin-right: 10px;
     background-color: rgba(231, 231, 231, 0.6);
@@ -164,10 +164,9 @@ a {
 
 
 $navColor: #111;
+$border: 35px;
 nav.social-bar {
-      padding-top: 8px;
-      padding-left: 8px;
-      padding-right: 8px;
+      padding-left: 30px;
 
       ul {
         margin: 0;
@@ -187,84 +186,84 @@ nav.social-bar {
             }
 
             a.github {
-                border-left: 50px solid $navColor;
+                border-left: $border solid $navColor;
                 color: $navColor;
 
                 :hover {
-                    border-left: 50px solid #4183c4;
+                    border-left: $border solid #4183c4;
                     color: #4183c4;
                 }
             }
 
             a.linkedin {
-                border-left: 50px solid $navColor + #111;
+                border-left: $border solid $navColor + #111;
                 color: $navColor + #111;
 
                 :hover {
-                    border-left: 50px solid #34526f;
+                    border-left: $border solid #34526f;
                     color: #34526f;
                 }
             }
 
             a.facebook {
-                border-left: 50px solid $navColor + #222;
+                border-left: $border solid $navColor + #222;
                 color: $navColor + #222;
 
                 :hover {
-                    border-left: 50px solid #365998;
+                    border-left: $border solid #365998;
                     color: #365998;
                 }
             }
 
             a.weibo {
-                border-left: 50px solid $navColor + #333;
+                border-left: $border solid $navColor + #333;
                 color: $navColor + #333;
 
                 :hover {
-                    border-left: 50px solid #db4a39;
+                    border-left: $border solid #db4a39;
                     color: #db4a39;
                 }
             }
 
             a.twitter {
-                border-left: 50px solid $navColor + #444;
+                border-left: $border solid $navColor + #444;
                 color: $navColor + #444;
 
                 :hover {
-                    border-left: 50px solid #00a0d1;
+                    border-left: $border solid #00a0d1;
                     color: #00a0d1;
+                }
+            }
+
+            a.stackoverflow {
+                border-left: $border solid $navColor + #555;
+                color: $navColor + #555;
+
+                :hover {
+                    border-left: $border solid #FF9900;
+                    color: #FF9900;
+                }
+            }
+
+            a.costumedb {
+                border-left: $border solid $navColor + #666;
+                color: $navColor + #666;
+
+                :hover {
+                    border-left: $border solid #a34d40;
+                    color: #a34d40;
                 }
             }
 
             a.tags {
-                border-left: 50px solid $navColor + #555;
-                color: $navColor + #555;
+                border-left: $border solid $navColor + #777;
+                color: $navColor + #777;
 
                 :hover {
-                    border-left: 50px solid #634d40;
+                    border-left: $border solid #634d40;
                     color: #634d40;
                 }
             }
-
-            a.twitter {
-                border-left: 50px solid $navColor + #444;
-                color: $navColor + #444;
-
-                :hover {
-                    border-left: 50px solid #00a0d1;
-                    color: #00a0d1;
-                }
-            }
-
-/*            a.instagram {
-                border-left: 50px solid #634d40;
-                color: #634d40;
-            }
-
-            a.scriptogram {
-                border-left: 50px solid #0088cc;
-                color: #0088cc;
-            }*/
         }
     }
 }
@@ -274,7 +273,7 @@ nav.social-bar {
     width: 100%;
     height:40px;
     margin-bottom: 5px;
-    margin-left: 5px;
+    margin-left: 27px;
 
     .facebook, .twitter, .reddit, .linkedin, .delicious, .digg, .rss {
         float: left;

@@ -5,9 +5,9 @@ tags: design, Linguistics, multilingual, page, PHP, web
 ---
 
 For those who have ever tried to design a multilingual web page only to end up with 5 different index pages to represent your 5 different languages, this article may be of interest. I would like to point out that this solution is only one of many. While this solution is probably not best fit for large sites, I consider it a decent solution for smaller sites.
-<!--
+
 Here is the demo that we are going to create:
-<a href="/code/php/langsupport/index.php" target="_blank">Multilingual Page in PHP Example</a>-->
+<a href="/code/php/langsupport/index.php" target="_blank">Multilingual Page in PHP Example</a>
 
 First create your main page: i.e. index.php
 

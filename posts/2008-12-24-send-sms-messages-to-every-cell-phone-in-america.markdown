@@ -29,9 +29,9 @@ So know we know that we can send emails to specific phone emails, but how do you
 ?>
 ```
 
-<!--
-Here is a simple implementation that created. you can send messages to standarde emails like gmail, etc, and phones provided you know the phone number and carrier.
-<a href="/sms/sendsms.php">Send SMS using PHP</a> -->
+
+<!-- Here is a simple implementation that created. you can send messages to standarde emails like gmail, etc, and phones provided you know the phone number and carrier.
+<a href="/code/sms/sendsms.php">Send SMS using PHP</a>  -->
 
 I'm fairly certain a phone company and users alike would not appreciate this very much. Perhaps before this begins to be more and more exploited maybe phone companies should do more to allow users to have a more secure and unique phone E-mail address. Much like the phones of Japan. Then if you start getting more spam than you'd like, you can easily change your phone's E-mail, without having to change your phone number. ;)
 Example usage: Your friend uses <b>AT&T</b> and his phone number is <b>1234567890</b>. 
