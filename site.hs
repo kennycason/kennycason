@@ -47,7 +47,8 @@ main = hakyll $ do
     match (fromList ["about.markdown"
                     ,"contact.markdown"
                     ,"games.markdown"
-                    ,"euler.markdown"]) $ do
+                    ,"euler.markdown"
+                    ,"tags.markdown"]) $ do
         route   $ setExtension "html"
 --        route $ niceRoute
         compile $ pandocCompiler
@@ -193,7 +194,7 @@ metaKeywordCtx = field "metaKeywords" $ \item -> do
 
 config :: Configuration
 config = defaultConfiguration { 
-    deployCommand = "rsync -avz --delete --checksum _site/* kenny@kennycason.com:/www/kennycason/"
+    deployCommand = "rsync -avz --delete --checksum _site/* root@ttagg-build:/home/cedarhood/public_html/kennycason.com/"
 }
 
 -- Feed configuration
