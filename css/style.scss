@@ -55,14 +55,15 @@ a {
     padding: 5px 0px 0px 0px;
 
     #logo {
-        background-image: url('/images/logos/logo-greyscale2.png');
+        background-image: url('/images/logos/logo-main.png');
+        background-position: 0px 0px;
         display:block;
         width:307px;
         height:75px;
         float: left;
         
         :hover {
-            background-image: url('/images/logos/logo2-smaller.png');
+            background-position: 0px -75px;
         }
     }
 
@@ -92,38 +93,28 @@ a {
 }
 
 .haskell-smaller {
-    background-image: url('/images/haskell-logo-smaller.png');
+    background-image: url('/images/haskell-main.png');
+    background-position: 0px 0px;  
     display:block;
     width:50px;
     height:35px;
     float: left;
 
     :hover {
-        background-image: url('/images/haskell-logo-smaller-color.png');
-    }
-}
-
-.github-smaller {
-    background-image: url('/images/github-smaller-greyscale.png');
-    display:block;
-    width:35px;
-    height:35px;
-    float: left;
-
-    :hover {
-        background-image: url('/images/github-smaller.png');
+        background-position: 0px -35px;
     }
 }
 
 .datarank-small {
-    background-image: url('/images/datarank_logo_blue_small_greyscale.png');
+    background-image: url('/images/datarank-main.png');
+    background-position: 0px 0px;   
     display:block;
     width:158px;
     height:35px;
     float: left;
 
     :hover {
-        background-image: url('/images/datarank_logo_blue_small.png');
+        background-position: 0px -35px;
     }
 }
 

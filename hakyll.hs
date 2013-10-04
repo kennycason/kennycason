@@ -15,10 +15,23 @@ import System.FilePath (takeFileName,takeBaseName,splitFileName,takeDirectory, (
 -- http://qnikst.github.io/posts/2013-02-04-hakyll-latex.html
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
 
     -- Build tags
     tags <- buildTags "posts/*" (fromCapture "tags/*.html")
+
+
+    -- copy site icon to `favicon.ico`
+    match "images/logo/favicon.ico" $ do
+            route   (constRoute "favicon.ico")
+            compile copyFileCompiler
+
+
+    -- copy humans.txt and robots.txt to web root
+    match (fromList ["humans.txt", "robots.txt"]) $ do
+        route   idRoute
+        compile copyFileCompiler
+
 
     -- copy resources
     match ("images/**" 
@@ -187,8 +200,7 @@ metaKeywordCtx = field "metaKeywords" $ \item -> do
   --   <meta name="keywords" content="$tags$">
   return $ maybe "" showMetaTags tags
     where
-      showMetaTags t = "<meta name=\"keywords\" content=\""
-                       ++ t ++ "\">\n"
+      showMetaTags t = "<meta name=\"keywords\" content=\"" ++ t ++ "\">\n"
 
 ----------------------------------------------
 
