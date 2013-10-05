@@ -1,7 +1,7 @@
 ---
 title: Rubik's Cube - 2D Implementation - Java
 author: Kenny Cason
-tags: Java, Learning, Programming, R, Rubik's Cube, ルービックキューブ
+tags: java, learning, programming, rubiks cube, ルービックキューブ
 ---
 
 This is a simple 2D representation of a Rubik's Cube written in Java. Its main purpose to be easily integrated with other software. I.e. A Rubik's Cube solving Neural Network. Therefore, the UI is not extremely eye catching. But it serves a good test to demonstrate that the software is working. Later implementations will better support NxNxN cubes.

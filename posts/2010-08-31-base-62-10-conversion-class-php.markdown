@@ -1,7 +1,7 @@
 ---
 title: Base N to 10 Conversion Class - PHP (Base 62 Implementation)
 author: Kenny Cason
-tags: alphanumeric, base10, base62, baseN, convert, PHP, URL Shortener
+tags: alphanumeric, base 10, base 62, base n, convert, php, url shortener
 ---
 
 This class can be used convert a base N number into base 10, and back. (Which makes it ideal for usage in technologies such as URL shorteners.)

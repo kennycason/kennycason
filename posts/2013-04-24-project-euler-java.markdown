@@ -1,7 +1,7 @@
 ---
 title: Project Euler - Java
 author: Kenny Cason
-tags: algorithms, Mathematics, project euler
+tags: algorithms, mathematics, project euler
 ---
 
 In an attempt to keep my brain from rusting I decided to try and work through all the <a href="http://projecteuler.net" target="_blank">Project Euler</a> problems. So far I have solved 72. Still have a lot to go, and I'm sure they will get much harder soon.<br/>

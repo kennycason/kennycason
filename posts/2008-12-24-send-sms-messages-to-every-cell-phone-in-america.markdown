@@ -1,7 +1,7 @@
 ---
 title: Send SMS Messages to Every Cell Phone in America
 author: Kenny Cason
-tags: Cell Phone, Computer, Japan, Message, MMS, PHP, SMS, Spam
+tags: cell phone, computer, japan, message, mms, php, sms, spam
 ---
 
 While sending SMS or MMS messages from your computer is not by any means a new technology, this is the first time that I have devoted the time to developing anything with it. It was definitely a fun experience. Again, I want to emphasize that I know this is not a new technology, but I feel that the structure of American cell phone E-mails is very prone to spam.

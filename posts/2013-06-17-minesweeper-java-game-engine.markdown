@@ -1,7 +1,7 @@
 ---
 title: Minesweeper - Java Game Engine
 author: Kenny Cason
-tags: Game Dev, Java, minesweeper
+tags: game dev, java, minesweeper
 ---
 
 Minesweeper is written in Java.

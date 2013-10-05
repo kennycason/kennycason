@@ -1,7 +1,7 @@
 ---
 title: jGo – Display a Go(围棋) Game State/Animation (jGames)
 author: Kenny Cason
-tags: Go, jGames, jGo, jQuery
+tags: go, jgames, jgo, jquery
 ---
 
 jGo is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Go game states, as well as animations. jGo supporst both 13x13 boards as well as 19x19 boards.

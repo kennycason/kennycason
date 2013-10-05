@@ -1,7 +1,7 @@
 ---
 title: Java - Simple Smtp Mail Class
 author: Kenny Cason
-tags: Java, mail, smtp
+tags: java, mail, smtp
 ---
 
 Just a few quick classes I whipped up for bare minimum SmtpMail support.

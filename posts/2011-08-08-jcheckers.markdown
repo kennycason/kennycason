@@ -1,7 +1,7 @@
 ---
 title: jCheckers - Display a Checkers Game State/Animation (jGames)
 author: Kenny Cason
-tags: Checkers, jCheckers, jGames, jQuery
+tags: checkers, jcheckers, jgames, jquery
 ---
 
 jCheckers is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Checkers game states, as well as animations. 

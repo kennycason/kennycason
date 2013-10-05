@@ -1,7 +1,7 @@
 ---
 title: PHP Mail Class - Send HTML Mail / Attachments
 author: Kenny Cason
-tags: attachments, HTML, mail, PHP
+tags: attachments, html, mail, php
 ---
 
 This is a sample class to send mail using PHP. It also demonstrates how to attach images.

@@ -1,7 +1,7 @@
 ---
 title: Creating Multi-lingual Webpages using PHP (part 1)
 author: Kenny Cason
-tags: design, Linguistics, multilingual, page, PHP, web
+tags: linguistics, multilingual, page, php, web dev
 ---
 
 For those who have ever tried to design a multilingual web page only to end up with 5 different index pages to represent your 5 different languages, this article may be of interest. I would like to point out that this solution is only one of many. While this solution is probably not best fit for large sites, I consider it a decent solution for smaller sites.

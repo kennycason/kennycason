@@ -1,7 +1,7 @@
 ---
 title: Magus Map Maker - 2D Multilayer Map
 author: Kenny Cason
-tags: Development, Editor, Game, Magus, Maker, Map, Programming, RPG, Tile
+tags: game dev, editor, game, magus, maker, map, mrogramming, rpg, tile
 ---
 
 <b>Note:</b> for a more fully featured map maker, I would reccomend using <b>Mappy</b> or <b>Tiled</b> 

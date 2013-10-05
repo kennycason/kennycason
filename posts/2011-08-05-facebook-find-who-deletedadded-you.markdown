@@ -1,7 +1,7 @@
 ---
 title: Facebook - Find Who Deleted/Added You
 author: Kenny Cason
-tags: Detecting Deleted Friends, Facebook
+tags: detecting deleted driends, facebook
 ---
 
 Being a Facebook Junky I spent a bit of time trying to find out how to find out who deleted or added me. These are the general steps I go through (I have not bothered to make a script to automate this yet). Keep in mind you must have a bit of computer knowledge to do this. All my commands are geared towards Unix/Mac users, sorry Windows :)

@@ -1,7 +1,7 @@
 ---
 title: SDL Sprite Class in C++
 author: Kenny Cason
-tags: 2D, animation, C++, Class, Game, Graphics, library, Programming, SDL, Sprite
+tags: 2d, animation, c++, class, game, graphics, library, programming, sdl, sprite
 ---
 
 This is a simple Sprite class that I use for game development in C++ using SDL (<a href="http://www.libsdl.org/" target="_blank">www.libsdl.org</a>).

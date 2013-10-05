@@ -1,7 +1,7 @@
 ---
 title: Blocks - Advanced Tetris Clone (Written in Purebasic)
 author: Kenny Cason
-tags: Blocks, Game, Programming, Purebasic, Tetris
+tags: blocks, game, programming, purebasic, tetris
 ---
 
 <p>Blocks is a tetris like game written in <a href="http://www.purebasic.com">Purebasic</a>. Blocks features 3 modes:		

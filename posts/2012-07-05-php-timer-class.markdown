@@ -1,7 +1,7 @@
 ---
 title: PHP Timer Class
 author: Kenny Cason
-tags: interval, milliseconds, PHP, seconds, timer
+tags: interval, milliseconds, php, seconds, timer
 ---
 
 A small timer class I wrote:

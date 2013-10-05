@@ -1,7 +1,7 @@
 ---
 title: LinkedList - C
 author: Kenny Cason
-tags: C++, LinkedList
+tags: c++, linkedList
 ---
 
 This is a simple Doubly connected LinkedList written in C. It hasn't been thoroughly tested, but should be fun to play around with :)

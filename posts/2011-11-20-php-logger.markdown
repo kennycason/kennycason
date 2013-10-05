@@ -1,7 +1,7 @@
 ---
 title: PHP - Logger
 author: Kenny Cason
-tags: logger, PHP
+tags: logger, php
 ---
 
 Mainly written for fun, but this is a configurable Logger written in PHP that supports multiple handlers, including Writers (File, SQL, Apache's Error Log, Echo), configurable Formatting. various logging levels (FATAL, ERROR, WARN, INFO, DEBUG, TRACE). Also useful functions like isDebug/TraceEnabled(), to check before building large strings to debug/trace(). *While each logger instance can have a unique name, there isn't any parent/child hierarchy attributed to them.

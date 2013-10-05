@@ -1,7 +1,7 @@
 ---
 title: PHP - Observer/Observable Design Pattern
 author: Kenny Cason
-tags: design pattern, observable, observer, PHP
+tags: design pattern, observable, observer, php
 ---
 
 This is a PHP implementation of the Java Observer/Observable classes.

@@ -1,7 +1,7 @@
 ---
 title: jGames - display various games using jQuery
 author: Kenny Cason
-tags: Checkers, Chess, Go, jGames, jQuery, Othello, Shogi, XiangQi
+tags: checkers, chess, go, jgames, jquery, othello, shogi, xiangqi
 ---
 
 jGames is a collection of functions written in <a href="http://jquery.com/" target="_blank">jQuery</a> to display static states of various class board games, including Checkers, Chess, Go, XiangQi, Shogi, Othello, Tic Tac Toe, Cards, and Dice.

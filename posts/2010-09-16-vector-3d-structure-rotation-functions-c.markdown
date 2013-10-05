@@ -1,7 +1,7 @@
 ---
 title: Vector 3D structure with Operation overloads and basic functions - C++
 author: Kenny Cason
-tags: 3D, C++, Mathematics, vector
+tags: 3d, c++, mathematics, vector
 ---
 
 This is my Vector3D structure with a set of appropriate operation overloads(-,+,/,*,--,++,etc)  that I use for various math operations as well. Feel free to add upon it or do whatever you like with it. (Update the -- and ++ operators are not correctly overloaded :) )

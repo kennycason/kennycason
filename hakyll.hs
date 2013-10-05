@@ -65,10 +65,13 @@ main = hakyllWith config $ do
         route   $ setExtension "html"
 --        route $ niceRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" 
-                (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags) 
+            >>= (externalizeUrls $ feedRoot feedConfiguration)
+            >>= saveSnapshot "content"
+            >>= (unExternalizeUrls $ feedRoot feedConfiguration) 
             >>= relativizeUrls
 --            >>= cleanIndexUrls
+
 
     match "posts/*" $ do
         route $ setExtension "html"
@@ -82,6 +85,7 @@ main = hakyllWith config $ do
             >>= relativizeUrls
 --            >>= cleanIndexUrls
 
+
     create ["archive.html"] $ do
         route idRoute
         compile $ do
@@ -94,6 +98,7 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
+
 
     match "index.html" $ do
         route idRoute

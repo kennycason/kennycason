@@ -1,7 +1,7 @@
 ---
 title: Ackermann–Péter function (2 arguments) - C/C++ - Recursive Implentation
 author: Kenny Cason
-tags: Ackermann, Ackermann–Péter, function, Mathematics, recursive, total computable, Wilhelm
+tags: ackermann, ackermann–péter, function, mathematics, recursive, total computable, wilhelm
 ---
 
 This is an implementation of the 2 argument version of the <a target="blank" href="http://en.wikipedia.org/wiki/Ackermann_function">Ackermann Function</a> (i.e. Ackermann-Péter function). In essence, this is an example of a very simple recursive function is an example of a total computable function that is not primitive recursive. Instead of making the internet even more redundant with unnecessary text, just click the above link to view the entire Wikipedia article.

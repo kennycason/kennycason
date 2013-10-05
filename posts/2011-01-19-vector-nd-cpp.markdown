@@ -1,7 +1,7 @@
 ---
 title: Vector ND - C++
 author: Kenny Cason
-tags: 3D, C++, Local Alignment, Mathematics, vector
+tags: 3d, c++, local alignment, mathematics, vector
 ---
 
 This is a N-Dimensional Vector class written in C++. While it can be used for any dimension, if you would like to use 3 or less dimensions including rotation functions check out my previous post (<a href="/posts/2010-09-16-vector-3d-structure-rotation-functions-c.html">here</a>)

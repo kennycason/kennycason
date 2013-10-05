@@ -1,7 +1,7 @@
 ---
 title: jTicTacToe – Display a Tic Tac Toe Game State/Animation (jGames)
 author: Kenny Cason
-tags: jGames, jQuery, jTicTacToe, Tic Tac Toe
+tags: jgames, jquery, jtictactoe, tic-tac-toe
 ---
 
 jTicTacToe is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. 

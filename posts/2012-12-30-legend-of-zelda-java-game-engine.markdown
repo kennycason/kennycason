@@ -1,7 +1,7 @@
 ---
 title: Legend of Zelda - Java Game Engine
 author: Kenny Cason
-tags: Game Dev, github, Java, Legend of Zelda
+tags: game dev, github, java, legend of zelda
 ---
 
 Zelda Game written in Java - Still a new project so it's definitely a work in progress.

@@ -1,7 +1,7 @@
 ---
 title: TicTacToe - C (procedural style)
 author: Kenny Cason
-tags: C++, Computer, Game, Programming
+tags: c++, computer, game, programming
 ---
 
 This is a simple version of TicTacToe written in C. <br/>

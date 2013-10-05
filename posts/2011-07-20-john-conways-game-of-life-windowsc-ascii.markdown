@@ -1,7 +1,7 @@
 ---
 title: John Conway's Game of Life - Windows/C++ (ASCII)
 author: Kenny Cason
-tags: C++, John Conways Game of Life, Simulation
+tags: c++, john conways game of life, simulation
 ---
 
 This is a simple version of John Conway's Game of Life written in C/C++ and runs on Windows using ASCII graphics. 

@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Memory Allocation (2D and 3D)
 author: Kenny Cason
-tags: allocation, C++, Development, memory, Programming
+tags: allocation, c++, development, memory, programming
 ---
 
 This snipped of code is for allocating memory when using a multidimensional array. The following examples are for 2D ([][]) and 3D ([][][]) structures.

@@ -1,7 +1,7 @@
 ---
 title: Java - Trie (Prefix Tree)
 author: Kenny Cason
-tags: Java, Tree, Trie (Prefix Tree)
+tags: java, tree, trie, prefix tree
 ---
 
 A Java implmentation of a Trie (i.e. Prefix Tree).  A definition of a Trie can be found <a href="http://en.wikipedia.org/wiki/Trie" title="here (Wikipedia)" target="_blank"></a>

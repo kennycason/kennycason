@@ -1,7 +1,7 @@
 ---
 title: PHP - Binary Bayesian Filter
 author: Kenny Cason
-tags: Bayesian Filter, classfication, nlp, PHP, Spam
+tags: bayesian filter, classfication, nlp, php, spam
 ---
 
 This is a simple Binary Bayesian Filter. The reason for the Interfaces and Abstract classes is because I am still mid-ways through my Java to PHP port :)

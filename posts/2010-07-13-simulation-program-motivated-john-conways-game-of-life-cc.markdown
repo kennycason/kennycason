@@ -1,7 +1,7 @@
 ---
 title: Simulation Program (Motivated by John Conway's Game of Life) - C/C++
 author: Kenny Cason
-tags: Game of Life, Programming, Simulation
+tags: john conways game of life, programming, simulation
 ---
 
 In this little simulation demo I created four simple rules, of which can be activated by uncommenting them out in the source code. Though nothing too complex emerges, I still liked some the resulting behavior. 

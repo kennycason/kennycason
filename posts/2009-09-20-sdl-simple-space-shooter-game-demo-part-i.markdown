@@ -1,7 +1,7 @@
 ---
 title: SDL - Simple Space Shooter Game Demo
 author: Kenny Cason
-tags: C++, games, SDL
+tags: c++, games, sdl
 ---
 
 <table><tr>

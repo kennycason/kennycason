@@ -1,7 +1,7 @@
 ---
 title: Is Prime Number Algorithm
 author: Kenny Cason
-tags: Algorithm, Factor, Mathematics, Number, Prime
+tags: algorithm, factor, mathematics, number, prime
 ---
 
 I was randomly surfing around the internet when I stumbled upon Google Labs Aptitude Test (GLAT)<a href="http://cruftbox.com/blog/archives/001031.html">(Found here)</a>. I can't really remember which links I followed from there but I stumbled into a question that asks to find the first 10 consecutive digits of E that are prime. While definitely not a hard task I wrote a small program in C to test whether or not a number is prime. 

@@ -1,7 +1,7 @@
 ---
 title: C++ - Minesweeper
 author: Kenny Cason
-tags: C++, Game, minesweeper
+tags: c++, game, minesweeper
 ---
 
 The other day I was tutoring a freshman programmer program his first minesweeper text game in C++. Here is the resulting code. 
