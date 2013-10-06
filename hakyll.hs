@@ -17,6 +17,7 @@ import System.FilePath (takeFileName,takeBaseName,splitFileName,takeDirectory, (
 main :: IO ()
 main = hakyllWith config $ do
 
+
     -- Build tags
     tags <- buildTags "posts/*" (fromCapture "tags/*.html")
 
@@ -114,6 +115,7 @@ main = hakyllWith config $ do
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
+
 
     -- Post tags
     tagsRules tags $ \tag pattern -> do
