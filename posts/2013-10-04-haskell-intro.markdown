@@ -14,18 +14,34 @@ I uploaded most of my Haskell examples to GitHub, found <a href="https://github.
 
 I chose a few random examples to demonstrate some of the cool examples that made me enjoy Haskell
 
-Simple Functions
+***Simple Functions***
 
 ```{.haskell .numberLines startFrom="1"}
-f x y = x*x + y*y
-g y = f 0 y
+f x y = x*x + y*y 	-- simple function of x and y
+g y = f 0 Y 		-- partial solved function 
+
+h :: Int -> Int -> Int -- typed function
+h x y = x*x + y*y
+
+i :: Num a => a -> a-> a -- any Numeric type
+i x y = x*x + y*y
 
 main = do
     print (f 2 3)
     print (g 3)
+    print (h 2 3)
+   -- (h 2.3 4.2) would fail
+   print (i 2 3.4)
 ```
 
-Use of Gaurds
+***Folding***
+
+```{.haskell .numberLines startFrom="1"}
+main = do
+    print (foldl (+) 0 [1, 2, 3]) -- summation using foldl
+```
+
+***Use of Gaurds to create Piecewise Functions:***
 
 ```{.haskell .numberLines startFrom="1"}
 guess x
@@ -39,7 +55,7 @@ print (guess 0)
 print (guess 27)
 ```
 
-Filters
+***Filters:***
 
 ```{.haskell .numberLines startFrom="1"}
 main = do
@@ -47,7 +63,7 @@ main = do
     print (filter (>5) [1..10])
 ```
 
-List Comprehensions
+***List Comprehensions, ∀x∈S, p(x):***
 
 ```{.haskell .numberLines startFrom="1"}
 -- ∀x∈S, p(x)
@@ -71,7 +87,7 @@ main = do
                 , y <- [1..10]])
 ```
 
-Function Composition
+***Function Composition:***
 
 ```{.haskell .numberLines startFrom="1"}
 main = do
@@ -88,7 +104,27 @@ main = do
     print (f (g (h 3)))
 ```
 
-Simple, Traditional Fibonacci Sequence Implementation
+***Function Examples using Let and Where:***
+
+```{.haskell .numberLines startFrom="1"}
+slope (x1,y1) (x2,y2) = let dy = y2-y1
+                            dx = x2-x1
+                        in dy/dx
+
+slope2 (x1,y1) (x2,y2) = dy/dx
+                        where dy = y2-y1
+                              dx = x2-x1
+
+slope3 (x1,y1) (x2,y2) = (y2 - y1) / (x2 - x1)
+
+main = do
+	print (slope (1,1) (2,2))
+	print (slope2 (1,1) (2,2))
+	print (slope (1,3) (10,4))
+	print (slope (-1,1) (0, 0))
+```
+
+***Fibonacci Sequence Implementations:***
 
 ```{.haskell .numberLines startFrom="1"}
 -- simple, naive implementation
@@ -107,7 +143,9 @@ memoized_fib = (map fib [0 ..] !!)
          fib n = memoized_fib (n-2) + memoized_fib (n-1)
 ```
 
-This was my first attempt at implementing a Binary Tree. 
+***Binary Tree:***
+
+This was my first attempt at implementing. 
 I have since found more eloquent solutions :)
 
 ```{.haskell .numberLines startFrom="1"}
@@ -129,3 +167,79 @@ add v node
     | otherwise = node -- value is(value node)new so add it
 ```
 
+***Fizz Buzz:***
+
+```{.haskell .numberLines startFrom="1"}
+fizzbuzz x 
+	| (mod x 15) == 0 = "FizzBuzz"
+	| (mod x 3) == 0  = "Fizz"
+	| (mod x 5) == 0  = "Buzz"
+	| otherwise = show x
+
+main = print(map fizzbuzz [1..100])
+```
+
+***PI Gregory Series:***
+
+```{.haskell .numberLines startFrom="1"}
+piSum :: Int -> Double
+piSum n = sum (map f [1..n])
+
+f :: Int -> Double
+f x = 4 * (-1)^(x+1) / (2*k - 1)
+	where k = fromIntegral x
+
+main = do
+    print "pi sum 1"
+    print (piSum 1)
+    print (piSum 2)
+    print (piSum 5)
+    print (piSum 10)
+    print (piSum 100)
+    print (piSum 1000)
+    print (piSum 10000)
+    print (piSum 100000)
+```
+
+***Quick Sort:***
+
+```{.haskell .numberLines startFrom="1"}
+qsort [] = []
+
+qsort (p:xs) = (qsort lesser) ++ [p] ++ (qsort greater)
+    where
+        lesser  = filter (< p) xs
+        greater = filter (>= p) xs
+
+main = print (qsort [20,3,14,6,1,10])
+```
+
+***Triangles:***
+
+```{.haskell .numberLines startFrom="1"}
+triangles n = [(a,b,c) 
+				| c<-[1..n]
+				, b<-[1..c]
+				, a<-[1..b]
+				, a^2 + b^2 == c^2]
+
+main = do
+	print (triangles 10)
+	print (triangles 15)
+	print (triangles 100)
+```
+
+***Utf8:***
+
+```{.haskell .numberLines .startFrom="1"}
+ -- 値をゼロにする (utf8 comment works
+f x = 0
+
+e = exp 1
+シグモイド :: Double -> Double
+シグモイド x = 1 / (1 + e**(-x))
+
+main = do
+    print (f 10)
+    print (シグモイド 0)
+```

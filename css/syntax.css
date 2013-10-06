@@ -8,9 +8,10 @@ width:650px;
 */
 table.sourceCode {
 	width:690px;
-	max-height:600px;
+	/*max-height:600px;*/
 	overflow: auto;
 	display:block;
+	font-size:12px;
 }
 
 table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode, table.sourceCode pre

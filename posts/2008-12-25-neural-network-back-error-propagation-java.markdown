@@ -6,7 +6,7 @@ tags: artificial intelligence, back-error propagation, java, neural network, pro
 
 This Neural Network is a command line implementation that uses the Back-Error Propagation learning algorithm. As well, The number of center layers, neurons per center layer, and learning rate are all changeable. The provided Test file teach Logial AND, however other test files can easily be created.
 
-<b>update:</b>Source is now maintained on <a href="https://github.com/kennycason/neuralnetwork/" title="GitHub" target="_blank">GitHub</a>
+Source can be found on <a href="https://github.com/kennycason/neuralnetwork/" title="GitHub" target="_blank">GitHub</a>
 
 The Jar file can be downloaded here: <a href="/code/java/nn01/NN.jar">NN.jar</a>
 Below is the Syntax for running NN.jar in a command line:
@@ -21,9 +21,3 @@ That should give a display similar to the image below.<br/>
 Below are some links to A couple articles that give a good brief overview about neural networks, including some concepts about developing learning algorithms. Hope they are useful.
 <a href="/posts/2008-12-24-neural-networks-simple-models.html" target="_blank" >About Neural Networks (English)</a>
 <a href="/posts/2008-12-24-neural-network-jp.html" target="_blank" >About Neural Networks (Japanese/日本語)</a>
-
-<p><a href="/code/java/nn01/NeuralNetwork.java" class="code">NeuralNetwork.java</a></p>
-<p><a href="/code/java/nn01/Layer.java" class="code">Layer.java</a></p>
-There are two test file for you to try out.
-<p><a href="/code/java/nn01/NeuralNetworkTest.java" class="code">NeuralNetworkTest.java</a></p>
-<p><a href="/code/java/nn01/NeuralNetworkTest2.java" class="code">NeuralNetworkTest2.java</a></p>
