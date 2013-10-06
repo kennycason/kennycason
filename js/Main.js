@@ -12,6 +12,12 @@ Main.search = function() {
 			$(".post-list").show();
 		}
 	});
+	$("#search").focusout(function() {
+		if($(this).val() == '') {
+			$(this).val('search');
+			$(".post-list").show();
+		}
+	});
 	$("#search").keyup(function(e) {
 		var q = $(this).val().toLowerCase();
 		if(q == '') {

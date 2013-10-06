@@ -120,15 +120,18 @@ a {
 
 #content {
     width:1000px;
-
     .left-column {
-        float:left;
-        width:700px;
+        float: left;
+        width: 700px;
+        min-height:400px;
+        display: block;
     }
 
     .right-column {
         float:left;
         width:300px;
+        height:100%;
+        display: block;
 
         #sociallinks {
             float:left;
