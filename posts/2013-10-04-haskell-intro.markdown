@@ -229,9 +229,31 @@ main = do
 	print (triangles 100)
 ```
 
+***Drop piece into Connect 4 Column:***
+
+```{.haskell .numberLines startFrom="1"}
+numEmpty :: [Int] -> Int
+numEmpty board = length $ filter (\x -> x == 0) board
+
+
+addToColumn :: Int -> [Int] -> [Int]
+addToColumn val board  = xs ++ [val] ++ ys
+                        where
+                            n = (numEmpty board)
+                            xs = replicate (n - 1) 0
+                            ys = snd (splitAt n board) 
+
+-- simulate dropping a piece into a connect 4 board column                      
+main = do
+    let board = [0,0,0,0,0,1,-1,1]
+    print board
+    print $ addToColumn 1 board
+    -- outputs [0,0,0,0,1,1,-1,1]
+```
+
 ***Utf8:***
 
-```{.haskell .numberLines .startFrom="1"}
+```{.haskell .numberLines startFrom="1"}
  -- 値をゼロにする (utf8 comment works
 f x = 0
 
