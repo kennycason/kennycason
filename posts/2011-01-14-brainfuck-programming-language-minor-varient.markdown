@@ -1,5 +1,5 @@
 ---
-title: BrainF*** (Programming Language) – minor varient
+title: Brain Fuck (Programming Language) – minor varient
 author: Kenny Cason
 tags: c++, programming
 ---
@@ -33,16 +33,16 @@ Here are the basic rules of BrainFuck with some added I/O Functions.<br/>
 <td style="text-align: center;">]</td>
 <td>}</td>
 </tr><tr>
-<td style="text-align: center;">c</td>
+<td style="text-align: center;">.</td>
 <td>printf("%c",(char)*CP)</td>
 </tr><tr>
-<td style="text-align: center;">d</td>
+<td style="text-align: center;">:</td>
 <td>printf("%u",*CP);</td>
 </tr><tr>
-<td style="text-align: center;">C</td>
+<td style="text-align: center;">,</td>
 <td>while (scanf("%c", CP) != 1);</td>
 </tr><tr>
-<td style="text-align: center;">D</td>
+<td style="text-align: center;">;</td>
 <td>while (scanf("%u", CP) != 1);</td>
 </tr><tr>
 <td style="text-align: center;">M</td>
@@ -67,19 +67,19 @@ Below are various scripts written in BrainFuck
 
     <<<< -
 ]
-> ++ c
-> + c
-+++++ ++ c
-c
-+++ c
-> ++ c
-<< +++++ +++++ +++++ c
-> c
-+++ c
------ - c
------ --- c
-> + c
-> c
+> ++ .
+> + .
++++++ ++ .
+.
++++ .
+> ++ .
+<< +++++ +++++ +++++ .
+> .
++++ .
+----- - .
+----- --- .
+> + .
+> .
 M
 ```
 
@@ -98,19 +98,19 @@ M
 ]
 >> +++++ ++
 
-< +++++ ++ c ----- --
-> ++++ c  +++++ ++ cc +++ c ----- ----- ----
+< +++++ ++ . ----- --
+> ++++ .  +++++ ++ .. +++ . ----- ----- ----
 
 << +++
 [
     >>> +++++ +++++
     <<< -
 ]
->>> ++ c
+>>> ++ .
 
-<< +++++ +++++ +++++ +++++ ++ c ----- ----- ----- ----- --
-> +++++ +++++ ++++ c +++ c ------ c -------- c ---
-> + c
+<< +++++ +++++ +++++ +++++ ++ . ----- ----- ----- ----- --
+> +++++ +++++ ++++ . +++ . ------ . -------- . ---
+> + .
 
 M
 ```
@@ -248,16 +248,16 @@ void runInstructions() {
                     }
                 }
                 break;
-            case 'c':  /* OUTPUT */
+            case '.':  /* OUTPUT */
                 printf("%c",(char)*CP);
                 break;
-            case 'd':
+            case ':':
                 printf("%u",*CP);
                 break;
-            case 'C': /* INPUT */
+            case ',': /* INPUT */
                 while (scanf("%c", CP) != 1);
                 break;
-            case 'D':
+            case ';':
                 while (scanf("%u", CP) != 1);
                 break;
             case 'M': /* print Data Buffer */
