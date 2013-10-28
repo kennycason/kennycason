@@ -1,0 +1,22 @@
+---
+title: N64 Games
+---
+
+<ol>
+<li>Banjo Kazooie</li>
+<li>Banjo Tooie</li>
+<li>Bomberman 64</li>
+<li>Donkey Kong 64</li>
+<li>Goldeneye 007</li>
+<li>Conker's Bad Fur Day</li>
+<li>Legend of Zelda Ocarina of Time</li>
+<li>Mario Golf</li>
+<li>Mario Party</li>
+<li>Perfect Dark</li>
+<li>Star Fox 64</li>
+<li>Star Wars Racer</li>
+<li>Super Smash Bros</li>
+<li>Turok Dinosaur Hunter</li>
+<li>Turok 2 Seeds of Evil</li>
+<li>ヨッシーストーリー</li>
+</ol>
