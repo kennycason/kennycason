@@ -91,11 +91,10 @@ main = hakyllWith config $ do
         route $ setExtension "html"
 --        route $ niceRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags) 
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
-            >>= (unExternalizeUrls $ feedRoot feedConfiguration)
-            >>= loadAndApplyTemplate "templates/default.html" (tagsCtx tags)
+            >>= (unExternalizeUrls $ feedRoot feedConfiguration) 
             >>= relativizeUrls
 --            >>= cleanIndexUrls
 
