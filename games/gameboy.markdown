@@ -6,6 +6,8 @@ title: Game Boy Games
 <li>4-in-1 Funpack</li>
 <li>Bomberman GB</li>
 <li>Boxxle</li>
+<li>Donkey Kong Land</li>
+<li>Donkey Kong Land II</li>
 <li>Dragon Warrior I & II</li>
 <li>Dragon Warrior III</li>
 <li>Final Fantasy Legend</li>

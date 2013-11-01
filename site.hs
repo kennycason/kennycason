@@ -62,7 +62,8 @@ main = hakyllWith config $ do
                     ,"contact.markdown"
                     ,"games.markdown"
                     ,"euler.markdown"
-                    ,"tags.markdown"]) $ do
+                    ,"tags.markdown"
+                    ,"collection.markdown"]) $ do
         route   $ setExtension "html"
 --        route $ niceRoute
         compile $ pandocCompiler
@@ -75,6 +76,18 @@ main = hakyllWith config $ do
 
 
     match "posts/*" $ do
+        route $ setExtension "html"
+--        route $ niceRoute
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/post.html"    (tagsCtx tags)
+            >>= (externalizeUrls $ feedRoot feedConfiguration)
+            >>= saveSnapshot "content"
+            >>= (unExternalizeUrls $ feedRoot feedConfiguration)
+            >>= loadAndApplyTemplate "templates/default.html" (tagsCtx tags)
+            >>= relativizeUrls
+--            >>= cleanIndexUrls
+
+    match "games/*" $ do
         route $ setExtension "html"
 --        route $ niceRoute
         compile $ pandocCompiler

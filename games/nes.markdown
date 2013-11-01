@@ -3,11 +3,15 @@ title: NES Games
 ---
 
 <ol>
+<li>1943</li>
+<li>Air Fortress</li>
 <li>ArchRivals</li>
 <li>Back to the Future</li>
 <li>Blaster Master</li>
+<li>Castlevania II - Simon's Quest</li>
 <li>Cybernoid the Fighting Machine</li>
 <li>Dance Aerobics</li>
+<li>Defender II</li>
 <li>Destination Earth Star</li>
 <li>Double Dragon II</li>
 <li>Double Dragon III</li>
@@ -36,9 +40,12 @@ title: NES Games
 <li>Mega Man 6</li>
 <li>Metroid</li>
 <li>Mike Tyson's Punch Out</li>
-<li>NES Open Tournament Golf</li>
+<!-- <li>NES Open Tournament Golf</li> -->
 <li>Othello</li>
+<li>Pinball</li>
+<li>Pin Bot</li>
 <li>R.B.I. Baseball</li>
+<li>Robocop</li>
 <li>Russia'n Attack</li>
 <li>Section Z</li>
 <li>Silent Service</li>
