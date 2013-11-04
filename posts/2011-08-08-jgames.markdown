@@ -23,10 +23,10 @@ Below is a simple demo of some of the games supported.
 
 <strong><a href="https://github.com/kennycason/jGames">Clone from GitHub!</a></strong>
 
-    <table>
-        <tr><td><div id="chess"></div></td><td><div id="chess_anim"></div></td></tr>
+<table>
+ <tr><td><div id="chess"></div></td><td><div id="chess_anim"></div></td></tr>
 <tr><td><div id="go13"></div></td></td><td><div id="checkers"></div></td></tr>
-    </table>
+</table>
 
 <strong>Usage</strong>
 First include the following lines to your webpage

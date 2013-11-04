@@ -261,9 +261,19 @@ nav.social-bar {
                 }
             }
 
-            a.tags {
+            a.collection {
                 border-left: $border solid $navColor + #777;
                 color: $navColor + #777;
+
+                :hover {
+                    border-left: $border solid #f347ff;
+                    color: #f347ff;
+                }
+            }    
+
+            a.tags {
+                border-left: $border solid $navColor + #888;
+                color: $navColor + #888;
 
                 :hover {
                     border-left: $border solid #634d40;

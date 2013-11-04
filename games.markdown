@@ -24,4 +24,11 @@ title: Games
 		<img src="/marine/img/screenshots/screenshot8.png" width="180px"/>
 	</a>
 </td></tr>
+<tr><td>
+	<a href="/draconis">Draconis</a>
+</td><td>
+	<a href="/draconis">
+		<img src="/draconis/screenshot.jpg" width="300px"/>
+	</a>
+</td></tr>
 </table>

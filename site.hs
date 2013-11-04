@@ -39,6 +39,7 @@ main = hakyllWith config $ do
             .||. "js/**" 
             .||. "marine/**" 
             .||. "tictactoe/**" 
+            .||. "draconis/**" 
             .||. "resume/**"
             .||. "pdf/**"
             .||. "code/**") $ do
