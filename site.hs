@@ -52,11 +52,11 @@ main = hakyllWith config $ do
         compile compressCssCompiler
 
 
-    match "css/*.scss" $ do
-        route   $ setExtension "css"
-        compile $ getResourceString >>=
-                  withItemBody (unixFilter "scss" []) >>=
-                  return . fmap compressCss
+--    match "css/*.scss" $ do
+--        route   $ setExtension "css"
+--        compile $ getResourceString >>=
+--                  withItemBody (unixFilter "scss" []) >>=
+--                  return . fmap compressCss
 
 
     match (fromList ["about.markdown"
