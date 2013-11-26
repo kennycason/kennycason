@@ -11,3 +11,6 @@ Here is a list of my Games - Mainly to keep me from buying dups.
 <a href="/games/sega.html">Sega<a/><br/>
 <a href="/games/gamegear.html">Game Gear<a/><br/>
 <a href="/games/atari.html">Atari<a/><br/>
+
+<b>Magazines</b><br/>
+<a href="/games/nintendo_power.html">Nintendo Power<a/><br/>
