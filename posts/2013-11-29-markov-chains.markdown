@@ -17,6 +17,12 @@ Here are some sample auto-generated video game titles:
 ```
 Bigram:
 --------------------
+Lara Croft and the Donut Disaster 
+Frogger's Adventures 2: The Experience
+America's Army: Rise of the Manhunters
+Naruto Shippuden: Clash of The Titans 
+Tao Feng: Fist of the North 
+Burger Island 2: The Lost Children 
 Ragnarok Online 2: Legend Rock 
 City of Edition 
 The Lord of the Horned Rat 
