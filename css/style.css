@@ -226,8 +226,8 @@ nav.social-bar ul li a.collection {
   color: #888888;
 }
 nav.social-bar ul li a.collection :hover {
-  border-left: 35px solid #f347ff;
-  color: #f347ff;
+  border-left: 35px solid #f34722;
+  color: #f34722;
 }
 nav.social-bar ul li a.tags {
   border-left: 35px solid #999999;
