@@ -4,8 +4,11 @@ title: NES Games
 
 <ol>
 <li>1943</li>
+<li>3-D Battles of World Runner, The</li>
 <li>Adventures of Bayou Billy</li>
 <li>Adventures of DinoRiki</li>
+<li>Adventures of Lolo</li>
+<li>Adventures of Lolo 2</li>
 <li>Air Fortress</li>
 <li>Airwolf</li>
 <li>Al Unser Jr.'s Turbo Racing</li>
@@ -28,6 +31,7 @@ title: NES Games
 <li>Dash Galaxy in the Alien Asylum</li>
 <li>Defender II</li>
 <li>Defender of the Crown</li>
+<li>Demon Sword</li>
 <li>Destination Earth Star</li>
 <li>Donkey Kong Classics</li>
 <li>Double Dragon II</li>
@@ -54,6 +58,7 @@ title: NES Games
 <li>Guardian Legend, The</li>
 <li>Gyromite</li>
 <li>Gyrus</li>
+<li>Heavy Shreddin'</li>
 <li>Ice Hockey</li>
 <li>Ikari Warriors II Victory Road</li>
 <li>Jakyl</li>
@@ -72,6 +77,7 @@ title: NES Games
 <li>Mickey Mousecabade</li>
 <li>Mighty Bomb Jack</li>
 <li>Mike Tyson's Punch Out</li>
+<li>Mission: Impossible</li>
 <li>NES Open Tournament Golf</li>
 <li>Othello</li>
 <li>Pac-Man</li>
@@ -97,19 +103,23 @@ title: NES Games
 <li>Star Tropics</li>
 <li>Super Mario Bros/Duck Hunt</li>
 <li>Super Mario Bros 3</li>
+<li>Tecmo World Wrestling</li>
 <li>Teenage Mutant Ninja Turtles</li>
 <li>Teenage Mutant Ninja Turtles II</li>
 <li>Teenage Mutant Ninja Turtles III</li>
 <li>Tetris</li>
 <li>Tetris 2</li>
+<li>Tiger-Heli</li>
 <li>Time Lord</li>
 <li>Tiny Toon Adventures</li>
+<li>Ultima, Quest of the Avatar</li>
 <li>Urban Champion</li>
 <li>Wario Woods</li>
 <li>World Cup</li>
 <li>Wrath of the Black Manta</li>
 <li>Wrestlemania</li>
-<li>Xenophope</li>
+<li>X-Men, The Uncanny</li>
+<li>Xenophobe</li>
 <li>Yoshi</li>
 <li>Zanac</li>
 </ol>
