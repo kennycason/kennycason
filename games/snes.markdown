@@ -4,6 +4,7 @@ title: SNES Games
 
 <ol>
 <li>Championship Pool</li>
+<li>Contra III: The Alien Wars</li>
 <li>Darius Twin</li>
 <li>Demons Crest</li>
 <li>Earth Defense Force</li>
@@ -23,8 +24,10 @@ title: SNES Games
 <li>Super Metroid</li>
 <li>Super R-Type</li>
 <li>Tetris 2</li>
+<li>Teenage Mutant Ninja Turtles IV: Turtles in Time</li>
 <li>The Chessmaster</li>
 <li>Ultimate Mortal Kombat 3</li>
 <li>Uniracers</li>
 <li>Warlock</li>
+<li>Yoshi's Cookie</li>
 </ol>

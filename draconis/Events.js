@@ -27,7 +27,7 @@ WarpEvent.prototype.constructor = WarpEvent;
 
 WarpEvent.prototype.handle = function(world) {
 	if(this.x == world.player.x 
-			&& this.y == world.player.y 
+			&& this.y == world.player.y
 			&& world.player.justMoved) {
 		world.level = LevelLoader.load(this.dest, world);
 		world.player.x = this.destX;
@@ -49,7 +49,7 @@ LockedDoorEvent.prototype.constructor = LockedDoorEvent;
 LockedDoorEvent.prototype.handle = function(world) {
 	if(this.x == world.player.x 
 			&& this.y == world.player.y - 1
-			&& world.player.justMoved) {
+			&& world.keyboard.isKeyPressed(Keys.Q)) {
 			var has = false;
 			for(var i = 0; i < world.player.items.length; i++) {
 				if(world.player.items[i].item.name == "SMALL KEY") {
@@ -64,6 +64,8 @@ LockedDoorEvent.prototype.handle = function(world) {
 				$("#msg").html("Used a SMALL KEY to unlock door!");
 				world.level.tiles[this.y][this.x] = 0; // empty block
 				world.level.collision[this.y][this.x] = 0; // remove collision tile
+			} else {
+				$("#msg").html("The door is locked!");
 			}
 	}
 }
@@ -82,7 +84,8 @@ ChestEvent.prototype.constructor = ChestEvent;
 
 ChestEvent.prototype.handle = function(world) {
 	if(this.x == world.player.x 
-			&& this.y == world.player.y - 1) {
+			&& this.y == world.player.y - 1 
+			&& world.keyboard.isKeyPressed(Keys.Q)) {
 		this.isFinished = true;
 		world.level.tiles[this.y][this.x] = 6; // open chest tile
 
@@ -123,8 +126,7 @@ Boss1Event.prototype = new Event();
 Boss1Event.prototype.constructor = Boss1Event;
 
 Boss1Event.prototype.handle = function(world) {
-	if(world.player.y <= this.y + 1
-			&& world.player.justMoved) {
+	if(world.player.y <= this.y + 1) {
 		$("#msg").html("killed the boss");
 		this.isFinished = true;
 

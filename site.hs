@@ -42,6 +42,7 @@ main = hakyllWith config $ do
             .||. "draconis/**" 
             .||. "resume/**"
             .||. "pdf/**"
+         -- .||. "pawn/*"
             .||. "code/**") $ do
         route   idRoute
         compile copyFileCompiler

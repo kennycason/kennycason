@@ -8,8 +8,6 @@ function Game() {
 	this.player = new Player(this);
 
 	this.level = LevelLoader.load(0, this);
-	this.player.x = 2;
-	this.player.y = 6;
 
 	this.stats = new Stats(this);
 	this.inventory = new Inventory(this);

@@ -3,8 +3,14 @@ function Player(world) {
 	Entity.call(this);
 	this.world = world;
 
-	this.x = 1;
-	this.y = 1;
+	this.x = 10;
+	this.y = 6;
+
+	this.vx = 0;
+	this.vy = 0;
+
+	this.offX = 0;
+	this.offY = 0;
 
 	this.hp = 10;
 	this.hpm = 20;
@@ -22,6 +28,9 @@ function Player(world) {
 	this.iq = 2;
 
 	this.justMoved = false;
+
+	this.moving = false;
+	this.moveV = 4;
 
 	this.armor = new Cloth(world);
 
@@ -63,33 +72,55 @@ Player.prototype.isDead = function(damage) {
 Player.prototype.handle = function() {
 	this.justMoved = false;
 	if(Clock.time() - this.lastMoved > 70) {
-		if(this.world.keyboard.isKeyPressed(Keys.LEFT) || this.world.keyboard.isKeyPressed(Keys.A)) {
-			if(!this.world.level.collide(this, this.x - 1, this.y)) {
-				this.x -= 1;
-				this.lastMoved = Clock.time();
-				this.justMoved = true;
+
+		if(!this.moving) {
+			if(this.world.keyboard.isKeyPressed(Keys.LEFT) || this.world.keyboard.isKeyPressed(Keys.A)) {
+				if(!this.world.level.collide(this, this.x - 1, this.y)) {
+					this.vx =- this.moveV;
+					this.lastMoved = Clock.time();
+					this.moving = true;
+				}
 			}
+			if(this.world.keyboard.isKeyPressed(Keys.RIGHT) || this.world.keyboard.isKeyPressed(Keys.D)) {
+				if(!this.world.level.collide(this, this.x + 1, this.y)) {
+					this.vx = this.moveV;
+					this.lastMoved = Clock.time();
+					this.moving = true;
+				}
+			}
+			if(this.world.keyboard.isKeyPressed(Keys.DOWN) || this.world.keyboard.isKeyPressed(Keys.S)) {
+				if(!this.world.level.collide(this, this.x, this.y + 1)) {
+					this.vy = this.moveV;
+					this.lastMoved = Clock.time();
+					this.moving = true;
+				}
+			}
+			if(this.world.keyboard.isKeyPressed(Keys.UP) || this.world.keyboard.isKeyPressed(Keys.W)) {
+				if(!this.world.level.collide(this, this.x, this.y - 1)) {
+					this.vy = -this.moveV;
+					this.lastMoved = Clock.time();
+					this.moving = true;
+				}
+			}
+		} 
+	}
+	if(this.moving) {
+		// handle smooth movement
+		this.offX += this.vx;
+		this.offY += this.vy;
+		if(Math.abs(this.vx) > 0 && Math.abs(this.offX) >= 16) {
+			this.x += this.vx / 4;
+			this.offX = 0;
+			this.vx = 0;
+			this.moving = false;
+			this.justMoved = true;
 		}
-		if(this.world.keyboard.isKeyPressed(Keys.RIGHT) || this.world.keyboard.isKeyPressed(Keys.D)) {
-			if(!this.world.level.collide(this, this.x + 1, this.y)) {
-				this.x += 1;
-				this.lastMoved = Clock.time();
-				this.justMoved = true;
-			}
-		}
-		if(this.world.keyboard.isKeyPressed(Keys.DOWN) || this.world.keyboard.isKeyPressed(Keys.S)) {
-			if(!this.world.level.collide(this, this.x, this.y + 1)) {
-				this.y += 1;
-				this.lastMoved = Clock.time();
-				this.justMoved = true;
-			}
-		}
-		if(this.world.keyboard.isKeyPressed(Keys.UP) || this.world.keyboard.isKeyPressed(Keys.W)) {
-			if(!this.world.level.collide(this, this.x, this.y - 1)) {
-				this.y -= 1;
-				this.lastMoved = Clock.time();
-				this.justMoved = true;
-			}
+		if(Math.abs(this.vy) > 0 && Math.abs(this.offY) >= 16) {
+			this.y += this.vy / 4;
+			this.offY = 0;
+			this.vy = 0;
+			this.moving = false;
+			this.justMoved = true;
 		}
 	}
 
@@ -106,7 +137,7 @@ Player.prototype.handle = function() {
 }
 
 Player.prototype.draw = function(screen) {
-	this.sprite.draw(screen, this.x * 16, this.y * 16);
+	this.sprite.draw(screen, this.x * 16 + this.offX, this.y * 16 + this.offY);
 }
 
 
