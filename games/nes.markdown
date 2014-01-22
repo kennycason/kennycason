@@ -3,9 +3,11 @@ title: NES Games
 ---
 
 <ol>
+<li>720°</li>
 <li>1943</li>
 <li>3-D Battles of World Runner, The</li>
 <li>8 Eyes</li>
+<li>Abadox</li>
 <li>Adventures of Bayou Billy</li>
 <li>Adventures of DinoRiki</li>
 <li>Adventures of Lolo</li>
@@ -29,7 +31,6 @@ title: NES Games
 <li>Boy and His Blob</li>
 <li>BreakThru</li>
 <li>Bubble Bobble</li>
-<li>Burai Fighter</li>
 <li>Captain Skyhawk</li>
 <li>Casino Kid</li>
 <li>Castlevania II: Simon's Quest</li>
@@ -98,6 +99,7 @@ title: NES Games
 <li>Jeopardy: 25th Anniversary Edition</li>
 <li>Jeopardy: Junior Edition</li>
 <li>John Elway's Quarterback</li>
+<li>Legendary Wings</li>
 <li>Karate Champ</li>
 <li>Karnov</li>
 <li>King's Knight</li>

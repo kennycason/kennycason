@@ -63,6 +63,7 @@ main = hakyllWith config $ do
     match (fromList ["about.markdown"
                     ,"contact.markdown"
                     ,"games.markdown"
+                   -- ,"travel.markdown"
                     ,"euler.markdown"
                     ,"tags.markdown"
                     ,"collection.markdown"]) $ do
@@ -227,7 +228,7 @@ metaKeywordCtx = field "metaKeywords" $ \item -> do
 
 config :: Configuration
 config = defaultConfiguration { 
-    deployCommand = "rsync -avz --delete --checksum _site/* root@ttagg-build:/home/cedarhood/public_html/kennycason.com/"
+    deployCommand = "rsync -avz --delete --checksum _site/* root@cedarhood-ws:/home/cedarhood/public_html/kennycason.com/"
 }
 
 -- Feed configuration
