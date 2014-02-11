@@ -20,6 +20,9 @@ I was also very happy/relieved when I managed to successfully assemble everythin
 
 Note that this set has 2,606 pieces and if you are planning on sleeping you should start this around lunch time. I made the mistake of thinking this would take 2-3 hours. I am not sure quite where that estimation came from, but after being bent over for hours, searching for pieces, making stupid mistakes, and being sleep deprived, it ended up taking me 10.5 hours! I started at 1:30 AM. I did record the whole event and had a nice flow of Donkey Kong Country, Chrono Trigger, and Super Metroid music to ensure that I passed my DC 20 will and fortitude saves to persevere and finish.
 
+Here is the 10.5 hour build video compressed into 30 min + random music.
+<iframe width="640" height="360" src="//www.youtube.com/embed/fJyV3i9i7vY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+
 Here are some other random pictures of it's development.
 
 <img src="/images/lego/crane/IMG_0078.jpg" width="325px"/>
