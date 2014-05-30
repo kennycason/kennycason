@@ -10,7 +10,7 @@ GitHub Source Code: <a href="https://github.com/kennycason/fleschkincaid" target
 
 Control Data:
 
-```
+```{.java .numberLines startFrom="1"}
 // Using Naive Sentence Parser
 Reading file: control/cat_in_the_hat.txt
 107.98837976539589 (Actual 111)
@@ -41,7 +41,7 @@ Reading file: control/voter_preference.txt
 ```
 
 Misc. data samples:
-```
+```{.java .numberLines startFrom="1"}
 Reading file: childrens_story1.txt
 90.34097487432476
 Reading file: childrens_story2.txt
