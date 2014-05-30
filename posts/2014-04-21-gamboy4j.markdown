@@ -1,0 +1,33 @@
+---
+title: Gameboy4j, Java Gameboy Emulator
+author: Kenny Cason
+tags: java, gameboy, emulator, gameboy4j
+---
+
+I feel a bit bad releasing this un-finished, but perhaps this will motivate me to finish up development on it.
+The core CPU emulator and Memory Model Unit (MMU) need to be tested more thoroughly but it can currently load ROMs and execute their instruction sets. The main, and most rewarding component left to program is the visualizer. 
+
+This project was largely motivated by the jsGB project from http://imrannazar.com/
+
+The source code can be found here: <a href="https://github.com/kennycason/gameboy4j" target="_blank">github.com/kennycason/gameboy4j</a>
+
+This is some sample output from running:
+```{.java .numberLines startFrom="1"}
+GameBoy gb = GameBoy.getInstance();
+gb.loadCartridge("src/gameboy/roms/pokemon_red.gb");
+gb.start();
+```
+
+```
+Loading BIOS...
+Loading BIOS completed
+ROM File 1048576 bytes
+ROM loaded: 1048576 bytes.
+7822015 ops/sec
+12724251 ops/sec
+12905008 ops/sec
+12910843 ops/sec
+12959852 ops/sec
+12842966 ops/sec
+...
+```

@@ -8,6 +8,7 @@ title: NES Games
 <li>3-D Battles of World Runner, The</li>
 <li>8 Eyes</li>
 <li>Abadox</li>
+<li>Adventrues in the Magic Kingdom (Disney)</li>
 <li>Adventures of Bayou Billy</li>
 <li>Adventures of DinoRiki</li>
 <li>Adventures of Lolo</li>
@@ -113,6 +114,7 @@ title: NES Games
 <li>Little Nemo: The Dream Master</li>
 <li>Lunar Pool</li>
 <li>Mafat Conspiracy, The</li>
+<li>MagMax</li>
 <li>Marble Madness</li>
 <li>Mario is Missing</li>
 <li>Mega Man 3</li>
@@ -151,6 +153,7 @@ title: NES Games
 <li>Rocketeer, The</li>
 <li>Rocky and Bullwinkle and Friends</li>
 <li>Roger Clemens: MVP Baseball</li>
+<li>Rollergames</li>
 <li>Rush'n Attack</li>
 <li>Section Z</li>
 <li>Seicross</li>
@@ -162,12 +165,14 @@ title: NES Games
 <li>Skate or Die</li>
 <li>Sky Shark</li>
 <li>Solar Jetman: Hunt for the Golden Warpship</li>
+<li>Solomon's Key
 <li>Spot</li>
 <li>Spot the Video Game</li>
 <li>Spy Hunter</li>
 <li>Star Force</li>
 <li>Star Soldier</li>
 <li>Star Tropics</li>
+<li>Star Tropics II, Zoda's Revenge</li>
 <li>Star Voyager</li>
 <li>Stealth ATF</li>
 <li>Strider</li>
@@ -176,12 +181,14 @@ title: NES Games
 <li>Super Mario Bros / Duck Hunt</li>
 <li>Super Mario Bros 3</li>
 <li>Super Team Games</li>
+<li>Target Renegade</li>
 <li>Tecmo Baseball</li>
 <li>Tecmo Bowl</li>
 <li>Tecmo World Wrestling</li>
 <li>Teenage Mutant Ninja Turtles</li>
 <li>Teenage Mutant Ninja Turtles II</li>
 <li>Teenage Mutant Ninja Turtles III</li>
+<li>Terminator 2</li>
 <li>Tetris</li>
 <li>Tetris 2</li>
 <li>Thunderbirds</li>
@@ -191,6 +198,7 @@ title: NES Games
 <li>Top Gun</li>
 <li>Top Gun: The Second Mission</li>
 <li>Top Secret Episode: Golgo 13</li>
+<li>To the Earth</li>
 <li>Track and Field II</li>
 <li>Trojan</li>
 <li>Ultima: Quest of the Avatar</li>
