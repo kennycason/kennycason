@@ -11,16 +11,31 @@ GitHub Source Code: <a href="https://github.com/kennycason/fleschkincaid" target
 Control Data:
 
 ```
+// Using Naive Sentence Parser
 Reading file: control/cat_in_the_hat.txt
 107.98837976539589 (Actual 111)
 Reading file: control/cnn_article.txt
-107.98837976539589 (Actual 52)
+44.86807692307694 (Actual 52)
 Reading file: control/gettysburg_address.txt
 62.97771223021584 (Actual 66)
 Reading file: control/harry_potter.txt
 59.290833333333346 (Actual 64)
 Reading file: control/state_of_the_union.txt
 57.22566326530614 (Actual 70)
+Reading file: control/voter_preference.txt
+26.881941176470626 (Actual 28.7)
+
+// Using Stanford NLP Sentence Parser
+Reading file: control/cat_in_the_hat.txt
+118.51136363636364 (Actual 111)
+Reading file: control/cnn_article.txt
+43.510981463878345 (Actual 52)
+Reading file: control/gettysburg_address.txt
+62.933870967741946 (Actual 66)
+Reading file: control/harry_potter.txt
+65.63153508771933 (Actual 64)
+Reading file: control/state_of_the_union.txt
+59.565565610859736 (Actual 70)
 Reading file: control/voter_preference.txt
 26.881941176470626 (Actual 28.7)
 ```

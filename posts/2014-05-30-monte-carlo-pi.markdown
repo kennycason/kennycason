@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: haskell, java, monte-carlo, pi
 ---
 
-Here are a couple simple examples illustrating how to use Monte-Carlo Method to calculate an approximation of PI. Straight from <a href="http://en.wikipedia.org/wiki/Monte_Carlo_method" target="">Wikipedia</a> the algorithm works per the following:
+Here are a couple simple examples illustrating how to use Monte-Carlo Method to calculate an approximation of PI. Straight from <a href="http://en.wikipedia.org/wiki/Monte_Carlo_method" target="_new">Wikipedia</a> the algorithm works per the following:
 
 1. Draw a square on the ground, then inscribe a circle within it.
 2. Uniformly scatter some objects of uniform size (grains of rice or sand) over the square.
