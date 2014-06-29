@@ -2,6 +2,9 @@
 title: Game Boy Games
 ---
 
+Game Boy Games
+=============
+
 <ol>
 <li>4-in-1 Funpack</li>
 <li>Bomberman GB</li>

@@ -2,6 +2,9 @@
 title: Sega Game Gear Games
 ---
 
+Sega Game Gear Games
+=============
+
 <ol>
 <li>Clutch Hitter</li>
 <li>Evander Holyfield's Boxing</li>

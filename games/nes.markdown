@@ -2,9 +2,13 @@
 title: NES Games
 ---
 
+NES Games
+=============
+
 <ol>
-<li>720°</li>
+<li>10-Yard Fight</li>
 <li>1943</li>
+<li>720°</li>
 <li>3-D Battles of World Runner, The</li>
 <li>8 Eyes</li>
 <li>Abadox</li>
@@ -28,6 +32,7 @@ title: NES Games
 <li>Bases Loaded</li>
 <li>Bases Loaded II Second Season</li>
 <li>Black Fish, The</li>
+<li>Blades of Steel</li>
 <li>Blaster Master</li>
 <li>Boy and His Blob</li>
 <li>BreakThru</li>
@@ -63,6 +68,7 @@ title: NES Games
 <li>Excitebike</li>
 <li>Exodus Ultima</li>
 <li>F-15 Strike Eagle</li>
+<li>Fantastic Adventures of Dizzy, The</li>
 <li>Fast Break, Magic Johnson's</li>
 <li>Faxanadu</li>
 <li>Fester's Quests</li>
@@ -116,6 +122,7 @@ title: NES Games
 <li>Mafat Conspiracy, The</li>
 <li>MagMax</li>
 <li>Marble Madness</li>
+<li>Mario Bros. Arcade Classics Series, The Original</li>
 <li>Mario is Missing</li>
 <li>Mega Man 3</li>
 <li>Mega Man 6</li>
@@ -179,6 +186,7 @@ title: NES Games
 <li>Super Glove Ball</li>
 <li>Superspike V'Ball / World Cup</li>
 <li>Super Mario Bros / Duck Hunt</li>
+<li>Super Mario Bros 2</li>
 <li>Super Mario Bros 3</li>
 <li>Super Team Games</li>
 <li>Target Renegade</li>

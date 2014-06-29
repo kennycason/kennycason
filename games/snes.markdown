@@ -2,7 +2,11 @@
 title: SNES Games
 ---
 
+SNES Games
+=============
+
 <ol>
+<li>Beauty and the Beast</li>
 <li>Championship Pool</li>
 <li>Contra III: The Alien Wars</li>
 <li>Darius Twin</li>
@@ -18,6 +22,7 @@ title: SNES Games
 <li>Phalanx</li>
 <li>Populous</li>
 <li>Simcity</li>
+<li>Super Battletank: War in the Gulf, Garry Kitchen's</li>
 <li>Super Mario All-Stars</li>
 <li>Super Mario Kart</li>
 <li>Super Mario World</li>
