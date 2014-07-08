@@ -25,6 +25,7 @@ NES Games
 <li>Anticipation</li>
 <li>Archon</li>
 <li>Arch Rivals</li>
+<li>Arkista's Ring</li>
 <li>Astyanax</li>
 <li>Back to the Future</li>
 <li>Baseball</li>
@@ -101,6 +102,7 @@ NES Games
 <li>Ikari Warriors II Victory Road</li>
 <li>Infiltrator</li>
 <li>Iron Tank: The Invasion of Normandy</li>
+<li>Jack Nicklaus' Major Championship Golf</li>
 <li>Jakyl</li>
 <li>Jaws</li>
 <li>Jeopardy: 25th Anniversary Edition</li>
@@ -171,6 +173,7 @@ NES Games
 <li>Simpsons Bart vs the World, The</li>
 <li>Skate or Die</li>
 <li>Sky Shark</li>
+<li>Soccer</li>
 <li>Solar Jetman: Hunt for the Golden Warpship</li>
 <li>Solomon's Key
 <li>Spot</li>
