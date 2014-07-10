@@ -38,10 +38,11 @@ NES Games
 <li>Boy and His Blob</li>
 <li>BreakThru</li>
 <li>Bubble Bobble</li>
+<li>Caesars Palace</li>
 <li>Captain Skyhawk</li>
 <li>Casino Kid</li>
 <li>Castlevania II: Simon's Quest</li>
-<li>Caesars Palace</li>
+<li>Caveman Games</li>
 <li>Cobra Command</li>
 <li>Cobra Triangle</li>
 <li>Cyberball</li>
@@ -54,6 +55,7 @@ NES Games
 <li>Demon Sword</li>
 <li>Destination Earth Star</li>
 <li>Dick Tracy</li>
+<li>Dirty Harry</li>
 <li>Donkey Kong Classics</li>
 <li>Double Dragon II</li>
 <li>Double Dragon III</li>
@@ -66,6 +68,7 @@ NES Games
 <li>Duck Hunt</li>
 <li>Dungeon Magic</li>
 <li>Dynowarz - The Destruction of Spondylus</li>
+<li>Elevator Action</li>
 <li>Excitebike</li>
 <li>Exodus Ultima</li>
 <li>F-15 Strike Eagle</li>

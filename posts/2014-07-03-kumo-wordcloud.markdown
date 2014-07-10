@@ -6,7 +6,7 @@ tags: kumo, word cloud, java
 
 Kumo On GitHub: <a href="https://github.com/kennycason/kumo" target="_new">here</a>
 
-My main goal is to create a powerful and user friendly Word Cloud API in Java. Kumo directly generates an image file without the need to create an applet (as many other libraries do). Kumo, with the exception of it's maven dependencies should be easy to integegrate into current Java Maven projects. 
+The goal of Kumo is to create a powerful and user friendly Word Cloud library in Java. Kumo can directly generate an image file, or return a BufferedImage. I plan on hosting it on Maven Central soon.
 
 Please feel free to jump in and help improve Kumo! There are many places for performance optimization in Kumo!
 
@@ -28,29 +28,33 @@ Current Features
 
 <table>
 <tr><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/datarank_wordcloud_circle_sqrt_font.png" width="350"/>
+<img src="/images/kumo/datarank_wordcloud_circle_sqrt_font.png" width="350"/>
 </td><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/chinese_language_circle.png" width="350"/>
+<img src="/images/kumo/chinese_language_circle.png" width="350"/>
 </td></tr>
 <tr><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/whale_wordcloud_large2.png" width="350"/>
+<img src="/images/kumo/whale_wordcloud_large2.png" width="350"/>
 </td><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/whale_wordcloud_large3.png" width="350"/>
+<img src="/images/kumo/whale_wordcloud_large3.png" width="350"/>
 </td></tr>
 <tr><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/polar_newyork_rectangle_blur.png" width="350"/>
+<img src="/images/kumo/polar_newyork_rectangle_blur.png" width="350"/>
 </td><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/polar_tide_chinese_vs_english2.png" width="350"/>
+<img src="/images/kumo/polar_tide_chinese_vs_english2.png" width="350"/>
 </td></tr>
 <tr><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/whale_wordcloud_large_angles.png" width="350"/>
+<img src="/images/kumo/whale_wordcloud_large_angles.png" width="350"/>
 </td><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/layered_word_cloud.png" width="350"/>
+<img src="/images/kumo/layered_word_cloud.png" width="350"/>
 </td></tr>
 <tr><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/polar_newyork_whale_large_blur.png" width="350"/>
+<img src="/images/kumo/polar_newyork_whale_large_blur.png" width="350"/>
 </td><td>
-<img src="https://raw.githubusercontent.com/kennycason/kumo/master/output/wordcloud_rectangle.png" width="350"/>
+<img src="/images/kumo/wordcloud_rectangle.png" width="350"/>
+</td></tr>
+<tr><td>
+<img src="/images/kumo/layered_haskell.png" width="300"/>
+</td><td>
 </td></tr>
 </table>
 
