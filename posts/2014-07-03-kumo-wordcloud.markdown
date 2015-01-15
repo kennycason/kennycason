@@ -1,7 +1,7 @@
 ---
 title: Kumo - Java Word Cloud 
 author: Kenny Cason
-tags: kumo, word cloud, java
+tags: kumo, java, word cloud, 标签云, タグクラウド
 ---
 
 Kumo On GitHub: <a href="https://github.com/kennycason/kumo" target="_new">here</a>
@@ -33,7 +33,7 @@ Current Features
 <img src="/images/kumo/chinese_language_circle.png" width="350"/>
 </td></tr>
 <tr><td>
-<img src="/images/kumo/whale_wordcloud_large2.png" width="350"/>
+<img src="/images/kumo/whale_wordcloud_large_impact.png" width="350"/>
 </td><td>
 <img src="/images/kumo/whale_wordcloud_large3.png" width="350"/>
 </td></tr>
@@ -55,6 +55,7 @@ Current Features
 <tr><td>
 <img src="/images/kumo/layered_haskell.png" width="300"/>
 </td><td>
+<img src="/images/kumo/layered_pho_bowl.png" width="300"/>
 </td></tr>
 </table>
 

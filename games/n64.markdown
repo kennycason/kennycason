@@ -8,8 +8,10 @@ Nintendo 64 Games
 <ol>
 <li>Banjo Kazooie</li>
 <li>Banjo Tooie</li>
+<li>Bio Freaks</li>
 <li>Bomberman 64</li>
 <li>Donkey Kong 64</li>
+<li>F-1 World Grand Prix</li>
 <li>Goldeneye 007</li>
 <li>Conker's Bad Fur Day</li>
 <li>Legend of Zelda Ocarina of Time</li>
@@ -21,5 +23,6 @@ Nintendo 64 Games
 <li>Super Smash Bros</li>
 <li>Turok Dinosaur Hunter</li>
 <li>Turok 2 Seeds of Evil</li>
+<li>Vigilante 8</li>
 <li>ヨッシーストーリー</li>
 </ol>

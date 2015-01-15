@@ -50,15 +50,17 @@ a :active {
   padding: 5px 0px 0px 0px;
 }
 #header #logo {
-  background-image: url("/images/logos/logo-main.png");
+  background-image: url("/images/logos/kennycason-logo.png");
   background-position: 0px 0px;
+  margin-left:-30px;
   display: block;
-  width: 307px;
+  width: 420px;
   height: 75px;
   float: left;
 }
 #header #logo :hover {
   background-position: 0px -75px;
+  margin-left:-30px;
 }
 #header .header-icon {
   float: right;
@@ -221,17 +223,27 @@ nav.social-bar ul li a.costumedb :hover {
   border-left: 35px solid #a34d40;
   color: #a34d40;
 }
-nav.social-bar ul li a.collection {
+
+nav.social-bar ul li a.randomizly {
   border-left: 35px solid #888888;
   color: #888888;
+}
+nav.social-bar ul li a.randomizly :hover {
+  border-left: 35px solid #09f;
+  color: #09f;
+}
+
+nav.social-bar ul li a.collection {
+  border-left: 35px solid #999999;
+  color: #999999;
 }
 nav.social-bar ul li a.collection :hover {
   border-left: 35px solid #f34722;
   color: #f34722;
 }
 nav.social-bar ul li a.tags {
-  border-left: 35px solid #999999;
-  color: #999999;
+  border-left: 35px solid #AAAAAA;
+  color: #AAAAAA;
 }
 nav.social-bar ul li a.tags :hover {
   border-left: 35px solid #634d40;

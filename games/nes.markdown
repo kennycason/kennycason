@@ -60,6 +60,7 @@ NES Games
 <li>Double Dragon II</li>
 <li>Double Dragon III</li>
 <li>Dungeon Magic: Sword of the Elements</li>
+<li>Dragon Spirit: The New Legend</li>
 <li>Dragon Warrior</li>
 <li>Dragon Warrior II</li>
 <li>Dragon Warrior III</li>
@@ -94,6 +95,7 @@ NES Games
 <li>Gotcha</li>
 <li>Gradius</li>
 <li>Guardian Legend, The</li>
+<li>Gumshoe</li>
 <li>Gyromite</li>
 <li>Gyrus</li>
 <li>Home Alone 2: Lost in New York</li>
@@ -110,11 +112,15 @@ NES Games
 <li>Jaws</li>
 <li>Jeopardy: 25th Anniversary Edition</li>
 <li>Jeopardy: Junior Edition</li>
+<li>Joe & Mac</li>
 <li>John Elway's Quarterback</li>
+<li>Jordan vs. Bird: One on One</li>
 <li>Legendary Wings</li>
+<li>Lunar Pool</li>
 <li>Karate Champ</li>
 <li>Karnov</li>
 <li>King's Knight</li>
+<li>King of Kings: The Early Years</li>
 <li>King's of the Beach</li>
 <li>Klax, Tengen</li>
 <li>Kong Fu</li>
@@ -167,6 +173,7 @@ NES Games
 <li>Roger Clemens: MVP Baseball</li>
 <li>Rollergames</li>
 <li>Rush'n Attack</li>
+<li>Rygar</li>
 <li>Section Z</li>
 <li>Seicross</li>
 <li>Shadowgate</li>
@@ -211,6 +218,7 @@ NES Games
 <li>Tiny Toon Adventures</li>
 <li>Top Gun</li>
 <li>Top Gun: The Second Mission</li>
+<li>Top Players' Tennis - Chris Evert and Ivan Lendl</li>
 <li>Top Secret Episode: Golgo 13</li>
 <li>To the Earth</li>
 <li>Track and Field II</li>
@@ -230,6 +238,7 @@ NES Games
 <li>Xevious</li>
 <li>X-Men, The Uncanny</li>
 <li>Xenophobe</li>
+<li>Yo! Noid</li>
 <li>Yoshi</li>
 <li>Zanac</li>
 <li>Zelda II: The Adventure of Link</li>

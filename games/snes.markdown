@@ -22,6 +22,7 @@ SNES Games
 <li>Phalanx</li>
 <li>Populous</li>
 <li>Simcity</li>
+<li>Sunday Night NFL</li>
 <li>Super Battletank: War in the Gulf, Garry Kitchen's</li>
 <li>Super Mario All-Stars</li>
 <li>Super Mario Kart</li>
