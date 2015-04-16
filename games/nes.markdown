@@ -5,241 +5,849 @@ title: NES Games
 NES Games
 =============
 
-<ol>
-<li>10-Yard Fight</li>
-<li>1943</li>
-<li>720°</li>
-<li>3-D Battles of World Runner, The</li>
-<li>8 Eyes</li>
-<li>Abadox</li>
-<li>Adventrues in the Magic Kingdom (Disney)</li>
-<li>Adventures of Bayou Billy</li>
-<li>Adventures of DinoRiki</li>
-<li>Adventures of Lolo</li>
-<li>Adventures of Lolo 2</li>
-<li>Air Fortress</li>
-<li>Airwolf</li>
-<li>Alpha Mission</li>
-<li>Al Unser Jr.'s Turbo Racing</li>
-<li>Amagon</li>
-<li>Anticipation</li>
-<li>Archon</li>
-<li>Arch Rivals</li>
-<li>Arkista's Ring</li>
-<li>Astyanax</li>
-<li>Back to the Future</li>
-<li>Baseball</li>
-<li>Baseball Simulator 1000</li>
-<li>Bases Loaded</li>
-<li>Bases Loaded II Second Season</li>
-<li>Black Fish, The</li>
-<li>Blades of Steel</li>
-<li>Blaster Master</li>
-<li>Boy and His Blob</li>
-<li>BreakThru</li>
-<li>Bubble Bobble</li>
-<li>Caesars Palace</li>
-<li>Captain Skyhawk</li>
-<li>Casino Kid</li>
-<li>Castlevania II: Simon's Quest</li>
-<li>Caveman Games</li>
-<li>Cobra Command</li>
-<li>Cobra Triangle</li>
-<li>Cyberball</li>
-<li>Cybernoid the Fighting Machine</li>
-<li>Dance Aerobics</li>
-<li>Dash Galaxy in the Alien Asylum</li>
-<li>Deadly Towers</li>
-<li>Defender II</li>
-<li>Defender of the Crown</li>
-<li>Demon Sword</li>
-<li>Destination Earth Star</li>
-<li>Dick Tracy</li>
-<li>Dirty Harry</li>
-<li>Donkey Kong Classics</li>
-<li>Double Dragon II</li>
-<li>Double Dragon III</li>
-<li>Dungeon Magic: Sword of the Elements</li>
-<li>Dragon Spirit: The New Legend</li>
-<li>Dragon Warrior</li>
-<li>Dragon Warrior II</li>
-<li>Dragon Warrior III</li>
-<li>Dr. Chaos</li>
-<li>Dr. Mario</li>
-<li>Duck Hunt</li>
-<li>Dungeon Magic</li>
-<li>Dynowarz - The Destruction of Spondylus</li>
-<li>Elevator Action</li>
-<li>Excitebike</li>
-<li>Exodus Ultima</li>
-<li>F-15 Strike Eagle</li>
-<li>Fantastic Adventures of Dizzy, The</li>
-<li>Fast Break, Magic Johnson's</li>
-<li>Faxanadu</li>
-<li>Fester's Quests</li>
-<li>Fighting Golf, Lee Trevino's</li>
-<li>Final Fantasy</li>
-<li>Flintstones: The Rescue of Dino & Hoppy</li>
-<li>Flying Dragon: The Secret Scroll</li>
-<li>Friday the 13th</li>
-<li>Galaga</li>
-<li>Gauntlet II</li>
-<li>George Foreman KO Boxing</li>
-<li>Ghostbusters</li>
-<li>Ghostbusters II</li>
-<li>Goal</li>
-<li>Golf</li>
-<li>Golf Challenge Pebble Beach, Bandai</li>
-<li>Golgo 13</li>
-<li>Goonies II, The</li>
-<li>Gotcha</li>
-<li>Gradius</li>
-<li>Guardian Legend, The</li>
-<li>Gumshoe</li>
-<li>Gyromite</li>
-<li>Gyrus</li>
-<li>Home Alone 2: Lost in New York</li>
-<li>Heavy Shreddin'</li>
-<li>Hogan's Alley</li>
-<li>Hunt for Red October, The</li>
-<li>Hydlide</li>
-<li>Ice Hockey</li>
-<li>Ikari Warriors II Victory Road</li>
-<li>Infiltrator</li>
-<li>Iron Tank: The Invasion of Normandy</li>
-<li>Jack Nicklaus' Major Championship Golf</li>
-<li>Jakyl</li>
-<li>Jaws</li>
-<li>Jeopardy: 25th Anniversary Edition</li>
-<li>Jeopardy: Junior Edition</li>
-<li>Joe & Mac</li>
-<li>John Elway's Quarterback</li>
-<li>Jordan vs. Bird: One on One</li>
-<li>Legendary Wings</li>
-<li>Lunar Pool</li>
-<li>Karate Champ</li>
-<li>Karnov</li>
-<li>King's Knight</li>
-<li>King of Kings: The Early Years</li>
-<li>King's of the Beach</li>
-<li>Klax, Tengen</li>
-<li>Kong Fu</li>
-<li>Laser Invasion</li>
-<li>Legacy of the Wizard</li>
-<li>Legend of Zelda</li>
-<li>Life Force</li>
-<li>Little Nemo: The Dream Master</li>
-<li>Lunar Pool</li>
-<li>Mafat Conspiracy, The</li>
-<li>MagMax</li>
-<li>Marble Madness</li>
-<li>Mario Bros. Arcade Classics Series, The Original</li>
-<li>Mario is Missing</li>
-<li>Mega Man 3</li>
-<li>Mega Man 6</li>
-<li>Mafat Conspiracy, The</li>
-<li>Magic of Scheherazade, The</li>
-<li>Major League Baseball</li>
-<li>Metroid</li>
-<li>Michael Andretty's World GP</li>
-<li>Mickey Mousecapade</li>
-<li>Mighty Bomb Jack</li>
-<li>Mike Tyson's Punch Out!!</li>
-<li>Mission: Impossible</li>
-<li>NES Open Tournament Golf</li>
-<li>NFL</li>
-<li>Operation Wolf</li>
-<li>Othello</li>
-<li>Orb 3D</li>
-<li>Pac-Man, Tengen</li>
-<li>Pinball</li>
-<li>Pin Bot</li>
-<li>Platoon</li>
-<li>Play Action Football</li>
-<li>Pro Wrestling</li>
-<li>Punch Out!!</li>
-<li>Q Bert</li>
-<li>Quarterback, John Elway's</li>
-<li>Racket Attack</li>
-<li>Rad Racer</li>
-<li>Rambo</li>
-<li>Rampage</li>
-<li>R.B.I. Baseball</li>
-<li>R.C. Pro-Am</li>
-<li>Rescue: The Embassy Mission</li>
-<li>Robocop</li>
-<li>Rocketeer, The</li>
-<li>Rocky and Bullwinkle and Friends</li>
-<li>Roger Clemens: MVP Baseball</li>
-<li>Rollergames</li>
-<li>Rush'n Attack</li>
-<li>Rygar</li>
-<li>Section Z</li>
-<li>Seicross</li>
-<li>Shadowgate</li>
-<li>Shooting Range</li>
-<li>Silent Service</li>
-<li>Simpsons: Bart vs. the Space Mutants, The</li>
-<li>Simpsons Bart vs the World, The</li>
-<li>Skate or Die</li>
-<li>Sky Shark</li>
-<li>Soccer</li>
-<li>Solar Jetman: Hunt for the Golden Warpship</li>
-<li>Solomon's Key
-<li>Spot</li>
-<li>Spot the Video Game</li>
-<li>Spy Hunter</li>
-<li>Star Force</li>
-<li>Star Soldier</li>
-<li>Star Tropics</li>
-<li>Star Tropics II, Zoda's Revenge</li>
-<li>Star Voyager</li>
-<li>Stealth ATF</li>
-<li>Strider</li>
-<li>Super Glove Ball</li>
-<li>Superspike V'Ball / World Cup</li>
-<li>Super Mario Bros / Duck Hunt</li>
-<li>Super Mario Bros 2</li>
-<li>Super Mario Bros 3</li>
-<li>Super Team Games</li>
-<li>Target Renegade</li>
-<li>Tecmo Baseball</li>
-<li>Tecmo Bowl</li>
-<li>Tecmo World Wrestling</li>
-<li>Teenage Mutant Ninja Turtles</li>
-<li>Teenage Mutant Ninja Turtles II</li>
-<li>Teenage Mutant Ninja Turtles III</li>
-<li>Terminator 2</li>
-<li>Tetris</li>
-<li>Tetris 2</li>
-<li>Thunderbirds</li>
-<li>Tiger Heli</li>
-<li>Time Lord</li>
-<li>Tiny Toon Adventures</li>
-<li>Top Gun</li>
-<li>Top Gun: The Second Mission</li>
-<li>Top Players' Tennis - Chris Evert and Ivan Lendl</li>
-<li>Top Secret Episode: Golgo 13</li>
-<li>To the Earth</li>
-<li>Track and Field II</li>
-<li>Trojan</li>
-<li>Ultima: Quest of the Avatar</li>
-<li>Urban Champion</li>
-<li>Vegas Dream</li>
-<li>Wario Woods</li>
-<li>Wheel of Fortune</li>
-<li>Wheel of Fortune: Family Edition</li>
-<li>Wheel of Forturn: Junior Edition</li>
-<li>Wizards and Warriors II: Ironsword</li>
-<li>World Cup</li>
-<li>Wrath of the Black Manta</li>
-<li>Wrestlemania</li>
-<li>WWF Wrestlemania Steel Cage Challenge</li>
-<li>Xevious</li>
-<li>X-Men, The Uncanny</li>
-<li>Xenophobe</li>
-<li>Yo! Noid</li>
-<li>Yoshi</li>
-<li>Zanac</li>
-<li>Zelda II: The Adventure of Link</li>
-</ol>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".have-key").html($(".game-list .have").length + " Own");
+        $(".dont-have-key").html($(".game-list .dont-have").length + " Don't Own");
+	});
+</script>
+
+<div>Total Games: </span><span class="have-key">Own</span><span class="dont-have-key">Don't Own</span></div><br/>
+<div class="game-list">
+<div class="letter">#</div>
+<div class="dont-have">1942</div>
+<div class="have">1943: The Battle of Midway</div>
+<div class="have">10-Yard Fight</div>
+<div class="have">2-in-1 Super Mario Bros/Duck Hunt</div>
+<div class="have">2-in-1 Super Spike V'Ball/World Cup Soccer</div>
+<div class="have">3-D Worldrunner</div>
+<div class="dont-have">3-in-1 Super Mario Bros/Duck Hunt/World Class Track Meet</div>
+<div class="dont-have">6-in-1</div>
+<div class="have">720°</div>
+<div class="have">8 Eyes</div>
+<div class="letter">A</div>
+<div class="have">A Boy and His Blob: Trouble on Blobolonia</div>
+<div class="have">Abadox</div>
+<div class="dont-have">Action 52</div>
+<div class="dont-have">Action in New York</div>
+<div class="dont-have">The Addams Family</div>
+<div class="dont-have">The Addams Family: Pugsley's Scavenger Hunt</div>
+<div class="dont-have">Advanced Dungeons and Dragons: Dragon Strike</div>
+<div class="dont-have">Advanced Dungeons and Dragons: Heroes of the Lance</div>
+<div class="dont-have">Advanced Dungeons and Dragons: Hillsfar</div>
+<div class="dont-have">Advanced Dungeons and Dragons: Pool of Radiance</div>
+<div class="dont-have">Adventure Island</div>
+<div class="dont-have">Adventure Island 2</div>
+<div class="dont-have">Adventure Island 3</div>
+<div class="dont-have">Adventure Island Classic (aka Adventure Island)</div>
+<div class="have">Adventures in the Magic Kingdom (Disney)</div>
+<div class="have">The Adventures of Bayou Billy</div>
+<div class="dont-have">The Adventures of Captain Comic</div>
+<div class="have">The Adventures of Dino Riki</div>
+<div class="dont-have">The Adventures of Gilligan's Island</div>
+<div class="have">The Adventures of Lolo</div>
+<div class="have">The Adventures of Lolo 2</div>
+<div class="dont-have">The Adventures of Lolo 3</div>
+<div class="dont-have">The Adventures of Rad Gravity</div>
+<div class="dont-have">The Adventures of Rocky and Bullwinkle</div>
+<div class="have">The Adventures of Tom Sawyer</div>
+<div class="dont-have">After Burner</div>
+<div class="have">Air Fortress</div>
+<div class="have">Airwolf</div>
+<div class="have">Al Unser Jr.'s Turbo Racing</div>
+<div class="dont-have">Aladdin</div>
+<div class="dont-have">Aladdin Deck Enhancer</div>
+<div class="dont-have">Alfred Chicken</div>
+<div class="dont-have">Alien 3</div>
+<div class="dont-have">Alien Syndrome</div>
+<div class="dont-have">All-Pro Basketball</div>
+<div class="have">Alpha Mission</div>
+<div class="have">Amagon</div>
+<div class="dont-have">American Gladiators</div>
+<div class="have">Anticipation</div>
+<div class="have">Arch Rivals: A Basket Brawl!</div>
+<div class="have">Archon</div>
+<div class="dont-have">Arkanoid</div>
+<div class="have">Arkista's Ring</div>
+<div class="dont-have">Armadillo</div>
+<div class="dont-have">Asterix</div>
+<div class="have">Astyanax</div>
+<div class="dont-have">Athena</div>
+<div class="dont-have">Athletic World</div>
+<div class="dont-have">Attack of the Killer Tomatoes</div>
+<div class="dont-have">Aussie Rules Footy</div>
+<div class="dont-have">Got Out-Of-This-World Dreams? Enter This Contest and You Could Win All The Tools You'll Need to Build It.</div>
+<div class="dont-have">You could win the Acer Idea Kit featuring a tablet, all-in-one computer and digital 3D projector. Tell us your idea to enter the contest.</div>
+<div class="dont-have">Promoted by Acer </div>
+<div class="letter">B</div>
+<div class="dont-have">Baby Boomer</div>
+<div class="have">Back to the Future</div>
+<div class="dont-have">Back to the Future II & III</div>
+<div class="dont-have">Bad Dudes</div>
+<div class="dont-have">Bad News Baseball</div>
+<div class="dont-have">Bad Street Brawler</div>
+<div class="dont-have">Balloon Fight</div>
+<div class="dont-have">Banana Prince</div>
+<div class="have">Bandai Golf: Challenge Pebble Beach</div>
+<div class="dont-have">Bandit Kings of Ancient China</div>
+<div class="dont-have">Barbie</div>
+<div class="dont-have">Bard's Tale</div>
+<div class="dont-have">Barker Bill's Trick Shooting</div>
+<div class="dont-have">Base Wars</div>
+<div class="have">Baseball</div>
+<div class="have">Baseball Simulator 1000</div>
+<div class="dont-have">Baseball Stars</div>
+<div class="have">Bases Loaded</div>
+<div class="have">Bases Loaded II</div>
+<div class="dont-have">Bases Loaded 3</div>
+<div class="dont-have">Bases Loaded 4</div>
+<div class="dont-have">Batman</div>
+<div class="dont-have">Batman Returns</div>
+<div class="dont-have">Batman: Return of the Joker</div>
+<div class="dont-have">Battle Chess</div>
+<div class="dont-have">The Battle of Olympus</div>
+<div class="dont-have">Battle City</div>
+<div class="dont-have">Battle Tank</div>
+<div class="dont-have">Battletoads</div>
+<div class="dont-have">Battletoads & Double Dragon</div>
+<div class="dont-have">Battleship</div>
+<div class="dont-have">Beauty and the Beast</div>
+<div class="dont-have">Bee 52</div>
+<div class="dont-have">Beetlejuice</div>
+<div class="dont-have">Best of the Best</div>
+<div class="dont-have">Bible Adventures</div>
+<div class="dont-have">Bible Buffet</div>
+<div class="dont-have">Big Bird Hide and Speak</div>
+<div class="dont-have">Bigfoot</div>
+<div class="dont-have">Bignose Freaks Out</div>
+<div class="dont-have">Big Nose the Caveman</div>
+<div class="dont-have">Bill and Ted's Excellent Video Game Adventure</div>
+<div class="dont-have">Bill Elliot's NASCAR Challenge</div>
+<div class="dont-have">Bionic Commando</div>
+<div class="have">Black Bass</div>
+<div class="dont-have">Blackjack</div>
+<div class="have">Blades of Steel</div>
+<div class="have">Blaster Master</div>
+<div class="dont-have">Blue Marlin</div>
+<div class="dont-have">Blue Shadow</div>
+<div class="dont-have">The Blues Brothers</div>
+<div class="dont-have">Bo Jackson Baseball</div>
+<div class="dont-have">Bomberman (game)</div>
+<div class="dont-have">Bomberman II</div>
+<div class="dont-have">Bonk's Adventure</div>
+<div class="dont-have">Boulder Dash</div>
+<div class="dont-have">Break Time: The National Pool Tour</div>
+<div class="have">Breakthru</div>
+<div class="dont-have">Bubble Bath Babes</div>
+<div class="have">Bubble Bobble</div>
+<div class="dont-have">Bubble Bobble 2</div>
+<div class="dont-have">Bucky O'Hare</div>
+<div class="dont-have">The Bugs Bunny Birthday Blowout</div>
+<div class="dont-have">The Bugs Bunny Crazy Castle</div>
+<div class="dont-have">Bump 'n' Jump</div>
+<div class="dont-have">Burai Fighter</div>
+<div class="dont-have">Burgertime</div>
+<div class="letter">C</div>
+<div class="dont-have">Cabal</div>
+<div class="have">Caesar's Palace</div>
+<div class="dont-have">California Games</div>
+<div class="dont-have">Captain America and the Avengers</div>
+<div class="dont-have">Captain Planet</div>
+<div class="have">Captain Skyhawk</div>
+<div class="dont-have">Captain Comic</div>
+<div class="have">Casino Kid</div>
+<div class="dont-have">Castelian</div>
+<div class="dont-have">Castle of Deceit</div>
+<div class="dont-have">Castle of Dragon</div>
+<div class="dont-have">Castlequest</div>
+<div class="dont-have">Castlevania</div>
+<div class="have">Castlevania II: Simon's Quest</div>
+<div class="dont-have">Castlevania III: Dracula's Curse</div>
+<div class="have">Caveman Games</div>
+<div class="dont-have">Challenge of the Dragon</div>
+<div class="dont-have">Championship Bowling</div>
+<div class="dont-have">Championship Pool</div>
+<div class="dont-have">Championship Rally</div>
+<div class="dont-have">Cheetahmen 2</div>
+<div class="dont-have">The Chessmaster</div>
+<div class="dont-have">Chiller</div>
+<div class="dont-have">Chip 'N Dale: Rescue Rangers</div>
+<div class="dont-have">Chip 'N Dale: Rescue Rangers 2</div>
+<div class="dont-have">Chubby Cherub</div>
+<div class="dont-have">Circus Caper</div>
+<div class="dont-have">City Connection</div>
+<div class="dont-have">Clash at Demonhead</div>
+<div class="dont-have">Classic Concentration</div>
+<div class="dont-have">Cliffhanger</div>
+<div class="dont-have">Clu Clu Land</div>
+<div class="have">Cobra Command</div>
+<div class="have">Cobra Triangle</div>
+<div class="dont-have">Code Name: Viper</div>
+<div class="dont-have">Color a Dinosaur</div>
+<div class="dont-have">Commando</div>
+<div class="dont-have">Conan: The Mysteries of Time</div>
+<div class="dont-have">Conflict</div>
+<div class="dont-have">Connector NY (Europe only)</div>
+<div class="dont-have">Conquest of The Crystal Palace</div>
+<div class="dont-have">Contra (Probotector in Europe)</div>
+<div class="dont-have">Contra 2 (a.k.a. Super C)</div>
+<div class="dont-have">Contra Force (a.k.a. Contra 3)</div>
+<div class="dont-have">Cool World</div>
+<div class="dont-have">Corvette ZR-1 Challenge (Europe only)</div>
+<div class="dont-have">Cowboy Kid (Western Kid in Japan)</div>
+<div class="dont-have">Crackout (Europe and Australia only)</div>
+<div class="dont-have">Crash 'n the Boys: Street Challenge</div>
+<div class="dont-have">Crystal Mines</div>
+<div class="dont-have">Crystalis (Remade for Game Boy Color)</div>
+<div class="have">Cyberball</div>
+<div class="have">Cybernoid: The Fighting Machine</div>
+<div class="letter">D</div>
+<div class="have">Dance Aerobics</div>
+<div class="dont-have">Darkman</div>
+<div class="dont-have">Darkwing Duck</div>
+<div class="have">Dash Galaxy in the Alien Asylum</div>
+<div class="dont-have">Daydreamin' Davey</div>
+<div class="dont-have">Days of Thunder</div>
+<div class="have">Deadly Towers</div>
+<div class="dont-have">Death Race</div>
+<div class="dont-have">Deathbots</div>
+<div class="have">Defender II</div>
+<div class="have">Defender of the Crown</div>
+<div class="dont-have">Defenders of Dynatron City</div>
+<div class="dont-have">Deja Vu</div>
+<div class="have">Demon Sword</div>
+<div class="dont-have">Desert Commander</div>
+<div class="have">Destination Earthstar</div>
+<div class="dont-have">Destiny of an Emperor</div>
+<div class="dont-have">Devil World (Japan & Europe only)</div>
+<div class="have">Dick Tracy</div>
+<div class="dont-have">Die Hard</div>
+<div class="dont-have">Dig Dug 2: Trouble in Paradise</div>
+<div class="dont-have">Digger T. Rock: Legend of the Lost City</div>
+<div class="have">Dirty Harry: The War Against Drugs</div>
+<div class="dont-have">Doki! Doki! Amusement park</div>
+<div class="dont-have">Donkey Kong</div>
+<div class="dont-have">Donkey Kong 3</div>
+<div class="have">Donkey Kong Classics</div>
+<div class="dont-have">Donkey Kong Jr. Math</div>
+<div class="dont-have">Donkey Kong Jr.</div>
+<div class="dont-have">Double Dare</div>
+<div class="dont-have">Double Dragon</div>
+<div class="have">Double Dragon II: The Revenge</div>
+<div class="have">Double Dragon III: The Rosetta Stone</div>
+<div class="dont-have">Double Dribble</div>
+<div class="dont-have">Double Strike</div>
+<div class="have">Dr. Chaos</div>
+<div class="dont-have">Dr. Jekyll and Mr. Hyde</div>
+<div class="have">Dr. Mario</div>
+<div class="dont-have">Dragon Fighter</div>
+<div class="dont-have">Dragon Power (Dragon Ball: Shenron no Nazo in Japan)</div>
+<div class="dont-have">DragonStrike</div>
+<div class="have">Dragon Spirit: The New Legend</div>
+<div class="have">Dragon Warrior</div>
+<div class="have">Dragon Warrior II</div>
+<div class="have">Dragon Warrior III </div>
+<div class="dont-have">Dragon Warrior IV </div>
+<div class="dont-have">Dragon's Lair</div>
+<div class="dont-have">Dropzone (Europe only)</div>
+<div class="have">Duck Hunt</div>
+<div class="dont-have">DuckTales</div>
+<div class="dont-have">DuckTales 2</div>
+<div class="dont-have">Dudes with Attitude</div>
+<div class="have">Dungeon Magic</div>
+<div class="dont-have">Dusty Diamond's All-Star Softball</div>
+<div class="dont-have">Dynablaster (Europe only)</div>
+<div class="have">Dynowarz: The Destruction of Spondylus</div>
+<div class="letter">E</div>
+<div class="have">Elevator Action</div>
+<div class="dont-have">Eliminator Boat Duel</div>
+<div class="dont-have">Elite (Europe only)</div>
+<div class="have">Excitebike</div>
+<div class="have">Exodus</div>
+<div class="letter">F</div>
+<div class="dont-have">F-1 Sensation (Japan & Europe only)</div>
+<div class="dont-have">F-117A Stealth Fighter</div>
+<div class="dont-have">F-15 City War</div>
+<div class="have">F-15 Strike Eagle</div>
+<div class="dont-have">Family Feud</div>
+<div class="have">The Fantastic Adventures of Dizzy</div>
+<div class="dont-have">Fantasy Zone</div>
+<div class="dont-have">Faria: A World of Mystery and Danger</div>
+<div class="have">Faxanadu</div>
+<div class="dont-have">Felix the Cat</div>
+<div class="dont-have">Ferrari Grand Prix Challenge</div>
+<div class="have">Fester's Quest</div>
+<div class="dont-have">Field Combat</div>
+<div class="have">Final Fantasy</div>
+<div class="dont-have">Final Fantasy II</div>
+<div class="dont-have">Final Fantasy III</div>
+<div class="dont-have">Fire Emblem Gaiden</div>
+<div class="dont-have">Fire Emblem: Dragon of Darkness and Sword of Light</div>
+<div class="dont-have">Fire 'n Ice (Released as Solomon's Key 2 in Japan)</div>
+<div class="dont-have">Firehouse Rescue</div>
+<div class="dont-have">Fist of the North Star</div>
+<div class="dont-have">Flight of the Intruder</div>
+<div class="have">The Flintstones: Rescue of Dino and Hoppy</div>
+<div class="dont-have">The Flintstones: Surprise at Dino Peak</div>
+<div class="have">Flying Dragon: The Secret Scroll</div>
+<div class="dont-have">Flying Warriors</div>
+<div class="dont-have">Formula One: Built to Win</div>
+<div class="dont-have">Evert and Lendl Top Players' Tennis (Released as Four Players' Tennis in Europe and World Super Tennis in Japan</div>
+<div class="dont-have">Frankenstein: The Monster Returns</div>
+<div class="have">Freedom Force</div>
+<div class="have">Friday the 13th</div>
+<div class="dont-have">Fun House</div>
+<div class="letter">G</div>
+<div class="dont-have">G. I. Joe</div>
+<div class="dont-have">G. I. Joe 2: The Atlantis Factor</div>
+<div class="dont-have">Galactic Crusader</div>
+<div class="have">Galaga</div>
+<div class="dont-have">Galaxy 5000</div>
+<div class="dont-have">Gargoyle's Quest II: The Demon Darkness</div>
+<div class="dont-have">Gauntlet</div>
+<div class="have">Gauntlet II</div>
+<div class="dont-have">Gemfire</div>
+<div class="dont-have">Genghis Khan</div>
+<div class="have">George Foreman's KO Boxing</div>
+<div class="have">Ghostbusters</div>
+<div class="have">Ghostbusters 2</div>
+<div class="dont-have">Ghosts 'n Goblins</div>
+<div class="dont-have">Ghoul School</div>
+<div class="have">Goal!</div>
+<div class="dont-have">Goal! 2</div>
+<div class="dont-have">Godzilla: Monster of Monsters!</div>
+<div class="dont-have">Godzilla 2</div>
+<div class="dont-have">Gold Medal Challenge 92</div>
+<div class="have">Golf</div>
+<div class="dont-have">Golf Grand Slam</div>
+<div class="have">Golgo 13: Top Secret Episode</div>
+<div class="have">Golgo 13 II: The Mafat Conspiracy</div>
+<div class="have">The Goonies II</div>
+<div class="have">Gotcha! The Sport!</div>
+<div class="have">Gradius</div>
+<div class="dont-have">Grand Master</div>
+<div class="dont-have">The Great Waldo Search</div>
+<div class="dont-have">Greg Norman's Golf Power</div>
+<div class="dont-have">Gremlins 2: The New Batch</div>
+<div class="have">The Guardian Legend</div>
+<div class="dont-have">Guerilla War</div>
+<div class="have">Gumshoe</div>
+<div class="dont-have">Gun Nac</div>
+<div class="dont-have">Gunsmoke</div>
+<div class="have">Gyromite</div>
+<div class="have">Gyruss</div>
+<div class="letter">H</div>
+<div class="dont-have">Hammerin' Harry</div>
+<div class="dont-have">Harlem Globetrotters</div>
+<div class="dont-have">Hatris</div>
+<div class="dont-have">Heavy Barrel</div>
+<div class="have">Heavy Shreddin'</div>
+<div class="dont-have">Heroes of the Lance</div>
+<div class="dont-have">High Speed</div>
+<div class="have">Hogan's Alley</div>
+<div class="dont-have">Hollywood Squares</div>
+<div class="dont-have">Home Alone</div>
+<div class="have">Home Alone 2</div>
+<div class="dont-have">Hook</div>
+<div class="dont-have">Hoops</div>
+<div class="dont-have">Hot Slots</div>
+<div class="dont-have">Hudson Hawk</div>
+<div class="have">The Hunt for Red October</div>
+<div class="have">Hydlide</div>
+<div class="letter">I</div>
+<div class="dont-have">I Can Remember</div>
+<div class="dont-have">Ice Climber</div>
+<div class="have">Ice Hockey</div>
+<div class="dont-have">Ikari Warriors</div>
+<div class="have">Ikari Warriors II: Victory Road</div>
+<div class="dont-have">Ikari Warriors III: The Rescue</div>
+<div class="dont-have">Image Fight</div>
+<div class="dont-have">The Immortal</div>
+<div class="dont-have">Impossible Mission 2</div>
+<div class="dont-have">The Incredible Crash Dummies</div>
+<div class="dont-have">Indiana Jones and the Last Crusade</div>
+<div class="dont-have">Indiana Jones and the Temple of Doom</div>
+<div class="dont-have">Indy Heat</div>
+<div class="dont-have">International Cricket</div>
+<div class="have">Infiltrator</div>
+<div class="have">Ironsword: Wizards and Warriors II</div>
+<div class="have">Iron Tank</div>
+<div class="dont-have">Isolated Warrior</div>
+<div class="letter">J</div>
+<div class="have">Jack Nicklaus Major Championship Golf</div>
+<div class="have">Jackal</div>
+<div class="dont-have">Jackie Chan's Action Kung Fu</div>
+<div class="dont-have">James Bond Jr.</div>
+<div class="have">Jaws</div>
+<div class="dont-have">Jeopardy!</div>
+<div class="have">Jeopardy! 25th Anniversary</div>
+<div class="have">Jeopardy! Jr.</div>
+<div class="dont-have">The Jetsons: Cogswell's Caper</div>
+<div class="dont-have">Jimmy Connors Pro Tennis Tour</div>
+<div class="have">Joe and Mac</div>
+<div class="have">John Elway's Quarterback</div>
+<div class="have">Jordan vs Bird: One on One</div>
+<div class="dont-have">Journey to Silius</div>
+<div class="dont-have">Joust</div>
+<div class="dont-have">The Jungle Book</div>
+<div class="dont-have">Jurassic Park</div>
+<div class="dont-have">Jikuu Yuuden Debias</div>
+<div class="letter">K</div>
+<div class="dont-have">Kabuki Quantum Fighter</div>
+<div class="have">Karate Champ</div>
+<div class="dont-have">The Karate Kid</div>
+<div class="have">Karnov</div>
+<div class="dont-have">Kick Master</div>
+<div class="dont-have">Kick Off (Europe only)</div>
+<div class="dont-have">Kickle Cubicle</div>
+<div class="dont-have">Kid Icarus</div>
+<div class="dont-have">Kid Klown in Night Mayor World</div>
+<div class="dont-have">Kid Kool</div>
+<div class="dont-have">Kid Niki</div>
+<div class="dont-have">King Neptune's Adventure</div>
+<div class="have">King of Kings: The Early Years</div>
+<div class="dont-have">King of the Ring</div>
+<div class="have">King's Knight</div>
+<div class="have">Kings of the Beach</div>
+<div class="dont-have">King's Quest V</div>
+<div class="dont-have">Kirby's Adventure</div>
+<div class="dont-have">Kiwi Kraze</div>
+<div class="dont-have">Klash Ball</div>
+<div class="have">Klax, Tengen</div>
+<div class="dont-have">Knight Rider</div>
+<div class="dont-have">Konami Hyper Soccer</div>
+<div class="dont-have">Krazy Kreatures</div>
+<div class="dont-have">The Krion Conquest</div>
+<div class="dont-have">Krusty's Funhouse</div>
+<div class="have">Kung Fu</div>
+<div class="dont-have">Kung Fu Heroes</div>
+<div class="letter">L</div>
+<div class="have">Laser Invasion</div>
+<div class="dont-have">Last Action Hero</div>
+<div class="dont-have">Last Ninja</div>
+<div class="dont-have">The Last Starfighter</div>
+<div class="have">Lee Trevino's Fighting Golf</div>
+<div class="have">Legacy of the Wizard</div>
+<div class="dont-have">Legend of Ghost Lion</div>
+<div class="dont-have">Legend of Kage</div>
+<div class="have">Legendary Wings</div>
+<div class="dont-have">Legends of the Diamond</div>
+<div class="dont-have">The Legend of Prince Valiant (Europe only)</div>
+<div class="have">The Legend of Zelda</div>
+<div class="dont-have">Lemmings</div>
+<div class="dont-have">L'Empereur</div>
+<div class="dont-have">Lethal Weapon</div>
+<div class="dont-have">Les Chevaliers du Zodiaque: La Legende d'Or</div>
+<div class="have">Life Force</div>
+<div class="dont-have">Linus Spacehead</div>
+<div class="dont-have">The Lion King (Europe only)</div>
+<div class="dont-have">Little League Baseball: Championship Series</div>
+<div class="dont-have">The Little Mermaid</div>
+<div class="have">Little Nemo: The Dream Master</div>
+<div class="dont-have">Little Ninja Brothers</div>
+<div class="dont-have">Little Samson</div>
+<div class="dont-have">Lode Runner</div>
+<div class="dont-have">The Lone Ranger</div>
+<div class="dont-have">Loopz</div>
+<div class="dont-have">Low G Man</div>
+<div class="have">Lunar Pool</div>
+<div class="letter">M</div>
+<div class="dont-have">M.C. Kids (Released as McDonaldland in Europe)</div>
+<div class="dont-have">M.U.L.E.</div>
+<div class="dont-have">M.U.S.C.L.E.</div>
+<div class="dont-have">Mach Rider</div>
+<div class="dont-have">Mad Max</div>
+<div class="have">Magic Darts</div>
+<div class="have">Magic Johnson's Fast Break</div>
+<div class="have">Magic of Scheherazade</div>
+<div class="dont-have">Magician</div>
+<div class="have">Magmax</div>
+<div class="have">Major League Baseball</div>
+<div class="dont-have">Maniac Mansion</div>
+<div class="dont-have">Mappyland</div>
+<div class="have">Marble Madness</div>
+<div class="dont-have">Mario and Yoshi</div>
+<div class="have">Mario Bros.</div>
+<div class="have">Mario Is Missing!</div>
+<div class="dont-have">Mario's Time Machine</div>
+<div class="dont-have">Master Chu And The Drunkard Hu</div>
+<div class="dont-have">Mechanized Attack</div>
+<div class="dont-have">Mega Man</div>
+<div class="dont-have">Mega Man 2</div>
+<div class="have">Mega Man 3</div>
+<div class="dont-have">Mega Man 4</div>
+<div class="dont-have">Mega Man 5</div>
+<div class="have">Mega Man 6</div>
+<div class="dont-have">Menace Beach</div>
+<div class="dont-have">Mendel Palace</div>
+<div class="dont-have">Mermaids of Atlantis</div>
+<div class="dont-have">Metal Fighter</div>
+<div class="dont-have">Metal Gear</div>
+<div class="dont-have">Metal Gear 2: Solid Snake</div>
+<div class="dont-have">Metal Mech</div>
+<div class="dont-have">Metal Storm</div>
+<div class="have">Metroid</div>
+<div class="have">Michael Andrettis World Grand Prix</div>
+<div class="have">Mickey Mousecapade</div>
+<div class="dont-have">Mickey's Safari in Letterland</div>
+<div class="dont-have">Mickey's Adventures in Numberland</div>
+<div class="dont-have">Micro Machines</div>
+<div class="dont-have">Mig 29 Soviet Fighter</div>
+<div class="dont-have">Might and Magic: The Secret of the Inner Sanctum</div>
+<div class="have">Mighty Bomb Jack</div>
+<div class="dont-have">Mighty Final Fight</div>
+<div class="have">Mike Tyson's Punch-Out!!</div>
+<div class="dont-have">Millipede</div>
+<div class="dont-have">Milon's Secret Castle</div>
+<div class="dont-have">Miracle Piano</div>
+<div class="dont-have">Mission Cobra</div>
+<div class="have">Mission Impossible (nes)</div>
+<div class="dont-have">Monopoly (nes)</div>
+<div class="dont-have">Monster in My Pocket</div>
+<div class="dont-have">Monster Party</div>
+<div class="dont-have">Monster Truck Rally</div>
+<div class="dont-have">Moon Ranger</div>
+<div class="dont-have">Motor City Patrol</div>
+<div class="dont-have">Ms. Pac Man</div>
+<div class="dont-have">MTV's Remote Control</div>
+<div class="dont-have">Muppet Adventure: Chaos at the Carnival</div>
+<div class="dont-have">The Mutant Virus</div>
+<div class="dont-have">Mystery Quest</div>
+<div class="letter">N</div>
+<div class="have">NARC</div>
+<div class="have">NES Open Tournament Golf</div>
+<div class="have">NES Play Action Football</div>
+<div class="have">NFL Football</div>
+<div class="dont-have">Nigel Mansell's World Championship Racing</div>
+<div class="dont-have">Nightmare on Elm Street</div>
+<div class="dont-have">Nightshade</div>
+<div class="dont-have">Ninja Crusader</div>
+<div class="dont-have">Ninja Gaiden(Shadow Warriors in Europe)</div>
+<div class="dont-have">Ninja Gaiden 2(Shadow Warriors 2 in Europe)</div>
+<div class="dont-have">Ninja Gaiden 3</div>
+<div class="dont-have">Ninja Kid</div>
+<div class="dont-have">Nintendo World Championship</div>
+<div class="have">Nintendo World Cup</div>
+<div class="dont-have">Noah's Ark (Europe only)</div>
+<div class="dont-have">Nobunaga's Ambition</div>
+<div class="dont-have">Nobunaga's Ambition 2</div>
+<div class="dont-have">North and South</div>
+<div class="letter">O</div>
+<div class="dont-have">Operation Secret Storm</div>
+<div class="have">Operation Wolf</div>
+<div class="have">Orb-3D</div>
+<div class="have">Othello</div>
+<div class="dont-have">Over Horizon (Japan & Europe only)</div>
+<div class="dont-have">Overlord</div>
+<div class="letter">P</div>
+<div class="dont-have">P.O.W.: Prisoners of War</div>
+<div class="dont-have">Pac-Man</div>
+<div class="have">Pac-Man, Tengen</div>
+<div class="dont-have">Pac-Mania</div>
+<div class="dont-have">Palamedes</div>
+<div class="dont-have">Panic Restaurant</div>
+<div class="dont-have">Paperboy</div>
+<div class="dont-have">Paperboy 2</div>
+<div class="dont-have">Parodius (Japan & Europe only)</div>
+<div class="dont-have">Peek-A-Boo Poker</div>
+<div class="dont-have">Perfect Fit</div>
+<div class="dont-have">Pesterminator</div>
+<div class="dont-have">Peter Pan and the Pirates</div>
+<div class="dont-have">Phantom Fighter</div>
+<div class="dont-have">Pictionary</div>
+<div class="have">Pinball</div>
+<div class="dont-have">Pinball Quest</div>
+<div class="have">Pinbot</div>
+<div class="dont-have">Pipe Dream</div>
+<div class="dont-have">Pirates!</div>
+<div class="have">Platoon</div>
+<div class="dont-have">Popeye</div>
+<div class="dont-have">Populus</div>
+<div class="dont-have">Power Blade</div>
+<div class="dont-have">Power Blade 2</div>
+<div class="dont-have">Power Punch II</div>
+<div class="dont-have">Predator</div>
+<div class="dont-have">Prince of Persia</div>
+<div class="dont-have">Princess Tomato in the Salad Kingdom</div>
+<div class="dont-have">Pro Sport Hockey</div>
+<div class="have">Pro Wrestling</div>
+<div class="have">Punch-Out!!</div>
+<div class="dont-have">The Punisher</div>
+<div class="dont-have">Puss 'n Boots: Pero's Great Adventure</div>
+<div class="dont-have">Puzzle</div>
+<div class="dont-have">Puzznic</div>
+<div class="dont-have">Pyramid</div>
+<div class="dont-have">Pyramids of Ra</div>
+<div class="letter">Q</div>
+<div class="have">Q*Bert</div>
+<div class="dont-have">Qix</div>
+<div class="dont-have">Quantum Fighter</div>
+<div class="dont-have">Quattro Adventure</div>
+<div class="dont-have">Quattro Arcade</div>
+<div class="dont-have">Quattro Sports</div>
+<div class="letter">R</div>
+<div class="have">RBI Baseball</div>
+<div class="dont-have">RBI Baseball II</div>
+<div class="dont-have">RBI Baseball III</div>
+<div class="have">R.C. Pro-Am</div>
+<div class="dont-have">R.C. Pro-Am II</div>
+<div class="dont-have">Race America</div>
+<div class="have">Racket Attack</div>
+<div class="dont-have">Rackets and Rivals (Europe only)</div>
+<div class="dont-have">Rad Gravity</div>
+<div class="dont-have">Rad Racket: Deluxe Tennis II</div>
+<div class="have">Rad Racer</div>
+<div class="dont-have">Raid 2020</div>
+<div class="dont-have">Raid on Bungeling Bay</div>
+<div class="dont-have">Rainbow Islands</div>
+<div class="dont-have">Rally Bike</div>
+<div class="have">Rambo</div>
+<div class="have">Rampage</div>
+<div class="dont-have">Rampart</div>
+<div class="dont-have">Renegade (Nekketsu Kouko Kunio Kun in Japan)</div>
+<div class="dont-have">The Ren and Stimpy Show: Buckaroos</div>
+<div class="dont-have">Rescue Rangers</div>
+<div class="dont-have">Rescue Rangers 2</div>
+<div class="have">Rescue: The Embassy Mission</div>
+<div class="dont-have">Ring King</div>
+<div class="dont-have">River City Ransom</div>
+<div class="dont-have">Road Fighter (Japan & Europe only)</div>
+<div class="dont-have">Road Runner</div>
+<div class="have">Roadblasters</div>
+<div class="dont-have">Robin Hood:Prince of Thieves</div>
+<div class="dont-have">Robo Demons</div>
+<div class="dont-have">Robo Warrior</div>
+<div class="have">Robocop</div>
+<div class="dont-have">Robocop 2</div>
+<div class="dont-have">Robocop 3</div>
+<div class="dont-have">Rock N Ball</div>
+<div class="dont-have">Rocket Ranger</div>
+<div class="have">The Rocketeer</div>
+<div class="dont-have">Rockin Kats</div>
+<div class="dont-have">Rodland (Europe only)</div>
+<div class="have">Roger Clemens MVP Baseball</div>
+<div class="dont-have">Rollerball</div>
+<div class="dont-have">Rollerblade Racer</div>
+<div class="have">Rollergames</div>
+<div class="dont-have">Rolling Thunder</div>
+<div class="dont-have">Romance of the Three Kingdoms</div>
+<div class="dont-have">Romance of the Three Kingdoms II</div>
+<div class="dont-have">Roundball: 2 on 2 Challenge</div>
+<div class="have">Rush'n Attack</div>
+<div class="have">Rygar</div>
+<div class="letter">S</div>
+<div class="dont-have">Samurai Sword</div>
+<div class="dont-have">S.C.A.T.: Special Cybernetic Attack Team</div>
+<div class="dont-have">Scarabeus</div>
+<div class="dont-have">Secret Scout</div>
+<div class="have">Section Z</div>
+<div class="have">Seicross</div>
+<div class="dont-have">Sesame Street: 1-2-3</div>
+<div class="dont-have">Sesame Street: A-B-C</div>
+<div class="dont-have">Sesame Street: Countdown</div>
+<div class="dont-have">Shadow of the Ninja</div>
+<div class="have">Shadowgate</div>
+<div class="have">Shatterhand</div>
+<div class="dont-have">Shingen the Ruler</div>
+<div class="have">Shooting Range</div>
+<div class="dont-have">Short Order/Eggsplode</div>
+<div class="dont-have">Side Pocket</div>
+<div class="dont-have">Silent Assault</div>
+<div class="have">Silent Service</div>
+<div class="dont-have">Silk Worm</div>
+<div class="dont-have">The Silver Surfer</div>
+<div class="have">The Simpsons: Bart VS. The Space Mutants</div>
+<div class="have">The Simpsons: Bart VS. The World</div>
+<div class="dont-have">The Simpsons: Bartman Meets Radioactive Man</div>
+<div class="have">Skate or Die!</div>
+<div class="dont-have">Skate or Die 2</div>
+<div class="dont-have">Ski or Die</div>
+<div class="dont-have">Skull and Crossbones</div>
+<div class="dont-have">Sky Kid</div>
+<div class="have">Sky Shark</div>
+<div class="dont-have">Slalom</div>
+<div class="dont-have">Smash TV</div>
+<div class="dont-have">The Smurfs (Europe only)</div>
+<div class="dont-have">Snake Rattle and Roll</div>
+<div class="dont-have">Snakes Revenge: Metal Gear II</div>
+<div class="dont-have">Snoopy's Silly Sports Spectacular</div>
+<div class="dont-have">Snow Brothers</div>
+<div class="have">Soccer</div>
+<div class="have">Solar Jetman: Hunt for the Golden Warpship</div>
+<div class="dont-have">Solitaire</div>
+<div class="have">Solomon's Key</div>
+<div class="dont-have">Solstice</div>
+<div class="dont-have">Space Shuttle Project</div>
+<div class="dont-have">Spacehunter</div>
+<div class="dont-have">Spelunker</div>
+<div class="dont-have">Spider-Man: Return of the Sinister Six</div>
+<div class="have">Spot</div>
+<div class="have">Spy Hunter</div>
+<div class="dont-have">Spy vs. Spy</div>
+<div class="dont-have">Sqoon</div>
+<div class="dont-have">Stack Up</div>
+<div class="dont-have">Stadium Events</div>
+<div class="dont-have">Stanley and the Search for Dr. Livingston</div>
+<div class="have">Star Force</div>
+<div class="have">Star Soldier</div>
+<div class="dont-have">Star Trek 25th Anniversary</div>
+<div class="dont-have">Star Trek: The Next Generation</div>
+<div class="have">StarTropics</div>
+<div class="have">StarTropics II: Zoda's Revenge</div>
+<div class="have">Star Voyager</div>
+<div class="dont-have">Star Wars</div>
+<div class="have">Stealth ATF</div>
+<div class="dont-have">Stinger</div>
+<div class="dont-have">Street Cop</div>
+<div class="dont-have">Street Fighter 2010</div>
+<div class="have">Strider</div>
+<div class="dont-have">Sunday Funday</div>
+<div class="dont-have">Super C</div>
+<div class="dont-have">Super Cars</div>
+<div class="dont-have">Super Dodge Ball</div>
+<div class="have">Super Glove Ball</div>
+<div class="dont-have">Super Jeopardy!</div>
+<div class="have">Super Mario Bros.</div>
+<div class="have">Super Mario Bros. 2</div>
+<div class="have">Super Mario Bros. 3</div>
+<div class="dont-have">Super Off Road</div>
+<div class="dont-have">Super Pitfall</div>
+<div class="dont-have">Super Spike V'Ball</div>
+<div class="dont-have">Super Sprint</div>
+<div class="dont-have">Super Spy Hunter</div>
+<div class="have">Super Team Games</div>
+<div class="dont-have">Super Turrican (Europe only)</div>
+<div class="dont-have">Superman</div>
+<div class="dont-have">Swamp Thing</div>
+<div class="dont-have">Sword Master</div>
+<div class="dont-have">Swords & Serpents</div>
+<div class="letter">T</div>
+<div class="dont-have">Taboo: The Sixth Sense</div>
+<div class="dont-have">Tagin Dragon (Unlicensed)</div>
+<div class="dont-have">Tag Team Wrestling</div>
+<div class="dont-have">Tale Spin</div>
+<div class="dont-have">T & C Surf Designs</div>
+<div class="dont-have">T & C Surf Designs: Thrilla's Surfari</div>
+<div class="have">Target: Renegade</div>
+<div class="have">Tecmo Baseball</div>
+<div class="have">Tecmo Bowl</div>
+<div class="dont-have">Tecmo Cup Soccer Game</div>
+<div class="dont-have">Tecmo NBA Basketball</div>
+<div class="have">Tecmo Super Bowl</div>
+<div class="have">Tecmo World Wrestling</div>
+<div class="have">Teenage Mutant Ninja Turtles</div>
+<div class="have">Teenage Mutant Ninja Turtles II: The Arcade Game</div>
+<div class="have">Teenage Mutant Ninja Turtles III: The Manhattan Project</div>
+<div class="dont-have">Teenage Mutant Ninja Turtles: Tournament Fighters</div>
+<div class="dont-have">Tennis</div>
+<div class="dont-have">The Terminator</div>
+<div class="have">Terminator 2: Judgment Day</div>
+<div class="dont-have">Terra Cresta</div>
+<div class="have">Tetris (Nintendo)</div>
+<div class="dont-have">Tetris (Tengen) (Unlicensed)</div>
+<div class="have">Tetris 2</div>
+<div class="dont-have">The Three Stooges</div>
+<div class="dont-have">Thunder & Lightning</div>
+<div class="have">Thunderbirds</div>
+<div class="dont-have">Thundercade</div>
+<div class="have">Tiger-Heli</div>
+<div class="dont-have">Tiles of Fate (Unlicensed)</div>
+<div class="have">Time Lord</div>
+<div class="dont-have">Times of Lore</div>
+<div class="have">Tiny Toon Adventures</div>
+<div class="dont-have">Tiny Toon Adventures 2: Trouble in Wackyland</div>
+<div class="dont-have">Tiny Toon Adventures: Cartoon Workshop</div>
+<div class="dont-have">Toki</div>
+<div class="dont-have">Tom and Jerry</div>
+<div class="dont-have">Tombs & Treasure</div>
+<div class="have">Toobin (Unlicensed)</div>
+<div class="have">Top Gun</div>
+<div class="have">Top Gun: The Second Mission</div>
+<div class="have">Top Players' Tennis: Chris Evert and Ivan Lendl</div>
+<div class="dont-have">Totally Rad</div>
+<div class="dont-have">Total Recall</div>
+<div class="have">To the Earth</div>
+<div class="dont-have">Touchdown Fever</div>
+<div class="dont-have">Toxic Crusaders</div>
+<div class="dont-have">Track & Field</div>
+<div class="have">Track & Field II</div>
+<div class="dont-have">Treasure Master</div>
+<div class="dont-have">Trog</div>
+<div class="have">Trojan</div>
+<div class="dont-have">Trolls in Crazy Land (Europe Only)</div>
+<div class="dont-have">Trolls on Treasure Island (Unlicensed)</div>
+<div class="dont-have">Twin Cobra</div>
+<div class="dont-have">Twin Eagle</div>
+<div class="letter">U</div>
+<div class="dont-have">Ufouria: The Saga (Europe Only)</div>
+<div class="dont-have">Ultima: Exodus</div>
+<div class="have">Ultima: Quest of the Avatar</div>
+<div class="dont-have">Ultima: Warriors of Destiny</div>
+<div class="dont-have">Ultimate Air Combat</div>
+<div class="have">Ultimate Basketball</div>
+<div class="dont-have">Ultimate League Soccer (Unlicensed)</div>
+<div class="dont-have">The Ultimate Stuntman (Unlicensed)</div>
+<div class="have">The Uncanny X-Men</div>
+<div class="dont-have">Uncharted Waters</div>
+<div class="dont-have">Uninvited</div>
+<div class="dont-have">The Untouchables</div>
+<div class="have">Urban Champion</div>
+<div class="letter">V</div>
+<div class="have">Vegas Dream</div>
+<div class="dont-have">Venice Beach Volleyball (Unlicensed)</div>
+<div class="dont-have">Vice: Project Doom</div>
+<div class="dont-have">Videomation</div>
+<div class="dont-have">Vindicators (Unlicensed)</div>
+<div class="dont-have">Volleyball</div>
+<div class="letter">W</div>
+<div class="dont-have">Wacky Races</div>
+<div class="dont-have">Wally Bear and the NO! Gang (Unlicensed)</div>
+<div class="dont-have">Wall Street Kid</div>
+<div class="dont-have">Wario's Woods</div>
+<div class="dont-have">Wayne Gretzky Hockey</div>
+<div class="dont-have">Wayne's World</div>
+<div class="dont-have">Werewolf: The Last Warrior</div>
+<div class="have">Wheel of Fortune</div>
+<div class="have">Wheel of Fortune: Family Edition</div>
+<div class="dont-have">Wheel of Fortune: Featuring Vanna White</div>
+<div class="have">Wheel of Fortune: Junior Edition</div>
+<div class="dont-have">Where in Time is Carmen Sandiego?</div>
+<div class="dont-have">Where's Waldo?</div>
+<div class="dont-have">Who Framed Roger Rabbit?</div>
+<div class="dont-have">Whomp 'Em</div>
+<div class="dont-have">Widget</div>
+<div class="dont-have">Wild Gunman</div>
+<div class="dont-have">Willow</div>
+<div class="have">Win, Lose, or Draw</div>
+<div class="have">Winter Games</div>
+<div class="dont-have">Wizardry: Proving Grounds of the Mad Overlord</div>
+<div class="dont-have">Wizardry: The Knight of Diamonds</div>
+<div class="dont-have">Wizards & Warriors</div>
+<div class="dont-have">Wizards & Warriors III</div>
+<div class="dont-have">Wolverine</div>
+<div class="dont-have">World Champ</div>
+<div class="dont-have">World Championship Wrestling</div>
+<div class="dont-have">World Class Track Meet</div>
+<div class="dont-have">World Games</div>
+<div class="have">Wrath of the Black Manta</div>
+<div class="dont-have">Wrecking Crew</div>
+<div class="dont-have">Wurm: Journey to the Center of the Earth</div>
+<div class="dont-have">WWF King of the Ring</div>
+<div class="have">WWF WrestleMania</div>
+<div class="dont-have">WWF WrestleMania Challenge</div>
+<div class="have">WWF WrestleMania: Steel Cage Challenge</div>
+<div class="letter">X</div>
+<div class="have">Xenophobe</div>
+<div class="have">Xevious</div>
+<div class="dont-have">Xexyz</div>
+<div class="letter">Y</div>
+<div class="have">Yo! Noid</div>
+<div class="have">Yoshi</div>
+<div class="dont-have">Yoshi's Cookie</div>
+<div class="dont-have">The Young Indiana Jones Chronicles</div>
+<div class="letter">Z</div>
+<div class="have">Zanac</div>
+<div class="have">Zelda II: The Adventure of Link</div>
+<div class="dont-have">Zen: Intergalactic Ninja</div>
+<div class="dont-have">Zombie Nation</div>
+</div>

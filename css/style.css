@@ -365,3 +365,40 @@ div.info {
   font-size: 14px;
   font-style: italic;
 }
+
+.game-list {
+
+}
+
+.dont-have-key {
+  background-color: #FFE0E0;
+  border: 1px;
+  margin-left: 10px;
+}
+
+.have-key {
+  background-color: #ADDEBE;
+  border: 1px;
+  margin-left: 10px;
+}
+
+.game-list .dont-have {
+  background-color: #FFE0E0;
+  display: block;
+}
+
+.game-list .have {
+  background-color: #ADDEBE;
+  display: block;
+}
+
+.game-list .letter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-list .dont-have {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}

@@ -1,5 +1,5 @@
 ---
-title: N64 Games
+title: Nintendo 64 Games
 ---
 
 Nintendo 64 Games
@@ -10,6 +10,7 @@ Nintendo 64 Games
 <li>Banjo Tooie</li>
 <li>Bio Freaks</li>
 <li>Bomberman 64</li>
+<li>Diddy Kong Racing</li>
 <li>Donkey Kong 64</li>
 <li>F-1 World Grand Prix</li>
 <li>Goldeneye 007</li>
@@ -18,6 +19,7 @@ Nintendo 64 Games
 <li>Mario Golf</li>
 <li>Mario Party</li>
 <li>Perfect Dark</li>
+<li>Pokemon Stadium</li>
 <li>Star Fox 64</li>
 <li>Star Wars Racer</li>
 <li>Super Smash Bros</li>

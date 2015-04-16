@@ -6,10 +6,14 @@ Sega Game Gear Games
 =============
 
 <ol>
+<li>Dragon: The Bruce Lee Story</li>
+<li>Columns</li>
 <li>Clutch Hitter</li>
 <li>Evander Holyfield's Boxing</li>
 <li>Garfield Caught in the Act</li>
+<li>G-LOC Air Battle</li>
 <li>Judge Dredd</li>
+<li>Mighty Morphin Power Rangers</li>
 <li>Mortal Kombat II</li>
 <li>NBA Jam</li>
 <li>NBA Jam T.E.</li>
@@ -17,4 +21,8 @@ Sega Game Gear Games
 <li>Sonic the Hedgehog</li>
 <li>Sonic the Hedgehog 2</li>
 <li>Sonic the Hedgehog Chaos</li>
+<li>Sonic the Hedgehog Triple Trouble</li>
+<li>Super Columns</li>
+<li>Tazmania</li>
+<li>X-Men</li>
 </ol>

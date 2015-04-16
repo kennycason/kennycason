@@ -65,17 +65,15 @@ main = hakyllWith config $ do
                     ,"games.markdown"
                    -- ,"travel.markdown"
                     ,"euler.markdown"
-                    ,"tags.markdown"
-                    ,"collection.markdown"]) $ do
+                    --,"tags.markdown"
+                    ]) $ do
         route   $ setExtension "html"
---        route $ niceRoute
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags) 
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
             >>= (unExternalizeUrls $ feedRoot feedConfiguration) 
             >>= relativizeUrls
---            >>= cleanIndexUrls
 
 
     match "posts/*" $ do
@@ -92,29 +90,21 @@ main = hakyllWith config $ do
 
     match "games/*" $ do
         route $ setExtension "html"
---        route $ niceRoute
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags) 
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
             >>= (unExternalizeUrls $ feedRoot feedConfiguration) 
             >>= relativizeUrls
---            >>= cleanIndexUrls
 
-
-    create ["archive.html"] $ do
-        route idRoute
-        compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
-            let archiveCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
-                    defaultContext
-            makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                >>= relativizeUrls
-
+    match "books/*" $ do
+        route $ setExtension "html"
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags) 
+            >>= (externalizeUrls $ feedRoot feedConfiguration)
+            >>= saveSnapshot "content"
+            >>= (unExternalizeUrls $ feedRoot feedConfiguration) 
+            >>= relativizeUrls
 
     match "index.html" $ do
         route idRoute
@@ -132,22 +122,6 @@ main = hakyllWith config $ do
                 >>= relativizeUrls
 
 
-    -- Post tags
-    tagsRules tags $ \tag pattern -> do
-        let title = "Posts tagged '" ++ tag ++ "'"
-        route idRoute
-        compile $ do
-            list <- postList tags pattern recentFirst
-            makeItem ""
-                >>= loadAndApplyTemplate "templates/posts.html"
-                        (constField "title" title `mappend`
-                            constField "body" list `mappend`
-                            defaultContext)
-                >>= loadAndApplyTemplate "templates/default.html"
-                        (constField "title" title `mappend`
-                            defaultContext)
-                >>= relativizeUrls
-
     -- Render RSS feed
     create ["rss.xml"] $ do
         route idRoute
@@ -159,11 +133,6 @@ main = hakyllWith config $ do
     match "templates/*" $ compile templateCompiler
 
 
-
-
--- Utils
-
-
 -- Routes
 
 -- replace a foo/bar.md by foo/bar/index.html
@@ -173,15 +142,6 @@ niceRoute = customRoute createIndexRoute
   where
     createIndexRoute ident = takeDirectory p </> takeBaseName p </> "index.html" where p=toFilePath ident
 
--- replace url of the form foo/bar/index.html by foo/bar
-{-removeIndexHtml :: Item String -> Compiler (Item String)
-removeIndexHtml item = return $ fmap (withUrls removeIndexStr) item
-  where
-    removeIndexStr :: String -> String
-    removeIndexStr url = case splitFileName url of
-        (dir, "index.html") | islocal dir -> dir
-        _                                 -> dir
-        where islocal uri = not (isInfixOf "://" uri)-}
 
 cleanIndexUrls :: Item String -> Compiler (Item String)
 cleanIndexUrls = return . fmap (withUrls clean)
