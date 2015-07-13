@@ -33,7 +33,7 @@ Animorphs
 <td><image src="/images/animorphs/sbk11.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk12.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk13.jpg" class="dont-have"/></td>
-<td><image src="/images/animorphs/sbk14.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sbk14.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk15.jpg" class="have"/></td>
 </tr>
 <tr>
@@ -47,12 +47,12 @@ Animorphs
 <td><image src="/images/animorphs/sbk21.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk22.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk23.jpg" class="have"/></td>
-<td><image src="/images/animorphs/sbk24.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sbk24.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk25.jpg" class="dont-have"/></td>
 </tr>
 <tr>
 <td><image src="/images/animorphs/sbk26.jpg" class="dont-have"/></td>
-<td><image src="/images/animorphs/sbk27.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sbk27.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk28.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk29.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk30.jpg" class="dont-have"/></td>
@@ -61,7 +61,7 @@ Animorphs
 <td><image src="/images/animorphs/sbk31.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk32.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk33.jpg" class="dont-have"/></td>
-<td><image src="/images/animorphs/sbk34.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sbk34.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk35.jpg" class="have"/></td>
 </tr>
 <tr>
@@ -87,29 +87,30 @@ Animorphs
 </tr>
 <tr>
 <td><image src="/images/animorphs/sbk51.jpg" class="dont-have"/></td>
-<td><image src="/images/animorphs/sbk52.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sbk52.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk53.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sbk54.jpg" class="dont-have"/></td>
 </tr>
 
 <tr>
 <td><image src="/images/animorphs/sm1.jpg" class="dont-have"/></td>
-<td><image src="/images/animorphs/sm2.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sm2.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sm3.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/sm4.jpg" class="dont-have"/></td>
 </tr>
 
 <tr>
 <td><image src="/images/animorphs/sand.jpg" class="have"/></td>
-<td><image src="/images/animorphs/sel.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sel.jpg" class="have"/></td>
 <td><image src="/images/animorphs/svisser.jpg" class="dont-have"/></td>
 <td><image src="/images/animorphs/shork.jpg" class="have"/></td>
 </tr>
 
 <tr>
 <td><image src="/images/animorphs/salt1.jpg" class="dont-have"/></td>
-<td><image src="/images/animorphs/salt2.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/salt2.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sm3.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/svege.jpg" class="have"/></td>
 </tr>
 </table>
 
