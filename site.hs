@@ -1,5 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE FlexibleContexts #-}
+
 import Hakyll
 import Control.Applicative ((<$>),(<|>))
 import Control.Arrow ((>>>),(>>^))
@@ -65,7 +67,7 @@ main = hakyllWith config $ do
                     ,"games.markdown"
                    -- ,"travel.markdown"
                     ,"euler.markdown"
-                    --,"tags.markdown"
+                    ,"tags.markdown"
                     ]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
