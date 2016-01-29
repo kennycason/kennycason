@@ -10,6 +10,22 @@ As with any low level code, eventually you get tired of working with it and wrap
 2. A button mapper to easily allow for custom mappings.
 3. Record time when buttons are pressed to allow for easier support for capturing button combinations.
 
+### Get Library
+
+GDX-Controller is now hosted in Maven Central here:
+```xml
+<dependency>
+    <groupId>com.kennycason</groupId>
+    <artifactId>gdx-controller</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+
+The GitHub repository will be maintained <a href="https://github.com/kennycason/gdx-controller">here</a>.
+
+
+### Implementation
+
 We'll start with our basic definition of buttons. This could be expanded depending on needs. Given my love of classic SNES style games, this is sufficient.
 
 A general interface for button enum classes
