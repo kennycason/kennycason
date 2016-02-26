@@ -8,6 +8,7 @@ Wii Games
 <ol>
 <li>Big Brain Academy: Wii Degree</li>
 <li>Donkey Kong Country: Returns</li>
+<li>Harvest Moon: Magical Melody</li>
 <li>Hot Wheels Beat That!</li>
 <li>Legend of Zelda: Skyward Sword</li>
 <li>Legend of Zelda: Twilight Princess, The</li>

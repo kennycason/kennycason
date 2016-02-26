@@ -6,6 +6,7 @@ Nintendo DS Games
 =============
 
 <ol>
+<li>Brain Age</li>
 <li>Final Fantasy VI</li>
 <li>マリオカートDS</li>
 <li>Metroid Prime Hunters</li>

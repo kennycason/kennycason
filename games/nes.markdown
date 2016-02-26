@@ -253,7 +253,7 @@ NES Games
 <div class="have">Duck Hunt</div>
 <div class="dont-have">DuckTales</div>
 <div class="dont-have">DuckTales 2</div>
-<div class="dont-have">Dudes with Attitude</div>
+<div class="have">Dudes with Attitude</div>
 <div class="have">Dungeon Magic</div>
 <div class="dont-have">Dusty Diamond's All-Star Softball</div>
 <div class="dont-have">Dynablaster (Europe only)</div>
@@ -410,7 +410,7 @@ NES Games
 <div class="have">King's Knight</div>
 <div class="have">Kings of the Beach</div>
 <div class="dont-have">King's Quest V</div>
-<div class="dont-have">Kirby's Adventure</div>
+<div class="have">Kirby's Adventure</div>
 <div class="dont-have">Kiwi Kraze</div>
 <div class="dont-have">Klash Ball</div>
 <div class="have">Klax, Tengen</div>
@@ -484,7 +484,7 @@ NES Games
 <div class="dont-have">Metal Fighter</div>
 <div class="dont-have">Metal Gear</div>
 <div class="dont-have">Metal Gear 2: Solid Snake</div>
-<div class="dont-have">Metal Mech</div>
+<div class="have">Metal Mech</div>
 <div class="dont-have">Metal Storm</div>
 <div class="have">Metroid</div>
 <div class="have">Michael Andrettis World Grand Prix</div>
@@ -504,7 +504,7 @@ NES Games
 <div class="have">Mission Impossible (nes)</div>
 <div class="dont-have">Monopoly (nes)</div>
 <div class="dont-have">Monster in My Pocket</div>
-<div class="dont-have">Monster Party</div>
+<div class="have">Monster Party</div>
 <div class="dont-have">Monster Truck Rally</div>
 <div class="dont-have">Moon Ranger</div>
 <div class="dont-have">Motor City Patrol</div>
@@ -524,7 +524,7 @@ NES Games
 <div class="dont-have">Ninja Crusader</div>
 <div class="dont-have">Ninja Gaiden(Shadow Warriors in Europe)</div>
 <div class="dont-have">Ninja Gaiden 2(Shadow Warriors 2 in Europe)</div>
-<div class="dont-have">Ninja Gaiden 3</div>
+<div class="have">Ninja Gaiden 3</div>
 <div class="dont-have">Ninja Kid</div>
 <div class="dont-have">Nintendo World Championship</div>
 <div class="have">Nintendo World Cup</div>
@@ -649,6 +649,7 @@ NES Games
 <div class="have">Shadowgate</div>
 <div class="have">Shatterhand</div>
 <div class="dont-have">Shingen the Ruler</div>
+<div class="have">Shinobi (Tengen)</div>
 <div class="have">Shooting Range</div>
 <div class="dont-have">Short Order/Eggsplode</div>
 <div class="dont-have">Side Pocket</div>
@@ -713,7 +714,7 @@ NES Games
 <div class="dont-have">Super Off Road</div>
 <div class="dont-have">Super Pitfall</div>
 <div class="dont-have">Super Spike V'Ball</div>
-<div class="dont-have">Super Sprint</div>
+<div class="have">Super Sprint</div>
 <div class="dont-have">Super Spy Hunter</div>
 <div class="have">Super Team Games</div>
 <div class="dont-have">Super Turrican (Europe only)</div>
@@ -722,11 +723,11 @@ NES Games
 <div class="dont-have">Sword Master</div>
 <div class="dont-have">Swords & Serpents</div>
 <div class="letter">T</div>
-<div class="dont-have">Taboo: The Sixth Sense</div>
+<div class="have">Taboo: The Sixth Sense</div>
 <div class="dont-have">Tagin Dragon (Unlicensed)</div>
 <div class="dont-have">Tag Team Wrestling</div>
 <div class="dont-have">Tale Spin</div>
-<div class="dont-have">T & C Surf Designs</div>
+<div class="have">T & C Surf Designs</div>
 <div class="dont-have">T & C Surf Designs: Thrilla's Surfari</div>
 <div class="have">Target: Renegade</div>
 <div class="have">Tecmo Baseball</div>
@@ -797,7 +798,7 @@ NES Games
 <div class="dont-have">Venice Beach Volleyball (Unlicensed)</div>
 <div class="dont-have">Vice: Project Doom</div>
 <div class="dont-have">Videomation</div>
-<div class="dont-have">Vindicators (Unlicensed)</div>
+<div class="have">Vindicators (Unlicensed)</div>
 <div class="dont-have">Volleyball</div>
 <div class="letter">W</div>
 <div class="dont-have">Wacky Races</div>
@@ -830,7 +831,7 @@ NES Games
 <div class="dont-have">World Class Track Meet</div>
 <div class="dont-have">World Games</div>
 <div class="have">Wrath of the Black Manta</div>
-<div class="dont-have">Wrecking Crew</div>
+<div class="have">Wrecking Crew</div>
 <div class="dont-have">Wurm: Journey to the Center of the Earth</div>
 <div class="dont-have">WWF King of the Ring</div>
 <div class="have">WWF WrestleMania</div>

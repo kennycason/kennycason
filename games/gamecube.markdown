@@ -17,4 +17,5 @@ Game Cube Games
 <li>Super Smash Bros. Melee</li>
 <li>Tiger Woods PGA Tour 2004</li>
 <li>Tony Hawk's Pro Skater 3</li>
+<li>Viewtiful Joe</li>
 </ol>

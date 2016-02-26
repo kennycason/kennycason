@@ -19,9 +19,12 @@ SNES Games
 <li>Mega Man X</li>
 <li>Mortal Kombat 3</li>
 <li>NBA Jam</li>
+<li>NFL Quarterback Club 96</li>
 <li>Phalanx</li>
 <li>Populous</li>
 <li>Simcity</li>
+<li>Simcity 2000</li>
+<li>Star Fox</li>
 <li>Sunday Night NFL</li>
 <li>Super Battletank: War in the Gulf, Garry Kitchen's</li>
 <li>Super Mario All-Stars</li>

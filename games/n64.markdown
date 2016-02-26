@@ -15,6 +15,7 @@ Nintendo 64 Games
 <li>F-1 World Grand Prix</li>
 <li>Goldeneye 007</li>
 <li>Conker's Bad Fur Day</li>
+<li>Killer Instinct Gold</li>
 <li>Legend of Zelda Ocarina of Time</li>
 <li>Mario Golf</li>
 <li>Mario Party</li>
@@ -22,9 +23,12 @@ Nintendo 64 Games
 <li>Pokemon Stadium</li>
 <li>Star Fox 64</li>
 <li>Star Wars Racer</li>
+<li>Star Wars Rogue Squadron</li>
 <li>Super Smash Bros</li>
 <li>Turok Dinosaur Hunter</li>
 <li>Turok 2 Seeds of Evil</li>
 <li>Vigilante 8</li>
+<li>WCW vs NWO World Tour</li>
+<li>WWF No Mercy</li>
 <li>ヨッシーストーリー</li>
 </ol>
