@@ -17,13 +17,9 @@ This is a N-Dimensional Vector class written in C++. While it can be used for an
 #include <iostream>
 #include <sstream>
 /*
-ABOUT: 3D Vector and rotation functions. Rotations about X, Y, Z, and any arbitruary Vector
-AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
-EMAIL: kenneth.cason@gmail.com
-DATE: 1-19-2011
+3D Vector and rotation functions.
+Rotations about X, Y, Z, and any arbitrary vector
 */
-
 
 struct VectorND {
 

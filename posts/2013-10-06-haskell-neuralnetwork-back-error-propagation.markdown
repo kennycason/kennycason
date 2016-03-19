@@ -4,8 +4,8 @@ author: Kenny Cason
 tags: haskell, functional programming, artificial intelligence, λ\=
 ---
 
-After going through various tutorials I decided to try and build something a bit more complicated. I decided to convert my 
-<a href="/posts/2008-12-25-neural-network-back-error-propagation-java.html" target="_new">Java implementation of a Back-Error Propagation Neural Network</a> into Haskell. It is not complete as I have some small calculatory errors somewhere...
+After going through various tutorials I decided to try and build something a bit more complicated. I decided to convert my
+<a href="/posts/2008-12-25-neural-network-back-error-propagation-java.html" target="_new">Java implementation of a Back-Error Propagation Neural Network</a> into Haskell. There appears to be a small bug somewhere in the calculations...
 
 I uploaded most of my Haskell examples to GitHub, found <a href="https://github.com/kennycason/haskell_nn" target="_new">here</a>
 
@@ -19,9 +19,9 @@ import Layer
 
 
 testInput nn trainInput = do
-    print (getOutput 
-                (feedForward 
-                    (setInput 
+    print (getOutput
+                (feedForward
+                    (setInput
                          nn trainInput)))
 
 
@@ -30,14 +30,14 @@ train trainInput teacherSignals = do
     let nn = (trainStep nnNew trainInput teacherSignals 3000)
                 where nnNew = setInput (createNN 2 10 1 2.5) trainInput
 
-    -- print nn 
+    -- print nn
     testInput nn trainInput
 
 main = do
     -- only training one set of data at a time...
     print "testing values [1.0, 1.0] => 1.0"
     train [1.0, 1.0] [1.0]
-    
+
     print "testing values [0.0, 0.0] => 0.0"
     train [0.0, 0.0] [0.0]
 
@@ -161,45 +161,45 @@ calculateNodeErrors node childLayer = (sumError node childLayer) * (value node) 
 
 calculateErrors :: Layer -> Layer -> Layer
 calculateErrors layer childLayer | isOutputLayer layer = calculateOutputErrors layer
-                                 | otherwise = layer { 
+                                 | otherwise = layer {
                                             errors = map (\node -> calculateNodeErrors node childLayer) (nodes layer)
                                         }
-  
+
 
 -- calculateOutputErrors()
 calculateOutputNodeError :: Node -> Double -> Double
-calculateOutputNodeError node teacherSignal = 
+calculateOutputNodeError node teacherSignal =
                                 (teacherSignal - (value node)) * (value node) * (1.0 - (value node))
-           
+
 calculateOutputErrors :: Layer -> Layer
 calculateOutputErrors layer = layer {
-                                errors = zipWith (\node teacherSignal -> 
+                                errors = zipWith (\node teacherSignal ->
                                                         calculateOutputNodeError node teacherSignal)
                                                                                      (nodes layer)
                                                                                      (teacherSignals layer)
                             }
-        
-                       
+
+
 -- adjustWeights()
 adjustWeightValue :: Double -> Double -> Double -> Double -> Double
 adjustWeightValue value weight error learningRate =  weight + (learningRate * error * value)
 
 adjustNodeWeight :: Node -> Layer -> Double -> Node
-adjustNodeWeight node childLayer learningRate = node { 
-                                                 weights = zipWith 
-                                                      (\weight error -> 
+adjustNodeWeight node childLayer learningRate = node {
+                                                 weights = zipWith
+                                                      (\weight error ->
                                                               adjustWeightValue (value node) weight error learningRate)
                                                                             (weights node)
-                                                                            (errors childLayer) 
+                                                                            (errors childLayer)
                                                }
 
 adjustWeights :: Layer -> Layer -> Layer
-adjustWeights layer childLayer = layer { 
-                                    nodes = map (\node -> adjustNodeWeight 
-                                                                    node 
-                                                                    childLayer 
-                                                                    (learningRate layer)) 
-                                                                                   (nodes layer) 
+adjustWeights layer childLayer = layer {
+                                    nodes = map (\node -> adjustNodeWeight
+                                                                    node
+                                                                    childLayer
+                                                                    (learningRate layer))
+                                                                                   (nodes layer)
                                 }
 
 
@@ -210,8 +210,8 @@ clearLayerValues layer = layer { nodes = (map clearNodeValue (nodes layer)) }
 
 -- calculateNodeValues()
 sumOfWeightsValues :: Layer -> [Double]
-sumOfWeightsValues layer = foldl1 (zipWith (+)) 
-                               [multConstList (value node) (weights node) 
+sumOfWeightsValues layer = foldl1 (zipWith (+))
+                               [multConstList (value node) (weights node)
                                | node <- (nodes layer)]
 
 updateChildNodeValue :: Double -> Node -> Node
@@ -221,9 +221,9 @@ updateChildNodeValue weightedValue childNode = childNode {
 
 calculateNodeValues :: Layer -> Layer -> Layer
 calculateNodeValues layer childLayer = childLayer {
-                                        nodes = zipWith 
-                                                    updateChildNodeValue 
-                                                            (sumOfWeightsValues layer) 
+                                        nodes = zipWith
+                                                    updateChildNodeValue
+                                                            (sumOfWeightsValues layer)
                                                             (nodes childLayer)
                                      }
 
@@ -299,45 +299,45 @@ calculateNodeErrors node childLayer = (sumError node childLayer) * (value node) 
 
 calculateErrors :: Layer -> Layer -> Layer
 calculateErrors layer childLayer | isOutputLayer layer = calculateOutputErrors layer
-                                 | otherwise = layer { 
+                                 | otherwise = layer {
                                             errors = map (\node -> calculateNodeErrors node childLayer) (nodes layer)
                                         }
-  
+
 
 -- calculateOutputErrors()
 calculateOutputNodeError :: Node -> Double -> Double
-calculateOutputNodeError node teacherSignal = 
+calculateOutputNodeError node teacherSignal =
                                 (teacherSignal - (value node)) * (value node) * (1.0 - (value node))
-           
+
 calculateOutputErrors :: Layer -> Layer
 calculateOutputErrors layer = layer {
-                                errors = zipWith (\node teacherSignal -> 
+                                errors = zipWith (\node teacherSignal ->
                                                         calculateOutputNodeError node teacherSignal)
                                                                                      (nodes layer)
                                                                                      (teacherSignals layer)
                             }
-        
-                       
+
+
 -- adjustWeights()
 adjustWeightValue :: Double -> Double -> Double -> Double -> Double
 adjustWeightValue value weight error learningRate =  weight + (learningRate * error * value)
 
 adjustNodeWeight :: Node -> Layer -> Double -> Node
-adjustNodeWeight node childLayer learningRate = node { 
-                                                 weights = zipWith 
-                                                      (\weight error -> 
+adjustNodeWeight node childLayer learningRate = node {
+                                                 weights = zipWith
+                                                      (\weight error ->
                                                               adjustWeightValue (value node) weight error learningRate)
                                                                             (weights node)
-                                                                            (errors childLayer) 
+                                                                            (errors childLayer)
                                                }
 
 adjustWeights :: Layer -> Layer -> Layer
-adjustWeights layer childLayer = layer { 
-                                    nodes = map (\node -> adjustNodeWeight 
-                                                                    node 
-                                                                    childLayer 
-                                                                    (learningRate layer)) 
-                                                                                   (nodes layer) 
+adjustWeights layer childLayer = layer {
+                                    nodes = map (\node -> adjustNodeWeight
+                                                                    node
+                                                                    childLayer
+                                                                    (learningRate layer))
+                                                                                   (nodes layer)
                                 }
 
 
@@ -348,8 +348,8 @@ clearLayerValues layer = layer { nodes = (map clearNodeValue (nodes layer)) }
 
 -- calculateNodeValues()
 sumOfWeightsValues :: Layer -> [Double]
-sumOfWeightsValues layer = foldl1 (zipWith (+)) 
-                               [multConstList (value node) (weights node) 
+sumOfWeightsValues layer = foldl1 (zipWith (+))
+                               [multConstList (value node) (weights node)
                                | node <- (nodes layer)]
 
 updateChildNodeValue :: Double -> Node -> Node
@@ -359,9 +359,9 @@ updateChildNodeValue weightedValue childNode = childNode {
 
 calculateNodeValues :: Layer -> Layer -> Layer
 calculateNodeValues layer childLayer = childLayer {
-                                        nodes = zipWith 
-                                                    updateChildNodeValue 
-                                                            (sumOfWeightsValues layer) 
+                                        nodes = zipWith
+                                                    updateChildNodeValue
+                                                            (sumOfWeightsValues layer)
                                                             (nodes childLayer)
                                      }
 

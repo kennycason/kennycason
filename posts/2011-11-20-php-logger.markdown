@@ -4,9 +4,9 @@ author: Kenny Cason
 tags: logger, php
 ---
 
-Mainly written for fun, but this is a configurable Logger written in PHP that supports multiple handlers, including Writers (File, SQL, Apache's Error Log, Echo), configurable Formatting. various logging levels (FATAL, ERROR, WARN, INFO, DEBUG, TRACE). Also useful functions like isDebug/TraceEnabled(), to check before building large strings to debug/trace(). *While each logger instance can have a unique name, there isn't any parent/child hierarchy attributed to them.
+Mainly written for fun, but this is a configurable Logger written in PHP that supports multiple handlers, including Writers (File, SQL, Apache's Error Log, Echo), configurable Formatting. various logging levels (FATAL, ERROR, WARN, INFO, DEBUG, TRACE). Also useful functions like isDebug/TraceEnabled(), to check before building large strings to debug/trace(). While each logger instance can have a unique name, there isn't any parent/child hierarchy attributed to them.
 
-<b>update:</b> Now on <a href="https://github.com/kennycason/log4php" title="GitHub" target="_blank">GitHub</a> <br/>
+<b>update:</b> Now on <a href="https://github.com/kennycason/log4php" title="GitHub" target="blank">GitHub</a> <br/>
 
 
 ```{.php .numberLines startFrom="1"}
@@ -335,10 +335,6 @@ class LogRecord {
 
 }
 
-
-
-
-
 /**
  * LogHandler interface
  */
@@ -611,7 +607,7 @@ class Foo {
      //   $this->logger = Logger::getLogger(__CLASS__, array("logLevel" => Logger::TRACE,
      //       "handlers" => array(new LogFileHandler("/tmp/output3.log"), new LogSQLHandler($db), new LogConsoleHandler(), new LogErrorLogHandler())
     //        ));
- 
+
         print_r($this->logger);
     }
 
@@ -623,7 +619,7 @@ class Foo {
         $this->logger->warn("A Warning Occured (Level INFO)");
         $this->logger->error("An Error Occured (Level INFO)");
         $this->logger->fatal("A Fatal Error occured (Level INFO)");
-        
+
         $this->logger->setLevel(Logger::TRACE);
         $this->logger->trace("A Trace Statement (Level TRACE)");
         $this->logger->debug("A Debug Statement (Level TRACE)");
@@ -663,7 +659,5 @@ class Foo {
 
 
 echo "<br/>Test Complete<br/>";
-?>
-
 
 ```

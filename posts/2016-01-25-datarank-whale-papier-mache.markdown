@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: trebuchet, wood
 ---
 
-After over 2 years of procrastination, I finally made the DataRank whale in papier-mâché. This is following my long overdue 16~ year break from papier-mâché when I made a <a href="http://metroid.wikia.com/wiki/Zeta_Metroid" target="_new">Zeta Metroid</a>
+After over 2 years of procrastination, I finally made the DataRank whale in papier-mâché. This is following my long overdue 16~ year break from papier-mâché when I made a <a href="http://metroid.wikia.com/wiki/Zeta_Metroid" target="blank">Zeta Metroid</a>
 
 
 The final beauty
@@ -36,12 +36,12 @@ The final beauty
 </td><td>
 <img src="/images/papier-mache/whale/whale_06.jpg" width="300"/>
 </td>
-</tr> 
+</tr>
 <tr>
 <td>
 <img src="/images/papier-mache/whale/whale_07.jpg" width="300"/>
 </td><td>
 <img src="/images/papier-mache/whale/whale_08.jpg" width="300"/>
 </td>
-</tr> 
+</tr>
 </table>

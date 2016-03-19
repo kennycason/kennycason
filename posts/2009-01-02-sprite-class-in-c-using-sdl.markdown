@@ -10,7 +10,7 @@ Features include sprite animation, rotation, stretching, transparencies, and oth
 I hope this is somewhat useful. The source is available and should be fairly simple to work with.
 Feel free to modify it however you want. please comment about any bugs are suggestions that you have. Thanks.
 
-<strong>Clone from GitHub</strong> <a href="https://github.com/kennycason/sdl_sprite"><span style="font-size:18px">HERE</span></a><br/>
+Clone from <a href="https://github.com/kennycason/sdl_sprite">GitHub</a><br/>
 
 <a href="/code/c/SDL/Sprite/sshot.PNG" target="_blank" ><img src="/code/c/SDL/Sprite/sshot.PNG" width="250" alt="SDL Sprite C++"/></a>
 

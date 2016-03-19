@@ -133,8 +133,6 @@ class BinaryTree {
 	}
 
 }
-?>
-
 ```
 
 A Unit test (using SimpleTest)
@@ -143,7 +141,7 @@ A Unit test (using SimpleTest)
 ```{.php .numberLines startFrom="1"}
 <?php
 
-define('SIMPLE_TEST', '../simpletest/'); 
+define('SIMPLE_TEST', '../simpletest/');
 require_once(SIMPLE_TEST . 'unit_tester.php');
 require_once(SIMPLE_TEST . 'reporter.php');
 $test = &new GroupTest('BinaryTreeTest');
@@ -152,7 +150,7 @@ $test->run(new HtmlReporter());
 
 
 class BinaryTreeTest extends UnitTestCase {
-   
+
     public function setUp() {
 
     }
@@ -164,10 +162,10 @@ class BinaryTreeTest extends UnitTestCase {
         $btree->add(10);
         $this->assertEqual($btree->size(), 1);
         $this->assertEqual($btree->getRoot(), 10);
-        
+
         $btree->add(15);
         $this->assertEqual($btree->size(), 2);
-        
+
         $btree->add(5);
         $this->assertEqual($btree->size(), 3);
         $btree->add(3);
@@ -184,13 +182,7 @@ class BinaryTreeTest extends UnitTestCase {
 
         $arr = $btree->getAll();
         $this->assertEqual(count($arr), $btree->size());
-        
-
     }
 
 }
-
-?>
-
-
 ```

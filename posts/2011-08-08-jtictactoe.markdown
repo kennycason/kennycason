@@ -4,10 +4,12 @@ author: Kenny Cason
 tags: jgames, jquery, jtictactoe, tic-tac-toe
 ---
 
-jTicTacToe is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. 
-    <table>
-        <tr><td><div id="tictactoe"></div></td><td><div id="tictactoe_anim"></div></td></tr>
-    </table>
+jTicTacToe is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Tic Tac Toe game states, as well as animations.
+
+<table><tr>
+<td><div id="tictactoe"></div></td>
+<td><div id="tictactoe_anim"></div></td>
+</tr></table>
 
 <strong>Display Static Tic Tac Toe State</strong>
 First include the following lines to your webpage

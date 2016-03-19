@@ -4,10 +4,12 @@ author: Kenny Cason
 tags: jgames, jquery, jshogi, shogi
 ---
 
-jShogi is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Shogi game states, as well as animations. 
-    <table>
-        <tr><td><div id="shogi"></div></td><td><div id="shogi_anim"></div></td></tr>
-    </table>
+jShogi is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Shogi game states, as well as animations.
+
+<table><tr>
+<td><div id="shogi"></div></td>
+<td><div id="shogi_anim"></div></td>
+</tr></table>
 
 <strong>Display Static Shogi State</strong>
 First include the following lines to your webpage

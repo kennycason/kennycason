@@ -4,5 +4,6 @@ _site/*
 hakyll
 *.hi
 *.o
-
+/dist/
 gen/*
+.DS_Store

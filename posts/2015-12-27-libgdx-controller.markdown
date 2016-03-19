@@ -1,19 +1,19 @@
 ---
-title: LibGDX Game Controller 
+title: LibGDX Game Controller
 author: Kenny Cason
 tags: java, libgdx, game
 ---
 
 As with any low level code, eventually you get tired of working with it and wrap up common behavior. In my case I wanted to design for a few things:
 
-1. A native interface for simultaneously handling both keyboard and logitech controller input. 
+1. A native interface for simultaneously handling both keyboard and logitech controller input.
 2. A button mapper to easily allow for custom mappings.
 3. Record time when buttons are pressed to allow for easier support for capturing button combinations.
 
 ### Get Library
 
 GDX-Controller is now hosted in Maven Central here:
-```xml
+```{.xml .numberLines startFrom="1"}
 <dependency>
     <groupId>com.kennycason</groupId>
     <artifactId>gdx-controller</artifactId>
@@ -21,7 +21,7 @@ GDX-Controller is now hosted in Maven Central here:
 </dependency>
 ```
 
-The GitHub repository will be maintained <a href="https://github.com/kennycason/gdx-controller">here</a>.
+The GitHub repository will be maintained <a href="https://github.com/kennycason/gdx-controller" target="blank">here</a>.
 
 
 ### Implementation
@@ -181,7 +181,7 @@ public class LogitechController<V extends Controls> extends Controller<V> {
 }
 ```
 
-Now lets bring it all together and wrap our input methods in a "multiplex" controller that is capable of simultaneously supporting configureable keyboard and logitech input without any hassle to either the programmer or the game player. Note how MultiController also implements the Controller interface just as  KeyboardController and LogitechController. 
+Now lets bring it all together and wrap our input methods in a "multiplex" controller that is capable of simultaneously supporting configureable keyboard and logitech input without any hassle to either the programmer or the game player. Note how MultiController also implements the Controller interface just as  KeyboardController and LogitechController.
 ```{.java .numberLines startFrom="1"}
 public class MultiplexedController<V extends Controls> extends Controller<V> {
 

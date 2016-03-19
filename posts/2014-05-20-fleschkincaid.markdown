@@ -4,9 +4,9 @@ author: Kenny Cason
 tags: url, query, java
 ---
 
-This is a simple implementation of the Flesch-Kincaid readability tests in Java. From <a href="http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests" target="_blank">Wikipedia</a>, The Flesch/Flesch–Kincaid readability tests are readability tests designed to indicate comprehension difficulty when reading a passage of contemporary academic English.
+This is a simple implementation of the Flesch-Kincaid readability tests in Java. From <a href="http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests" target="blank">Wikipedia</a>, The Flesch–Kincaid readability tests are readability tests designed to indicate comprehension difficulty when reading a passage of contemporary academic English.
 
-GitHub Source Code: <a href="https://github.com/kennycason/fleschkincaid" target="_blank">here</a>
+GitHub Source Code: <a href="https://github.com/kennycason/fleschkincaid" target="blank">here</a>
 
 Control Data:
 

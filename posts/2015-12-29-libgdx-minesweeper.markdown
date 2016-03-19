@@ -1,12 +1,12 @@
 ---
-title: Minesweeper LibGDX 
+title: Minesweeper LibGDX
 author: Kenny Cason
 tags: java, libgdx, game
 ---
 
 I previously wrote a Minesweeper game from scratch using Java's native libraries. While this was no great task I was curious how much easier it would be to implement using the LibGDX framework. In a very happy surprise it only took me about 1 hour to port all the code into my LibGDX project and get it running. That's even including some minor improvements!
 
-The source can be found on <a href="https://github.com/kennycason/minesweeper_libgdx" target="_blank">GitHub</a>.
+The source can be found on <a href="https://github.com/kennycason/minesweeper_libgdx" target="blank">GitHub</a>.
 
 <img src="/images/minesweeper/libgdx/minesweeper01.png" width="400px"/>
 <img src="/images/minesweeper/libgdx/minesweeper02.png" width="400px"/>
@@ -130,7 +130,7 @@ public class MineSweeper extends ApplicationAdapter {
 
 	public void handleSecondaryClick(final int mx, final int my) {
 		if (gameOver) { return; }
-		
+
 		if (TimeUtils.timeSinceMillis(mouseLastClicked) < 150) { return; }
 		mouseLastClicked = TimeUtils.millis();
 

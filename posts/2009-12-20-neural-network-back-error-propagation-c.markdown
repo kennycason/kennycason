@@ -10,15 +10,19 @@ main.cpp contains code to train both a 2 and 3-input Logical AND gate.
 The zipped source code can be downloaded <a href="/code/c/nn01/NeuralNetwork.zip">here</a>
 A Linux executable is already compiled and included in the zip, but feel free to recompile it. A Code::Blocks Project file is also included.
 
-<b>To Compile</b><br/>
-<pre>g++ *.cpp -o NeuralNetwork</pre>
+<b>To Compile</b>
+<code>g++ *.cpp -o NeuralNetwork</code>
+
 It will output an executable name "NeuralNetwork"
 
-<b>To Run</b><br/>
-open a terminal and type:
-<pre>./NeuralNetwork</pre>
+<b>To Run</b>
 
-<b>Sample Output</b><br/>
+open a terminal and type:
+
+<code>./NeuralNetwork</code>
+
+<b>Sample Output</b>
+
 <pre>Neural Network Connections Inited
 Trained in 10000 trails within an error of 1.03127e-05
 0 & 0 = 4.63117e-05
@@ -41,6 +45,6 @@ Logical AND 3 Inputs Demo End
 </pre>
 
 <b>Resources:</b>
-<a href="/posts/2008-12-24-neural-networks-simple-models.html" target="_blank" >About Neural Networks (English)</a>
-<a href="/posts/2008-12-24-neural-network-jp.html" target="_blank" >About Neural Networks (Japanese/日本語)</a>
-<a href="/posts/2008-12-25-neural-network-back-error-propagation-java.html">Java Implementation of a Neural Network</a>
+<a href="/posts/2008-12-24-neural-networks-simple-models.html" target="blank">About Neural Networks (English)</a>
+<a href="/posts/2008-12-24-neural-network-jp.html" target="blank">About Neural Networks (Japanese/日本語)</a>
+<a href="/posts/2008-12-25-neural-network-back-error-propagation-java.html "target="blank">Java Implementation of a Neural Network</a>

@@ -56,11 +56,12 @@ class Currency {
     }
 
 }
+```
 
-//  $currency = new Currency();
-//  print_r($currency->convert('USD', 'JPY', 100));
+Usage
 
-
-?>
+```{.php .numberLines startFrom="1"}
+$currency = new Currency();
+print_r($currency->convert('USD', 'JPY', 100));
 
 ```

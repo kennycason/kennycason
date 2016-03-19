@@ -15,13 +15,9 @@ This is my Vector3D structure with a set of appropriate operation overloads(-,+,
 #include <iostream>
 #include <sstream>
 /*
-ABOUT: 3D Vector and rotation functions. Rotations about X, Y, Z, and any arbitruary Vector
-AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
-EMAIL: kenneth.cason@gmail.com
-DATE: 11-19-2009
+3D Vector and rotation functions.
+Rotations about X, Y, Z, and any arbitrary vector
 */
-
 
 #define PI 3.14159265358979323846264338327950288
 

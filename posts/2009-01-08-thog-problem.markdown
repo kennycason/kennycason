@@ -4,14 +4,17 @@ author: Kenny Cason
 tags: iq, logic, problem, thog
 ---
 
-<p>Given the following combinations of shapes and colors:<br><br></p>
-<table width=100% align=center">
-<td><a href="#" onClick="alert1()"><img class="center"　width="100" src="http://ken-soft.com/images/thog/black_sqr.jpg" border=0></a></td>
-<td><a href="#" onClick="alert2()"><img class="center"　width="100" src="http://ken-soft.com/images/thog/black_crc.jpg" border=0></a></td>
-<td><a href="#" onClick="alert3()"><img class="center"　width="100" src="http://ken-soft.com/images/thog/white_sqr.jpg" border=0></a></td>
-<td><a href="#" onClick="alert4()"><img class="center"  width="100" src="http://ken-soft.com/images/thog/white_crc.jpg" border=0></a></td></table>
-<p> The experimenter makes the following statement:</p>
-<blockquote><p>"I am thinking of one color (black or white) and one shape (square or circle). Any figure that has either the color I am thinking of, or the shape I am thinking of, but not both, is a THOG. Given that the black square is a THOG what, if anything, can you say about whether the other figures are THOGS?"</p>
+Given the following combinations of shapes and colors:<br/>
+
+<a href="#" onClick="alert1()"><img width="100" src="/images/thog/black_sqr.jpg" border=0></a>
+<a href="#" onClick="alert2()"><img width="100" src="/images/thog/black_crc.jpg" border=0></a>
+<a href="#" onClick="alert3()"><img width="100" src="/images/thog/white_sqr.jpg" border=0></a>
+<a href="#" onClick="alert4()"><img width="100" src="/images/thog/white_crc.jpg" border=0></a>
+
+The experimenter makes the following statement:<br/>
+
+<blockquote>
+"I am thinking of one color (black or white) and one shape (square or circle). Any figure that has either the color I am thinking of, or the shape I am thinking of, but not both, is a THOG. Given that the black square is a THOG what, if anything, can you say about whether the other figures are THOGS?"
 </blockquote>
 <p>Select the THOG by clicking on one of the shapes above</p>
 

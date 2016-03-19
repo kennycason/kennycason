@@ -1,12 +1,12 @@
 ---
-title: Boxxle in Swift 
+title: Boxxle in Swift
 author: Kenny Cason
 tags: swift, boxxle, ios
 ---
 
-Yesterday for the Arkansas Dev Hackathon I decided to try my hands at the Swift programming language. Fortunately I was able to find many online tutorials to slingshot my studies. As a programming language Swift is certainly a lot easier to use than Objective C and with almost no pain I was able to program a simple Hello World program with a ninja throwing shurikens at monsters! (Tutorial <a href="http://www.raywenderlich.com/84434/sprite-kit-swift-tutorial-beginners" target="_blank">here</a>)
+Yesterday for the Arkansas Dev Hackathon I decided to try my hands at the Swift programming language. Fortunately I was able to find many online tutorials to slingshot my studies. As a programming language Swift is certainly a lot easier to use than Objective C and with almost no pain I was able to program a simple Hello World program with a ninja throwing shurikens at monsters! (Tutorial <a href="http://www.raywenderlich.com/84434/sprite-kit-swift-tutorial-beginners" target="blank">here</a>)
 
-All code can be found on my GitHub <a href="https://github.com/kennycason/swift_boxxle" target="_blank">here</a>
+All code can be found on my GitHub <a href="https://github.com/kennycason/swift_boxxle" target="blank">here</a>
 
 Simply touch in the direction you want to move. For example to move right, touch to the right of the character.
 I really tried hard not to use the Virtual D-Pad, per reading many blogs on mobile game design. :)

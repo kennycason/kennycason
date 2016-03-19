@@ -6,9 +6,9 @@ tags: haskell, sdl, gameboy, boxxle, functional programming, λ\=
 
 **Haskell || Die**
 
-The main driver for me studying programming in the first place was because I love programming video games. After the discovery of SDL bindings for Haskell, along with an <a href="https://github.com/snkkid/LazyFooHaskell" target="_new">amazing tutorial</a>, I couldn't resist trying to make a simple game in Haskell. It took a lottttttt of reading and time in GHCI before I could start making any real progress, but after a couple days I began to wrap my head around things. This is a small remake of the GameBoy game <a href="http://www.youtube.com/watch?v=xK7N7el_R14" target="_blank">Boxxle</a>, a very simple but fun puzzle game. 
+The main driver for me studying programming in the first place was because I love programming video games. After the discovery of SDL bindings for Haskell, along with an <a href="https://github.com/snkkid/LazyFooHaskell" target="blank">amazing tutorial</a>, I couldn't resist trying to make a simple game in Haskell. It took a lottttttt of reading and time in GHCI before I could start making any real progress, but after a couple days I began to wrap my head around things. This is a small remake of the GameBoy game <a href="http://www.youtube.com/watch?v=xK7N7el_R14" target="blank">Boxxle</a>, a very simple but fun puzzle game. 
 
-The full code (with 40 levels) can be found on my <a href="https://github.com/kennycason/haskell_boxxle/" target="_new">GitHub</a> 
+The full code (with 40 levels) can be found on my <a href="https://github.com/kennycason/haskell_boxxle/" target="_new">GitHub</a>
 
 <table><tr>
 <td><img src="https://raw.github.com/kennycason/haskell_boxxle/master/img/screenshots/boxxle01.png" width="140"/></td>
@@ -18,7 +18,7 @@ The full code (with 40 levels) can be found on my <a href="https://github.com/ke
 <td><img src="https://raw.github.com/kennycason/haskell_boxxle/master/img/screenshots/boxxle05.png" width="140"/></td>
 </tr></table>
 
-Below is the current version. I am still wrapping my head around the intricisies of Haskell, so feel free to make suggestions :)
+Below is the current version. I am still wrapping my head around the intricacies of Haskell, so feel free to make suggestions :)
 
 <b>Boxxle.hs</b><br/>
 
@@ -44,7 +44,7 @@ import Timer
 -- levels from: http://www.gamefaqs.com/gameboy/585643-boxxle/faqs/52416
 
 rooms = [
-    roomBuilder 
+    roomBuilder
         [[1,1,1,1,1,0,0,0,0]                    -- map tiles
         ,[1,0,0,0,1,0,0,0,0]
         ,[1,0,0,0,1,0,1,1,1]
@@ -137,23 +137,23 @@ textColor = Color 0x33 0x33 0x33
 -- type defines
 data Direction = UP | DOWN | LEFT | RIGHT deriving (Eq, Enum)
 
-data Move = Move { 
+data Move = Move {
     dir :: Direction
     ,dx :: Int
-    ,dy :: Int 
+    ,dy :: Int
 }
 
-data Coord = Coord { 
+data Coord = Coord {
     x :: Int
-    ,y :: Int 
+    ,y :: Int
 } deriving (Eq)
 
-data Room = Room { 
+data Room = Room {
     tiles :: [[Int]]
     ,walls :: [Coord]
     ,boxes :: [Coord]
     ,targets :: [Coord]
-    ,startPos :: Coord 
+    ,startPos :: Coord
 }
 
 data GameData = GameData {
@@ -174,7 +174,7 @@ type GameState = StateT GameData IO
 type GameEnv = ReaderT GameConfig GameState
 
 
--- monad state get/put/modify 
+-- monad state get/put/modify
 getGameData :: MonadState GameData m => m GameData
 getGameData = get
 
@@ -232,7 +232,7 @@ newGame lvl = do
 
 levelUp :: GameData -> GameData
 levelUp gd = gd { level = newLevel, room = nextRoom, player = (startPos nextRoom) }
-            where 
+            where
                 newLevel = (level gd) + 1
                 nextRoom = rooms !! ((level gd) `mod` (length rooms))
 
@@ -245,8 +245,8 @@ resetLevel gd = gd { room = resetRoom, player = (startPos resetRoom) }
 handleWin :: GameData -> GameData
 handleWin gd| isWin = levelUp gd
             | otherwise = gd
-                where isWin = length (intersect 
-                                        (boxes currentRoom) 
+                where isWin = length (intersect
+                                        (boxes currentRoom)
                                         (targets currentRoom)) == length (targets currentRoom)
                                             where currentRoom = (room gd)
 
@@ -262,7 +262,7 @@ foldTiles tiles =
 
 getSpriteSheetOffset :: Int -> Maybe Rect
 getSpriteSheetOffset n = Just (Rect offx offy 32 32)
-                            where 
+                            where
                                 offx = n * 32
                                 offy = 0
 
@@ -273,8 +273,8 @@ applySurface x y src dst clip = blitSurface src clip dst offset
 
 
 drawSprite :: Surface -> Surface -> Int -> Int -> Int -> IO Bool
-drawSprite screen sprites n x y = blitSurface 
-                                        sprites (getSpriteSheetOffset n) 
+drawSprite screen sprites n x y = blitSurface
+                                        sprites (getSpriteSheetOffset n)
                                         screen dst
                                             where dst = Just (Rect x y 32 32)
 
@@ -307,12 +307,12 @@ collide c1 c2 = ((x c1) == (x c2)) && ((y c1) == (y c2))
 
 
 offsetCoord :: Coord -> Move -> Coord
-offsetCoord c move = c { x = (x c) + (dx move), y = (y c) + (dy move) } 
+offsetCoord c move = c { x = (x c) + (dx move), y = (y c) + (dy move) }
 
 
 collideWithWorld :: Coord -> Room -> Bool
 collideWithWorld c room = (foldr (||) False (map (collide c) (walls room)))
-    
+
 
 collideWithBoxes :: Coord -> Room -> Bool
 collideWithBoxes c room = (foldr (||) False (map (collide c) (boxes room)))    
@@ -325,7 +325,7 @@ canBoxMove box room = not ((collideWithWorld box room) || (collideWithBoxes box 
 movePlayer :: Move -> GameData -> GameData
 movePlayer move gd     | collideWithWorld newPlayerPos (room gd) = gd
                     | otherwise = gd { player = Coord { x = (x playerPos) + (dx move), y = (y playerPos) + (dy move)} }
-                    where 
+                    where
                         playerPos = (player gd)
                         newPlayerPos = (offsetCoord playerPos move)
 
@@ -340,7 +340,7 @@ checkBox room playerPos move box| collidedWithPlayer && (dir move) == UP && boxC
                                 | collidedWithPlayer && (dir move) == LEFT && boxCanMove = moveBox move box
                                 | collidedWithPlayer && (dir move) == RIGHT && boxCanMove = moveBox move box
                                 | otherwise = box
-                                    where 
+                                    where
                                         collidedWithPlayer = collide playerPos box -- player collided
                                         boxCanMove = canBoxMove newBoxPos room
                                             where newBoxPos = offsetCoord box move
@@ -359,7 +359,7 @@ handleBoxes move gd = gd { room = (room gd) { boxes = (checkBoxes (room gd) play
 undoPlayer :: Move -> GameData -> GameData
 undoPlayer move gd     | collideWithBoxes playerPos (room gd) = gd { player = Coord { x = (x playerPos) - (dx move), y = (y playerPos) - (dy move)} }
                     | otherwise = gd
-                    where 
+                    where
                         playerPos = (player gd)
 
 

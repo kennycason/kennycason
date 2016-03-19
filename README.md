@@ -1,3 +1,1 @@
-
-deploy
-rsync -zrv . root@<host>:<dir>
+My personal website built with Hakyll

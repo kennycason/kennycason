@@ -4,10 +4,12 @@ author: Kenny Cason
 tags: checkers, jcheckers, jgames, jquery
 ---
 
-jCheckers is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Checkers game states, as well as animations. 
-    <table>
-        <tr><td><div id="checkers"></div></td><td><div id="checkers_anim"></div></td></tr>
-    </table>
+jCheckers is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Checkers game states, as well as animations.
+
+<table><tr>
+<td><div id="checkers"></div></td>
+<td><div id="checkers_anim"></div></td>
+</tr></table>
 
 <strong>Display Static Checkers State</strong>
 First include the following lines to your webpage

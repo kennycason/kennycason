@@ -15,7 +15,8 @@ int** array;    // 2D array definition;
 array = new int*[dimX];
 for(int x = 0; x < dimX; ++x) {
      array[x] = new int[dimY];
-     for(int y = 0; y < dimY; ++y) { // initialize the values, this is optional, but recommended
+     for(int y = 0; y < dimY; ++y) {
+          // initialize the values, this is optional, but recommended
           array[x][y] = 0;
      }
 }
@@ -32,7 +33,8 @@ for(int x = 0; x < dimX; ++x) {
     array[x] = new int*[dimY];
     for(int y = 0; y < dimY; ++y) {
         array[x][y] = new int[dimZ];
-        for(int z = 0; z < dimZ; ++z) { // initialize the values, again, not necessary, but recommended
+        for(int z = 0; z < dimZ; ++z) {
+            // initialize the values, again, not necessary, but recommended
             array[x][y][z] = 0;
         }
     }

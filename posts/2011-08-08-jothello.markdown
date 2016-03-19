@@ -4,10 +4,12 @@ author: Kenny Cason
 tags: jgames, jothello, jquery, othello
 ---
 
-jOthello is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Othello game states, as well as animations. 
-    <table>
-        <tr><td><div id="othello"></div></td><td><div id="othello_anim"></div></td></tr>
-    </table>
+jOthello is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display Othello game states, as well as animations.
+
+<table><tr>
+<td><div id="othello"></div></td>
+<td><div id="othello_anim"></div></td></tr>
+</table>
 
 <strong>Display Static Othello State</strong>
 First include the following lines to your webpage

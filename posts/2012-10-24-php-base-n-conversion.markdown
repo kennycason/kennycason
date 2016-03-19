@@ -119,9 +119,8 @@ for($i = 0; $i < 100; $i++) {
 
 ```
 
+Output
 <pre>
-Output:
-
 0 => encode b16 => 0 => decode b10 => 0
 1 => encode b16 => 1 => decode b10 => 1
 2 => encode b16 => 2 => decode b10 => 2

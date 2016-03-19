@@ -5,11 +5,11 @@ tags: java, gameboy, emulator, gameboy4j
 ---
 
 I feel a bit bad releasing this un-finished, but perhaps this will motivate me to finish up development on it.
-The core CPU emulator and Memory Model Unit (MMU) need to be tested more thoroughly but it can currently load ROMs and execute their instruction sets. The main, and most rewarding component left to program is the visualizer. 
+The core CPU emulator and Memory Model Unit (MMU) need to be tested more thoroughly but it can currently load ROMs and execute their instruction sets. The main, and most rewarding component left to program is the visualizer.
 
 This project was largely motivated by the jsGB project from http://imrannazar.com/
 
-The source code can be found here: <a href="https://github.com/kennycason/gameboy4j" target="_blank">github.com/kennycason/gameboy4j</a>
+The source code can be found here: <a href="https://github.com/kennycason/gameboy4j" target="blank">github.com/kennycason/gameboy4j</a>
 
 This is some sample output from running:
 ```{.java .numberLines startFrom="1"}

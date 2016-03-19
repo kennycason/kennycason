@@ -8,7 +8,7 @@ This is a sample class to send mail using PHP. It also demonstrates how to attac
 
 
 ```{.php .numberLines startFrom="1"}
-<?php 
+<?php
 
 class Mail {
     var $parts;
@@ -22,7 +22,7 @@ class Mail {
     var $html;
     var $host;
     var $port;
-    
+
     function __construct() {
         $this->parts = array();
         $this->to = "";
@@ -34,7 +34,7 @@ class Mail {
         $this->headers = "";
         $this->html = false;
     }
-    
+
     function addAttachment($message,$name = "",$ctype = "application/octet-stream") {
         $this->parts[] = array(
                     "ctype" => $ctype,
@@ -43,7 +43,7 @@ class Mail {
                     "name" => $name
                     );            
     }
-        
+
     function buildMessage($part) {
         $message = $part["message"];
         $message = chunk_split(base64_encode($message));
@@ -51,7 +51,7 @@ class Mail {
         return "Content-Type: ".$part["ctype"].($part["name"]? ";name = \"".$part["name"]."\"" : "").
                "\nContent-Transfer-Encoding: $encoding\n\n$message\n";
     }
-    
+
     function buildMultipart() {
         $boundry = "HKC".md5(uniqid(time()));
         $multipart = "Content-Type: multipart/mixed; boundary =  \"$boundry\"\n\n";
@@ -61,7 +61,7 @@ class Mail {
         }
         return $multipart .= "--\n";
    }
-        
+
     function getMail($complete = true) {
         $mime = "";
         if(!empty($this->from)) {
@@ -72,7 +72,7 @@ class Mail {
         }
         if($complete) {
             if(!empty($this->cc)) {
-                $mime .= "Cc: ".$this->cc."\n"; 
+                $mime .= "Cc: ".$this->cc."\n";
             }
             if(!empty($this->bcc)) {
                 $mime .= "Bcc: ".$this->bcc."\n";
@@ -87,7 +87,7 @@ class Mail {
         $mime .=  "MIME-Version: 1.0\n".$this->buildMultipart();
         return $mime;
     }
-        
+
     function send() {
         if(!empty($this->cc)) {
             $mime = $this->getMail(true);
@@ -100,13 +100,14 @@ class Mail {
         return mail($this->to,$this->subject,$this->body,$mime);
     }
 }
-            
-// sample usage
-/*
+```
+Usage
+```{.php .numberLines startFrom="1"}
+<?php
 $fp = fopen("somepicture.jpg","r");
 $data = fread($fp,filesize("somepicture.jpg"));
 fclose($fp);
-      
+
 $mail = new Mail();
 $mail->from = "me@somewhere.com";
 $mail->to = "you@somewhere.com";
@@ -115,8 +116,5 @@ $mail->body = "<b>How's it going?</b>";
 $mail->html = true;
 $mail->addAttachment($data,"somepicture.jpg" ,"image/jpeg" );
 $mail->send();
-*/
-      
-?>
 
 ```

@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: john conways game of life, programming, simulation
 ---
 
-In this little simulation demo I created four simple rules, of which can be activated by uncommenting them out in the source code. Though nothing too complex emerges, I still liked some the resulting behavior. 
+In this little simulation demo I created four simple rules, of which can be activated by uncommenting them out in the source code. Though nothing too complex emerges, I still liked some the resulting behavior.
 Particularly, rule1(), results in colors slowly grouping together in various forms. It may be hard to immediately noticed so watch carefully. This was motivated by <a href="/posts/2009-12-22-john-conways-game-of-life-mutation-cc.html">John Conway's Game of Life</a>.
 The program was written in C/C++, all graphics are done using <a href="http://www.libsdl.org">SDL</a>
 The whole source can be found here <a href="/code/c/Life2/main.cpp">main.cpp</a><br/>
@@ -12,10 +12,10 @@ The whole source can be found here <a href="/code/c/Life2/main.cpp">main.cpp</a>
 <b>Compile</b><pre>g++ main.cpp -lSDL</pre>
 <b>Run</b><pre>./a.out</pre>
 
-<table><tr><td><a href="/code/c/Life2/Life-1.png" target="_blank"><img src="/code/c/Life2/Life-1.png" width="400px" alt="Game of Life Patterns" /></td>
+<a href="/code/c/Life2/Life-1.png" target="_blank"><img src="/code/c/Life2/Life-1.png" width="400px" alt="Game of Life Patterns" /></td>
 <td><a href="/code/c/Life2/Life-4.png" target="_blank"><img src="/code/c/Life2/Life-4.png" width="400px" alt="Game of Life Patterns" /></td></tr>
 <tr><td><a href="/code/c/Life2/Life-8.png" target="_blank"><img src="/code/c/Life2/Life-8.png" width="400px" alt="Game of Life Patterns" /></td>
-<td><a href="/code/c/Life2/Life-9.png" target="_blank"><img src="/code/c/Life2/Life-9.png" width="400px" alt="Game of Life Patterns" /></td></tr></table>
+<td><a href="/code/c/Life2/Life-9.png" target="_blank"><img src="/code/c/Life2/Life-9.png" width="400px" alt="Game of Life Patterns" /></td>
 
 Rule1()
 

@@ -13,53 +13,53 @@ Timer.php
 
 class Timer {
 
-    const MICROSECONDS = 0;
+　　　　const MICROSECONDS = 0;
 
-    const SECONDS = 1;
+　　　　const SECONDS = 1;
 
-    private $startTime;
+　　　　private $startTime;
 
-    private $interval = 0;
+　　　　private $interval = 0;
 
-    private $units;
-    
-    public function __construct($units = Timer::MICROSECONDS) {
-        $this->startTime = $this->timeAsMilliseconds();
-        $this->units = $units;
-    }
+　　　　private $units;
+　　　　
+　　　　public function __construct($units = Timer::MICROSECONDS) {
+　　　　　　　　$this->startTime = $this->timeAsMilliseconds();
+　　　　　　　　$this->units = $units;
+　　　　}
 
-    public function start() {
-        $this->startTime = $this->timeAsMilliseconds();
-    }
+　　　　public function start() {
+　　　　　　　　$this->startTime = $this->timeAsMilliseconds();
+　　　　}
 
-    public function restart() {
-        $this->start();
-    }
+　　　　public function restart() {
+　　　　　　　　$this->start();
+　　　　}
 
-    public function elapsedTime() {
-        $diff = $this->timeAsMilliseconds() - $this->startTime;
-        if($this->units == Timer::MICROSECONDS) {
-            return $diff;
-        } else {
-            return (int)($diff / 1000);
-        }
-    }
+　　　　public function elapsedTime() {
+　　　　　　　　$diff = $this->timeAsMilliseconds() - $this->startTime;
+　　　　　　　　if($this->units == Timer::MICROSECONDS) {
+　　　　　　　　　　　　return $diff;
+　　　　　　　　} else {
+　　　　　　　　　　　　return (int)($diff / 1000);
+　　　　　　　　}
+　　　　}
 
-    public function setInterval($interval) {
-        if($this->units == Timer::SECONDS) {
-            $interval *= 1000;
-        }
-        $this->interval = $interval;
-    }
+　　　　public function setInterval($interval) {
+　　　　　　　　if($this->units == Timer::SECONDS) {
+　　　　　　　　　　　　$interval *= 1000;
+　　　　　　　　}
+　　　　　　　　$this->interval = $interval;
+　　　　}
 
-    public function intervalElapsed() {
-        return ($this->timeAsMilliseconds() - $this->startTime) > $this->interval;
-    }
+　　　　public function intervalElapsed() {
+　　　　　　　　return ($this->timeAsMilliseconds() - $this->startTime) > $this->interval;
+　　　　}
 
-    private function timeAsMilliseconds() {
-        return round(microtime(true) * 1000);
-    }
-    
+　　　　private function timeAsMilliseconds() {
+　　　　　　　　return round(microtime(true) * 1000);
+　　　　}
+　　　　
 }
 
 ```
