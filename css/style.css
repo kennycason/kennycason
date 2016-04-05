@@ -1,5 +1,6 @@
 body {
   color: black;
+  font-family:Georgia, serif;
   font-size: 16px;
   margin: 0px auto 0px auto;
   width: 1000px;
@@ -327,12 +328,12 @@ nav.social-bar ul li a.tags :hover {
 
 .social-like .facebook {
   display:inline;
-  margin-left: 0px; 
+  margin-left: 0px;
 }
 
 .social-like .twitter {
   display:inline;
-  margin-left: 0px; 
+  margin-left: 0px;
 }
 
 .post-date {
