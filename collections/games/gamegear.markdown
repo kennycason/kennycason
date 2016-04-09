@@ -6,7 +6,9 @@ Sega Game Gear Games
 =============
 
 <ol>
-<li>Batman & Robin, The Adventures of
+<li>Aerial Assault</li>
+<li>Batman & Robin, The Adventures of</li>
+<li>Chessmaster, The</li>
 <li>Columns</li>
 <li>Clutch Hitter</li>
 <li>Dragon: The Bruce Lee Story</li>

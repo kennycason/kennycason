@@ -6,6 +6,8 @@ tags: java, calculator, mixfix, infix, postfix, parer, lexer, pratt-parser
 
 A java calculator named Soroban (Japanese for Abacus).
 
+The GitHub repository is maintained <a href="https://github.com/kennycason/soroban" target="blank">here</a>.
+
 Contents:
 
 - Lexer implementation. Character/Token stream generators.

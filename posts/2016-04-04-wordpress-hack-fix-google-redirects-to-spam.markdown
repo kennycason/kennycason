@@ -276,7 +276,16 @@ At this point I've also broken the attack file into three parts:
 
 ## Step 5. Clean up and Fix
 
-At this point we still don't know how the attacker got in but the scripts seem pretty contained, and no other odd scripts showed up on the server. I also did a scan over the Database looking for odd entries and did not find any,
+At this point we still don't know how the attacker got in but the scripts seem pretty contained, and no other odd scripts showed up on the server. I also did a scan over the Database looking for odd entries and did not find any. In addition you should can all assets to ensure that they
+
+0. The safest step is to probably restore your site from a backup and completely fresh install the Wordpress installation. The reason being is that there are 1000s of ways a hacker could exploit your website. Some include:
+    - Opening up other less obvious backdoors. Folder permissions, creation of new DB users, addition of admin scripts, etc.
+    - Injecting attack scripts inside file assets. Images, Javascript, Less obvious php files, etc.
+    - Some scripts can even re-install themselves when they detect that they have been deleted.
+
+    There are many other cases and a wide range of tools to help detect hacked content. A recent tool recommended by my friend Mike is [NeoPI](https://github.com/Neohapsis/NeoPI) which can help detect obfuscated and encrypted content within files. As are the types of attacks diverse, so are the tools used to combat hackers.
+
+    Only continue if you understand the above comments and are ok with the risk of only partially removing your hacked code. For our hack it seems isolated so we'll just remove the files and better secure our system.
 
 1. Before taking steps to delete anything, the first thing I recommend is Googling similar hacks using keywords obtained from this attack. `lusts-disadvantages.php`, the content url, etc.
     - Nothing shows up when searching `lusts-disadvantages.php`.
@@ -284,20 +293,18 @@ At this point we still don't know how the attacker got in but the scripts seem p
     - Every example seemed to route to a different file than `lusts-disadvantages.php`. This is most likely intentional to further reduce the chance of detection.
     - I also noticed different content download urls. This partially explains why my link 404'd.
 
-2. Update Wordpress and all plugins. This is also a good time to Google search each of your plugins to see if there are any known vulnerabilities. I also recommend only using plugins that are popular and thus well vetted. If you're extremely concerned about security you can freshly re-install Wordpress to guarantee all your data is secure, or at least as secure as the current version of Wordpress (Also be sure to secure your server first). I would wager that is probably overkill for most people. Usually attackers take advantage of known Wordpress and popular plugin vulnerabilities and can be very easily thwarted. The reason for attacking the core and popular plugins is directly linked to their large distribution. In terms of dollars, it's simple, if a hacker can exploit more pages, they can make more money through ads.
+2. Update Wordpress and all plugins. This is also a good time to Google search each of your plugins to see if there are any known vulnerabilities. I also recommend only using plugins that are popular and thus well vetted. Usually attackers take advantage of known Wordpress and popular plugin vulnerabilities and can be very easily thwarted. The reason for attacking the core and popular plugins is directly linked to their large distribution. In terms of dollars, it's simple, if a hacker can exploit more pages, they can make more money through ads.
 
-3. Take the website offline for now. Now we are going to go through and remove files.
+3. Take the website offline for now. We are going to go through and remove files.
 
-    - First lets remove the conditional redirects from the `.htaccess` file. Specifically, remove the following lines.
+    - First, remove the conditional redirects from the `.htaccess` file. Specifically, remove the following lines.
     ```{.bash .numberLines startFrom="1"}
     RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
     RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
     RewriteRule ^(.*)$ lusts-disadvantage.php?$1 [L]
     ```
-
     - Next remove the `.md5(host)/` directory from the root of the Wordpress installation. A sample folder will look like `.00547420a52b40069b82beb76cdce8f7/`.
-
-    - Delete `lusts-disadvantages.php`, or whatever the decoded file name on your server turns out to be. It should be the "odd-duck" and easily stand out.
+    - Delete `lusts-disadvantages.php`, or whatever the decoded file name on your server turns out to be. It should be the "odd-duck" and will stand out.
 
 4. Reset your FTP/SSH user account credentials. It is also recommended to create non-obvious usernames. i.e. don't use `root` or your first name.
 
