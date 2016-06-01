@@ -107,7 +107,7 @@ NES Games
 <div class="dont-have">Battle Chess</div>
 <div class="dont-have">The Battle of Olympus</div>
 <div class="dont-have">Battle City</div>
-<div class="dont-have">Battle Tank</div>
+<div class="have">Battle Tank</div>
 <div class="dont-have">Battletoads</div>
 <div class="dont-have">Battletoads & Double Dragon</div>
 <div class="dont-have">Battleship</div>
@@ -813,7 +813,7 @@ NES Games
 <div class="dont-have">Wheel of Fortune: Featuring Vanna White</div>
 <div class="have">Wheel of Fortune: Junior Edition</div>
 <div class="dont-have">Where in Time is Carmen Sandiego?</div>
-<div class="dont-have">Where's Waldo?</div>
+<div class="have">Where's Waldo?</div>
 <div class="dont-have">Who Framed Roger Rabbit?</div>
 <div class="dont-have">Whomp 'Em</div>
 <div class="dont-have">Widget</div>

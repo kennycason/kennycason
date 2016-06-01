@@ -67,7 +67,7 @@ At the very end of the last line there is a piece of code: `edoced_46esab(lave')
 
 I also noticed another file named `sawsalag.php`. Very curious what that means. :)
 
-It's contents are yet another set of obscured code. This time it's a bit less obvious than a giant block of base 64. Instead it's obfuscated PHP.
+Its contents are yet another set of obscured code. This time it's a bit less obvious than a giant block of base 64. Instead it's obfuscated PHP.
 
 ```{.php .numberLines startFrom="1"}
 <?php
