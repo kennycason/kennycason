@@ -27,6 +27,10 @@ Two GIFs showing the evolution of a square.
 <img src="/images/genetic_draw/square_evolution.gif"/>
 <img src="/images/genetic_draw/square_evolution2.gif"/>
 
+GIF showing the evolution of the DataRank whale logo.
+
+<img src="/images/genetic_draw/datarank_whale_evolved.gif?raw=true"/>
+
 Evolutions of Mario. The first is using a polygon rendering DNA. The second and third are using DNAs that render fixed position/sized pixels of size 4x4px and 8x8px.
 
 <img src="/images/genetic_draw/mario_evolved_polygon.png" width="128px"/>
@@ -37,7 +41,7 @@ Evolution of Yoshi with convergence rate.
 
 <img src="/images/genetic_draw/evolving_yoshi_with_stats.png" width="600px"/>
 
-Mutation Rates and their affect on learning. Not normalized to generation count, you'll have to do some manual comparing. As expected, 10% performs better than 1% and 50%. I did not try a large number of intermittent values. (Note the generation count to see the faster convergence.)
+Mutation Rates and their effect on learning. Not normalized to generation count, you'll have to do some manual comparing. As expected, 10% performs better than 1% and 50%. I did not try a large number of intermittent values. (Note the generation count to see the faster convergence.)
 
 <img src="/images/genetic_draw/single_parent_mutation_1_percent.png" width="400px"/>
 
