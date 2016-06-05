@@ -12,10 +12,9 @@ The code can all be found on GitHub: <a href="https://github.com/kennycason/gene
 - Two Parent Population Models (Sexual reproduction)
 - Stochastic Selection (Selecting, with decreasing probability, less fit mates)
 - Tournament Selection (Select most fit from a random sub-population)
-- Polygon Expressing DNA
-- Pixel Expressing DNA
-- Static or Dynamic mutation probability rates.
+- Static or Dynamic mutation probability rates
 - Extendable Mutation/Selection classes
+- DNA can be comprised of many shapes, including polygons (Size N), squares, rectangles, ellipses, circles, and pixels.
 
 Two versions of Bulbasaur partially evolved. Used sexual reproduction via two parents. Population used stochastic acceptence with elitism to generate next populations.
 
@@ -27,9 +26,10 @@ Two GIFs showing the evolution of a square.
 <img src="/images/genetic_draw/square_evolution.gif"/>
 <img src="/images/genetic_draw/square_evolution2.gif"/>
 
-GIF showing the evolution of the DataRank whale logo.
+GIF showing the evolution of the DataRank and Simply Measured logos.
 
 <img src="/images/genetic_draw/datarank_whale_evolved.gif?raw=true"/>
+<img src="/images/genetic_draw/sm_logo_evolved.gif?raw=true" height="125px"/>
 
 Evolutions of Mario. The first is using a polygon rendering DNA. The second and third are using DNAs that render fixed position/sized pixels of size 4x4px and 8x8px.
 
@@ -62,8 +62,26 @@ However, one of our Kirby's didn't evolve so well. But why? It turns out that I 
 
 <img src="/images/genetic_draw/kirby_evolved_bad_fitness_function.png" width="128px"/>
 
-More of the output stats with numbers and graphs can be found in an excel file [here](https://github.com/kennycason/genetic_draw/raw/master/convergence_stats.xlsx).
+Adding alpha channels to the polygons results in a considerable performance drop (about 7x). While adding alpha results in better results, there are options to remove the alpha channel. Below are two renderings, with alpha and without.
+
+<img src="/images/genetic_draw/jing_evolved.png?raw=true" width="300px"/>
+<img src="/images/genetic_draw/jing_evolved_no_alpha.png?raw=true" width="300px"/>
+
+The canonical examples I found on the internet seem to be the evolution of Mona Lisa. Most examples I found demonstrated using triangles. I found that I had better results by mixing many shapes together. On the left is Mona Lisa evolved using rectangles and ellipses. Below, the first two evolutions demonstrate 1000 and 2000 genes containing only rectangles and ellipses, and the third using only triangles.
+
+<img src="/images/genetic_draw/mona_lisa_evolved_1000_genes.png?raw=true" width="230px"/>
+<img src="/images/genetic_draw/mona_lisa_evolved_2000_genes.png?raw=true" width="230px"/>
+<img src="/images/genetic_draw/mona_lisa_evolved_polygon.png?raw=true" width="230px"/>
+
+More of the statistics and graphs can be found in an excel file [here](https://github.com/kennycason/genetic_draw/raw/master/convergence_stats.xlsx).
 
 And finally, a current snapshot of my profile being evolved. :)
 
-<img src="/images/genetic_draw/my_profile_evolved.png" width="400px"/>
+<img src="/images/genetic_draw/my_profile_evolved4.png" width="400px"/>
+
+And previous versions.
+
+<img src="/images/genetic_draw/my_profile_evolved3.png" width="250px"/>
+<img src="/images/genetic_draw/my_profile_evolved2.png" width="250px"/>
+<img src="/images/genetic_draw/my_profile_evolved1.png" width="250px"/>
+<img src="/images/genetic_draw/my_profile_evolved0.png" width="250px"/>
