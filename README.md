@@ -1,1 +1,1 @@
-My personal website built with Hakyll
+My personal website/blog built with Hakyll
