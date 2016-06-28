@@ -74,7 +74,7 @@ Animorphs
 <tr>
 <td><image src="/images/animorphs/sbk41.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk42.jpg" class="have"/></td>
-<td><image src="/images/animorphs/sbk43.jpg" class="dont-have"/></td>
+<td><image src="/images/animorphs/sbk43.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk44.jpg" class="have"/></td>
 <td><image src="/images/animorphs/sbk45.jpg" class="dont-have"/></td>
 </tr>
