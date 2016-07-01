@@ -19,10 +19,22 @@ import System.FilePath (takeFileName,takeBaseName,splitFileName,takeDirectory, (
 main :: IO ()
 main = hakyllWith config $ do
 
-
     -- Build tags
     tags <- buildTags "posts/*" (fromCapture "tags/*.html")
 
+    tagsRules tags $ \tag pattern -> do
+        let title = "Posts tagged \"" ++ tag ++ "\""
+        route idRoute
+        compile $ do
+            posts <- recentFirst =<< loadAll pattern
+            let ctx = constField "title" title
+                        `mappend` listField "posts" postCtx (return posts)
+                        `mappend` defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/tag.html" ctx
+                >>= loadAndApplyTemplate "templates/default.html" ctx
+                >>= relativizeUrls
 
     -- copy site icon to `favicon.ico`
     match "images/logo/favicon.ico" $ do
@@ -69,7 +81,7 @@ main = hakyllWith config $ do
                     ]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/default.html"  (postCtxWithTags tags)
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
             >>= (unExternalizeUrls $ feedRoot feedConfiguration)
@@ -80,18 +92,18 @@ main = hakyllWith config $ do
         route $ setExtension "html"
 --        route $ niceRoute
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/post.html"    (postCtxWithTags tags)
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
             >>= (unExternalizeUrls $ feedRoot feedConfiguration)
-            >>= loadAndApplyTemplate "templates/default.html" (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/default.html" (postCtxWithTags tags)
             >>= relativizeUrls
 --            >>= cleanIndexUrls
 
     match "collections/games/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/default.html"  (postCtxWithTags tags)
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
             >>= (unExternalizeUrls $ feedRoot feedConfiguration)
@@ -100,7 +112,7 @@ main = hakyllWith config $ do
     match "collections/books/*" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html"  (tagsCtx tags)
+            >>= loadAndApplyTemplate "templates/default.html"  (postCtxWithTags tags)
             >>= (externalizeUrls $ feedRoot feedConfiguration)
             >>= saveSnapshot "content"
             >>= (unExternalizeUrls $ feedRoot feedConfiguration)
@@ -158,11 +170,8 @@ postCtx =
     dateField "date" "<span class=\"post-date\">%B %e, %Y</span>" `mappend`
     (defaultContext <> metaKeywordCtx)
 
-tagsCtx :: Tags -> Context String
-tagsCtx tags =
-    tagsField "prettytags" tags  `mappend`
-    (tagCloudField "tagcloud" 100  240 tags) `mappend`
-    postCtx
+postCtxWithTags :: Tags -> Context String
+postCtxWithTags tags = tagsField "tags" tags `mappend` postCtx
 
 feedCtx :: Context String
 feedCtx =
@@ -224,10 +233,3 @@ unExternalizeUrlsWith :: String -- ^ Path to the site root
 unExternalizeUrlsWith root = withUrls unExt
   where
     unExt x = if root `isPrefixOf` x then unpack $ replace (pack root) empty (pack x) else x
-
-postList :: Tags -> Pattern -> ([Item String] -> Compiler [Item String])
-         -> Compiler String
-postList tags pattern preprocess' = do
-    postItemTpl <- loadBody "templates/postitem.html"
-    posts <- preprocess' =<< loadAll pattern
-    applyTemplateList postItemTpl (tagsCtx tags) posts
