@@ -7,8 +7,8 @@ def parseDate(date)
 end
 
 def parsePost(post) 
-	post = post.gsub('http://www.ken-soft.com/doc/', '/pdf/')
-	post = post.gsub('http://www.ken-soft.com/', '/')
+	post = post.gsub('http://www.kennycason.com/doc/', '/pdf/')
+	post = post.gsub('http://www.kennycason.com/', '/')
 	['php', 'java', 'asm', 'html', 'c', 'c++', 'cpp', 'CPP' 'js', 'javascript', 'ruby'].each { |l|
 
 		post = post.gsub('<pre  lang="' + l + '" line="1">', "\n```" + l)

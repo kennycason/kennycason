@@ -3,7 +3,7 @@
  * BNID - Base N <=> 10 converter
  *
  * @author kenny cason
- * @site www.ken-soft.com
+ * @site www.kennycason.com
  */
 class BNID {
         // Alphabet of Base N (This is a Base 62 Implementation)

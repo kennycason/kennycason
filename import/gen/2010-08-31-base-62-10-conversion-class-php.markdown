@@ -12,7 +12,7 @@ This class can be used convert a base N number into base 10, and back. (Which ma
  * BNID - Base N <=> 10 converter
  *
  * @author kenny cason
- * @site www.ken-soft.com
+ * @site www.kennycason.com
  */
 class BNID {
 

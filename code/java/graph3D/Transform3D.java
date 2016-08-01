@@ -2,7 +2,7 @@ package graph3D;
 /**
  * this class contains transformation functions for a 3D vector
  * @author kenny cason
- * http://www.ken-soft.com
+ * http://www.kennycason.com
  * 2008 December
  */
 public class Transform3D {

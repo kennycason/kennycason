@@ -15,6 +15,6 @@ That should give a display similar to the image below (The current jar also prin
 The source is also bundled into the Jar file.
 
 MLL.java - contains many of the main functions necessary in a multilinked list.
-<p><a href="http://ken-soft.com/code/java/mll/MultiLinkedList.java" class="code">MultiLinkedList.java</a></p>
-<p><a href="http://ken-soft.com/code/java/mll/Node.java" class="code">Node.java</a></p>
-<p><a href="http://ken-soft.com/code/java/mll/MultiLinkedListTest.java" class="code">MultiLinkedListTest.java</a></p>
+<p><a href="http://kennycason.com/code/java/mll/MultiLinkedList.java" class="code">MultiLinkedList.java</a></p>
+<p><a href="http://kennycason.com/code/java/mll/Node.java" class="code">Node.java</a></p>
+<p><a href="http://kennycason.com/code/java/mll/MultiLinkedListTest.java" class="code">MultiLinkedListTest.java</a></p>

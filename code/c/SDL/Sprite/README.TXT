@@ -5,7 +5,7 @@ Feel free to do what ever you want with it, just please give me some credit!
 enjoy!
 Please report any bugs
 kenneth.cason@gmail.com
-www.ken-soft.com
+www.kennycason.com
 www.facebook.com/kenny.cason
 +----------------------------+
 compile:

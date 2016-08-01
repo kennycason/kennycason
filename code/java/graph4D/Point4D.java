@@ -2,7 +2,7 @@ package graph4D;
 /**
  * 4D vector
  * @author kenny cason
- * http://www.ken-soft.com
+ * http://www.kennycason.com
  * 2009 January 8
  */
 public class Point4D {

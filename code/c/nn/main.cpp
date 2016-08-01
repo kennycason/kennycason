@@ -6,7 +6,7 @@
 /*
 ABOUT: Train a back error propagation neural network to be able to perform Logical AND, three inputs
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 7-15-2011
 */

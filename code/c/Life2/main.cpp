@@ -7,7 +7,7 @@
 /*
 AUTHOR: Kenny Cason
 DATE: 2009 DEC 20
-SITE: Ken-Soft.com
+SITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 ABOUT: This is the basic backbone for a "Life" like program. basically where simple rules result in complex reactions. Try making your own rules :)
 */

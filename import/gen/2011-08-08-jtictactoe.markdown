@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: jgames, jquery, jtictactoe, tic tac toe
 ---
 
-jTicTacToe is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+jTicTacToe is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="tictactoe"></div></td><td><div id="tictactoe_anim"></div></td></tr>
     </table>
@@ -79,9 +79,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
 
         $("#tictactoe_anim").tictactoeAnimator(board_tictactoe_anim, 1000);
 ```
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#tictactoe").tictactoe(board_tictactoe);$("#tictactoe_anim").tictactoeAnimator(board_tictactoe_anim, 1000);});

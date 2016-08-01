@@ -14,7 +14,7 @@ import javax.swing.JPanel;
  * Graph4D - Rotates 4D points around the XY, YZ, XZ, XU, YU, and ZU axises, 
  * then projects them onto a 2D plane.
  * @author kenny cason 
- * http://www.ken-soft.com
+ * http://www.kennycason.com
  * 2009 January 8
  *
  */

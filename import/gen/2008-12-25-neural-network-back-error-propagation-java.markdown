@@ -18,11 +18,11 @@ That should give a display similar to the image below.
 <a href="/code/java/nn01/NN01.png" target="_blank" ><img src="/code/java/nn01/NN01.png" width="250" alt="neural network back error propagation java"/></a>
 
 Below are some links to A couple articles that give a good brief overview about neural networks, including some concepts about developing learning algorithms. Hope they are useful.
-<a href="http://ken-soft.com/2008/12/24/neural-networks-simple-models/" target="_blank" >About Neural Networks (English)</a>
-<a href="http://ken-soft.com/2008/12/24/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%EF%BC%88%E7%A5%9E%E7%B5%8C%E5%9B%9E%E8%B7%AF%E7%B6%B2%E3%83%BB%E8%AA%A4%E5%B7%AE%E9%80%86%E4%BC%9D%E6%92%AD%E6%96%B9%EF%BC%89/" target="_blank" >About Neural Networks (Japanese/日本語)</a>
+<a href="http://kennycason.com/2008/12/24/neural-networks-simple-models/" target="_blank" >About Neural Networks (English)</a>
+<a href="http://kennycason.com/2008/12/24/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%EF%BC%88%E7%A5%9E%E7%B5%8C%E5%9B%9E%E8%B7%AF%E7%B6%B2%E3%83%BB%E8%AA%A4%E5%B7%AE%E9%80%86%E4%BC%9D%E6%92%AD%E6%96%B9%EF%BC%89/" target="_blank" >About Neural Networks (Japanese/日本語)</a>
 
-<p><a href="http://ken-soft.com/code/java/nn01/NeuralNetwork.java" class="code">NeuralNetwork.java</a></p>
-<p><a href="http://ken-soft.com/code/java/nn01/Layer.java" class="code">Layer.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/NeuralNetwork.java" class="code">NeuralNetwork.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/Layer.java" class="code">Layer.java</a></p>
 There are two test file for you to try out.
-<p><a href="http://ken-soft.com/code/java/nn01/NeuralNetworkTest.java" class="code">NeuralNetworkTest.java</a></p>
-<p><a href="http://ken-soft.com/code/java/nn01/NeuralNetworkTest2.java" class="code">NeuralNetworkTest2.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/NeuralNetworkTest.java" class="code">NeuralNetworkTest.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/NeuralNetworkTest2.java" class="code">NeuralNetworkTest2.java</a></p>

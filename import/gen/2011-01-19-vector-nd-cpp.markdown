@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: 3d, c++, local alignment, mathematics, vector
 ---
 
-This is a N-Dimensional Vector class written in C++. While it can be used for any dimension, if you would like to use 3 or less dimensions including rotation functions check out my previous post (<a href="http://ken-soft.com/2010/09/16/vector-3d-structure-rotation-functions-c/">here</a>)
+This is a N-Dimensional Vector class written in C++. While it can be used for any dimension, if you would like to use 3 or less dimensions including rotation functions check out my previous post (<a href="http://kennycason.com/2010/09/16/vector-3d-structure-rotation-functions-c/">here</a>)
 
 <b>VectorND.cpp</b><br/>
 
@@ -19,7 +19,7 @@ This is a N-Dimensional Vector class written in C++. While it can be used for an
 /*
 ABOUT: 3D Vector and rotation functions. Rotations about X, Y, Z, and any arbitruary Vector
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 1-19-2011
 */

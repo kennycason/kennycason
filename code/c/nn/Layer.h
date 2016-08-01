@@ -4,7 +4,7 @@
 /*
 ABOUT: A Layer is a collection of Nodes. Though this layers are not necessary, it provides nice organization.
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 12-1-2009
 */

@@ -25,7 +25,7 @@ unsigned long long A(unsigned long long m, unsigned long long n) {
 }
 ```
 
-The entire source implentation can be found <a target="blank" href="http://ken-soft.com/code/c/ackermann/main.cpp">here</a>
+The entire source implentation can be found <a target="blank" href="http://kennycason.com/code/c/ackermann/main.cpp">here</a>
 I obtained a list of some of the expected values from this site ->     <a target="blank" href="http://www-users.cs.york.ac.uk/susan/cyc/a/ackermnn.htm">http://www-users.cs.york.ac.uk/susan/cyc/a/ackermnn.htm</a>
 Here are some of the values for 0 < m < 5, 0 < n < 6
 <table  align="left" border="1" width="100%">

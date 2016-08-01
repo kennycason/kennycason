@@ -1,5 +1,5 @@
 ; Author: Kenneth Cason
-; www.ken-soft.com
+; www.kennycason.com
 ; TileDim09 March 22
 ; Compiled with Purebasic 4.30
 
@@ -154,7 +154,7 @@ Repeat
   ElseIf KeyboardPushed(#PB_Key_S)
     Gosub Scramble 
   ElseIf KeyboardPushed(#PB_Key_A)
-    MessageRequester(Title$,"By: Kenneth Cason"+Chr(10)+Chr(13)+"www.ken-soft.com"+Chr(10)+Chr(13)+"Mouse - Click & Drag to shift columns & rows."+Chr(10)+Chr(13)+"Arrows - Shift Rows & Columns where the mouse is located."+Chr(10)+Chr(13)+"R - Reset"+Chr(10)+Chr(13)+"S - Scramble"+Chr(10)+Chr(13)+"Q - Quit")
+    MessageRequester(Title$,"By: Kenneth Cason"+Chr(10)+Chr(13)+"www.kennycason.com"+Chr(10)+Chr(13)+"Mouse - Click & Drag to shift columns & rows."+Chr(10)+Chr(13)+"Arrows - Shift Rows & Columns where the mouse is located."+Chr(10)+Chr(13)+"R - Reset"+Chr(10)+Chr(13)+"S - Scramble"+Chr(10)+Chr(13)+"Q - Quit")
   ElseIf KeyboardPushed(#PB_Key_Up)
     ShiftColumnUp(mX/TileDim)
     Delay(100)

@@ -10,7 +10,7 @@ import java.util.LinkedList;
  *
  * @author Kenneth Cason
  * kenneth.cason@gmail.com
- * www.Ken-Soft.com
+ * www.kennycason.com
  */
 public class XMLParser {
 	/*

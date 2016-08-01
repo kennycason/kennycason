@@ -4,7 +4,7 @@
 
 /*
  * Author: Kenny Cason
- * Site: www.Ken-Soft.com
+ * Site: www.kennycason.com
  * Date: 2010 July 12
  */
 using namespace std;

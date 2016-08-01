@@ -403,3 +403,7 @@ div.info {
   filter: grayscale(1); /* Firefox 35+ */
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
+
+table, th, td {
+   border: 1px solid;
+}

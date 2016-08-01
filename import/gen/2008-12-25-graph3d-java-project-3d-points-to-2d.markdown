@@ -6,7 +6,7 @@ tags: 2d, 3d, graph3d, java, linear, matrices, matrix, point, programming, proje
 
 This was a simple program I wrote that Displays 3D points. It does so by simply projecting a 3D (vector) into 2D. 
 The Jar file can be downloaded here: <a href="/code/java/graph3D/Graph3D.jar">Graph3D.jar</a>
-The C/C++ version can be found <a href="http://ken-soft.com/2009/12/19/graph-3d-vector-rotation-source-included-c/" target="_blank">here</a>
+The C/C++ version can be found <a href="http://kennycason.com/2009/12/19/graph-3d-vector-rotation-source-included-c/" target="_blank">here</a>
 
 <a href="/code/java/graph3D/graph3D.png" target="_blank" ><img src="/code/java/graph3D/graph3D.png" width="150" alt="3D rotation matrix" /></a>
 Before looking at the source, let's take a look at some of the fundamental mathematics behind the software.
@@ -39,11 +39,11 @@ And finally, to project the 3D points onto a 2D canvas after performing a rotati
 
 The source code can be found below as well as being bundled into the Jar file.
 
-<a href="http://ken-soft.com/?p=368" >Cube 3D</a> - A simple 3D Cube engine that demonstrates the usage of ALL the above mentioned equations.
+<a href="http://kennycason.com/?p=368" >Cube 3D</a> - A simple 3D Cube engine that demonstrates the usage of ALL the above mentioned equations.
 
 Transform3D.java - This is a simple version using a 3x3 matrix. Using a 4x4 matrix you can also store the translation information. This is useful when trying to program a skeleton represented by vectors.
-(Also, check out Graph/Rotate4D <a href="http://ken-soft.com/?p=296">here</a>
-<p><a href="http://ken-soft.com/code/java/graph3D/Transform3D.java" class="code">Transform.java</a></p>
-<p><a href="http://ken-soft.com/code/java/graph3D/Point3D.java" class="code">Point3D.java</a></p>
+(Also, check out Graph/Rotate4D <a href="http://kennycason.com/?p=296">here</a>
+<p><a href="http://kennycason.com/code/java/graph3D/Transform3D.java" class="code">Transform.java</a></p>
+<p><a href="http://kennycason.com/code/java/graph3D/Point3D.java" class="code">Point3D.java</a></p>
 Other included source:
-<p><a href="http://ken-soft.com/code/java/graph3D/Graph3D.java">Graph3D.java</a></p>
+<p><a href="http://kennycason.com/code/java/graph3D/Graph3D.java">Graph3D.java</a></p>

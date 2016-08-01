@@ -12,7 +12,7 @@ import javax.swing.JPanel;
  * Graph3D - Rotates 3D points around the X,Y, and Z axises, 
  * then projects them onto a 2D plane.
  * @author kenny cason 
- * http://www.ken-soft.com
+ * http://www.kennycason.com
  * 2008 December
  */
 public class Graph3D extends JFrame {

@@ -4,7 +4,7 @@
 /*
 ABOUT: The Node class represents a simple Neuron with the most basic of functionality. Links can be added and removed.
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 12-1-2009
 */

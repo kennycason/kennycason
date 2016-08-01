@@ -7,7 +7,7 @@ Server::Server() {
     Uint32 endtime;
     FILE *inifile;
     logging = LOG_DEBUG;
-    log("*** MMO Server v0.1 ***\nwww.ken-soft.com\n",LOG_DEBUG);
+    log("*** MMO Server v0.1 ***\nwww.kennycason.com\n",LOG_DEBUG);
     inifile=fopen("server.ini","r");
     if (inifile==NULL) {
         log("Can't open server.ini - using local directory for HTML status.\nPlease create a server.ini containing the location to write status to, e.g.\nC:/Progra~1/Apache~1/Apache/htdocs/status.html\n",LOG_DEBUG);

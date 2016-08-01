@@ -2,7 +2,7 @@
 /** 
  * Rect4D - A 4 dimensional rectangle of Objects
  * @author kenny cason 
- * http://www.ken-soft.com
+ * http://www.kennycason.com
  * 2009 January 9
  *
  */

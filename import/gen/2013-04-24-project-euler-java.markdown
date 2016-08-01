@@ -10,7 +10,7 @@ My current score :)<br/>
 
 All problems can be found on my <a href="https://github.com/kennycason/euler" title="Github Page" target="_blank">Github Page Here</a></br/>
 
-For a full list of all the problems I've solved, solutions, and times visit my dedicated page: http://ken-soft.com/project-euler/<br/>
+For a full list of all the problems I've solved, solutions, and times visit my dedicated page: http://kennycason.com/project-euler/<br/>
 looks something like this:<br/>
 <table border="1" cellpadding="4">
 <tr>

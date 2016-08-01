@@ -14,11 +14,11 @@ This page contains source code for a simple space shooter game written in C++ us
 
 All source code can be found in the ZIP file
 Version Downloads with project files (All you really need is the source):
-<a href="http://ken-soft.com/code/c/SDL/Game_Demo/Game_Demo_3.zip">Version 3: </a>Enemies, Event Queue(timer based), explosions, bullet & enemy collision, some minor code fixes
-<a href="http://ken-soft.com/code/c/SDL/Game_Demo/Game_Demo_2.zip">Version 2:</a> Animated sprites, uses custom sprite class
+<a href="http://kennycason.com/code/c/SDL/Game_Demo/Game_Demo_3.zip">Version 3: </a>Enemies, Event Queue(timer based), explosions, bullet & enemy collision, some minor code fixes
+<a href="http://kennycason.com/code/c/SDL/Game_Demo/Game_Demo_2.zip">Version 2:</a> Animated sprites, uses custom sprite class
 <b>New to SDL? Start with Version 1 below</b>
 <a href="/code/c/SDL/Game_Demo/Game_Demo_windows_devcpp.zip">Version 1: Project file for DevCpp (Windows)</a>
 <a href="/code/c/SDL/Game_Demo/Game_Demo_linux_codeblocks.zip">Version 1: Project file for Code::Blocks (Linux)</a>
 
 Also, for a Sprite class with rotations, animations, etc. Check out my ongoing Sprite library, also written in C++ using SDL
-<a href="http://ken-soft.com/?p=234">SDL Sprite Library</a>
+<a href="http://kennycason.com/?p=234">SDL Sprite Library</a>

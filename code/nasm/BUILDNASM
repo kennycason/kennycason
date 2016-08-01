@@ -2,7 +2,7 @@
 
 # AUTHOR: Kenneth Cason
 # EMAIL:  kenneth.cason@gmail.com
-# SITE:   www.Ken-Soft.com	
+# SITE:   www.kennycason.com	
 
 # usage
 usage() {
@@ -19,7 +19,7 @@ usage() {
   echo ""
   echo "AUTHOR: Kenneth Cason"
   echo "EMAIL:  kenneth.cason@gmail.com"
-  echo "SITE:   www.Ken-Soft.com"
+  echo "SITE:   www.kennycason.com"
 }
 
 if [ "$1" == "-h" ]

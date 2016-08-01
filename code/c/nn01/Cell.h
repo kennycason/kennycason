@@ -7,7 +7,7 @@ ABOUT: In my implementation a "Cell" represents a collection of layers, the way 
    an input layer, center layer(s), and an output layer. Though there is nothing preventing the ouput layer to feed back into the input layer
    or any layer connecting to a previous layer (recurrent neural networks).
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 12-1-2009
 */

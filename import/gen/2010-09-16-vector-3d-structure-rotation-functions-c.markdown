@@ -17,7 +17,7 @@ This is my Vector3D structure with a set of appropriate operation overloads(-,+,
 /*
 ABOUT: 3D Vector and rotation functions. Rotations about X, Y, Z, and any arbitruary Vector
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 11-19-2009
 */

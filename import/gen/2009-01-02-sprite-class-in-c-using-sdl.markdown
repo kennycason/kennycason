@@ -19,7 +19,7 @@ To view a demo of some of the Sprites classes features, and have access to some 
 
 All examples use these sprites
 <table><tr><td><a href="/code/c/SDL/Sprite/samus_normal_run.bmp" target="_blank" ><img width="90%" src="/code/c/SDL/Sprite/samus_normal_run.bmp"  alt="SDL Sprite C++"/></a></td>
-<td><a href="http://ken-soft.com/code/c/SDL/Sprite/character.bmp" target="_blank" ><img width="90%" src="http://ken-soft.com/code/c/SDL/Sprite/character.bmp"  alt="SDL Sprite C++"/></a></td></tr></table>
+<td><a href="http://kennycason.com/code/c/SDL/Sprite/character.bmp" target="_blank" ><img width="90%" src="http://kennycason.com/code/c/SDL/Sprite/character.bmp"  alt="SDL Sprite C++"/></a></td></tr></table>
 
 <b>Demo using special effects </b>
 <pre lang="CPP" line="1">

@@ -10,13 +10,13 @@ It also supports display of a series of states (i.e. an animation). This is usef
 
 As this is the first release be wary of any bugs and also keep in mind that I will be updating it continuously. 
 <strong>jGame links</strong> 
-<strong>1.</strong> <a href="http://ken-soft.com/2011/08/08/jchess/">jChess</a> 
-<strong>2.</strong> <a href="http://ken-soft.com/2011/08/08/jcheckers/">jCheckers</a>
-<strong>3.</strong> <a href="http://ken-soft.com/2011/08/08/jgo/">jGo</a> 
-<strong>4.</strong> <a href="http://ken-soft.com/2011/08/08/jxiangqi/">jXiangQi</a> 
-<strong>5.</strong> <a href="http://ken-soft.com/2011/08/08/jshogi/">jShogi</a> 
-<strong>6.</strong> <a href="http://ken-soft.com/2011/08/08/jothello/">jOthello</a> 
-<strong>7.</strong> <a href="http://ken-soft.com/2011/08/08/jtictactoe/">jTicTacToe</a> 
+<strong>1.</strong> <a href="http://kennycason.com/2011/08/08/jchess/">jChess</a> 
+<strong>2.</strong> <a href="http://kennycason.com/2011/08/08/jcheckers/">jCheckers</a>
+<strong>3.</strong> <a href="http://kennycason.com/2011/08/08/jgo/">jGo</a> 
+<strong>4.</strong> <a href="http://kennycason.com/2011/08/08/jxiangqi/">jXiangQi</a> 
+<strong>5.</strong> <a href="http://kennycason.com/2011/08/08/jshogi/">jShogi</a> 
+<strong>6.</strong> <a href="http://kennycason.com/2011/08/08/jothello/">jOthello</a> 
+<strong>7.</strong> <a href="http://kennycason.com/2011/08/08/jtictactoe/">jTicTacToe</a> 
 
 Below is a simple demo of some of the games supported. 
 
@@ -57,9 +57,9 @@ Next, create the state of the chess board using Javascript. Depending on the gam
 
 ```
 That's it! 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess").chess(board_chess);$("#go13").go(board_go_13);$("#chess_anim").chessAnimator(chessAnim, 1000);});

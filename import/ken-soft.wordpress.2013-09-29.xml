@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Ken-Soft</title>
-	<link>http://ken-soft.com</link>
+	<link>http://kennycason.com</link>
 	<description>Just another WordPress site</description>
 	<pubDate>Sun, 29 Sep 2013 15:17:02 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://ken-soft.com</wp:base_site_url>
-	<wp:base_blog_url>http://ken-soft.com</wp:base_blog_url>
+	<wp:base_site_url>http://kennycason.com</wp:base_site_url>
+	<wp:base_blog_url>http://kennycason.com</wp:base_blog_url>
 
 	<wp:author><wp:author_id>1</wp:author_id><wp:author_login>kenny</wp:author_login><wp:author_email>kenneth.cason@gmail.com</wp:author_email><wp:author_display_name><![CDATA[kenny]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -42,10 +42,10 @@
 
 	<item>
 		<title>Send SMS Messages to Every Cell Phone in America</title>
-		<link>http://ken-soft.com/2008/12/24/send-sms-messages-to-every-cell-phone-in-america/</link>
+		<link>http://kennycason.com/2008/12/24/send-sms-messages-to-every-cell-phone-in-america/</link>
 		<pubDate>Wed, 24 Dec 2008 11:33:48 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=3</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=3</guid>
 		<description></description>
 		<content:encoded><![CDATA[While sending SMS or MMS messages from your computer is not by any means a new technology, this is the first time that I have devoted the time to developing anything with it. It was definitely a fun experience. Again, I want to emphasize that I know this is not a new technology, but I feel that the structure of American cell phone E-mails is very prone to spam.
 
@@ -70,7 +70,7 @@ So know we know that we can send emails to specific phone emails, but how do you
 ?></pre>
 
 Here is a simple implementation that created. you can send messages to standarde emails like gmail, etc, and phones provided you know the phone number and carrier.
-<a href="http://www.ken-soft.com/sms/sendsms.php">Send SMS using PHP</a>
+<a href="http://www.kennycason.com/sms/sendsms.php">Send SMS using PHP</a>
 
 I'm fairly certain a phone company and users alike would not appreciate this very much. Perhaps before this begins to be more and more exploited maybe phone companies should do more to allow users to have a more secure and unique phone E-mail address. Much like the phones of Japan. Then if you start getting more spam than you'd like, you can easily change your phone's E-mail, without having to change your phone number. ;)
 Example usage: Your friend uses <b>AT&T</b> and his phone number is <b>1234567890</b>. 
@@ -134,14 +134,14 @@ Before anyone decides to go on a spamming spree I recommend consulting laws gove
 	</item>
 	<item>
 		<title>Creating Multi-lingual Webpages using PHP (part 1)</title>
-		<link>http://ken-soft.com/2008/12/24/creating-multi-lingual-webpages-using-php-part-1/</link>
+		<link>http://kennycason.com/2008/12/24/creating-multi-lingual-webpages-using-php-part-1/</link>
 		<pubDate>Wed, 24 Dec 2008 11:35:31 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=6</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[For those who have ever tried to design a multilingual web page only to end up with 5 different index pages to represent your 5 different languages, this article may be of interest. I would like to point out that this solution is only one of many. While this solution is probably not best fit for large sites, I consider it a decent solution for smaller sites.
 Here is the demo that we are going to create:
-<a href="http://www.ken-soft.com/code/php/langsupport/index.php" target="_blank">Multilingual Page in PHP Example</a>
+<a href="http://www.kennycason.com/code/php/langsupport/index.php" target="_blank">Multilingual Page in PHP Example</a>
 First create your main page: i.e. index.php
 <pre lang="c" line="1"><?php
   $language = $_REQUEST['lang']; 
@@ -172,10 +172,10 @@ background-color: #EEEEEE;
 
 <body style='color:gray'>
 <div class='nav0'>
-<a  href='index.php?lang=en' title='English'><img  src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_english.gif' alt='English'\></a>
-<a href='index.php?lang=jp' title='Japanese'><img src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_japan.gif' alt='Japanese'\></a></li>
-<a  href='index.php?lang=ko' title='Korean'><img  src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_korean.gif' alt='Korean'\></a>
-<a href='index.php?lang=zh' title='Chinese'><img src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_chinese.gif' alt='Chinese'\></a></li>
+<a  href='index.php?lang=en' title='English'><img  src='http://www.kennycason.com/code/php/langsupport/languages/flag_english.gif' alt='English'\></a>
+<a href='index.php?lang=jp' title='Japanese'><img src='http://www.kennycason.com/code/php/langsupport/languages/flag_japan.gif' alt='Japanese'\></a></li>
+<a  href='index.php?lang=ko' title='Korean'><img  src='http://www.kennycason.com/code/php/langsupport/languages/flag_korean.gif' alt='Korean'\></a>
+<a href='index.php?lang=zh' title='Chinese'><img src='http://www.kennycason.com/code/php/langsupport/languages/flag_chinese.gif' alt='Chinese'\></a></li>
 </div>	
 <?php print $txt['txt_first_name']; ?> <br />
 <?php print $txt['txt_last_name']; ?> <br />
@@ -266,7 +266,7 @@ $txt = array (
 			<wp:comment_id>163</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>130.184.24.219</wp:comment_author_IP>
 			<wp:comment_date>2009-11-17 20:27:39</wp:comment_date>
 			<wp:comment_date_gmt>2009-11-18 03:27:39</wp:comment_date_gmt>
@@ -325,10 +325,10 @@ Thanks in Advance.]]></wp:comment_content>
 	</item>
 	<item>
 		<title>ルービックキューブの論理的なやり方（３x３x３）</title>
-		<link>http://ken-soft.com/2008/12/24/%e3%83%ab%e3%83%bc%e3%83%93%e3%83%83%e3%82%af%e3%82%ad%e3%83%a5%e3%83%bc%e3%83%96%e3%81%ae%e8%ab%96%e7%90%86%e7%9a%84%e3%81%aa%e3%82%84%e3%82%8a%e6%96%b9%ef%bc%88%ef%bc%93x%ef%bc%93x%ef%bc%93%ef%bc%89/</link>
+		<link>http://kennycason.com/2008/12/24/%e3%83%ab%e3%83%bc%e3%83%93%e3%83%83%e3%82%af%e3%82%ad%e3%83%a5%e3%83%bc%e3%83%96%e3%81%ae%e8%ab%96%e7%90%86%e7%9a%84%e3%81%aa%e3%82%84%e3%82%8a%e6%96%b9%ef%bc%88%ef%bc%93x%ef%bc%93x%ef%bc%93%ef%bc%89/</link>
 		<pubDate>Wed, 24 Dec 2008 18:17:19 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=37</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=37</guid>
 		<description></description>
 		<content:encoded><![CDATA[<center>ルービックキューブの論理的なやり方</center>
 <center>Kenny Cason(ケン・ケーソン)</center>
@@ -337,30 +337,30 @@ Thanks in Advance.]]></wp:comment_content>
 説明:
 1。まず、ルービックキューブを回して色をバラバラに崩す。
 2。一つのコーナキューブ以外、一面目を揃えていく。これを自力で出来なければ、もっと練習しなければならない。
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc2.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>こんなふうに一面目の間のピースを揃えていく。</td></table>
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc3.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>それで、一面目のコーナキューブを三つ揃えていく。どれでもいい。
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc2.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>こんなふうに一面目の間のピースを揃えていく。</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc3.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>それで、一面目のコーナキューブを三つ揃えていく。どれでもいい。
 </td></table>
 
 3。二段目のエッジキューブを三つ揃えていく。
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc4.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>まずは、一面目のまだ揃ってないコナーキューブを二面目のまだ揃ってないエッジキューブの上に回す。</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc4.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>まずは、一面目のまだ揃ってないコナーキューブを二面目のまだ揃ってないエッジキューブの上に回す。</td></table>
 
 4。一番下の段のエッジキューブを揃えていく。これらのキューブをそれぞれ三つの動作
 で揃えていく。
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc5.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>まだ揃えてないエッジキューブを簡単に正しい場所に入れる為、一、二面目の二つの揃えてないキューブのスペースを使うコツがある。</td></table>
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc6.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>ステップ4が終わったら、すべてのエッジキューブが揃えている。</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc5.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>まだ揃えてないエッジキューブを簡単に正しい場所に入れる為、一、二面目の二つの揃えてないキューブのスペースを使うコツがある。</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc6.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>ステップ4が終わったら、すべてのエッジキューブが揃えている。</td></table>
 
 5。次は、コナーキューブを揃えていく。残っているまだ揃っていないコナーキューブを正しい場所に入れていく。八回の動作で三個のコナーキューブが右・左回りに回転することができる。確率によると、一個から三個のキューブを同時に揃えることが出来る。
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc7.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>コナーキューブが揃うまで、回す。</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc7.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>コナーキューブが揃うまで、回す。</td></table>
 
 6。最後は一番難しそうかもしれないが、意外にコナーキューブの回転のやり方は分かりやすい。一個のコナーキューブを回したら、ルービックキューブを直す為に、他のスタートポイントを前のコナーキューブと同じ場所から逆に回さなければならない。
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc8.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>十四回の動作で二個のコナーキューブを逆に回す</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc8.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>十四回の動作で二個のコナーキューブを逆に回す</td></table>
 
 ルービックキューブをするにはコツは練習です。
 頑張ってください！
 
 PDFは下のリンクからダウンロードできます。
-日本語：<a href="http://www.ken-soft.com/doc/rubikscube-jp.pdf">ダウンロード</a> 
-英語<a href="http://www.ken-soft.com/doc/rubikscube-en.pdf">ダウンロード</a> ]]></content:encoded>
+日本語：<a href="http://www.kennycason.com/doc/rubikscube-jp.pdf">ダウンロード</a> 
+英語<a href="http://www.kennycason.com/doc/rubikscube-en.pdf">ダウンロード</a> ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>37</wp:post_id>
 		<wp:post_date>2008-12-24 18:17:19</wp:post_date>
@@ -432,10 +432,10 @@ PDFは下のリンクからダウンロードできます。
 	</item>
 	<item>
 		<title>Logical Method for Solving the 3x3x3 Rubik&#039;s Cube</title>
-		<link>http://ken-soft.com/2008/12/24/a-simple-method-for-solving-the-rubiks-cube/</link>
+		<link>http://kennycason.com/2008/12/24/a-simple-method-for-solving-the-rubiks-cube/</link>
 		<pubDate>Thu, 25 Dec 2008 02:29:18 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=49</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=49</guid>
 		<description></description>
 		<content:encoded><![CDATA[<center>How to Logically Solve a Rubik’s Cube</center>
 <center>Kenneth Cason</center>
@@ -448,29 +448,29 @@ Explanation:
 1. First, scramble up the Rubik’s Cube, if it isn’t already. 
 
 2. All except on corner piece, solve the top layer. This may seem difficult at first, but will become simple as you practice.
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc2.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>Just like in the diagram, solve the for edge pieces in the top layer, creating a cross. Ensure that the color orientation is correct all the way around by examining the center pieces color in the middle layer.
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc2.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>Just like in the diagram, solve the for edge pieces in the top layer, creating a cross. Ensure that the color orientation is correct all the way around by examining the center pieces color in the middle layer.
 </td></table>
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc3.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>Next, solve any three of the corner pieces in the top layer, leaving one unsolved corner piece. You may choose to the corner to not solve at your own discretion.</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc3.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>Next, solve any three of the corner pieces in the top layer, leaving one unsolved corner piece. You may choose to the corner to not solve at your own discretion.</td></table>
 
 3. Except for one edge piece, place corresponding 3 edge pieces  into the middle layer.
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc4.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>In order to do this, we are going to make use of the unsolved corner piece in the top layer. In general you first place the unsolved corner of the top layer directly over the place in the second layer where you want to place the correct piece (which must be in the bottom layer). Then in only 3 moves each you can solve 3 of the 4 edge pieces in the middle layer. The resulting pattern should be similar to whats in the diagram to the left.</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc4.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>In order to do this, we are going to make use of the unsolved corner piece in the top layer. In general you first place the unsolved corner of the top layer directly over the place in the second layer where you want to place the correct piece (which must be in the bottom layer). Then in only 3 moves each you can solve 3 of the 4 edge pieces in the middle layer. The resulting pattern should be similar to whats in the diagram to the left.</td></table>
 
 4. Next, turn the cube upside down exposing the bottom layer.
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc5.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>The unsolved 2 pieces from the top and middle layer in previous steps can now be used to place the edge pieces correctly in the bottom row.</td></table>
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc6.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>If done correctly the resulting pattern will be as described in the diagram to the left.</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc5.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>The unsolved 2 pieces from the top and middle layer in previous steps can now be used to place the edge pieces correctly in the bottom row.</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc6.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>If done correctly the resulting pattern will be as described in the diagram to the left.</td></table>
 
 5. Next, place the remaining corner pieces into their correct place, without regarding orientation. Typical algorithms involve the rotation of 3 corner pieces either clockwise or counterclockwise. To do so takes and algorithm of only 8 moves. Depending on probability you may even be lucky enough to solve the cube at this point by simple rotating the corners.
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc7.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>An example of a sample 3 corner rotation clockwise.</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc7.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>An example of a sample 3 corner rotation clockwise.</td></table>
 
 6. Finally, what may seem to be the most difficult part of the cube, rotating two corner pieces orientation. However, this is deceptively easy. As you can see in the diagram if one corners orientation is rotated clockwise, one other corner piece is rotated oppositely. This is because during the process of rotating one corner piece, the cube gets messed up. Then by performing the operations in reverse to another corner piece, it causes the cube to fix itself and rotate one other piece in the opposite direction. It can be viewed in a simpler case such as if you rotate the top face clockwise, naturally by doing the opposite and rotating the top face counterclockwise, you will fix the cube. This principle is in my opinion a key concept in understanding the Rubik’s Cube. 
 
-<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.ken-soft.com/images/rc/rc8.jpg" alt="Rubik's Cube Tutorial"/></center></td><td>To perform the rotations shown in the diagram requires and algorithm of 12 moves. However, Don’t be alarmed, half of it is simply undoing what you did in the first half. So it’s really more like 6 moves to rotate a single corner piece in one direction, 1 move to put the next corner to rotate into position, 6 moves to undo the first 6 moves you did which causes the corner piece to rotate in the opposite direction. 1 move to readjust the top layer</td></table>
+<table width="100%"><tr><td><center><img padding="0" width="150" src="http://www.kennycason.com/images/rc/rc8.jpg" alt="Rubik's Cube Tutorial"/></center></td><td>To perform the rotations shown in the diagram requires and algorithm of 12 moves. However, Don’t be alarmed, half of it is simply undoing what you did in the first half. So it’s really more like 6 moves to rotate a single corner piece in one direction, 1 move to put the next corner to rotate into position, 6 moves to undo the first 6 moves you did which causes the corner piece to rotate in the opposite direction. 1 move to readjust the top layer</td></table>
 
 The secret to the Rubik’s Cube is practice. The more you work at it the more you will understand it.
 Good Luck!
 
-PDF Download available <a href="http://www.ken-soft.com/doc/rubikscube-en.pdf">here</a> 
-Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-jp.pdf">here</a>]]></content:encoded>
+PDF Download available <a href="http://www.kennycason.com/doc/rubikscube-en.pdf">here</a> 
+Japanese Version available here <a href="http://www.kennycason.com/doc/rubikscube-jp.pdf">here</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>49</wp:post_id>
 		<wp:post_date>2008-12-24 19:29:18</wp:post_date>
@@ -577,12 +577,12 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 	</item>
 	<item>
 		<title>ニューラルネット（神経回路網・誤差逆伝播法）PDF</title>
-		<link>http://ken-soft.com/2008/12/24/%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a9%e3%83%ab%e3%83%8d%e3%83%83%e3%83%88%ef%bc%88%e7%a5%9e%e7%b5%8c%e5%9b%9e%e8%b7%af%e7%b6%b2%e3%83%bb%e8%aa%a4%e5%b7%ae%e9%80%86%e4%bc%9d%e6%92%ad%e6%96%b9%ef%bc%89/</link>
+		<link>http://kennycason.com/2008/12/24/%e3%83%8b%e3%83%a5%e3%83%bc%e3%83%a9%e3%83%ab%e3%83%8d%e3%83%83%e3%83%88%ef%bc%88%e7%a5%9e%e7%b5%8c%e5%9b%9e%e8%b7%af%e7%b6%b2%e3%83%bb%e8%aa%a4%e5%b7%ae%e9%80%86%e4%bc%9d%e6%92%ad%e6%96%b9%ef%bc%89/</link>
 		<pubDate>Wed, 24 Dec 2008 19:52:41 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=65</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=65</guid>
 		<description></description>
-		<content:encoded><![CDATA[<embed wmode="transparent" src="http://www.ken-soft.com/doc/neuralnetwork-jp.pdf" width="100%" height="600">  ]]></content:encoded>
+		<content:encoded><![CDATA[<embed wmode="transparent" src="http://www.kennycason.com/doc/neuralnetwork-jp.pdf" width="100%" height="600">  ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>65</wp:post_id>
 		<wp:post_date>2008-12-24 19:52:41</wp:post_date>
@@ -615,7 +615,7 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 			<wp:comment_id>3</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Neural Network - Back-Error Propagation - Java]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=162</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=162</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2008-12-25 21:39:21</wp:comment_date>
 			<wp:comment_date_gmt>2008-12-26 04:39:21</wp:comment_date_gmt>
@@ -629,7 +629,7 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 			<wp:comment_id>178</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Neural Network (Back-Error Propagation) C++]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=475</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=475</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-12-20 04:44:26</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-20 11:44:26</wp:comment_date_gmt>
@@ -642,12 +642,12 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 	</item>
 	<item>
 		<title>Neural Networks - Simple Models (PDF)</title>
-		<link>http://ken-soft.com/2008/12/24/neural-networks-simple-models/</link>
+		<link>http://kennycason.com/2008/12/24/neural-networks-simple-models/</link>
 		<pubDate>Thu, 25 Dec 2008 03:02:07 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=70</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=70</guid>
 		<description></description>
-		<content:encoded><![CDATA[<embed wmode="transparent" src="http://www.ken-soft.com/doc/neuralnetwork-en.pdf" width="100%" height="600">  ]]></content:encoded>
+		<content:encoded><![CDATA[<embed wmode="transparent" src="http://www.kennycason.com/doc/neuralnetwork-en.pdf" width="100%" height="600">  ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>70</wp:post_id>
 		<wp:post_date>2008-12-24 20:02:07</wp:post_date>
@@ -677,7 +677,7 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 			<wp:comment_id>2</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Neural Network - Back-Error Propagation - Java]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=162</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=162</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2008-12-25 21:37:58</wp:comment_date>
 			<wp:comment_date_gmt>2008-12-26 04:37:58</wp:comment_date_gmt>
@@ -691,7 +691,7 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 			<wp:comment_id>177</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Neural Network (Back-Error Propagation) C++]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=475</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=475</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-12-20 04:42:50</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-20 11:42:50</wp:comment_date_gmt>
@@ -704,16 +704,16 @@ Japanese Version available here <a href="http://www.ken-soft.com/doc/rubikscube-
 	</item>
 	<item>
 		<title>Vulcan I - (Written in Purebasic) </title>
-		<link>http://ken-soft.com/2008/12/24/vulcan-i-writtenin-purebasic/</link>
+		<link>http://kennycason.com/2008/12/24/vulcan-i-writtenin-purebasic/</link>
 		<pubDate>Thu, 25 Dec 2008 06:14:26 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=73</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=73</guid>
 		<description></description>
 		<content:encoded><![CDATA[Vulcan I is a sidescrolling space shooter written in <a target="_blank" href="http://www.purebasic.com">Purebasic</a>. This was my first major attempt at programming a game and is far from perfect. Vulcan I features 7 full length levels, each ending with a boss battle, many of which are redundant. Each level is unique and has its own array of enemies and terrains. Equip various powerups to prepare for the final showdown to save the universe.
 
-<a href="http://www.ken-soft.com/dl/vulcan.zip"><b>Download Here</b></a>
+<a href="http://www.kennycason.com/dl/vulcan.zip"><b>Download Here</b></a>
 
-<table width="100%"><tr><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot01.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot01.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot02.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot02.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot03.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot03.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td></tr><tr><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot04.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot04.JPG" /></a></td><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot05.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot05.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot06.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot06.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td></tr><tr><td><a href="http://www.ken-soft.com/code/pb/vulcan/screenshot07.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/vulcan/screenshot07.JPG" alt="Vulcan Side Scrolling Space Shooter" /></a></td></tr></table>
+<table width="100%"><tr><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot01.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot01.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot02.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot02.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot03.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot03.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td></tr><tr><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot04.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot04.JPG" /></a></td><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot05.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot05.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot06.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot06.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td></tr><tr><td><a href="http://www.kennycason.com/code/pb/vulcan/screenshot07.JPG"><img width="195" src="http://www.kennycason.com/code/pb/vulcan/screenshot07.JPG" alt="Vulcan Side Scrolling Space Shooter" /></a></td></tr></table>
 
 <b>About Vulcan</b>
       <ul><b>Keyboard:
@@ -884,10 +884,10 @@ The music for Vulcan is a tune made by Anthony Lofton, and it alone should make 
 	</item>
 	<item>
 		<title>Blocks - Advanced Tetris Clone (Written in Purebasic)</title>
-		<link>http://ken-soft.com/2008/12/24/blocks-advanced-tetris-clone-written-in-purebasic/</link>
+		<link>http://kennycason.com/2008/12/24/blocks-advanced-tetris-clone-written-in-purebasic/</link>
 		<pubDate>Thu, 25 Dec 2008 06:37:58 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=97</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=97</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Blocks is a tetris like game written in <a href="http://www.purebasic.com">Purebasic</a>. Blocks features 3 modes:		
 <b>Baby Mode</b> - simple pieces constructed from 3 bricks.
@@ -895,10 +895,10 @@ The music for Vulcan is a tune made by Anthony Lofton, and it alone should make 
 <b>Blocks Mode</b> - pieces constructed from 1 - 6 bricks. 27 different pieces, including a randomly generated piece that can take on bizzare shapes. In this mode it is possible to clear 6 lines at once, earning yourself a "Block." I recommend playing it in block mode and large size for the most fun. :) Enjoy!
 High Scores are saved for each of the modes.
 
-<a href="http://www.ken-soft.com/dl/blocks.zip"><b>Download Here</b></a>
-<a href="http://www.ken-soft.com/code/pb/blocks/blocks.pb"><b>Download Source Here</b></a>It has been a few years since I compiled it. I believe it was compiled using Purebasic v3.94, However, It should be fairly easy to make changes to get it to recompile in the most recent version, or just to convert it into another language.
+<a href="http://www.kennycason.com/dl/blocks.zip"><b>Download Here</b></a>
+<a href="http://www.kennycason.com/code/pb/blocks/blocks.pb"><b>Download Source Here</b></a>It has been a few years since I compiled it. I believe it was compiled using Purebasic v3.94, However, It should be fairly easy to make changes to get it to recompile in the most recent version, or just to convert it into another language.
 
-<table width="100%"><tr><td><a href="http://www.ken-soft.com/code/pb/blocks/screenshot.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/blocks/screenshot.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="http://www.ken-soft.com/code/pb/blocks/screenshot2.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/blocks/screenshot2.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="http://www.ken-soft.com/code/pb/blocks/screenshot3.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/blocks/screenshot3.JPG" alt="Blocks 2D Tetris clone"/></a></td  ></tr><tr><td><a href="http://www.ken-soft.com/code/pb/blocks/screenshot4.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/blocks/screenshot4.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="http://www.ken-soft.com/code/pb/blocks/screenshot5.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/blocks/screenshot5.JPG" alt="Blocks 2D Tetris clone"/></a></td><td width="195"></td></tr></table>
+<table width="100%"><tr><td><a href="http://www.kennycason.com/code/pb/blocks/screenshot.JPG"><img width="195" src="http://www.kennycason.com/code/pb/blocks/screenshot.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="http://www.kennycason.com/code/pb/blocks/screenshot2.JPG"><img width="195" src="http://www.kennycason.com/code/pb/blocks/screenshot2.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="http://www.kennycason.com/code/pb/blocks/screenshot3.JPG"><img width="195" src="http://www.kennycason.com/code/pb/blocks/screenshot3.JPG" alt="Blocks 2D Tetris clone"/></a></td  ></tr><tr><td><a href="http://www.kennycason.com/code/pb/blocks/screenshot4.JPG"><img width="195" src="http://www.kennycason.com/code/pb/blocks/screenshot4.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="http://www.kennycason.com/code/pb/blocks/screenshot5.JPG"><img width="195" src="http://www.kennycason.com/code/pb/blocks/screenshot5.JPG" alt="Blocks 2D Tetris clone"/></a></td><td width="195"></td></tr></table>
 
 <b>About Blocks</b>
 
@@ -955,10 +955,10 @@ High Scores are saved for each of the modes.
 	</item>
 	<item>
 		<title>Magus Map Maker - 2D Multilayer Map</title>
-		<link>http://ken-soft.com/2008/12/25/magus-map-maker-2d-multilayer-map/</link>
+		<link>http://kennycason.com/2008/12/25/magus-map-maker-2d-multilayer-map/</link>
 		<pubDate>Thu, 25 Dec 2008 07:12:31 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=110</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=110</guid>
 		<description></description>
 		<content:encoded><![CDATA[<b>Note:</b> for a more fully featured map maker, I would reccomend using <b>Mappy</b> or <b>Tiled</b> 
 
@@ -970,11 +970,11 @@ Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www
 <b>Tilenator</b> - This feature can turn a tilesheet into a directory of invidual tiles, and vice versa
 <b>Help Files</b> - Online help documentation to ease use  
 
-<a href="http://www.ken-soft.com/dl/mmm.zip"><b>Download Here</b></a>
-For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="http://www.ken-soft.com/doc/mmm/help/"><b>Online Help</b></a>
+<a href="http://www.kennycason.com/dl/mmm.zip"><b>Download Here</b></a>
+For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="http://www.kennycason.com/doc/mmm/help/"><b>Online Help</b></a>
 
-<table width="100%"><tr><td><a href="http://www.ken-soft.com/code/pb/mmm/2nd_layer.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/mmm/2nd_layer.JPG" /></a></td><td><a href="http://www.ken-soft.com/images/mmm/all_layers.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/mmm/all_layers.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="http://www.ken-soft.com/code/pb/mmm/up_to_3rd_layer.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/mmm/up_to_3rd_layer.JPG"alt="2D Tile Map Maker" /></a></td  ></tr><tr><td><a href="http://www.ken-soft.com/code/pb/mmm/show_image.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/mmm/show_image.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="http://www.ken-soft.com/code/pb/mmm/map16x16.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/mmm/map16x16.JPG" alt="2D Tile Map Maker"/></a></td><td width="195"><a href="http://www.ken-soft.com/code/pb/mmm/sprite_sheet.JPG"><img width="195" src="http://www.ken-soft.com/code/pb/mmm/sprite_sheet.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
-<table width="100%"><tr><td><a href="http://www.ken-soft.com/code/pb/mmm/cave.JPG"><img width="500" src="http://www.ken-soft.com/code/pb/mmm/cave.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
+<table width="100%"><tr><td><a href="http://www.kennycason.com/code/pb/mmm/2nd_layer.JPG"><img width="195" src="http://www.kennycason.com/code/pb/mmm/2nd_layer.JPG" /></a></td><td><a href="http://www.kennycason.com/images/mmm/all_layers.JPG"><img width="195" src="http://www.kennycason.com/code/pb/mmm/all_layers.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="http://www.kennycason.com/code/pb/mmm/up_to_3rd_layer.JPG"><img width="195" src="http://www.kennycason.com/code/pb/mmm/up_to_3rd_layer.JPG"alt="2D Tile Map Maker" /></a></td  ></tr><tr><td><a href="http://www.kennycason.com/code/pb/mmm/show_image.JPG"><img width="195" src="http://www.kennycason.com/code/pb/mmm/show_image.JPG" alt="2D Tile Map Maker"/></a></td><td><a href="http://www.kennycason.com/code/pb/mmm/map16x16.JPG"><img width="195" src="http://www.kennycason.com/code/pb/mmm/map16x16.JPG" alt="2D Tile Map Maker"/></a></td><td width="195"><a href="http://www.kennycason.com/code/pb/mmm/sprite_sheet.JPG"><img width="195" src="http://www.kennycason.com/code/pb/mmm/sprite_sheet.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
+<table width="100%"><tr><td><a href="http://www.kennycason.com/code/pb/mmm/cave.JPG"><img width="500" src="http://www.kennycason.com/code/pb/mmm/cave.JPG" alt="2D Tile Map Maker"/></a></td></tr></table>
 
 
 <b>Credits</b>
@@ -1014,16 +1014,16 @@ For more extensive documentation concerning Magus Map Maker refer to the online 
 	</item>
 	<item>
 		<title>3D Rotation Matrix - Graph 3D</title>
-		<link>http://ken-soft.com/2008/12/25/graph3d-java-project-3d-points-to-2d/</link>
+		<link>http://kennycason.com/2008/12/25/graph3d-java-project-3d-points-to-2d/</link>
 		<pubDate>Fri, 26 Dec 2008 02:31:48 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=147</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=147</guid>
 		<description></description>
 		<content:encoded><![CDATA[This was a simple program I wrote that Displays 3D points. It does so by simply projecting a 3D (vector) into 2D. 
-The Jar file can be downloaded here: <a href="http://www.ken-soft.com/code/java/graph3D/Graph3D.jar">Graph3D.jar</a>
-The C/C++ version can be found <a href="http://ken-soft.com/2009/12/19/graph-3d-vector-rotation-source-included-c/" target="_blank">here</a>
+The Jar file can be downloaded here: <a href="http://www.kennycason.com/code/java/graph3D/Graph3D.jar">Graph3D.jar</a>
+The C/C++ version can be found <a href="http://kennycason.com/2009/12/19/graph-3d-vector-rotation-source-included-c/" target="_blank">here</a>
 
-<a href="http://www.ken-soft.com/code/java/graph3D/graph3D.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/graph3D/graph3D.png" width="150" alt="3D rotation matrix" /></a>
+<a href="http://www.kennycason.com/code/java/graph3D/graph3D.png" target="_blank" ><img src="http://www.kennycason.com/code/java/graph3D/graph3D.png" width="150" alt="3D rotation matrix" /></a>
 Before looking at the source, let's take a look at some of the fundamental mathematics behind the software.
 <b>rotations</b> - Rotations in this software simple geometric transformations based around an unmoving center axis. Below are the three rotation matrices for each axis, X, Y, and Z, respectively. Every operation can be found in Transform.java below.
 
@@ -1054,14 +1054,14 @@ And finally, to project the 3D points onto a 2D canvas after performing a rotati
 
 The source code can be found below as well as being bundled into the Jar file.
 
-<a href="http://ken-soft.com/?p=368" >Cube 3D</a> - A simple 3D Cube engine that demonstrates the usage of ALL the above mentioned equations.
+<a href="http://kennycason.com/?p=368" >Cube 3D</a> - A simple 3D Cube engine that demonstrates the usage of ALL the above mentioned equations.
 
 Transform3D.java - This is a simple version using a 3x3 matrix. Using a 4x4 matrix you can also store the translation information. This is useful when trying to program a skeleton represented by vectors.
-(Also, check out Graph/Rotate4D <a href="http://ken-soft.com/?p=296">here</a>
-<p><a href="http://ken-soft.com/code/java/graph3D/Transform3D.java" class="code">Transform.java</a></p>
-<p><a href="http://ken-soft.com/code/java/graph3D/Point3D.java" class="code">Point3D.java</a></p>
+(Also, check out Graph/Rotate4D <a href="http://kennycason.com/?p=296">here</a>
+<p><a href="http://kennycason.com/code/java/graph3D/Transform3D.java" class="code">Transform.java</a></p>
+<p><a href="http://kennycason.com/code/java/graph3D/Point3D.java" class="code">Point3D.java</a></p>
 Other included source:
-<p><a href="http://ken-soft.com/code/java/graph3D/Graph3D.java">Graph3D.java</a></p>]]></content:encoded>
+<p><a href="http://kennycason.com/code/java/graph3D/Graph3D.java">Graph3D.java</a></p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>147</wp:post_id>
 		<wp:post_date>2008-12-25 19:31:48</wp:post_date>
@@ -1112,7 +1112,7 @@ Other included source:
 			<wp:comment_id>71</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; 3D Cube Engine - Java]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=368</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=368</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-08-05 12:49:50</wp:comment_date>
 			<wp:comment_date_gmt>2009-08-05 19:49:50</wp:comment_date_gmt>
@@ -1126,7 +1126,7 @@ Other included source:
 			<wp:comment_id>61</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; 4D Rotation Matrix - Graph 4D]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=296</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=296</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-07-16 17:44:39</wp:comment_date>
 			<wp:comment_date_gmt>2009-07-17 00:44:39</wp:comment_date_gmt>
@@ -1156,7 +1156,7 @@ I haven't used the programming code so I have no idea if the code is okay.]]></w
 			<wp:comment_id>173</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Graph 3D (Vector Rotation Source Included) C++]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=458</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=458</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-12-19 04:17:12</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-19 11:17:12</wp:comment_date_gmt>
@@ -1170,7 +1170,7 @@ I haven't used the programming code so I have no idea if the code is okay.]]></w
 			<wp:comment_id>155</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>130.184.251.50</wp:comment_author_IP>
 			<wp:comment_date>2009-10-28 10:08:19</wp:comment_date>
 			<wp:comment_date_gmt>2009-10-28 17:08:19</wp:comment_date_gmt>
@@ -1257,25 +1257,25 @@ The certificate is only valid for the following names:
 	</item>
 	<item>
 		<title>Multi-Linked List (Graph) - Java</title>
-		<link>http://ken-soft.com/2008/12/25/multilinked-list-doubly-linked-java/</link>
+		<link>http://kennycason.com/2008/12/25/multilinked-list-doubly-linked-java/</link>
 		<pubDate>Fri, 26 Dec 2008 03:57:40 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=159</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=159</guid>
 		<description></description>
 		<content:encoded><![CDATA[This program is a standard multi-linked list (aka, <a href="http://en.wikipedia.org/wiki/Graph_%28mathematics%29" title="Graph" target="_blank">Graph</a> . <b>Note</b>, this is not a simple linked list. each node of this list can connect to any number of other nodes in the list, including itself. This should be very interesting to build off of and tinker with.
 
-The Jar file can be downloaded here: <a href="http://www.ken-soft.com/code/java/mll/MultiLinkedList.jar">MultiLinkedList.jar</a>
+The Jar file can be downloaded here: <a href="http://www.kennycason.com/code/java/mll/MultiLinkedList.jar">MultiLinkedList.jar</a>
 To run the Jar file open the command prompt, cd into the directory, then type:
 <code>java -jar MultiLinkedList.jar</code>
 That should give a display similar to the image below (The current jar also prints the haschode() of the Node to verify that nodes that are equal() do not get duplicated in the MultiLinkedList). The output shows a series of tests being ran as well as a final output of the MLL.
-<a href="http://www.ken-soft.com/code/java/mll/MLL01.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/mll/MLL01.png" width="250" alt="Multilinked list"/></a>
+<a href="http://www.kennycason.com/code/java/mll/MLL01.png" target="_blank" ><img src="http://www.kennycason.com/code/java/mll/MLL01.png" width="250" alt="Multilinked list"/></a>
 
 The source is also bundled into the Jar file.
 
 MLL.java - contains many of the main functions necessary in a multilinked list.
-<p><a href="http://ken-soft.com/code/java/mll/MultiLinkedList.java" class="code">MultiLinkedList.java</a></p>
-<p><a href="http://ken-soft.com/code/java/mll/Node.java" class="code">Node.java</a></p>
-<p><a href="http://ken-soft.com/code/java/mll/MultiLinkedListTest.java" class="code">MultiLinkedListTest.java</a></p>]]></content:encoded>
+<p><a href="http://kennycason.com/code/java/mll/MultiLinkedList.java" class="code">MultiLinkedList.java</a></p>
+<p><a href="http://kennycason.com/code/java/mll/Node.java" class="code">Node.java</a></p>
+<p><a href="http://kennycason.com/code/java/mll/MultiLinkedListTest.java" class="code">MultiLinkedListTest.java</a></p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>159</wp:post_id>
 		<wp:post_date>2008-12-25 20:57:40</wp:post_date>
@@ -1306,33 +1306,33 @@ MLL.java - contains many of the main functions necessary in a multilinked list.
 	</item>
 	<item>
 		<title>Neural Network - Back-Error Propagation - Java</title>
-		<link>http://ken-soft.com/2008/12/25/neural-network-back-error-propagation-java/</link>
+		<link>http://kennycason.com/2008/12/25/neural-network-back-error-propagation-java/</link>
 		<pubDate>Fri, 26 Dec 2008 04:33:40 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=162</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=162</guid>
 		<description></description>
 		<content:encoded><![CDATA[This Neural Network is a command line implementation that uses the Back-Error Propagation learning algorithm. As well, The number of center layers, neurons per center layer, and learning rate are all changeable. The provided Test file teach Logial AND, however other test files can easily be created.
 
 <b>update:</b>Source is now maintained on <a href="https://github.com/kennycason/neuralnetwork/" title="GitHub" target="_blank">GitHub</a>
 
-The Jar file can be downloaded here: <a href="http://www.ken-soft.com/code/java/nn01/NN.jar">NN.jar</a>
+The Jar file can be downloaded here: <a href="http://www.kennycason.com/code/java/nn01/NN.jar">NN.jar</a>
 Below is the Syntax for running NN.jar in a command line:
 <code>java -jar NN.jar [num center layers] [num center layer neurons] [learning rate]</code>
 An example includes:
 <code>java -jar NN.jar 2 10 1.5</code>
 Which specifies a neural network with 2 center layers, 10 neurons per center layer, and a learning rate of 1.5. If now parameters are supplied it runs with default parameter; which are 1 center layers, 1 neurons per center layer, and a learning rate of 0.5.
 That should give a display similar to the image below.
-<a href="http://www.ken-soft.com/code/java/nn01/NN01.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/nn01/NN01.png" width="250" alt="neural network back error propagation java"/></a>
+<a href="http://www.kennycason.com/code/java/nn01/NN01.png" target="_blank" ><img src="http://www.kennycason.com/code/java/nn01/NN01.png" width="250" alt="neural network back error propagation java"/></a>
 
 Below are some links to A couple articles that give a good brief overview about neural networks, including some concepts about developing learning algorithms. Hope they are useful.
-<a href="http://ken-soft.com/2008/12/24/neural-networks-simple-models/" target="_blank" >About Neural Networks (English)</a>
-<a href="http://ken-soft.com/2008/12/24/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%EF%BC%88%E7%A5%9E%E7%B5%8C%E5%9B%9E%E8%B7%AF%E7%B6%B2%E3%83%BB%E8%AA%A4%E5%B7%AE%E9%80%86%E4%BC%9D%E6%92%AD%E6%96%B9%EF%BC%89/" target="_blank" >About Neural Networks (Japanese/日本語)</a>
+<a href="http://kennycason.com/2008/12/24/neural-networks-simple-models/" target="_blank" >About Neural Networks (English)</a>
+<a href="http://kennycason.com/2008/12/24/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%EF%BC%88%E7%A5%9E%E7%B5%8C%E5%9B%9E%E8%B7%AF%E7%B6%B2%E3%83%BB%E8%AA%A4%E5%B7%AE%E9%80%86%E4%BC%9D%E6%92%AD%E6%96%B9%EF%BC%89/" target="_blank" >About Neural Networks (Japanese/日本語)</a>
 
-<p><a href="http://ken-soft.com/code/java/nn01/NeuralNetwork.java" class="code">NeuralNetwork.java</a></p>
-<p><a href="http://ken-soft.com/code/java/nn01/Layer.java" class="code">Layer.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/NeuralNetwork.java" class="code">NeuralNetwork.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/Layer.java" class="code">Layer.java</a></p>
 There are two test file for you to try out.
-<p><a href="http://ken-soft.com/code/java/nn01/NeuralNetworkTest.java" class="code">NeuralNetworkTest.java</a></p>
-<p><a href="http://ken-soft.com/code/java/nn01/NeuralNetworkTest2.java" class="code">NeuralNetworkTest2.java</a></p>]]></content:encoded>
+<p><a href="http://kennycason.com/code/java/nn01/NeuralNetworkTest.java" class="code">NeuralNetworkTest.java</a></p>
+<p><a href="http://kennycason.com/code/java/nn01/NeuralNetworkTest2.java" class="code">NeuralNetworkTest2.java</a></p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>162</wp:post_id>
 		<wp:post_date>2008-12-25 21:33:40</wp:post_date>
@@ -1367,7 +1367,7 @@ There are two test file for you to try out.
 			<wp:comment_id>4</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Neural Network - Load Train Data from XML - Java]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=168</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=168</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2008-12-25 21:53:02</wp:comment_date>
 			<wp:comment_date_gmt>2008-12-26 04:53:02</wp:comment_date_gmt>
@@ -1381,7 +1381,7 @@ There are two test file for you to try out.
 			<wp:comment_id>179</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Neural Network (Back-Error Propagation) C++]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=475</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=475</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-12-20 04:45:18</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-20 11:45:18</wp:comment_date_gmt>
@@ -1394,26 +1394,26 @@ There are two test file for you to try out.
 	</item>
 	<item>
 		<title>Rubik&#039;s Cube - 2D Implementation - Java</title>
-		<link>http://ken-soft.com/2008/12/25/rubiks-cube-java/</link>
+		<link>http://kennycason.com/2008/12/25/rubiks-cube-java/</link>
 		<pubDate>Fri, 26 Dec 2008 06:43:44 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=179</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=179</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple 2D representation of a Rubik's Cube written in Java. Its main purpose to be easily integrated with other software. I.e. A Rubik's Cube solving Neural Network. Therefore, the UI is not extremely eye catching. But it serves a good test to demonstrate that the software is working. Later implementations will better support NxNxN cubes.
 
-The Jar file can be downloaded here: <a href="http://www.ken-soft.com/code/java/rc/RC.jar">Rubik's Cube.jar</a> Just click it to run it. If you have any problems running it, check to ensure that Java is correctly installed on your machine.
+The Jar file can be downloaded here: <a href="http://www.kennycason.com/code/java/rc/RC.jar">Rubik's Cube.jar</a> Just click it to run it. If you have any problems running it, check to ensure that Java is correctly installed on your machine.
 <table width=100%><tr><td>
-<a href="http://www.ken-soft.com/code/java/rc/RC01.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/rc/RC01.png" width="295" alt="Rubik's Cube 2D java"/></a></td><td>
-<a href="http://www.ken-soft.com/code/java/rc/RC02.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/rc/RC02.png" width="295"  alt="Rubik's Cube 2D java"/></a></td></tr></table>
+<a href="http://www.kennycason.com/code/java/rc/RC01.png" target="_blank" ><img src="http://www.kennycason.com/code/java/rc/RC01.png" width="295" alt="Rubik's Cube 2D java"/></a></td><td>
+<a href="http://www.kennycason.com/code/java/rc/RC02.png" target="_blank" ><img src="http://www.kennycason.com/code/java/rc/RC02.png" width="295"  alt="Rubik's Cube 2D java"/></a></td></tr></table>
 
-<p><a href="http://ken-soft.com/code/java/rc/RubiksCubeGUI.java">RubiksCubeGUI.java</a></p> 
+<p><a href="http://kennycason.com/code/java/rc/RubiksCubeGUI.java">RubiksCubeGUI.java</a></p> 
 RubiksCube.java is the main wrapper class to Cube3D
-<p><a href="http://ken-soft.com/code/java/rc/RubiksCube.java">RubiksCube.java</a></p>
-<p><a href="http://ken-soft.com/code/java/rc/Cube3D.java">Cube3D.java</a></p>
+<p><a href="http://kennycason.com/code/java/rc/RubiksCube.java">RubiksCube.java</a></p>
+<p><a href="http://kennycason.com/code/java/rc/Cube3D.java">Cube3D.java</a></p>
 
 Each of the 27 cubes that make up a standard 3x3 Rubik's Cube, I call a Cubit.
-<p><a href="http://ken-soft.com/code/java/rc/Cubit.java">Cubit.java</a></p>
-<p><a href="http://ken-soft.com/code/java/rc/Cube3DTest.java">Cube3DTest.java</a></p>
+<p><a href="http://kennycason.com/code/java/rc/Cubit.java">Cubit.java</a></p>
+<p><a href="http://kennycason.com/code/java/rc/Cube3DTest.java">Cube3DTest.java</a></p>
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>179</wp:post_id>
@@ -1451,7 +1451,7 @@ Each of the 27 cubes that make up a standard 3x3 Rubik's Cube, I call a Cubit.
 			<wp:comment_author_IP>92.241.160.22</wp:comment_author_IP>
 			<wp:comment_date>2009-02-07 03:39:27</wp:comment_date>
 			<wp:comment_date_gmt>2009-02-07 10:39:27</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[yo, ken-soft.com great name for site)))
+			<wp:comment_content><![CDATA[yo, kennycason.com great name for site)))
 ------------------------
 sponsor:  http://qugor.ru]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
@@ -1467,7 +1467,7 @@ sponsor:  http://qugor.ru]]></wp:comment_content>
 			<wp:comment_author_IP>92.241.160.22</wp:comment_author_IP>
 			<wp:comment_date>2009-02-07 06:20:08</wp:comment_date>
 			<wp:comment_date_gmt>2009-02-07 13:20:08</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[ken-soft.com - now in my rss reader)))
+			<wp:comment_content><![CDATA[kennycason.com - now in my rss reader)))
 ------------------------
 signature:  http://youraudiovox.com/music54/map.html]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
@@ -1483,7 +1483,7 @@ signature:  http://youraudiovox.com/music54/map.html]]></wp:comment_content>
 			<wp:comment_author_IP>92.241.160.22</wp:comment_author_IP>
 			<wp:comment_date>2009-02-10 05:51:12</wp:comment_date>
 			<wp:comment_date_gmt>2009-02-10 12:51:12</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[Hello, I can't understand how to add your blog ( ken-soft.com ) in my rss reader
+			<wp:comment_content><![CDATA[Hello, I can't understand how to add your blog ( kennycason.com ) in my rss reader
 ------------------------
 sponsored link:  http://lilid.ru/]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
@@ -1499,7 +1499,7 @@ sponsored link:  http://lilid.ru/]]></wp:comment_content>
 			<wp:comment_author_IP>92.241.160.22</wp:comment_author_IP>
 			<wp:comment_date>2009-02-10 07:25:54</wp:comment_date>
 			<wp:comment_date_gmt>2009-02-10 14:25:54</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[ken-soft.com - now in my rss reader)))
+			<wp:comment_content><![CDATA[kennycason.com - now in my rss reader)))
 ------------------------
 sponsored link:  http://lilid.ru/]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
@@ -1510,10 +1510,10 @@ sponsored link:  http://lilid.ru/]]></wp:comment_content>
 	</item>
 	<item>
 		<title>SDL Sprite Class in C++</title>
-		<link>http://ken-soft.com/2009/01/02/sprite-class-in-c-using-sdl/</link>
+		<link>http://kennycason.com/2009/01/02/sprite-class-in-c-using-sdl/</link>
 		<pubDate>Sat, 03 Jan 2009 04:58:43 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=234</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=234</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple Sprite class that I use for game development in C++ using SDL (<a href="http://www.libsdl.org/" target="_blank">www.libsdl.org</a>).
 Features include sprite animation, rotation, stretching, transparencies, and other commonly used sprite functions.
@@ -1523,14 +1523,14 @@ Feel free to modify it however you want. please comment about any bugs are sugge
 
 <strong>Clone from GitHub</strong> <a href="https://github.com/kennycason/sdl_sprite"><span style="font-size:18px">HERE</span></a><br/>
 
-<a href="http://www.ken-soft.com/code/c/SDL/Sprite/sshot.PNG" target="_blank" ><img src="http://www.ken-soft.com/code/c/SDL/Sprite/sshot.PNG" width="250" alt="SDL Sprite C++"/></a>
+<a href="http://www.kennycason.com/code/c/SDL/Sprite/sshot.PNG" target="_blank" ><img src="http://www.kennycason.com/code/c/SDL/Sprite/sshot.PNG" width="250" alt="SDL Sprite C++"/></a>
 
 To view a demo of some of the Sprites classes features, and have access to some sample Bitmap images used with the Sprite library,  download the following zip file. It also contains the project settings that I used in Dev C++ and SDL 1.2.12 to compile.
 
 
 All examples use these sprites
-<table><tr><td><a href="http://www.ken-soft.com/code/c/SDL/Sprite/samus_normal_run.bmp" target="_blank" ><img width="90%" src="http://www.ken-soft.com/code/c/SDL/Sprite/samus_normal_run.bmp"  alt="SDL Sprite C++"/></a></td>
-<td><a href="http://ken-soft.com/code/c/SDL/Sprite/character.bmp" target="_blank" ><img width="90%" src="http://ken-soft.com/code/c/SDL/Sprite/character.bmp"  alt="SDL Sprite C++"/></a></td></tr></table>
+<table><tr><td><a href="http://www.kennycason.com/code/c/SDL/Sprite/samus_normal_run.bmp" target="_blank" ><img width="90%" src="http://www.kennycason.com/code/c/SDL/Sprite/samus_normal_run.bmp"  alt="SDL Sprite C++"/></a></td>
+<td><a href="http://kennycason.com/code/c/SDL/Sprite/character.bmp" target="_blank" ><img width="90%" src="http://kennycason.com/code/c/SDL/Sprite/character.bmp"  alt="SDL Sprite C++"/></a></td></tr></table>
 
 <b>Demo using special effects </b>
 <pre lang="CPP" line="1">
@@ -1601,7 +1601,7 @@ All examples use these sprites
 			<wp:comment_id>49</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>76.114.250.70</wp:comment_author_IP>
 			<wp:comment_date>2009-06-26 15:59:40</wp:comment_date>
 			<wp:comment_date_gmt>2009-06-26 22:59:40</wp:comment_date_gmt>
@@ -1627,7 +1627,7 @@ Thanks]]></wp:comment_content>
 			<wp:comment_id>126</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; SDL - Simple Space Shooter Game Demo - Part I]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=419</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=419</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-09-20 20:32:17</wp:comment_date>
 			<wp:comment_date_gmt>2009-09-21 03:32:17</wp:comment_date_gmt>
@@ -1854,10 +1854,10 @@ thanks!]]></wp:comment_content>
 	</item>
 	<item>
 		<title>C++ Dynamic Memory Allocation (2D and 3D)</title>
-		<link>http://ken-soft.com/2009/01/08/c-dynamic-memory-allocation-2d-and-3d/</link>
+		<link>http://kennycason.com/2009/01/08/c-dynamic-memory-allocation-2d-and-3d/</link>
 		<pubDate>Thu, 08 Jan 2009 11:04:20 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=246</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=246</guid>
 		<description></description>
 		<content:encoded><![CDATA[This snipped of code is for allocating memory when using a multidimensional array. The following examples are for 2D ([][]) and 3D ([][][]) structures.
 
@@ -1944,17 +1944,17 @@ for(int x = 0; x < dimX; ++x) {
 	</item>
 	<item>
 		<title>Thog Problem</title>
-		<link>http://ken-soft.com/2009/01/08/thog-problem/</link>
+		<link>http://kennycason.com/2009/01/08/thog-problem/</link>
 		<pubDate>Thu, 08 Jan 2009 12:04:30 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=269</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=269</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Given the following combinations of shapes and colors:<br><br></p>
 <table width=100% align=center">
-<td><a href="#" onClick="alert1()"><img class="center"　width="100" src="http://ken-soft.com/images/thog/black_sqr.jpg" border=0></a></td>
-<td><a href="#" onClick="alert2()"><img class="center"　width="100" src="http://ken-soft.com/images/thog/black_crc.jpg" border=0></a></td>
-<td><a href="#" onClick="alert3()"><img class="center"　width="100" src="http://ken-soft.com/images/thog/white_sqr.jpg" border=0></a></td>
-<td><a href="#" onClick="alert4()"><img class="center"  width="100" src="http://ken-soft.com/images/thog/white_crc.jpg" border=0></a></td></table>
+<td><a href="#" onClick="alert1()"><img class="center"　width="100" src="http://kennycason.com/images/thog/black_sqr.jpg" border=0></a></td>
+<td><a href="#" onClick="alert2()"><img class="center"　width="100" src="http://kennycason.com/images/thog/black_crc.jpg" border=0></a></td>
+<td><a href="#" onClick="alert3()"><img class="center"　width="100" src="http://kennycason.com/images/thog/white_sqr.jpg" border=0></a></td>
+<td><a href="#" onClick="alert4()"><img class="center"  width="100" src="http://kennycason.com/images/thog/white_crc.jpg" border=0></a></td></table>
 <p> The experimenter makes the following statement:</p>
 <blockquote><p>"I am thinking of one color (black or white) and one shape (square or circle). Any figure that has either the color I am thinking of, or the shape I am thinking of, but not both, is a THOG. Given that the black square is a THOG what, if anything, can you say about whether the other figures are THOGS?"</p>
 </blockquote>
@@ -2040,7 +2040,7 @@ This problem just screamed "Boole" out to me!]]></wp:comment_content>
 			<wp:comment_id>53</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>76.114.250.70</wp:comment_author_IP>
 			<wp:comment_date>2009-06-27 21:25:49</wp:comment_date>
 			<wp:comment_date_gmt>2009-06-28 04:25:49</wp:comment_date_gmt>
@@ -2070,18 +2070,18 @@ XOR with 1 1 to find the opposite THOG.]]></wp:comment_content>
 	</item>
 	<item>
 		<title>4D Rotation Matrix - Graph 4D</title>
-		<link>http://ken-soft.com/2009/01/08/graph4d-rotation4d-project-to-2d/</link>
+		<link>http://kennycason.com/2009/01/08/graph4d-rotation4d-project-to-2d/</link>
 		<pubDate>Thu, 08 Jan 2009 22:52:36 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=296</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=296</guid>
 		<description></description>
 		<content:encoded><![CDATA[This program rotates points about the XY, YZ, XZ, XU, YU, and ZU axises. I then projects each 4D vector to the 2D canvas.
-The Jar file can be downloaded here: <a href="http://www.ken-soft.com/code/java/graph4D/Graph4D.jar">Graph4D.jar</a>
+The Jar file can be downloaded here: <a href="http://www.kennycason.com/code/java/graph4D/Graph4D.jar">Graph4D.jar</a>
 <table><tr><td>
-<a href="http://www.ken-soft.com/code/java/graph4D/graph4D.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/graph4D/graph4D.png" width="150" alt="4D rotation matrix java"/></a></td><td>
-<a href="http://www.ken-soft.com/code/java/graph4D/graph4D2.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/graph4D/graph4D2.png" width="150" alt="4D rotation matrix java"/></a></td></tr></table>
+<a href="http://www.kennycason.com/code/java/graph4D/graph4D.png" target="_blank" ><img src="http://www.kennycason.com/code/java/graph4D/graph4D.png" width="150" alt="4D rotation matrix java"/></a></td><td>
+<a href="http://www.kennycason.com/code/java/graph4D/graph4D2.png" target="_blank" ><img src="http://www.kennycason.com/code/java/graph4D/graph4D2.png" width="150" alt="4D rotation matrix java"/></a></td></tr></table>
 Before looking at the source, let's take a look at some of the fundamental mathematics behind the software.
-If you are uncomfortable with the thought of 4D matrix rotations, then I recommend reading Wikipedia, or checking out my article about 3D graphing, which can be found <a href="http://ken-soft.com/2008/12/25/graph3d-java-project-3d-points-to-2d/">here</a>. In this example, I will only show the 4D rotation matrices. Note that for each rotation matrix, 2 axises are held still while the vector is rotated around the other two axises. This may be hard to visualize at first, but It will become clear after a while.
+If you are uncomfortable with the thought of 4D matrix rotations, then I recommend reading Wikipedia, or checking out my article about 3D graphing, which can be found <a href="http://kennycason.com/2008/12/25/graph3d-java-project-3d-points-to-2d/">here</a>. In this example, I will only show the 4D rotation matrices. Note that for each rotation matrix, 2 axises are held still while the vector is rotated around the other two axises. This may be hard to visualize at first, but It will become clear after a while.
 <table><tr><td>
 <tr><td>[m]rotXY = delim{[}{matrix{4}{4}{{cos(theta)} {sin(theta)} 0 0 {-sin(theta)} {cos(theta)} 0 0 0 0 1 0 0 0 0 1}}{]}[/m]</td>
 <td>[m]rotYZ = delim{[}{matrix{4}{4}{1 0 0 0 0 {cos(theta)} {sin(theta)} 0 0 {-sin(theta)} {cos(theta)} 0 0 0 0 1}}{]}[/m]</td></tr>
@@ -2093,9 +2093,9 @@ If you are uncomfortable with the thought of 4D matrix rotations, then I recomme
 The source code can be found below as well as being bundled into the Jar file.
 
 Transform4D.java - contains method for rotating a 4D vector
-<p><a href="http://ken-soft.com/code/java/graph4D/Transform4D.java" class="code">Transform4D.java</a></p>
-<p><a href="http://ken-soft.com/code/java/graph4D/Point4D.java">Point4D.java</a></p>
-<p><a href="http://ken-soft.com/code/java/graph4D/Graph4D.java">Graph4D.java</a></p>]]></content:encoded>
+<p><a href="http://kennycason.com/code/java/graph4D/Transform4D.java" class="code">Transform4D.java</a></p>
+<p><a href="http://kennycason.com/code/java/graph4D/Point4D.java">Point4D.java</a></p>
+<p><a href="http://kennycason.com/code/java/graph4D/Graph4D.java">Graph4D.java</a></p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>296</wp:post_id>
 		<wp:post_date>2009-01-08 15:52:36</wp:post_date>
@@ -2129,7 +2129,7 @@ Transform4D.java - contains method for rotating a 4D vector
 			<wp:comment_id>6</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Graph3D - Rotation3D - Project 3D to 2D]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=147</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=147</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-01-08 16:17:48</wp:comment_date>
 			<wp:comment_date_gmt>2009-01-08 23:17:48</wp:comment_date_gmt>
@@ -2171,7 +2171,7 @@ Transform4D.java - contains method for rotating a 4D vector
 			<wp:comment_id>67</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>12.109.151.104</wp:comment_author_IP>
 			<wp:comment_date>2009-07-21 12:03:33</wp:comment_date>
 			<wp:comment_date_gmt>2009-07-21 19:03:33</wp:comment_date_gmt>
@@ -2213,7 +2213,7 @@ Transform4D.java - contains method for rotating a 4D vector
 			<wp:comment_id>171</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>130.184.251.50</wp:comment_author_IP>
 			<wp:comment_date>2009-12-08 00:38:28</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-08 07:38:28</wp:comment_date_gmt>
@@ -2253,7 +2253,7 @@ Besides that, i'll definitely take a look at all the source code, it might be re
 			<wp:comment_id>169</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>69.152.205.144</wp:comment_author_IP>
 			<wp:comment_date>2009-12-07 02:25:32</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-07 09:25:32</wp:comment_date_gmt>
@@ -2323,7 +2323,7 @@ for a total of 10 rotation matrices.]]></wp:comment_content>
 			<wp:comment_author_IP>76.99.49.22</wp:comment_author_IP>
 			<wp:comment_date>2012-05-08 16:47:11</wp:comment_date>
 			<wp:comment_date_gmt>2012-05-08 16:47:11</wp:comment_date_gmt>
-			<wp:comment_content><![CDATA[What are the angle values for the projection shown in the left figure (http://www.ken-soft.com/code/java/graph4D/graph4D.png), 
+			<wp:comment_content><![CDATA[What are the angle values for the projection shown in the left figure (http://www.kennycason.com/code/java/graph4D/graph4D.png), 
 
 Thanks!]]></wp:comment_content>
 			<wp:comment_approved>1</wp:comment_approved>
@@ -2378,10 +2378,10 @@ Bog]]></wp:comment_content>
 	</item>
 	<item>
 		<title>4D Maze - (Java)</title>
-		<link>http://ken-soft.com/2009/01/14/4d-maze-java/</link>
+		<link>http://kennycason.com/2009/01/14/4d-maze-java/</link>
 		<pubDate>Wed, 14 Jan 2009 07:23:55 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=315</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=315</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple implementation of a 4D maze written in Java. As of now it is entirely text based however, a simple GUI is currently under development. Either way, this simple implementation should be useful to modify and/or build off of.
 The algorithm used to generate the map is quite simple and always generates a perfect maze.
@@ -2393,7 +2393,7 @@ The algorithm used to generate the map is quite simple and always generates a pe
 </blockquote>
 Note: the Java version used in this implementation uses recursion to do this.
 This code has not been thoroughly checked for possible bugs, and I am sure there is a more efficient method to write a 4D maze. But, at the very least, it is flexible and each room of the maze is of class type Room4D and should be easy to modify.
-The Jar file can be downloaded here: <a href="http://www.ken-soft.com/code/java/maze4D/Maze4D.jar">Maze4D.jar</a>
+The Jar file can be downloaded here: <a href="http://www.kennycason.com/code/java/maze4D/Maze4D.jar">Maze4D.jar</a>
 To run from the command line:
 <blockquote>java -jar Maze4D.java dimXYZU</blockquote>
 Ex:
@@ -2411,12 +2411,12 @@ This initializes a 5x5x3x2 maze. Start = (0,0,0,0), Finish = (5,5,3,2)
 creates a default maze of dimensions 4x4x4x4
 
 Note: be careful not to load a 4D maze that's too big or Java will run out of memory, depending on your Java settings. For example creating a room that is 10x10x10x10, 10000 rooms, will likely cause an error caused by using too much memory. besides, a 10000 room is very, very complicated, especially in 4D.
-<a href="http://www.ken-soft.com/code/java/maze4D/maze4D.png" target="_blank" ><img src="http://www.ken-soft.com/code/java/maze4D/maze4D.png" width="230" alt="4D maze java"/></a>
+<a href="http://www.kennycason.com/code/java/maze4D/maze4D.png" target="_blank" ><img src="http://www.kennycason.com/code/java/maze4D/maze4D.png" width="230" alt="4D maze java"/></a>
 
-<p><a href="http://www.ken-soft.com/code/java/maze4D/Rect4D.java">Rect4D.java</a></p>
-<p><a href="http://www.ken-soft.com/code/java/maze4D/Point4D.java" >Point4D.java</a></p>
-<p><a href="http://www.ken-soft.com/code/java/maze4D/Room4D.java" >Room4D.java</a></p>
-<p><a href="http://www.ken-soft.com/code/java/maze4D/Maze4D.java" >Maze4D.java</a></p>]]></content:encoded>
+<p><a href="http://www.kennycason.com/code/java/maze4D/Rect4D.java">Rect4D.java</a></p>
+<p><a href="http://www.kennycason.com/code/java/maze4D/Point4D.java" >Point4D.java</a></p>
+<p><a href="http://www.kennycason.com/code/java/maze4D/Room4D.java" >Room4D.java</a></p>
+<p><a href="http://www.kennycason.com/code/java/maze4D/Maze4D.java" >Maze4D.java</a></p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>315</wp:post_id>
 		<wp:post_date>2009-01-14 00:23:55</wp:post_date>
@@ -2460,7 +2460,7 @@ Matt Hanson]]></wp:comment_content>
 			<wp:comment_id>8</wp:comment_id>
 			<wp:comment_author><![CDATA[Kenny]]></wp:comment_author>
 			<wp:comment_author_email>kenneth.cason@gmail.com</wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com</wp:comment_author_url>
 			<wp:comment_author_IP>72.204.42.171</wp:comment_author_IP>
 			<wp:comment_date>2009-01-14 00:45:47</wp:comment_date>
 			<wp:comment_date_gmt>2009-01-14 07:45:47</wp:comment_date_gmt>
@@ -2502,13 +2502,13 @@ You also have some very useful blog articles.]]></wp:comment_content>
 	</item>
 	<item>
 		<title>太陽系</title>
-		<link>http://ken-soft.com/2009/03/02/%e5%a4%aa%e9%99%bd%e7%b3%bb/</link>
+		<link>http://kennycason.com/2009/03/02/%e5%a4%aa%e9%99%bd%e7%b3%bb/</link>
 		<pubDate>Mon, 02 Mar 2009 19:31:21 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=334</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=334</guid>
 		<description></description>
 		<content:encoded><![CDATA[これは僕が関西外国語大学にいる時、書いた論文で、内容はそんなに難しくなく、日本語を勉強している人にとって役に立つかもしれません。
-<embed wmode="transparent" src="http://www.ken-soft.com/doc/Solar_System-jp.pdf" width="100%" height="600">  ]]></content:encoded>
+<embed wmode="transparent" src="http://www.kennycason.com/doc/Solar_System-jp.pdf" width="100%" height="600">  ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>334</wp:post_id>
 		<wp:post_date>2009-03-02 19:31:21</wp:post_date>
@@ -2536,15 +2536,15 @@ You also have some very useful blog articles.]]></wp:comment_content>
 	</item>
 	<item>
 		<title>3D Cube Engine - Java</title>
-		<link>http://ken-soft.com/2009/06/27/3d-cube-engine-java/</link>
+		<link>http://kennycason.com/2009/06/27/3d-cube-engine-java/</link>
 		<pubDate>Sat, 27 Jun 2009 17:35:51 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=368</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=368</guid>
 		<description></description>
 		<content:encoded><![CDATA[<table ><tr>
-<td><a href="http://www.ken-soft.com/code/java/cube3D/Screenshot-Cubes3D-4.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.ken-soft.com/code/java/cube3D/Screenshot-Cubes3D-4.png" width="190" /></a></td>
-<td><div<a href="http://www.ken-soft.com/code/java/kubix/Screenshot-Kubix-8.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.ken-soft.com/code/java/kubix/Screenshot-Kubix-8.png" width="190" /></a></td>
-<td><a href="http://www.ken-soft.com/code/java/cube3D/Screenshot-Cubes3D-2.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.ken-soft.com/code/java/cube3D/Screenshot-Cubes3D-2.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/java/cube3D/Screenshot-Cubes3D-4.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.kennycason.com/code/java/cube3D/Screenshot-Cubes3D-4.png" width="190" /></a></td>
+<td><div<a href="http://www.kennycason.com/code/java/kubix/Screenshot-Kubix-8.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.kennycason.com/code/java/kubix/Screenshot-Kubix-8.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/java/cube3D/Screenshot-Cubes3D-2.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.kennycason.com/code/java/cube3D/Screenshot-Cubes3D-2.png" width="190" /></a></td>
 </tr></table>
 This is a recent project of mine for building 3D puzzle games, (like Rubik's Cubes). 
 
@@ -2556,9 +2556,9 @@ Note: Not all Jar files contain the same versions of code. Each Jar file contain
 
 All source code can be found in the JAR files
 Downloadable Jars (simple to complex):
-1. <a href="http://www.ken-soft.com/code/java/cube3D/RenderWiredCubes3D-demo.jar">RenderWiredCubes3D-demo.jar</a>: this code rotates 4 rotating cubes about the origin.
-2.  <a href="http://www.ken-soft.com/code/java/cube3D/RenderPolygons3D-demo.jar">RenderPolygons3D-demo.jar</a>: this code demonstrates various ellipsoids and cubes rotating around unique axises.
-3. <a href="http://www.ken-soft.com/code/java/cube3D/Cubes3D-demo.jar">Cubes3D-demo.jar</a>: this code demonstrates more of the functionality of the 3D Cube engine by creating a Rubik's cube like look and feel. 
+1. <a href="http://www.kennycason.com/code/java/cube3D/RenderWiredCubes3D-demo.jar">RenderWiredCubes3D-demo.jar</a>: this code rotates 4 rotating cubes about the origin.
+2.  <a href="http://www.kennycason.com/code/java/cube3D/RenderPolygons3D-demo.jar">RenderPolygons3D-demo.jar</a>: this code demonstrates various ellipsoids and cubes rotating around unique axises.
+3. <a href="http://www.kennycason.com/code/java/cube3D/Cubes3D-demo.jar">Cubes3D-demo.jar</a>: this code demonstrates more of the functionality of the 3D Cube engine by creating a Rubik's cube like look and feel. 
 <b>Controls</b>
 <ul>
  <li>Mouse: click and drag the cube</li>
@@ -2576,12 +2576,12 @@ Downloadable Jars (simple to complex):
 </ul>
 
 If you're only interested in the Transformation algorithms, check the below link:
-<a href="http://ken-soft.com/2009/01/08/graph4d-rotation4d-project-to-2d/" >Graph4D</a> - demonstrates methods and actual source code for rotating a 4D vector.
-<a href="http://ken-soft.com/2008/12/25/graph3d-java-project-3d-points-to-2d/" >Graph3D</a> - demonstrates methods and actual source code for rotating a 3D vector.
+<a href="http://kennycason.com/2009/01/08/graph4d-rotation4d-project-to-2d/" >Graph4D</a> - demonstrates methods and actual source code for rotating a 4D vector.
+<a href="http://kennycason.com/2008/12/25/graph3d-java-project-3d-points-to-2d/" >Graph3D</a> - demonstrates methods and actual source code for rotating a 3D vector.
 <table ><tr>
-<td><a href="http://www.ken-soft.com/code/java/kubix/Kubix-RandomCubes.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.ken-soft.com/code/java/kubix/Kubix-RandomCubes.png" width="190" /></a></td>
-<td><a href="http://www.ken-soft.com/images/cube3D/Screenshot-Cubes3D.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.ken-soft.com/code/java/cube3D/Screenshot-Cubes3D.png" width="190" /></a></td>
-<td><a href="http://www.ken-soft.com/code/java/kubix/Screenshot-Kubix-1.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.ken-soft.com/code/java/kubix/Screenshot-Kubix-1.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/java/kubix/Kubix-RandomCubes.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.kennycason.com/code/java/kubix/Kubix-RandomCubes.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/images/cube3D/Screenshot-Cubes3D.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.kennycason.com/code/java/cube3D/Screenshot-Cubes3D.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/java/kubix/Screenshot-Kubix-1.png" target="_blank" alt="3D rotating cube engine java" ><img src="http://www.kennycason.com/code/java/kubix/Screenshot-Kubix-1.png" width="190" /></a></td>
 </tr></table>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>368</wp:post_id>
@@ -2615,7 +2615,7 @@ If you're only interested in the Transformation algorithms, check the below link
 			<wp:comment_id>68</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; 3D Rotation Matrix - Graph 3D]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=147</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=147</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-07-23 02:29:24</wp:comment_date>
 			<wp:comment_date_gmt>2009-07-23 09:29:24</wp:comment_date_gmt>
@@ -2650,29 +2650,29 @@ If you're only interested in the Transformation algorithms, check the below link
 	</item>
 	<item>
 		<title>SDL - Simple Space Shooter Game Demo</title>
-		<link>http://ken-soft.com/2009/09/20/sdl-simple-space-shooter-game-demo-part-i/</link>
+		<link>http://kennycason.com/2009/09/20/sdl-simple-space-shooter-game-demo-part-i/</link>
 		<pubDate>Sun, 20 Sep 2009 20:32:11 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=419</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=419</guid>
 		<description></description>
 		<content:encoded><![CDATA[<table><tr>
-<td><a href="http://www.ken-soft.com/code/c/SDL/Game_Demo/gamedemo.png" target="_blank" alt="SDL Space Shooter Game Demo" ><img src="http://www.ken-soft.com/code/c/SDL/Game_Demo/gamedemo.png" width="190" /></a></td>
-<td><a href="http://www.ken-soft.com/code/c/SDL/Game_Demo/gamedemo2.png" target="_blank" alt="SDL Space Shooter Game Demo" ><img src="http://www.ken-soft.com/code/c/SDL/Game_Demo/gamedemo2.png" width="190" /></a></td>
-<td><a href="http://www.ken-soft.com/code/c/SDL/Game_Demo/gamedemo3.png" target="_blank" alt="SDL Space Shooter Game Demo" ><img src="http://www.ken-soft.com/code/c/SDL/Game_Demo/gamedemo3.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/c/SDL/Game_Demo/gamedemo.png" target="_blank" alt="SDL Space Shooter Game Demo" ><img src="http://www.kennycason.com/code/c/SDL/Game_Demo/gamedemo.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/c/SDL/Game_Demo/gamedemo2.png" target="_blank" alt="SDL Space Shooter Game Demo" ><img src="http://www.kennycason.com/code/c/SDL/Game_Demo/gamedemo2.png" width="190" /></a></td>
+<td><a href="http://www.kennycason.com/code/c/SDL/Game_Demo/gamedemo3.png" target="_blank" alt="SDL Space Shooter Game Demo" ><img src="http://www.kennycason.com/code/c/SDL/Game_Demo/gamedemo3.png" width="190" /></a></td>
 </tr></table>
 
 This page contains source code for a simple space shooter game written in C++ using the SDL library. There are no enemies or levels, but only a ship that shoots bullets. This is meant for a beginner who is interested in getting started with SDL for use of making games. (This will be an ongoing tutorial)
 
 All source code can be found in the ZIP file
 Version Downloads with project files (All you really need is the source):
-<a href="http://ken-soft.com/code/c/SDL/Game_Demo/Game_Demo_3.zip">Version 3: </a>Enemies, Event Queue(timer based), explosions, bullet & enemy collision, some minor code fixes
-<a href="http://ken-soft.com/code/c/SDL/Game_Demo/Game_Demo_2.zip">Version 2:</a> Animated sprites, uses custom sprite class
+<a href="http://kennycason.com/code/c/SDL/Game_Demo/Game_Demo_3.zip">Version 3: </a>Enemies, Event Queue(timer based), explosions, bullet & enemy collision, some minor code fixes
+<a href="http://kennycason.com/code/c/SDL/Game_Demo/Game_Demo_2.zip">Version 2:</a> Animated sprites, uses custom sprite class
 <b>New to SDL? Start with Version 1 below</b>
-<a href="http://www.ken-soft.com/code/c/SDL/Game_Demo/Game_Demo_windows_devcpp.zip">Version 1: Project file for DevCpp (Windows)</a>
-<a href="http://www.ken-soft.com/code/c/SDL/Game_Demo/Game_Demo_linux_codeblocks.zip">Version 1: Project file for Code::Blocks (Linux)</a>
+<a href="http://www.kennycason.com/code/c/SDL/Game_Demo/Game_Demo_windows_devcpp.zip">Version 1: Project file for DevCpp (Windows)</a>
+<a href="http://www.kennycason.com/code/c/SDL/Game_Demo/Game_Demo_linux_codeblocks.zip">Version 1: Project file for Code::Blocks (Linux)</a>
 
 Also, for a Sprite class with rotations, animations, etc. Check out my ongoing Sprite library, also written in C++ using SDL
-<a href="http://ken-soft.com/?p=234">SDL Sprite Library</a>]]></content:encoded>
+<a href="http://kennycason.com/?p=234">SDL Sprite Library</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>419</wp:post_id>
 		<wp:post_date>2009-09-20 20:32:11</wp:post_date>
@@ -2699,43 +2699,43 @@ Also, for a Sprite class with rotations, animations, etc. Check out my ongoing S
 	</item>
 	<item>
 		<title>Graph 3D (Vector Rotation Source Included) C++</title>
-		<link>http://ken-soft.com/2009/12/19/graph-3d-vector-rotation-source-included-c/</link>
+		<link>http://kennycason.com/2009/12/19/graph-3d-vector-rotation-source-included-c/</link>
 		<pubDate>Sat, 19 Dec 2009 11:17:06 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=458</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=458</guid>
 		<description></description>
-		<content:encoded><![CDATA[This program implements my simple Vector3D.h source to draw simple graphs using <a href="http://www.libsdl.org" target="blank">SDL</a>. While it's not terribly advanced, it should be pretty fun to tinker with. To learn more about 3D rotations including the mathematics and more source (Java) examples, view my previous post --> <a href="http://ken-soft.com/2008/12/25/graph3d-java-project-3d-points-to-2d/" target="blank">3D Rotation Matrix - Graph3D</a>.
-The source code and linux executables can be downloaded <a href="http://ken-soft.com/code/c/vector3D/Vector3D.zip" >here</a>.
-If you don't want the Graph utility the single Vector3D.h file can be found <a href="http://ken-soft.com/2010/09/16/vector-3d-structure-rotation-functions-c/" >here</a>. Note that this version is more up-to-date than the one included in the zip file.
+		<content:encoded><![CDATA[This program implements my simple Vector3D.h source to draw simple graphs using <a href="http://www.libsdl.org" target="blank">SDL</a>. While it's not terribly advanced, it should be pretty fun to tinker with. To learn more about 3D rotations including the mathematics and more source (Java) examples, view my previous post --> <a href="http://kennycason.com/2008/12/25/graph3d-java-project-3d-points-to-2d/" target="blank">3D Rotation Matrix - Graph3D</a>.
+The source code and linux executables can be downloaded <a href="http://kennycason.com/code/c/vector3D/Vector3D.zip" >here</a>.
+If you don't want the Graph utility the single Vector3D.h file can be found <a href="http://kennycason.com/2010/09/16/vector-3d-structure-rotation-functions-c/" >here</a>. Note that this version is more up-to-date than the one included in the zip file.
 
 Below is a few of the graphs that I created. All of which can be found in main.cpp (there is a section in the code where you can uncomment the function that you want to graph!)
 <table>
-<tr><td><a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-01.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-01.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-02.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-02.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-03.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-03.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-32.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-32.png" width="140" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="http://www.kennycason.com/code/c/vector3D/Vector3D-01.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-01.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-02.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-02.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-03.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-03.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-32.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-32.png" width="140" alt="3D  graph" /></a></td></tr>
 
-<tr><td><a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-33.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-33.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-07.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-07.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-26.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-26.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-27.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-27.png" width="140" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="http://www.kennycason.com/code/c/vector3D/Vector3D-33.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-33.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-07.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-07.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-26.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-26.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-27.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-27.png" width="140" alt="3D  graph" /></a></td></tr>
 
-<tr><td><a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-12.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-12.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-13.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-13.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-14.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-14.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-28.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-28.png" width="140" alt="3D  graph" /></a></td></tr>
-
-
-<tr><td><a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-16.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-16.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-17.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-17.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-19.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-19.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-29.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-29.png" width="140" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="http://www.kennycason.com/code/c/vector3D/Vector3D-12.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-12.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-13.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-13.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-14.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-14.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-28.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-28.png" width="140" alt="3D  graph" /></a></td></tr>
 
 
-<tr><td><a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-21.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-21.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-22.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-22.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-24.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-24.png" width="140" alt="3D  graph" /></a></td><td>
-<a href="http://www.ken-soft.com/code/c/vector3D/Vector3D-25.png" target="_blank" ><img src="http://www.ken-soft.com/code/c/vector3D/Vector3D-25.png" width="140" alt="3D  graph" /></a></td></tr>
+<tr><td><a href="http://www.kennycason.com/code/c/vector3D/Vector3D-16.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-16.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-17.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-17.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-19.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-19.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-29.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-29.png" width="140" alt="3D  graph" /></a></td></tr>
+
+
+<tr><td><a href="http://www.kennycason.com/code/c/vector3D/Vector3D-21.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-21.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-22.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-22.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-24.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-24.png" width="140" alt="3D  graph" /></a></td><td>
+<a href="http://www.kennycason.com/code/c/vector3D/Vector3D-25.png" target="_blank" ><img src="http://www.kennycason.com/code/c/vector3D/Vector3D-25.png" width="140" alt="3D  graph" /></a></td></tr>
 
 </table>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -2767,7 +2767,7 @@ Below is a few of the graphs that I created. All of which can be found in main.c
 			<wp:comment_id>174</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; 3D Rotation Matrix - Graph 3D]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=147</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=147</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2009-12-19 04:22:24</wp:comment_date>
 			<wp:comment_date_gmt>2009-12-19 11:22:24</wp:comment_date_gmt>
@@ -2814,15 +2814,15 @@ Below is a few of the graphs that I created. All of which can be found in main.c
 	</item>
 	<item>
 		<title>Neural Network (Back-Error Propagation) C++</title>
-		<link>http://ken-soft.com/2009/12/20/neural-network-back-error-propagation-c/</link>
+		<link>http://kennycason.com/2009/12/20/neural-network-back-error-propagation-c/</link>
 		<pubDate>Sun, 20 Dec 2009 11:42:46 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=475</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=475</guid>
 		<description></description>
 		<content:encoded><![CDATA[Here is yet another simple Neural Network that implements Back-Error Propagation as a form of Reinforced Learning.
 The entire project is written in C++ and requires no special libraries to compile and run.
 main.cpp contains code to train both a 2 and 3-input Logical AND gate.
-The zipped source code can be downloaded <a href="http://www.ken-soft.com/code/c/nn01/NeuralNetwork.zip">here</a>
+The zipped source code can be downloaded <a href="http://www.kennycason.com/code/c/nn01/NeuralNetwork.zip">here</a>
 A Linux executable is already compiled and included in the zip, but feel free to recompile it. A Code::Blocks Project file is also included.
 
 <b>To Compile</b>
@@ -2854,9 +2854,9 @@ Logical AND 3 Inputs Demo End
 </code>
 
 <b>Resources:</b>
-<a href="http://ken-soft.com/2008/12/24/neural-networks-simple-models/" target="_blank" >About Neural Networks (English)</a>
-<a href="http://ken-soft.com/2008/12/24/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%EF%BC%88%E7%A5%9E%E7%B5%8C%E5%9B%9E%E8%B7%AF%E7%B6%B2%E3%83%BB%E8%AA%A4%E5%B7%AE%E9%80%86%E4%BC%9D%E6%92%AD%E6%96%B9%EF%BC%89/" target="_blank" >About Neural Networks (Japanese/日本語)</a>
-<a href="http://ken-soft.com/2008/12/25/neural-network-back-error-propagation-java/">Java Implementation of a Neural Network</a>]]></content:encoded>
+<a href="http://kennycason.com/2008/12/24/neural-networks-simple-models/" target="_blank" >About Neural Networks (English)</a>
+<a href="http://kennycason.com/2008/12/24/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%EF%BC%88%E7%A5%9E%E7%B5%8C%E5%9B%9E%E8%B7%AF%E7%B6%B2%E3%83%BB%E8%AA%A4%E5%B7%AE%E9%80%86%E4%BC%9D%E6%92%AD%E6%96%B9%EF%BC%89/" target="_blank" >About Neural Networks (Japanese/日本語)</a>
+<a href="http://kennycason.com/2008/12/25/neural-network-back-error-propagation-java/">Java Implementation of a Neural Network</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>475</wp:post_id>
 		<wp:post_date>2009-12-20 04:42:46</wp:post_date>
@@ -2915,10 +2915,10 @@ Logical AND 3 Inputs Demo End
 	</item>
 	<item>
 		<title>John Conway&#039;s Game of Life + Mutation (C/C++)</title>
-		<link>http://ken-soft.com/2009/12/22/john-conways-game-of-life-mutation-cc/</link>
+		<link>http://kennycason.com/2009/12/22/john-conways-game-of-life-mutation-cc/</link>
 		<pubDate>Tue, 22 Dec 2009 14:37:49 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=481</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=481</guid>
 		<description></description>
 		<content:encoded><![CDATA[I've always been interested in AI, evolution simulations, and other interesting problems. But I will never forget one of my all time favorite classics, <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">John Conway's Game of Life.</a>.
 This simulation implements a few just a few simple rules, yet relatively complex structures emerge.
@@ -2929,14 +2929,14 @@ The rules are:
 <b>4.</b> Any dead cell with exactly three live neighbors becomes a live cell.
 
 Below are some of the patterns that I found and thought were interesting:
-<table><tr><td><a href="http://ken-soft.com/code/c/Life/Life-SimplePatterns.png" target="_blank"><img src="http://ken-soft.com/code/c/Life/Life-SimplePatterns.png" alt="Game of Life Simple Patterns" /></td>
-<td><a href="http://ken-soft.com/code/c/Life/Life-ComplexPatterns.png" target="_blank"><img src="http://ken-soft.com/code/c/Life/Life-ComplexPatterns.png" alt="Game of Life Complex Patterns" /></td></tr></table>
+<table><tr><td><a href="http://kennycason.com/code/c/Life/Life-SimplePatterns.png" target="_blank"><img src="http://kennycason.com/code/c/Life/Life-SimplePatterns.png" alt="Game of Life Simple Patterns" /></td>
+<td><a href="http://kennycason.com/code/c/Life/Life-ComplexPatterns.png" target="_blank"><img src="http://kennycason.com/code/c/Life/Life-ComplexPatterns.png" alt="Game of Life Complex Patterns" /></td></tr></table>
 
 After watching many trails I noticed one thing immediately; The simulation always eventually "dies down", or reaches some equilibrium state and it is usually comprised of a bunch of simple structures. So I decided to add a <b>mutation</b> factor to the simulation such that upon mutation, A living cell dies and a dead cell comes to life. This significantly increased the life of the simulation. In fact with the right mutation rate the simulation will continue endlessly. 
 
 In my quick little simulation I also introduced a "wrap around" feature so that structures can move infinitely in any direction.
 
-The demo is written in C and uses the <a href="http://www.libsdl.org"  target="_blank">SDL Library</a> for drawing the points and is in 640x480 resolution. The source can be downloaded <a href="http://www.ken-soft.com/code/c/Life/Life.zip">here</a>.
+The demo is written in C and uses the <a href="http://www.libsdl.org"  target="_blank">SDL Library</a> for drawing the points and is in 640x480 resolution. The source can be downloaded <a href="http://www.kennycason.com/code/c/Life/Life.zip">here</a>.
 To Compile:
 <code>g++ main.cpp -o LIFE -lSDL</code>
 To Run:
@@ -2945,8 +2945,8 @@ To Run:
 Every thing from mutation rate to cell generation at startup is configurable. Read the <b>ReadMe.txt</b> file included to see what's configurable.
 
 Screenshots:
-<table><tr><td><a href="http://ken-soft.com/code/c/Life/Life-1.png" target="_blank"><img src="http://ken-soft.com/code/c/Life/Life-1.png" alt="Life Screenshot"  width="175"/></td>
-<td><a href="http://ken-soft.com/code/c/Life/Life-2.png" target="_blank"><img src="http://ken-soft.com/code/c/Life/Life-2.png" alt="Life Screenshot"  width="175" /></td><td><a href="http://ken-soft.com/code/c/Life/Life-ChangedRules.png" target="_blank"><img src="http://ken-soft.com/code/c/Life/Life-ChangedRules.png" alt="Life Screenshot Changed Rule"  width="175" /></td></tr></table>
+<table><tr><td><a href="http://kennycason.com/code/c/Life/Life-1.png" target="_blank"><img src="http://kennycason.com/code/c/Life/Life-1.png" alt="Life Screenshot"  width="175"/></td>
+<td><a href="http://kennycason.com/code/c/Life/Life-2.png" target="_blank"><img src="http://kennycason.com/code/c/Life/Life-2.png" alt="Life Screenshot"  width="175" /></td><td><a href="http://kennycason.com/code/c/Life/Life-ChangedRules.png" target="_blank"><img src="http://kennycason.com/code/c/Life/Life-ChangedRules.png" alt="Life Screenshot Changed Rule"  width="175" /></td></tr></table>
 
 Notice that the 3rd Image is a result of changing rule 4 to " Any dead cell with <b>two or three</b> live neighbors becomes a live cell." (I made this typo when first writing the program and was surprised by the result :)) Try changing the rules and see what results you find. 
 I hope to release a more complex version in the future.]]></content:encoded>
@@ -2982,7 +2982,7 @@ I hope to release a more complex version in the future.]]></content:encoded>
 			<wp:comment_id>221</wp:comment_id>
 			<wp:comment_author><![CDATA[Ken-Soft &raquo; Simulation Program (Motivated John Conway&#8217;s Game of Life) - C/C++]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/?p=512</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/?p=512</wp:comment_author_url>
 			<wp:comment_author_IP>208.109.181.3</wp:comment_author_IP>
 			<wp:comment_date>2010-07-13 20:33:52</wp:comment_date>
 			<wp:comment_date_gmt>2010-07-14 03:33:52</wp:comment_date_gmt>
@@ -2996,7 +2996,7 @@ I hope to release a more complex version in the future.]]></content:encoded>
 			<wp:comment_id>318</wp:comment_id>
 			<wp:comment_author><![CDATA[John Conway&#8217;s Game of Life &#8211; Windows/C++ (ASCII) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/07/20/john-conways-game-of-life-windowsc-ascii/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/07/20/john-conways-game-of-life-windowsc-ascii/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-07-20 11:39:09</wp:comment_date>
 			<wp:comment_date_gmt>2011-07-20 11:39:09</wp:comment_date_gmt>
@@ -3013,10 +3013,10 @@ I hope to release a more complex version in the future.]]></content:encoded>
 	</item>
 	<item>
 		<title>Is Prime Number Algorithm</title>
-		<link>http://ken-soft.com/2010/07/12/is-prime-algorithm/</link>
+		<link>http://kennycason.com/2010/07/12/is-prime-algorithm/</link>
 		<pubDate>Mon, 12 Jul 2010 18:03:43 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=502</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=502</guid>
 		<description></description>
 		<content:encoded><![CDATA[I was randomly surfing around the internet when I stumbled upon Google Labs Aptitude Test (GLAT)<a href="http://cruftbox.com/blog/archives/001031.html">(Found here)</a>. I can't really remember which links I followed from there but I stumbled into a question that asks to find the first 10 consecutive digits of E that are prime. While definitely not a hard task I wrote a small program in C to test whether or not a number is prime. 
 
@@ -3071,21 +3071,21 @@ bool isPrime(unsigned long long n) {
 	</item>
 	<item>
 		<title>Simulation Program (Motivated by John Conway&#039;s Game of Life) - C/C++</title>
-		<link>http://ken-soft.com/2010/07/13/simulation-program-motivated-john-conways-game-of-life-cc/</link>
+		<link>http://kennycason.com/2010/07/13/simulation-program-motivated-john-conways-game-of-life-cc/</link>
 		<pubDate>Wed, 14 Jul 2010 03:33:44 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=512</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=512</guid>
 		<description></description>
 		<content:encoded><![CDATA[In this little simulation demo I created four simple rules, of which can be activated by uncommenting them out in the source code. Though nothing too complex emerges, I still liked some the resulting behavior. 
-Particularly, rule1(), results in colors slowly grouping together in various forms. It may be hard to immediately noticed so watch carefully. This was motivated by <a href="http://ken-soft.com/?p=481">John Conway's Game of Life</a>.
+Particularly, rule1(), results in colors slowly grouping together in various forms. It may be hard to immediately noticed so watch carefully. This was motivated by <a href="http://kennycason.com/?p=481">John Conway's Game of Life</a>.
 The program was written in C/C++, all graphics are done using <a href="http://www.libsdl.org">SDL</a>
-The whole source can be found here <a href="http://ken-soft.com/code/c/Life2/main.cpp">main.cpp</a>
+The whole source can be found here <a href="http://kennycason.com/code/c/Life2/main.cpp">main.cpp</a>
 <b>Compile</b><code>g++ main.cpp -lSDL</code>
 <b>Run</b><code>./a.out</code>
-<table><tr><td><a href="http://ken-soft.com/code/c/Life2/Life-1.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-1.png" width="275" alt="Game of Life Patterns" /></td>
-<td><a href="http://ken-soft.com/code/c/Life2/Life-4.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-4.png" width="275" alt="Game of Life Patterns" /></td></tr>
-<tr><td><a href="http://ken-soft.com/code/c/Life2/Life-8.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-8.png" width="275" alt="Game of Life Patterns" /></td>
-<td><a href="http://ken-soft.com/code/c/Life2/Life-9.png" target="_blank"><img src="http://ken-soft.com/code/c/Life2/Life-9.png" width="275" alt="Game of Life Patterns" /></td></tr></table>
+<table><tr><td><a href="http://kennycason.com/code/c/Life2/Life-1.png" target="_blank"><img src="http://kennycason.com/code/c/Life2/Life-1.png" width="275" alt="Game of Life Patterns" /></td>
+<td><a href="http://kennycason.com/code/c/Life2/Life-4.png" target="_blank"><img src="http://kennycason.com/code/c/Life2/Life-4.png" width="275" alt="Game of Life Patterns" /></td></tr>
+<tr><td><a href="http://kennycason.com/code/c/Life2/Life-8.png" target="_blank"><img src="http://kennycason.com/code/c/Life2/Life-8.png" width="275" alt="Game of Life Patterns" /></td>
+<td><a href="http://kennycason.com/code/c/Life2/Life-9.png" target="_blank"><img src="http://kennycason.com/code/c/Life2/Life-9.png" width="275" alt="Game of Life Patterns" /></td></tr></table>
 
 Rule1()
 <pre lang="c" line="1">
@@ -3239,10 +3239,10 @@ for(int x = 0; x < worldWidth; x++) {
 	</item>
 	<item>
 		<title>Ackermann–Péter function (2 arguments) - C/C++ - Recursive Implentation</title>
-		<link>http://ken-soft.com/2010/07/16/ackermann%e2%80%93peter-function-2-arguments-cc-recursive/</link>
+		<link>http://kennycason.com/2010/07/16/ackermann%e2%80%93peter-function-2-arguments-cc-recursive/</link>
 		<pubDate>Fri, 16 Jul 2010 19:06:22 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=524</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=524</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is an implementation of the 2 argument version of the <a target="blank" href="http://en.wikipedia.org/wiki/Ackermann_function">Ackermann Function</a> (i.e. Ackermann-Péter function). In essence, this is an example of a very simple recursive function is an example of a total computable function that is not primitive recursive. Instead of making the internet even more redundant with unnecessary text, just click the above link to view the entire Wikipedia article.
 Function's like these are very fun to play with. I often think about the human brain and how it functions when I see these kinds of functions. Taking input from the environment and processing it, sometimes recursively (like in a thought cycle), then converging to some or many outputs.
@@ -3263,7 +3263,7 @@ unsigned long long A(unsigned long long m, unsigned long long n) {
     }
 }
 </pre>
-The entire source implentation can be found <a target="blank" href="http://ken-soft.com/code/c/ackermann/main.cpp">here</a>
+The entire source implentation can be found <a target="blank" href="http://kennycason.com/code/c/ackermann/main.cpp">here</a>
 I obtained a list of some of the expected values from this site ->     <a target="blank" href="http://www-users.cs.york.ac.uk/susan/cyc/a/ackermnn.htm">http://www-users.cs.york.ac.uk/susan/cyc/a/ackermnn.htm</a>
 Here are some of the values for 0 < m < 5, 0 < n < 6
 <table  align="left" bgcolor="#222" border="0">
@@ -3312,10 +3312,10 @@ for(int n = 0; n < 100; n++) {
 	</item>
 	<item>
 		<title>Base N to 10 Conversion Class - PHP (Base 62 Implementation)</title>
-		<link>http://ken-soft.com/2010/08/31/base-62-10-conversion-class-php/</link>
+		<link>http://kennycason.com/2010/08/31/base-62-10-conversion-class-php/</link>
 		<pubDate>Wed, 01 Sep 2010 02:11:38 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=544</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=544</guid>
 		<description></description>
 		<content:encoded><![CDATA[This class can be used convert a base N number into base 10, and back. (Which makes it ideal for usage in technologies such as URL shorteners.)
 <pre lang="php" line="1">
@@ -3324,7 +3324,7 @@ for(int n = 0; n < 100; n++) {
  * BNID - Base N <=> 10 converter
  *
  * @author kenny cason
- * @site www.ken-soft.com
+ * @site www.kennycason.com
  */
 class BNID {
 
@@ -3405,7 +3405,7 @@ RewriteRule ^(([A-Z]*[a-z]*[0-9]*)*)$ main.php?b62id=$1 [L,QSA]
 </code>
 
 So it should take a domain  www.abc.com, if you specify <b>www.abc.com/zA4F</b>, it would forward to <b>www.abc.com/main.php?id=14576711</b>
-<b>Here is a sample Demo</b><a href="http://www.ken-soft.com/code/php/baseconvert/AABCz23" target="blank">http://www.ken-soft.com/code/php/baseconvert/AABCz23</a>]]></content:encoded>
+<b>Here is a sample Demo</b><a href="http://www.kennycason.com/code/php/baseconvert/AABCz23" target="blank">http://www.kennycason.com/code/php/baseconvert/AABCz23</a>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>544</wp:post_id>
 		<wp:post_date>2010-08-31 19:11:38</wp:post_date>
@@ -3436,10 +3436,10 @@ So it should take a domain  www.abc.com, if you specify <b>www.abc.com/zA4F</b>,
 	</item>
 	<item>
 		<title>Vector 3D structure with Operation overloads and basic functions - C++</title>
-		<link>http://ken-soft.com/2010/09/16/vector-3d-structure-rotation-functions-c/</link>
+		<link>http://kennycason.com/2010/09/16/vector-3d-structure-rotation-functions-c/</link>
 		<pubDate>Thu, 16 Sep 2010 11:41:07 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=564</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=564</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is my Vector3D structure with a set of appropriate operation overloads(-,+,/,*,--,++,etc)  that I use for various math operations as well. Feel free to add upon it or do whatever you like with it. (Update the -- and ++ operators are not correctly overloaded :) )
 <pre  lang="cpp" line="1">
@@ -3453,7 +3453,7 @@ So it should take a domain  www.abc.com, if you specify <b>www.abc.com/zA4F</b>,
 /*
 ABOUT: 3D Vector and rotation functions. Rotations about X, Y, Z, and any arbitruary Vector
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 11-19-2009
 */
@@ -3694,10 +3694,10 @@ int main() {
 	</item>
 	<item>
 		<title>PHP Mail Class - Send HTML Mail / Attachments</title>
-		<link>http://ken-soft.com/2010/09/24/php-mail-class-send-html-mail-attachments/</link>
+		<link>http://kennycason.com/2010/09/24/php-mail-class-send-html-mail-attachments/</link>
 		<pubDate>Fri, 24 Sep 2010 14:14:14 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=576</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=576</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a sample class to send mail using PHP. It also demonstrates how to attach images.
 
@@ -3840,14 +3840,14 @@ $mail->send();
 	</item>
 	<item>
 		<title>LinkedList - C</title>
-		<link>http://ken-soft.com/2010/10/21/linkedlist-c/</link>
+		<link>http://kennycason.com/2010/10/21/linkedlist-c/</link>
 		<pubDate>Thu, 21 Oct 2010 13:13:55 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=601</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=601</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple Doubly connected LinkedList written in C. It hasn't been thoroughly tested, but should be fun to play around with :)
-<a target="_blank" href="http://www.ken-soft.com/code/c/ll/linkedlist.h">linkedlist.h</a><br/>
-<a target="_blank" href="http://www.ken-soft.com/code/c/ll/main.c">main.c</a><br/>
+<a target="_blank" href="http://www.kennycason.com/code/c/ll/linkedlist.h">linkedlist.h</a><br/>
+<a target="_blank" href="http://www.kennycason.com/code/c/ll/main.c">main.c</a><br/>
 
 <b>linkedlist.h</b>
 <pre  lang="cpp" line="1">
@@ -4091,14 +4091,14 @@ void ll_print(LinkedList *ll) {
 	</item>
 	<item>
 		<title>BrainF*** (Programming Language) – minor varient</title>
-		<link>http://ken-soft.com/2011/01/14/brainfuck-programming-language-minor-varient/</link>
+		<link>http://kennycason.com/2011/01/14/brainfuck-programming-language-minor-varient/</link>
 		<pubDate>Sat, 15 Jan 2011 02:12:50 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=704</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=704</guid>
 		<description></description>
 		<content:encoded><![CDATA[Earlier this year I was playing around with making simple programming languages and came across <a href="http://en.wikipedia.org/wiki/Brainfuck" target="_blank">"BrainFuck"</a>. I, being bored decided to write my own BrainFuck Interpreter and of course made a few changes along the way (only in I/O functions, added integer support since BrainFuck only deals with characters). If interested, I recommend reading more information about BrainFuck on Wikipedia.
 
-The Full download including Source and examples can be found <a href="http://ken-soft.com/code/c/bf/bf.zip" target="_blank">HERE</a>.
+The Full download including Source and examples can be found <a href="http://kennycason.com/code/c/bf/bf.zip" target="_blank">HERE</a>.
 
 Here are the basic rules of BrainFuck with some added I/O Functions.<br/>
 <table class="table" border="1">
@@ -4147,7 +4147,7 @@ Here are the basic rules of BrainFuck with some added I/O Functions.<br/>
 <br/>
 <b>CP</b> is the Cell Pointer<br/>
 <b>Below are various scripts written in BrainFuck<b/>
-<a href="http://ken-soft.com/code/c/bf/helloworld.bf" target="_blank">Hello World</a><br/>
+<a href="http://kennycason.com/code/c/bf/helloworld.bf" target="_blank">Hello World</a><br/>
 <pre lang="bf" line="1">
 +++++ +++++
 [
@@ -4174,7 +4174,7 @@ c
 M
 </pre>
 
-<a href="http://ken-soft.com/code/c/bf/helloworld2.bf" target="_blank">Hello World Version 2</a><br/>
+<a href="http://kennycason.com/code/c/bf/helloworld2.bf" target="_blank">Hello World Version 2</a><br/>
 <pre lang="bf" line="1">
 +++++
 [
@@ -4205,7 +4205,7 @@ M
 M
 </pre>
 
-<a href="http://ken-soft.com/code/c/bf/nestedloop.bf" target="_blank">3 Nested While loops</a><br/>
+<a href="http://kennycason.com/code/c/bf/nestedloop.bf" target="_blank">3 Nested While loops</a><br/>
 <pre lang="bf" line="1">
 +++
 M
@@ -4439,12 +4439,12 @@ void printDataBuffer() {
 	</item>
 	<item>
 		<title>Vector ND - C++</title>
-		<link>http://ken-soft.com/2011/01/19/vector-nd-cpp/</link>
+		<link>http://kennycason.com/2011/01/19/vector-nd-cpp/</link>
 		<pubDate>Wed, 19 Jan 2011 17:58:30 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=728</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=728</guid>
 		<description></description>
-		<content:encoded><![CDATA[This is a N-Dimensional Vector class written in C++. While it can be used for any dimension, if you would like to use 3 or less dimensions including rotation functions check out my previous post (<a href="http://ken-soft.com/2010/09/16/vector-3d-structure-rotation-functions-c/">here</a>)
+		<content:encoded><![CDATA[This is a N-Dimensional Vector class written in C++. While it can be used for any dimension, if you would like to use 3 or less dimensions including rotation functions check out my previous post (<a href="http://kennycason.com/2010/09/16/vector-3d-structure-rotation-functions-c/">here</a>)
 
 <b>VectorND.cpp</b><br/>
 <pre  lang="cpp" line="1">
@@ -4458,7 +4458,7 @@ void printDataBuffer() {
 /*
 ABOUT: 3D Vector and rotation functions. Rotations about X, Y, Z, and any arbitruary Vector
 AUTHOR: Kenny Cason
-WEBSITE: Ken-Soft.com
+WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 1-19-2011
 */
@@ -4761,10 +4761,10 @@ int main() {
 	</item>
 	<item>
 		<title>TicTacToe - C (procedural style)</title>
-		<link>http://ken-soft.com/2011/07/19/tictactoe-c-procedural-style/</link>
+		<link>http://kennycason.com/2011/07/19/tictactoe-c-procedural-style/</link>
 		<pubDate>Tue, 19 Jul 2011 20:07:23 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=785</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=785</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple version of TicTacToe written in C. <br/>
 I wrote this primarily to help a friend of mine. It has virtually no error checking (primarily in regards to the scanf functions, so don't mess up while inputting!)
@@ -5020,7 +5020,7 @@ I have been trying to get a simple chessboard to display in the console and take
 
 /*
  * Partly based on KenSoft tictactoe 
- * @http://ken-soft.com/2011/07/19/tictactoe-c-procedural-style/
+ * @http://kennycason.com/2011/07/19/tictactoe-c-procedural-style/
 */
  
 char board[8][8];
@@ -5127,15 +5127,15 @@ Many thanks...:-)]]></wp:comment_content>
 	</item>
 	<item>
 		<title>John Conway&#039;s Game of Life - Windows/C++ (ASCII)</title>
-		<link>http://ken-soft.com/2011/07/20/john-conways-game-of-life-windowsc-ascii/</link>
+		<link>http://kennycason.com/2011/07/20/john-conways-game-of-life-windowsc-ascii/</link>
 		<pubDate>Wed, 20 Jul 2011 11:39:05 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=790</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=790</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple version of John Conway's Game of Life written in C/C++ and runs on Windows using ASCII graphics. 
 
-For a more interesting version using SDL to draw pixel graphics, check out this link: <a href="http://ken-soft.com/2009/12/22/john-conways-game-of-life-mutation-cc/">John Conway's Game of Life - C++/SDL</a>
-<img src="http://ken-soft.com/code/c/LifeAscii/sshot.PNG" alt="John Conway's Game of Life" target="_blank" width="600"/>
+For a more interesting version using SDL to draw pixel graphics, check out this link: <a href="http://kennycason.com/2009/12/22/john-conways-game-of-life-mutation-cc/">John Conway's Game of Life - C++/SDL</a>
+<img src="http://kennycason.com/code/c/LifeAscii/sshot.PNG" alt="John Conway's Game of Life" target="_blank" width="600"/>
 Here is the code for the ASCII Version:
 <pre lang="c" line="1">
 #include "math.h"
@@ -5392,10 +5392,10 @@ void sleep(unsigned int mseconds) {
 	</item>
 	<item>
 		<title>Facebook - Find Who Deleted/Added You</title>
-		<link>http://ken-soft.com/2011/08/05/facebook-find-who-deletedadded-you/</link>
+		<link>http://kennycason.com/2011/08/05/facebook-find-who-deletedadded-you/</link>
 		<pubDate>Fri, 05 Aug 2011 01:25:24 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=800</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=800</guid>
 		<description></description>
 		<content:encoded><![CDATA[Being a Facebook Junky I spent a bit of time trying to find out how to find out who deleted or added me. These are the general steps I go through (I have not bothered to make a script to automate this yet). Keep in mind you must have a bit of computer knowledge to do this. All my commands are geared towards Unix/Mac users, sorry Windows :)
 
@@ -5634,10 +5634,10 @@ It's a lot of steps, but it becomes very easy after you've done it a couple time
 	</item>
 	<item>
 		<title>jGames - display various games using jQuery</title>
-		<link>http://ken-soft.com/2011/08/08/jgames/</link>
+		<link>http://kennycason.com/2011/08/08/jgames/</link>
 		<pubDate>Mon, 08 Aug 2011 01:41:40 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=819</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=819</guid>
 		<description></description>
 		<content:encoded><![CDATA[jGames is a collection of functions written in <a href="http://jquery.com/" target="_blank">jQuery</a> to display static states of various class board games, including Checkers, Chess, Go, XiangQi, Shogi, Othello, Tic Tac Toe, Cards, and Dice.
 
@@ -5645,13 +5645,13 @@ It also supports display of a series of states (i.e. an animation). This is usef
 
 As this is the first release be wary of any bugs and also keep in mind that I will be updating it continuously. 
 <strong>jGame links</strong> 
-<strong>1.</strong> <a href="http://ken-soft.com/2011/08/08/jchess/">jChess</a> 
-<strong>2.</strong> <a href="http://ken-soft.com/2011/08/08/jcheckers/">jCheckers</a>
-<strong>3.</strong> <a href="http://ken-soft.com/2011/08/08/jgo/">jGo</a> 
-<strong>4.</strong> <a href="http://ken-soft.com/2011/08/08/jxiangqi/">jXiangQi</a> 
-<strong>5.</strong> <a href="http://ken-soft.com/2011/08/08/jshogi/">jShogi</a> 
-<strong>6.</strong> <a href="http://ken-soft.com/2011/08/08/jothello/">jOthello</a> 
-<strong>7.</strong> <a href="http://ken-soft.com/2011/08/08/jtictactoe/">jTicTacToe</a> 
+<strong>1.</strong> <a href="http://kennycason.com/2011/08/08/jchess/">jChess</a> 
+<strong>2.</strong> <a href="http://kennycason.com/2011/08/08/jcheckers/">jCheckers</a>
+<strong>3.</strong> <a href="http://kennycason.com/2011/08/08/jgo/">jGo</a> 
+<strong>4.</strong> <a href="http://kennycason.com/2011/08/08/jxiangqi/">jXiangQi</a> 
+<strong>5.</strong> <a href="http://kennycason.com/2011/08/08/jshogi/">jShogi</a> 
+<strong>6.</strong> <a href="http://kennycason.com/2011/08/08/jothello/">jOthello</a> 
+<strong>7.</strong> <a href="http://kennycason.com/2011/08/08/jtictactoe/">jTicTacToe</a> 
 
 Below is a simple demo of some of the games supported. 
 
@@ -5686,9 +5686,9 @@ Next, create the state of the chess board using Javascript. Depending on the gam
        $("#chess").chess(board_chess);
 </pre>
 That's it! 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess").chess(board_chess);$("#go13").go(board_go_13);$("#chess_anim").chessAnimator(chessAnim, 1000);});
@@ -5736,7 +5736,7 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 			<wp:comment_id>344</wp:comment_id>
 			<wp:comment_author><![CDATA[jXiangQi – Display a XiangQi(象棋) Game State/Animation (jGames) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jxiangqi/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jxiangqi/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 02:51:24</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 02:51:24</wp:comment_date_gmt>
@@ -5754,7 +5754,7 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 			<wp:comment_id>343</wp:comment_id>
 			<wp:comment_author><![CDATA[jGo – Display a Go Game State/Animation (jGames) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jgo/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jgo/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 02:31:24</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 02:31:24</wp:comment_date_gmt>
@@ -5772,7 +5772,7 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 			<wp:comment_id>342</wp:comment_id>
 			<wp:comment_author><![CDATA[jChess &#8211; Display a Chess Game State/Animation (jGames) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jchess/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jchess/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 01:55:01</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 01:55:01</wp:comment_date_gmt>
@@ -5790,7 +5790,7 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 			<wp:comment_id>345</wp:comment_id>
 			<wp:comment_author><![CDATA[jShogi – Display a Shogi(将棋) Game State/Animation (jGames) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jshogi/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jshogi/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 03:23:07</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 03:23:07</wp:comment_date_gmt>
@@ -5808,7 +5808,7 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 			<wp:comment_id>346</wp:comment_id>
 			<wp:comment_author><![CDATA[jOthello – Display a Othello Game State/Animation (jGames) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jothello/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jothello/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 04:00:10</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 04:00:10</wp:comment_date_gmt>
@@ -5826,7 +5826,7 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 			<wp:comment_id>347</wp:comment_id>
 			<wp:comment_author><![CDATA[jTicTacToe – Display a Tic Tac Toe Game State/Animation (jGames) | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jtictactoe/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jtictactoe/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 04:15:54</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 04:15:54</wp:comment_date_gmt>
@@ -5843,12 +5843,12 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#chess")
 	</item>
 	<item>
 		<title>jChess - Display a Chess Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jchess/</link>
+		<link>http://kennycason.com/2011/08/08/jchess/</link>
 		<pubDate>Mon, 08 Aug 2011 01:54:54 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=847</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=847</guid>
 		<description></description>
-		<content:encoded><![CDATA[jChess is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Chess game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+		<content:encoded><![CDATA[jChess is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Chess game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="chess"></div></td><td><div id="chess_anim"></div></td></tr>
     </table>
@@ -5933,9 +5933,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
             ]
         ];
         $("#chess_anim").chessAnimator(chess_anim, 1000);</pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#chess").chess(board_chess);$("#chess_anim").chessAnimator(chess_anim, 1000);});
@@ -5969,7 +5969,7 @@ $(document).ready(function(){$("#chess").chess(board_chess);$("#chess_anim").che
 			<wp:comment_id>350</wp:comment_id>
 			<wp:comment_author><![CDATA[jGames &#8211; display various games using jQuery | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jgames/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jgames/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 16:07:18</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 16:07:18</wp:comment_date_gmt>
@@ -5986,12 +5986,12 @@ $(document).ready(function(){$("#chess").chess(board_chess);$("#chess_anim").che
 	</item>
 	<item>
 		<title>jCheckers - Display a Checkers Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jcheckers/</link>
+		<link>http://kennycason.com/2011/08/08/jcheckers/</link>
 		<pubDate>Mon, 08 Aug 2011 02:10:49 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=854</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=854</guid>
 		<description></description>
-		<content:encoded><![CDATA[jCheckers is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Checkers game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+		<content:encoded><![CDATA[jCheckers is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Checkers game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="checkers"></div></td><td><div id="checkers_anim"></div></td></tr>
     </table>
@@ -6097,9 +6097,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
         ];
        $("#checkers_anim").checkers(board_checkers_anim);
 </pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#checkers_anim").checkersAnimator(board_checkers_anim, 1000);});
@@ -6133,12 +6133,12 @@ $(document).ready(function(){$("#checkers").checkers(board_checkers);$("#checker
 	</item>
 	<item>
 		<title>jGo – Display a Go(围棋) Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jgo/</link>
+		<link>http://kennycason.com/2011/08/08/jgo/</link>
 		<pubDate>Mon, 08 Aug 2011 02:31:19 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=859</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=859</guid>
 		<description></description>
-		<content:encoded><![CDATA[jGo is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Go game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. jGo supporst both 13x13 boards as well as 19x19 boards.
+		<content:encoded><![CDATA[jGo is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Go game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. jGo supporst both 13x13 boards as well as 19x19 boards.
     <table>
         <tr><td><div id="go13"></div></td></tr>
        <tr><td><div id="go13_anim"></div></td></tr>
@@ -6417,9 +6417,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
         ];
      $("#go_anim").go(board_go_13_anim);
   </pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#go13").go(board_go_13);$("#go13_anim").goAnimator(board_go_13_anim, 1000);$("#go19").go(board_go);});
@@ -6454,7 +6454,7 @@ $(document).ready(function(){$("#go13").go(board_go_13);$("#go13_anim").goAnimat
 			<wp:comment_id>1061</wp:comment_id>
 			<wp:comment_author><![CDATA[jGames &#8211; display various games using jQuery | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jgames/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jgames/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2013-03-21 17:25:20</wp:comment_date>
 			<wp:comment_date_gmt>2013-03-21 17:25:20</wp:comment_date_gmt>
@@ -6471,12 +6471,12 @@ $(document).ready(function(){$("#go13").go(board_go_13);$("#go13_anim").goAnimat
 	</item>
 	<item>
 		<title>jXiangQi – Display a XiangQi(象棋) Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jxiangqi/</link>
+		<link>http://kennycason.com/2011/08/08/jxiangqi/</link>
 		<pubDate>Mon, 08 Aug 2011 02:51:16 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=867</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=867</guid>
 		<description></description>
-		<content:encoded><![CDATA[jXiangQi is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display xiangqi game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+		<content:encoded><![CDATA[jXiangQi is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display xiangqi game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="xiangqi"></div></td></tr><tr><td><div id="xiangqi_anim"></div></td></tr>
     </table>
@@ -6562,9 +6562,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
         ];
 
         $("#xiangqi_anim").xiangqiAnimator(board_xiangqi_anim, 1000);</pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#xiangqi").xiangqi(board_xiangqi);$("#xiangqi_anim").xiangqiAnimator(board_xiangqi_anim, 1000);});
@@ -6600,7 +6600,7 @@ $(document).ready(function(){$("#xiangqi").xiangqi(board_xiangqi);$("#xiangqi_an
 			<wp:comment_id>1062</wp:comment_id>
 			<wp:comment_author><![CDATA[jGames &#8211; display various games using jQuery | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jgames/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jgames/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2013-03-21 17:25:36</wp:comment_date>
 			<wp:comment_date_gmt>2013-03-21 17:25:36</wp:comment_date_gmt>
@@ -6617,12 +6617,12 @@ $(document).ready(function(){$("#xiangqi").xiangqi(board_xiangqi);$("#xiangqi_an
 	</item>
 	<item>
 		<title>jShogi – Display a Shogi(将棋) Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jshogi/</link>
+		<link>http://kennycason.com/2011/08/08/jshogi/</link>
 		<pubDate>Mon, 08 Aug 2011 03:23:00 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=875</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=875</guid>
 		<description></description>
-		<content:encoded><![CDATA[jShogi is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Shogi game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+		<content:encoded><![CDATA[jShogi is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Shogi game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="shogi"></div></td></tr><tr><td><div id="shogi_anim"></div></td></tr>
     </table>
@@ -6704,9 +6704,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
             ];
 
         $("#shogi_anim").shogiAnimator(board_shogi_anim, 1000);</pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#shogi").shogi(board_shogi);$("#shogi_anim").shogiAnimator(board_shogi_anim, 1000);});
@@ -6793,12 +6793,12 @@ $(document).ready(function(){$("#shogi").shogi(board_shogi);$("#shogi_anim").sho
 	</item>
 	<item>
 		<title>jOthello – Display a Othello Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jothello/</link>
+		<link>http://kennycason.com/2011/08/08/jothello/</link>
 		<pubDate>Mon, 08 Aug 2011 04:00:04 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=883</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=883</guid>
 		<description></description>
-		<content:encoded><![CDATA[jOthello is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Othello game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+		<content:encoded><![CDATA[jOthello is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Othello game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="othello"></div></td><td><div id="othello_anim"></div></td></tr>
     </table>
@@ -6885,9 +6885,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
         ];
 
         $("#othello_anim").othelloAnimator(board_othello_anim, 1000);</pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#othello").othello(board_othello);$("#othello_anim").othelloAnimator(board_othello_anim, 1000);});
@@ -6922,7 +6922,7 @@ $(document).ready(function(){$("#othello").othello(board_othello);$("#othello_an
 			<wp:comment_id>351</wp:comment_id>
 			<wp:comment_author><![CDATA[jGames &#8211; display various games using jQuery | Ken-Soft]]></wp:comment_author>
 			<wp:comment_author_email></wp:comment_author_email>
-			<wp:comment_author_url>http://ken-soft.com/2011/08/08/jgames/</wp:comment_author_url>
+			<wp:comment_author_url>http://kennycason.com/2011/08/08/jgames/</wp:comment_author_url>
 			<wp:comment_author_IP>184.168.187.1</wp:comment_author_IP>
 			<wp:comment_date>2011-08-08 16:07:33</wp:comment_date>
 			<wp:comment_date_gmt>2011-08-08 16:07:33</wp:comment_date_gmt>
@@ -6986,12 +6986,12 @@ very happy that I came across this during my search for something relating to th
 	</item>
 	<item>
 		<title>jTicTacToe – Display a Tic Tac Toe Game State/Animation (jGames)</title>
-		<link>http://ken-soft.com/2011/08/08/jtictactoe/</link>
+		<link>http://kennycason.com/2011/08/08/jtictactoe/</link>
 		<pubDate>Mon, 08 Aug 2011 04:15:48 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=887</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=887</guid>
 		<description></description>
-		<content:encoded><![CDATA[jTicTacToe is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. 
+		<content:encoded><![CDATA[jTicTacToe is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Tic Tac Toe game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. 
     <table>
         <tr><td><div id="tictactoe"></div></td><td><div id="tictactoe_anim"></div></td></tr>
     </table>
@@ -7058,9 +7058,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
         ];
 
         $("#tictactoe_anim").tictactoeAnimator(board_tictactoe_anim, 1000);</pre>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#tictactoe").tictactoe(board_tictactoe);$("#tictactoe_anim").tictactoeAnimator(board_tictactoe_anim, 1000);});
@@ -7142,10 +7142,10 @@ $(document).ready(function(){$("#tictactoe").tictactoe(board_tictactoe);$("#tict
 	</item>
 	<item>
 		<title>PHP - Binary Tree</title>
-		<link>http://ken-soft.com/2011/11/20/php-binary-tree/</link>
+		<link>http://kennycason.com/2011/11/20/php-binary-tree/</link>
 		<pubDate>Sun, 20 Nov 2011 06:48:08 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=897</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=897</guid>
 		<description></description>
 		<content:encoded><![CDATA[A simple binary tree in php, will add a delete function later :P
 
@@ -7359,10 +7359,10 @@ class BinaryTreeTest extends UnitTestCase {
 	</item>
 	<item>
 		<title>PHP - Observer/Observable Design Pattern</title>
-		<link>http://ken-soft.com/2011/11/20/php-observerobservable-design-pattern/</link>
+		<link>http://kennycason.com/2011/11/20/php-observerobservable-design-pattern/</link>
 		<pubDate>Sun, 20 Nov 2011 07:08:44 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=902</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=902</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a PHP implementation of the Java Observer/Observable classes.
 
@@ -7570,10 +7570,10 @@ class ObserverTest extends UnitTestCase {
 	</item>
 	<item>
 		<title>PHP - Logger</title>
-		<link>http://ken-soft.com/2011/11/20/php-logger/</link>
+		<link>http://kennycason.com/2011/11/20/php-logger/</link>
 		<pubDate>Sun, 20 Nov 2011 07:32:28 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=907</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=907</guid>
 		<description></description>
 		<content:encoded><![CDATA[Mainly written for fun, but this is a configurable Logger written in PHP that supports multiple handlers, including Writers (File, SQL, Apache's Error Log, Echo), configurable Formatting. various logging levels (FATAL, ERROR, WARN, INFO, DEBUG, TRACE). Also useful functions like isDebug/TraceEnabled(), to check before building large strings to debug/trace(). *While each logger instance can have a unique name, there isn't any parent/child hierarchy attributed to them.
 
@@ -7584,7 +7584,7 @@ class ObserverTest extends UnitTestCase {
 /**
  * PHP Logger
  * @author Kenny Cason
- * @site www.ken-soft.com
+ * @site www.kennycason.com
  */
 class Logger {
 
@@ -8258,10 +8258,10 @@ echo "<br/>Test Complete<br/>";
 	</item>
 	<item>
 		<title>C - Simple ASCII RPG/MUDD</title>
-		<link>http://ken-soft.com/2011/11/20/c-simple-ascii-rpgmudd/</link>
+		<link>http://kennycason.com/2011/11/20/c-simple-ascii-rpgmudd/</link>
 		<pubDate>Sun, 20 Nov 2011 08:37:47 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=911</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=911</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a very simple RPG that uses ASCII art. It's not balanced nor complete, just meant to serve as a tutorial of some procedural coding in C.
 
@@ -8734,10 +8734,10 @@ stuff you post…]]></wp:comment_content>
 	</item>
 	<item>
 		<title>C++ - Minesweeper</title>
-		<link>http://ken-soft.com/2011/12/17/c-minesweeper/</link>
+		<link>http://kennycason.com/2011/12/17/c-minesweeper/</link>
 		<pubDate>Sat, 17 Dec 2011 18:11:14 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=916</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=916</guid>
 		<description></description>
 		<content:encoded><![CDATA[The other day I was tutoring a freshman programmer program his first minesweeper text game in C++. Here is the resulting code. 
 
@@ -9065,7 +9065,7 @@ void print() {
 </pre>
 
 Sample Output:
-<img src="http://ken-soft.com/images/minesweeper/minesweeper.png" />
+<img src="http://kennycason.com/images/minesweeper/minesweeper.png" />
 ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>916</wp:post_id>
@@ -9093,10 +9093,10 @@ Sample Output:
 	</item>
 	<item>
 		<title>Java - Trie (Prefix Tree)</title>
-		<link>http://ken-soft.com/2012/03/20/java-trie-prefix-tree/</link>
+		<link>http://kennycason.com/2012/03/20/java-trie-prefix-tree/</link>
 		<pubDate>Tue, 20 Mar 2012 21:56:50 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=921</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=921</guid>
 		<description></description>
 		<content:encoded><![CDATA[A Java implmentation of a Trie (i.e. Prefix Tree).  A definition of a Trie can be found <a href="http://en.wikipedia.org/wiki/Trie" title="here (Wikipedia)" target="_blank"></a>
 This implementation (ObjectTrie.java) is capable of storing an Array of any generic data. i.e. Object[], or Integer[], etc.
@@ -9361,10 +9361,10 @@ public class TrieTest {
 	</item>
 	<item>
 		<title>Java - Simple Smtp Mail Class</title>
-		<link>http://ken-soft.com/2012/05/15/java-simple-smtp-mail-class/</link>
+		<link>http://kennycason.com/2012/05/15/java-simple-smtp-mail-class/</link>
 		<pubDate>Tue, 15 May 2012 20:02:10 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=934</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=934</guid>
 		<description></description>
 		<content:encoded><![CDATA[Just a few quick classes I whipped up for bare minimum SmtpMail support.
 also don't rely on the default javax.mail package. I believe the Java SDK only provides the APIs and not the implementations. 
@@ -9536,10 +9536,10 @@ public class SMTPMailTest {
 	</item>
 	<item>
 		<title>PHP Timer Class</title>
-		<link>http://ken-soft.com/2012/07/05/php-timer-class/</link>
+		<link>http://kennycason.com/2012/07/05/php-timer-class/</link>
 		<pubDate>Thu, 05 Jul 2012 02:21:09 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=943</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=943</guid>
 		<description></description>
 		<content:encoded><![CDATA[A small timer class I wrote:
 
@@ -9662,10 +9662,10 @@ echo $timer->intervalElapsed() ? 'true' : 'false';
 	</item>
 	<item>
 		<title>PHP - Base 2, 8, 16, 62, N Conversion</title>
-		<link>http://ken-soft.com/2012/10/24/php-base-2-8-16-62-n-conversion/</link>
+		<link>http://kennycason.com/2012/10/24/php-base-2-8-16-62-n-conversion/</link>
 		<pubDate>Wed, 24 Oct 2012 06:34:57 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=947</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=947</guid>
 		<description></description>
 		<content:encoded><![CDATA[A simple class that can easily be used to convert between Base10 and any other Base.
 
@@ -9908,10 +9908,10 @@ Output:
 	</item>
 	<item>
 		<title>Dynamic Programming Local Alignment</title>
-		<link>http://ken-soft.com/2012/11/12/dynamic-programming-local-alignment/</link>
+		<link>http://kennycason.com/2012/11/12/dynamic-programming-local-alignment/</link>
 		<pubDate>Mon, 12 Nov 2012 07:50:06 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=950</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=950</guid>
 		<description></description>
 		<content:encoded><![CDATA[Java example using Dynamic Programming for locally aligning string sequences with each other:
 For more information regarding Dynamic Programming check <a href="http://www.biorecipes.com/DynProgBasic/code.html" title="here" target="_blank">here</a> and <a href="http://en.wikipedia.org/wiki/Dynamic_programming" title="here" target="_blank">here</a>
@@ -10186,10 +10186,10 @@ public class DynamicLocalAlignmentTest extends TestCase {
 	</item>
 	<item>
 		<title>Dynamic Programmign - String Similarity</title>
-		<link>http://ken-soft.com/2012/11/12/dynamic-programmign-string-similarity/</link>
+		<link>http://kennycason.com/2012/11/12/dynamic-programmign-string-similarity/</link>
 		<pubDate>Mon, 12 Nov 2012 07:53:34 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=955</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=955</guid>
 		<description></description>
 		<content:encoded><![CDATA[Java example using Dynamic Programming for measuring String Similarity:
 For more information regarding Dynamic Programming check <a href="http://en.wikipedia.org/wiki/Dynamic_programming" title="here" target="_blank">here</a>.
@@ -10346,10 +10346,10 @@ public class DynamicStringSimularityTest {
 	</item>
 	<item>
 		<title>P8 CPU Emulator - Java</title>
-		<link>http://ken-soft.com/2012/11/21/p8-cpu-emulator-java/</link>
+		<link>http://kennycason.com/2012/11/21/p8-cpu-emulator-java/</link>
 		<pubDate>Wed, 21 Nov 2012 02:46:13 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=960</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=960</guid>
 		<description></description>
 		<content:encoded><![CDATA[A Java implementation of the P8 CPU.
 
@@ -11206,10 +11206,10 @@ public class P8Test {
 	</item>
 	<item>
 		<title>PHP - Binary Bayesian Filter</title>
-		<link>http://ken-soft.com/2012/11/30/php-binary-bayesian-filter/</link>
+		<link>http://kennycason.com/2012/11/30/php-binary-bayesian-filter/</link>
 		<pubDate>Fri, 30 Nov 2012 23:51:31 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=963</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=963</guid>
 		<description></description>
 		<content:encoded><![CDATA[This is a simple Binary Bayesian Filter. The reason for the Interfaces and Abstract classes is because I am still mid-ways through my Java to PHP port :)
 
@@ -11644,10 +11644,10 @@ class Word {
 	</item>
 	<item>
 		<title>PHP - Currency Conversion</title>
-		<link>http://ken-soft.com/2012/12/30/php-currency-conversion/</link>
+		<link>http://kennycason.com/2012/12/30/php-currency-conversion/</link>
 		<pubDate>Sun, 30 Dec 2012 11:06:32 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=973</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=973</guid>
 		<description></description>
 		<content:encoded><![CDATA[I can't remember when I wrote this but I found this little snippet in my library and didn't want it to go to waste.
 
@@ -11774,10 +11774,10 @@ In any case I'll be subscribing to your feed and I hope you write again soon!]]>
 	</item>
 	<item>
 		<title>Legend of Zelda - Java Game Engine</title>
-		<link>http://ken-soft.com/2012/12/30/legend-of-zelda-java-game-engine/</link>
+		<link>http://kennycason.com/2012/12/30/legend-of-zelda-java-game-engine/</link>
 		<pubDate>Sun, 30 Dec 2012 11:10:33 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=986</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=986</guid>
 		<description></description>
 		<content:encoded><![CDATA[Zelda Game written in Java - Still a new project so it's definitely a work in progress.
 This is essentially my pet project to force me to finish my Java 2D Gaming Engine :)
@@ -11786,18 +11786,18 @@ You can follow the project's status on GitHub: <a href="https://github.com/kenny
 <table>
     <tr>
         <td>
-            <img src="http://ken-soft.com/images/zelda/zelda8.png" width="290px"/>
+            <img src="http://kennycason.com/images/zelda/zelda8.png" width="290px"/>
         </td>
         <td>
-            <img src="http://ken-soft.com/images/zelda/zelda5.png" width="290px"/>
+            <img src="http://kennycason.com/images/zelda/zelda5.png" width="290px"/>
         </td>
     </tr>
     <tr>
         <td>
-            <img src="http://ken-soft.com/images/zelda/zelda7.png" width="290px"/>
+            <img src="http://kennycason.com/images/zelda/zelda7.png" width="290px"/>
         </td>
         <td>
-            <img src="http://ken-soft.com/images/zelda/zelda6.png" width="290px"/>
+            <img src="http://kennycason.com/images/zelda/zelda6.png" width="290px"/>
         </td>
     </tr>
 </table>]]></content:encoded>
@@ -11828,10 +11828,10 @@ You can follow the project's status on GitHub: <a href="https://github.com/kenny
 	</item>
 	<item>
 		<title>Project Euler - Java</title>
-		<link>http://ken-soft.com/2013/04/24/project-euler-java/</link>
+		<link>http://kennycason.com/2013/04/24/project-euler-java/</link>
 		<pubDate>Wed, 24 Apr 2013 05:45:26 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=1014</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=1014</guid>
 		<description></description>
 		<content:encoded><![CDATA[In an attempt to keep my brain from rusting I decided to try and work through all the <a href="http://projecteuler.net" target="_blank">Project Euler</a> problems. So far I have solved 72. Still have a lot to go, and I'm sure they will get much harder soon.<br/>
 My current score :)<br/>
@@ -11839,7 +11839,7 @@ My current score :)<br/>
 
 All problems can be found on my <a href="https://github.com/kennycason/euler" title="Github Page" target="_blank">Github Page Here</a></br/>
 
-For a full list of all the problems I've solved, solutions, and times visit my dedicated page: http://ken-soft.com/project-euler/<br/>
+For a full list of all the problems I've solved, solutions, and times visit my dedicated page: http://kennycason.com/project-euler/<br/>
 looks something like this:<br/>
 <table border="1" cellpadding="4">
 <tr>
@@ -11940,10 +11940,10 @@ Please do not just copy/paste my answers as that would defeat the purpose of Pro
 	</item>
 	<item>
 		<title>Support Vector Machine / サポートベクターマシン / 支持向量机</title>
-		<link>http://ken-soft.com/2013/06/16/support-vector-machine-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%99%e3%82%af%e3%82%bf%e3%83%bc%e3%83%9e%e3%82%b7%e3%83%b3-%e6%94%af%e6%8c%81%e5%90%91%e9%87%8f%e6%9c%ba/</link>
+		<link>http://kennycason.com/2013/06/16/support-vector-machine-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88%e3%83%99%e3%82%af%e3%82%bf%e3%83%bc%e3%83%9e%e3%82%b7%e3%83%b3-%e6%94%af%e6%8c%81%e5%90%91%e9%87%8f%e6%9c%ba/</link>
 		<pubDate>Sun, 16 Jun 2013 12:03:27 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=1036</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=1036</guid>
 		<description></description>
 		<content:encoded><![CDATA[Source code on Github: <a href="https://github.com/kennycason/supportvectormachine" target="_blank">here</a>
 Java OOP Port from C LibSVM library
@@ -12068,10 +12068,10 @@ Done.
 	</item>
 	<item>
 		<title>Self-Organizing Map / 自己組織化写像 / 自組織映射網路</title>
-		<link>http://ken-soft.com/2013/06/16/self-organizing-map-%e8%87%aa%e5%b7%b1%e7%b5%84%e7%b9%94%e5%8c%96%e5%86%99%e5%83%8f-%e8%87%aa%e7%b5%84%e7%b9%94%e6%98%a0%e5%b0%84%e7%b6%b2%e8%b7%af/</link>
+		<link>http://kennycason.com/2013/06/16/self-organizing-map-%e8%87%aa%e5%b7%b1%e7%b5%84%e7%b9%94%e5%8c%96%e5%86%99%e5%83%8f-%e8%87%aa%e7%b5%84%e7%b9%94%e6%98%a0%e5%b0%84%e7%b6%b2%e8%b7%af/</link>
 		<pubDate>Sun, 16 Jun 2013 12:06:24 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=1044</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=1044</guid>
 		<description></description>
 		<content:encoded><![CDATA[Source code on Github: <a href="https://github.com/kennycason/selforganizingmap" target="_blank">here</a>
 <table>
@@ -12115,10 +12115,10 @@ Grid, 4pts<br/>
 	</item>
 	<item>
 		<title>Minesweeper - Java Game Engine</title>
-		<link>http://ken-soft.com/2013/06/17/minesweeper-java-game-engine/</link>
+		<link>http://kennycason.com/2013/06/17/minesweeper-java-game-engine/</link>
 		<pubDate>Mon, 17 Jun 2013 11:38:01 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=1063</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=1063</guid>
 		<description></description>
 		<content:encoded><![CDATA[Minesweeper is written in Java.
 This is a small demo I built using my (uncomplete) Java 2D Gaming Engine.
@@ -12159,12 +12159,12 @@ The source code unique to Minesweeper exclusively starts <a href="https://github
 	</item>
 	<item>
 		<title>Ultimate TicTacToe</title>
-		<link>http://ken-soft.com/2013/06/18/ultimate-tictactoe/</link>
+		<link>http://kennycason.com/2013/06/18/ultimate-tictactoe/</link>
 		<pubDate>Tue, 18 Jun 2013 23:47:57 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=1070</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=1070</guid>
 		<description></description>
-		<content:encoded><![CDATA[<a href="http://ken-soft.com/tictactoe/" target="_blank">Click Here to Play!</a>
+		<content:encoded><![CDATA[<a href="http://kennycason.com/tictactoe/" target="_blank">Click Here to Play!</a>
 The code is found on my Github: <a href="https://github.com/kennycason/ultimate_tictactoe" target="_blank">here</a>
 Rules are very well explained <a href="http://mathwithbaddrawings.com/2013/06/16/ultimate-tic-tac-toe/" target="_blank">here</a>
 
@@ -12191,10 +12191,10 @@ Rules are very well explained <a href="http://mathwithbaddrawings.com/2013/06/16
 	</item>
 	<item>
 		<title>在购买域名时，议价失败。Failed Domain Name Negotiation in Chinese.</title>
-		<link>http://ken-soft.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/</link>
+		<link>http://kennycason.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/</link>
 		<pubDate>Sun, 07 Jul 2013 09:40:46 +0000</pubDate>
 		<dc:creator>kenny</dc:creator>
-		<guid isPermaLink="false">http://ken-soft.com/?p=1083</guid>
+		<guid isPermaLink="false">http://kennycason.com/?p=1083</guid>
 		<description></description>
 		<content:encoded><![CDATA[Today I was online helping a friend purchase a domain, which was owned by a Chinese gentlemen. 
 
@@ -12298,8 +12298,8 @@ Thoughts?
 			</wp:commentmeta>
 			<wp:commentmeta>
 				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:82:{s:15:"comment_post_ID";i:1083;s:14:"comment_author";s:5:"kenny";s:20:"comment_author_email";s:23:"kenneth.cason@gmail.com";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:97:"Also which sentence sounded arrogant? I asked a Chinese person how it sounded before I sent it :)";s:12:"comment_type";s:0:"";s:14:"comment_parent";i:1456;s:7:"user_ID";i:1;s:7:"user_ip";s:12:"72.204.52.15";s:10:"user_agent";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:8:"referrer";s:197:"http://ken-soft.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/?replytocom=1456";s:4:"blog";s:19:"http://ken-soft.com";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:181:"http://ken-soft.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/";s:9:"user_role";s:13:"administrator";s:21:"akismet_comment_nonce";s:6:"passed";s:12:"POST_comment";s:97:"Also which sentence sounded arrogant? I asked a Chinese person how it sounded before I sent it :)";s:11:"POST_submit";s:14:"Submit Comment";s:20:"POST_comment_post_ID";s:4:"1083";s:19:"POST_comment_parent";s:4:"1456";s:32:"POST__wp_unfiltered_html_comment";s:10:"bfff828579";s:26:"POST_akismet_comment_nonce";s:10:"fbd816cfab";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:6:"TMPDIR";s:28:"/home/content/45/7726045/tmp";s:5:"PHPRC";s:30:"/home/content/45/7726045/html/";s:4:"TEMP";s:28:"/home/content/45/7726045/tmp";s:17:"PHP_FCGI_CHILDREN";s:1:"0";s:4:"PATH";s:29:"/sbin:/usr/sbin:/bin:/usr/bin";s:3:"PWD";s:12:"/web/cgi-bin";s:5:"SHLVL";s:1:"0";s:3:"SPI";s:4:"TRUE";s:3:"TMP";s:28:"/home/content/45/7726045/tmp";s:21:"PHP_FCGI_MAX_REQUESTS";s:6:"100000";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:9:"UNIQUE_ID";s:24:"UkW8j7iowdIAAG9Te0sAAABk";s:10:"SCRIPT_URL";s:21:"/wp-comments-post.php";s:10:"SCRIPT_URI";s:40:"http://ken-soft.com/wp-comments-post.php";s:11:"DOMAIN_NAME";s:12:"ken-soft.com";s:18:"REAL_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:3:"XID";s:7:"7726045";s:11:"REDIRECT302";s:0:"";s:12:"GD_ERROR_DOC";s:23:".errordocs/missing.html";s:23:"SUBDOMAIN_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:13:"REAL_USERNAME";s:5:"mppoc";s:14:"userlimit_name";s:7:"7726045";s:15:"userlimit_limit";s:3:"100";s:14:"GD_PHP_HANDLER";s:12:"x-httpd-php5";s:20:"PARENT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:9:"HTTP_HOST";s:12:"ken-soft.com";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:197:"http://ken-soft.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/?replytocom=1456";s:11:"HTTP_COOKIE";s:0:"";s:15:"HTTP_CONNECTION";s:5:"close";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:3:"246";s:15:"LD_LIBRARY_PATH";s:16:"/web/httpd24/lib";s:16:"SERVER_SIGNATURE";s:57:"<address>Apache Server at ken-soft.com Port 80</address>
-";s:11:"SERVER_NAME";s:12:"ken-soft.com";s:11:"SERVER_ADDR";s:13:"184.168.187.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:12:"72.204.52.15";s:13:"DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:14:"REQUEST_SCHEME";s:4:"http";s:21:"CONTEXT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:12:"SERVER_ADMIN";s:24:"support@secureserver.net";s:15:"SCRIPT_FILENAME";s:61:"/var/chroot/home/content/45/7726045/html/wp-comments-post.php";s:11:"REMOTE_PORT";s:5:"36431";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:12:"REQUEST_TIME";s:10:"1380301967";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2013-07-07 09:56:15";}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:82:{s:15:"comment_post_ID";i:1083;s:14:"comment_author";s:5:"kenny";s:20:"comment_author_email";s:23:"kenneth.cason@gmail.com";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:97:"Also which sentence sounded arrogant? I asked a Chinese person how it sounded before I sent it :)";s:12:"comment_type";s:0:"";s:14:"comment_parent";i:1456;s:7:"user_ID";i:1;s:7:"user_ip";s:12:"72.204.52.15";s:10:"user_agent";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:8:"referrer";s:197:"http://kennycason.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/?replytocom=1456";s:4:"blog";s:19:"http://kennycason.com";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:181:"http://kennycason.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/";s:9:"user_role";s:13:"administrator";s:21:"akismet_comment_nonce";s:6:"passed";s:12:"POST_comment";s:97:"Also which sentence sounded arrogant? I asked a Chinese person how it sounded before I sent it :)";s:11:"POST_submit";s:14:"Submit Comment";s:20:"POST_comment_post_ID";s:4:"1083";s:19:"POST_comment_parent";s:4:"1456";s:32:"POST__wp_unfiltered_html_comment";s:10:"bfff828579";s:26:"POST_akismet_comment_nonce";s:10:"fbd816cfab";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:21:"/wp-comments-post.php";s:6:"TMPDIR";s:28:"/home/content/45/7726045/tmp";s:5:"PHPRC";s:30:"/home/content/45/7726045/html/";s:4:"TEMP";s:28:"/home/content/45/7726045/tmp";s:17:"PHP_FCGI_CHILDREN";s:1:"0";s:4:"PATH";s:29:"/sbin:/usr/sbin:/bin:/usr/bin";s:3:"PWD";s:12:"/web/cgi-bin";s:5:"SHLVL";s:1:"0";s:3:"SPI";s:4:"TRUE";s:3:"TMP";s:28:"/home/content/45/7726045/tmp";s:21:"PHP_FCGI_MAX_REQUESTS";s:6:"100000";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:9:"UNIQUE_ID";s:24:"UkW8j7iowdIAAG9Te0sAAABk";s:10:"SCRIPT_URL";s:21:"/wp-comments-post.php";s:10:"SCRIPT_URI";s:40:"http://kennycason.com/wp-comments-post.php";s:11:"DOMAIN_NAME";s:12:"kennycason.com";s:18:"REAL_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:3:"XID";s:7:"7726045";s:11:"REDIRECT302";s:0:"";s:12:"GD_ERROR_DOC";s:23:".errordocs/missing.html";s:23:"SUBDOMAIN_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:13:"REAL_USERNAME";s:5:"mppoc";s:14:"userlimit_name";s:7:"7726045";s:15:"userlimit_limit";s:3:"100";s:14:"GD_PHP_HANDLER";s:12:"x-httpd-php5";s:20:"PARENT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:9:"HTTP_HOST";s:12:"kennycason.com";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:11:"HTTP_ACCEPT";s:63:"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"HTTP_REFERER";s:197:"http://kennycason.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/?replytocom=1456";s:11:"HTTP_COOKIE";s:0:"";s:15:"HTTP_CONNECTION";s:5:"close";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:14:"CONTENT_LENGTH";s:3:"246";s:15:"LD_LIBRARY_PATH";s:16:"/web/httpd24/lib";s:16:"SERVER_SIGNATURE";s:57:"<address>Apache Server at kennycason.com Port 80</address>
+";s:11:"SERVER_NAME";s:12:"kennycason.com";s:11:"SERVER_ADDR";s:13:"184.168.187.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:12:"72.204.52.15";s:13:"DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:14:"REQUEST_SCHEME";s:4:"http";s:21:"CONTEXT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:12:"SERVER_ADMIN";s:24:"support@secureserver.net";s:15:"SCRIPT_FILENAME";s:61:"/var/chroot/home/content/45/7726045/html/wp-comments-post.php";s:11:"REMOTE_PORT";s:5:"36431";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:21:"/wp-comments-post.php";s:8:"PHP_SELF";s:21:"/wp-comments-post.php";s:12:"REQUEST_TIME";s:10:"1380301967";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2013-07-07 09:56:15";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
 		<wp:comment>
@@ -12383,8 +12383,8 @@ Good luck!]]></wp:comment_content>
 			</wp:commentmeta>
 			<wp:commentmeta>
 				<wp:meta_key>akismet_as_submitted</wp:meta_key>
-				<wp:meta_value><![CDATA[a:94:{s:15:"comment_post_ID";i:1083;s:14:"comment_author";s:5:"kenny";s:20:"comment_author_email";s:23:"kenneth.cason@gmail.com";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:52:"Thanks a lot! :) My Chinese is still pretty bad haha";s:14:"comment_parent";i:1456;s:7:"user_ID";i:1;s:7:"user_ip";s:12:"72.204.52.15";s:10:"user_agent";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:8:"referrer";s:46:"http://ken-soft.com/wp-admin/edit-comments.php";s:4:"blog";s:19:"http://ken-soft.com";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:181:"http://ken-soft.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/";s:9:"user_role";s:13:"administrator";s:21:"akismet_comment_nonce";s:6:"passed";s:22:"POST_newcomment_author";s:0:"";s:28:"POST_newcomment_author_email";s:0:"";s:26:"POST_newcomment_author_url";s:0:"";s:12:"POST_user_ID";s:1:"1";s:11:"POST_action";s:15:"replyto-comment";s:15:"POST_comment_ID";s:4:"1456";s:20:"POST_comment_post_ID";s:4:"1083";s:11:"POST_status";s:0:"";s:13:"POST_position";s:2:"-1";s:13:"POST_checkbox";s:1:"1";s:9:"POST_mode";s:6:"detail";s:32:"POST__ajax_nonce-replyto-comment";s:10:"0d1093a9ce";s:32:"POST__wp_unfiltered_html_comment";s:10:"2defabb6de";s:12:"POST_content";s:52:"Thanks a lot! :) My Chinese is still pretty bad haha";s:7:"POST_id";s:4:"1083";s:21:"POST_comments_listing";s:3:"all";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:24:"/wp-admin/admin-ajax.php";s:6:"TMPDIR";s:28:"/home/content/45/7726045/tmp";s:5:"PHPRC";s:30:"/home/content/45/7726045/html/";s:4:"TEMP";s:28:"/home/content/45/7726045/tmp";s:17:"PHP_FCGI_CHILDREN";s:1:"0";s:4:"PATH";s:29:"/sbin:/usr/sbin:/bin:/usr/bin";s:3:"PWD";s:12:"/web/cgi-bin";s:5:"SHLVL";s:1:"0";s:3:"SPI";s:4:"TRUE";s:3:"TMP";s:28:"/home/content/45/7726045/tmp";s:21:"PHP_FCGI_MAX_REQUESTS";s:6:"100000";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:9:"UNIQUE_ID";s:24:"UkW8C7iowdIAAEaY@@AAAAB4";s:10:"SCRIPT_URL";s:24:"/wp-admin/admin-ajax.php";s:10:"SCRIPT_URI";s:43:"http://ken-soft.com/wp-admin/admin-ajax.php";s:11:"DOMAIN_NAME";s:12:"ken-soft.com";s:18:"REAL_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:3:"XID";s:7:"7726045";s:11:"REDIRECT302";s:0:"";s:12:"GD_ERROR_DOC";s:23:".errordocs/missing.html";s:23:"SUBDOMAIN_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:13:"REAL_USERNAME";s:5:"mppoc";s:14:"userlimit_name";s:7:"7726045";s:15:"userlimit_limit";s:3:"100";s:14:"GD_PHP_HANDLER";s:12:"x-httpd-php5";s:20:"PARENT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:9:"HTTP_HOST";s:12:"ken-soft.com";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:11:"HTTP_ACCEPT";s:3:"*/*";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:12:"HTTP_REFERER";s:46:"http://ken-soft.com/wp-admin/edit-comments.php";s:14:"CONTENT_LENGTH";s:3:"349";s:11:"HTTP_COOKIE";s:0:"";s:15:"HTTP_CONNECTION";s:5:"close";s:11:"HTTP_PRAGMA";s:8:"no-cache";s:18:"HTTP_CACHE_CONTROL";s:8:"no-cache";s:15:"LD_LIBRARY_PATH";s:16:"/web/httpd24/lib";s:16:"SERVER_SIGNATURE";s:57:"<address>Apache Server at ken-soft.com Port 80</address>
-";s:11:"SERVER_NAME";s:12:"ken-soft.com";s:11:"SERVER_ADDR";s:13:"184.168.187.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:12:"72.204.52.15";s:13:"DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:14:"REQUEST_SCHEME";s:4:"http";s:21:"CONTEXT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:12:"SERVER_ADMIN";s:24:"support@secureserver.net";s:15:"SCRIPT_FILENAME";s:64:"/var/chroot/home/content/45/7726045/html/wp-admin/admin-ajax.php";s:11:"REMOTE_PORT";s:5:"36251";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:24:"/wp-admin/admin-ajax.php";s:8:"PHP_SELF";s:24:"/wp-admin/admin-ajax.php";s:12:"REQUEST_TIME";s:10:"1380301835";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2013-07-07 09:56:15";}]]></wp:meta_value>
+				<wp:meta_value><![CDATA[a:94:{s:15:"comment_post_ID";i:1083;s:14:"comment_author";s:5:"kenny";s:20:"comment_author_email";s:23:"kenneth.cason@gmail.com";s:18:"comment_author_url";s:0:"";s:15:"comment_content";s:52:"Thanks a lot! :) My Chinese is still pretty bad haha";s:14:"comment_parent";i:1456;s:7:"user_ID";i:1;s:7:"user_ip";s:12:"72.204.52.15";s:10:"user_agent";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:8:"referrer";s:46:"http://kennycason.com/wp-admin/edit-comments.php";s:4:"blog";s:19:"http://kennycason.com";s:9:"blog_lang";s:5:"en_US";s:12:"blog_charset";s:5:"UTF-8";s:9:"permalink";s:181:"http://kennycason.com/2013/07/07/%e5%9c%a8%e8%b4%ad%e4%b9%b0%e5%9f%9f%e5%90%8d%e6%97%b6%ef%bc%8c%e8%ae%ae%e4%bb%b7%e5%a4%b1%e8%b4%a5%e3%80%82failed-domain-name-negotiation-in-chinese/";s:9:"user_role";s:13:"administrator";s:21:"akismet_comment_nonce";s:6:"passed";s:22:"POST_newcomment_author";s:0:"";s:28:"POST_newcomment_author_email";s:0:"";s:26:"POST_newcomment_author_url";s:0:"";s:12:"POST_user_ID";s:1:"1";s:11:"POST_action";s:15:"replyto-comment";s:15:"POST_comment_ID";s:4:"1456";s:20:"POST_comment_post_ID";s:4:"1083";s:11:"POST_status";s:0:"";s:13:"POST_position";s:2:"-1";s:13:"POST_checkbox";s:1:"1";s:9:"POST_mode";s:6:"detail";s:32:"POST__ajax_nonce-replyto-comment";s:10:"0d1093a9ce";s:32:"POST__wp_unfiltered_html_comment";s:10:"2defabb6de";s:12:"POST_content";s:52:"Thanks a lot! :) My Chinese is still pretty bad haha";s:7:"POST_id";s:4:"1083";s:21:"POST_comments_listing";s:3:"all";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"REQUEST_URI";s:24:"/wp-admin/admin-ajax.php";s:6:"TMPDIR";s:28:"/home/content/45/7726045/tmp";s:5:"PHPRC";s:30:"/home/content/45/7726045/html/";s:4:"TEMP";s:28:"/home/content/45/7726045/tmp";s:17:"PHP_FCGI_CHILDREN";s:1:"0";s:4:"PATH";s:29:"/sbin:/usr/sbin:/bin:/usr/bin";s:3:"PWD";s:12:"/web/cgi-bin";s:5:"SHLVL";s:1:"0";s:3:"SPI";s:4:"TRUE";s:3:"TMP";s:28:"/home/content/45/7726045/tmp";s:21:"PHP_FCGI_MAX_REQUESTS";s:6:"100000";s:9:"FCGI_ROLE";s:9:"RESPONDER";s:9:"UNIQUE_ID";s:24:"UkW8C7iowdIAAEaY@@AAAAB4";s:10:"SCRIPT_URL";s:24:"/wp-admin/admin-ajax.php";s:10:"SCRIPT_URI";s:43:"http://kennycason.com/wp-admin/admin-ajax.php";s:11:"DOMAIN_NAME";s:12:"kennycason.com";s:18:"REAL_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:3:"XID";s:7:"7726045";s:11:"REDIRECT302";s:0:"";s:12:"GD_ERROR_DOC";s:23:".errordocs/missing.html";s:23:"SUBDOMAIN_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:13:"REAL_USERNAME";s:5:"mppoc";s:14:"userlimit_name";s:7:"7726045";s:15:"userlimit_limit";s:3:"100";s:14:"GD_PHP_HANDLER";s:12:"x-httpd-php5";s:20:"PARENT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:9:"HTTP_HOST";s:12:"kennycason.com";s:15:"HTTP_USER_AGENT";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0";s:11:"HTTP_ACCEPT";s:3:"*/*";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.5";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:12:"CONTENT_TYPE";s:48:"application/x-www-form-urlencoded; charset=UTF-8";s:21:"HTTP_X_REQUESTED_WITH";s:14:"XMLHttpRequest";s:12:"HTTP_REFERER";s:46:"http://kennycason.com/wp-admin/edit-comments.php";s:14:"CONTENT_LENGTH";s:3:"349";s:11:"HTTP_COOKIE";s:0:"";s:15:"HTTP_CONNECTION";s:5:"close";s:11:"HTTP_PRAGMA";s:8:"no-cache";s:18:"HTTP_CACHE_CONTROL";s:8:"no-cache";s:15:"LD_LIBRARY_PATH";s:16:"/web/httpd24/lib";s:16:"SERVER_SIGNATURE";s:57:"<address>Apache Server at kennycason.com Port 80</address>
+";s:11:"SERVER_NAME";s:12:"kennycason.com";s:11:"SERVER_ADDR";s:13:"184.168.187.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:12:"72.204.52.15";s:13:"DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:14:"REQUEST_SCHEME";s:4:"http";s:21:"CONTEXT_DOCUMENT_ROOT";s:40:"/var/chroot/home/content/45/7726045/html";s:12:"SERVER_ADMIN";s:24:"support@secureserver.net";s:15:"SCRIPT_FILENAME";s:64:"/var/chroot/home/content/45/7726045/html/wp-admin/admin-ajax.php";s:11:"REMOTE_PORT";s:5:"36251";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"SCRIPT_NAME";s:24:"/wp-admin/admin-ajax.php";s:8:"PHP_SELF";s:24:"/wp-admin/admin-ajax.php";s:12:"REQUEST_TIME";s:10:"1380301835";s:4:"argv";s:0:"";s:4:"argc";s:1:"0";s:25:"comment_post_modified_gmt";s:19:"2013-07-07 09:56:15";}]]></wp:meta_value>
 			</wp:commentmeta>
 		</wp:comment>
 	</item>

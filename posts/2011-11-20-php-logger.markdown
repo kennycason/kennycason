@@ -14,7 +14,7 @@ Mainly written for fun, but this is a configurable Logger written in PHP that su
 /**
  * PHP Logger
  * @author Kenny Cason
- * @site www.ken-soft.com
+ * @site www.kennycason.com
  */
 class Logger {
 

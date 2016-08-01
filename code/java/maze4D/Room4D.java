@@ -1,7 +1,7 @@
 /* 
  * a simple 4D room
  * @author Kenny Cason
- * http://ken-soft.com
+ * http://kennycason.com
  * 14 January 2009
  */
 public class Room4D {

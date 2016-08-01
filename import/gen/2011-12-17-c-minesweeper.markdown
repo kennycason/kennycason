@@ -332,4 +332,4 @@ void print() {
 ```
 
 Sample Output:
-<img src="http://ken-soft.com/images/minesweeper/minesweeper.png" />
+<img src="http://kennycason.com/images/minesweeper/minesweeper.png" />

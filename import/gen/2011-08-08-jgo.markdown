@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: go, jgames, jgo, jquery
 ---
 
-jGo is one module within the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames</a> suite used to display Go game states, as well as animations. jGames can be downloaded from the <a href="http://ken-soft.com/2011/08/08/jgames/">jGames home page</a>. jGo supporst both 13x13 boards as well as 19x19 boards.
+jGo is one module within the <a href="http://kennycason.com/2011/08/08/jgames/">jGames</a> suite used to display Go game states, as well as animations. jGames can be downloaded from the <a href="http://kennycason.com/2011/08/08/jgames/">jGames home page</a>. jGo supporst both 13x13 boards as well as 19x19 boards.
     <table>
         <tr><td><div id="go13"></div></td></tr>
        <tr><td><div id="go13_anim"></div></td></tr>
@@ -293,9 +293,9 @@ Creating an animation is very easy. You simply pass an array of states, and the 
      $("#go_anim").go(board_go_13_anim);
   
 ```
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.js"></script>
-<script type="text/javascript" src="http://ken-soft.com/js/jgames/jquery.jgames.demo-data.js"></script>
-<link href="http://ken-soft.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script><script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.js"></script>
+<script type="text/javascript" src="http://kennycason.com/js/jgames/jquery.jgames.demo-data.js"></script>
+<link href="http://kennycason.com/js/jgames/css/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 <!--
 $(document).ready(function(){$("#go13").go(board_go_13);$("#go13_anim").goAnimator(board_go_13_anim, 1000);$("#go19").go(board_go);});

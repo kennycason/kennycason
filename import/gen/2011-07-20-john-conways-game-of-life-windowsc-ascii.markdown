@@ -6,8 +6,8 @@ tags: c++, john conways game of life, simulation
 
 This is a simple version of John Conway's Game of Life written in C/C++ and runs on Windows using ASCII graphics. 
 
-For a more interesting version using SDL to draw pixel graphics, check out this link: <a href="http://ken-soft.com/2009/12/22/john-conways-game-of-life-mutation-cc/">John Conway's Game of Life - C++/SDL</a>
-<img src="http://ken-soft.com/code/c/LifeAscii/sshot.PNG" alt="John Conway's Game of Life" target="_blank" width="600"/>
+For a more interesting version using SDL to draw pixel graphics, check out this link: <a href="http://kennycason.com/2009/12/22/john-conways-game-of-life-mutation-cc/">John Conway's Game of Life - C++/SDL</a>
+<img src="http://kennycason.com/code/c/LifeAscii/sshot.PNG" alt="John Conway's Game of Life" target="_blank" width="600"/>
 Here is the code for the ASCII Version:
 
 ```c

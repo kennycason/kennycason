@@ -38,10 +38,10 @@ background-color: #EEEEEE;
 
 <body style='color:gray'>
 <div class='nav0'>
-<a  href='index.php?lang=en' title='English'><img  src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_english.gif' alt='English'\></a>
-<a href='index.php?lang=jp' title='Japanese'><img src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_japan.gif' alt='Japanese'\></a></li>
-<a  href='index.php?lang=ko' title='Korean'><img  src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_korean.gif' alt='Korean'\></a>
-<a href='index.php?lang=zh' title='Chinese'><img src='http://www.Ken-Soft.com/code/php/langsupport/languages/flag_chinese.gif' alt='Chinese'\></a></li>
+<a  href='index.php?lang=en' title='English'><img  src='http://www.kennycason.com/code/php/langsupport/languages/flag_english.gif' alt='English'\></a>
+<a href='index.php?lang=jp' title='Japanese'><img src='http://www.kennycason.com/code/php/langsupport/languages/flag_japan.gif' alt='Japanese'\></a></li>
+<a  href='index.php?lang=ko' title='Korean'><img  src='http://www.kennycason.com/code/php/langsupport/languages/flag_korean.gif' alt='Korean'\></a>
+<a href='index.php?lang=zh' title='Chinese'><img src='http://www.kennycason.com/code/php/langsupport/languages/flag_chinese.gif' alt='Chinese'\></a></li>
 </div>	
 <?php print $txt['txt_first_name']; ?> <br />
 <?php print $txt['txt_last_name']; ?> <br />

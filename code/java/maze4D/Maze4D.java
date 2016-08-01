@@ -9,7 +9,7 @@ import java.util.Random;
 /**
  * a 4D maze
  * @author Kenny Cason
- * http://ken-soft.com
+ * http://kennycason.com
  *  2009 January 14
  */
 public class Maze4D {
