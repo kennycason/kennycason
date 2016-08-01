@@ -1,5 +1,5 @@
 ---
-title: Bayesian Sentiment Analysis
+title: Sentiment Analysis - Improving Bayesian Methods
 author: Kenny Cason
 tags: Bayesian, Sentiment Analysis, Machine Learning
 ---
@@ -106,15 +106,15 @@ Refer to <a href="https://github.com/kennycason/bayesian_sentiment_analysis/blob
 
 This below graph shows hows how the classifier skews against data that is known to be 50% positive/negative. This skew is a plot of 100 simulations.
 
-![](https://raw.githubusercontent.com/kennycason/bayesian_sentiment_analysis/master/src/test/resources/com/kennycason/ml/classifier/bayes/results/classifier_sentiment_skew_50.png)
+![](/images/bayesian_sentiment_analysis/classifier_sentiment_skew_50.png)
 
 The below graph shows each of the classifier sentiment aggregations for each simulation, sorted, and then plotted.
 
-![](https://raw.githubusercontent.com/kennycason/bayesian_sentiment_analysis/master/src/test/resources/com/kennycason/ml/classifier/bayes/results/classifier_sentiment_skew_50_sorted.png)
+![](/images/bayesian_sentiment_analysis/classifier_sentiment_skew_50_sorted.png)
 
 The below graph shows given a variable confidence threshold, [0.01, 0.50], the relationship between accuracy and percentage of data rated.
 
-![](https://raw.githubusercontent.com/kennycason/bayesian_sentiment_analysis/master/src/test/resources/com/kennycason/ml/classifier/bayes/results/sentiment_analysis_accuracy_vs_percent_rated.png)
+![](/images/bayesian_sentiment_analysis/sentiment_analysis_accuracy_vs_percent_rated.png)
 
 
 ### Performance
@@ -141,7 +141,7 @@ Many thanks to the Stanford team to putting together the IMDB movie review datas
 
 To download the IMDB movie review dataset and extract it, run:
 
-```bash
+```{.bash .numberLines startFrom="1"}
 wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 tar xvf aclImdb_v1.tar.gz
 ```
