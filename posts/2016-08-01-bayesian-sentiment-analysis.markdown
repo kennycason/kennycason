@@ -14,9 +14,9 @@ Depending on your requirements you can achieve >90% accuracy with Bayesian techn
 
 The best results typically range from 89-94% accuracy while rating 50-70% of the data. As this is a stochastic method, results vary. All results are generated from a proprietary tokenizer, though I suspect the Lucene tokenizer will get close, or at least demonstrate the improvement over single Bayesian classifier.
 
-1. Instead of using a single Bayesian classifier, we will train a small cluster of Bayesian classifiers on random samples of the training data.
+1. Instead of using a single Bayesian classifier, we will train a small cluster of Bayesian classifiers on random samples of the training data ([Bagging](https://en.wikipedia.org/wiki/Bootstrap_aggregating)). (**This offered the most immediate improvement**)
     - This is similar to the improvement `Random Forest` provides over `Decision Tree` algorithms.
-    - For a lack of a better name this implementation is referred to as a `Stochastic Bayesian Classifier`
+    - The implementing class is called `Stochastic Bayesian Classifier`
     - Choose your strategy for determining how the cluster of classifiers "vote" for the final sentiment. All-or-none, majority wins, average, etc.
 
 2. You don't have to rate 100% of the data.
@@ -33,7 +33,7 @@ The best results typically range from 89-94% accuracy while rating 50-70% of the
 
 5. Tokenization of the text matters!
     - This project contains two tokenizers, a naive white space tokenizer, and a more advanced Lucene standard analyzer. The Lucene standard analyzer does much better.
-    - At DataRank/Simply Measured, we use much more developed tokenizers that understand language, emoji, urls, etc. This allows the model to have more structured information to learn from and offers **significant** improvement.
+    - At DataRank/Simply Measured, we use much more developed tokenizers that better handle language, emoji, urls, etc. This allows the model to have more structured information to learn from and offers **significant** improvement.
 
 6. In practice, more important than individual text sentiment accuracy is the accuracy in aggregate.
     - E.g. The algorithm achieves 90% accuracy for rating individual texts, however in aggregate it is 99.1% accurate.
@@ -55,18 +55,15 @@ Often times the gains of these algorithms (a few percents of accuracy), may not 
 
 * (Scroll to the bottom for instructions on downloading the IMDB movie review dataset.)
 
-* `single` model = single Bayesian classifier. `stochastic` model = cluster of random sampling Bayesian classifiers.
+* `single` model = single Bayesian classifier. `stochastic` model = cluster of random sampling Bayesian classifiers. (bagging)
 
 Results generated from BayesianClassifierImdbDemo.kt
 
-Confidence Threshold: 0.05
+Confidence Threshold: 0.25
 
 | Model | Train+ | Train- | Test+ | Test- | Net Accuracy | % of data rated | Misc Parameters |
-|-------|--------|-------|--------|-------|-----------------|-------|------|-------|
-| stochastic bigram | 99.6% | 99.5% | 92.8% | 96.5% | 94.6% | 16% | classifier count: 10, sampling rate: 0.2 |
-| stochastic skipgram(2,2) | 99.8% | 98.9% | 93.8% | 92.05992% | 92.8% | 15% | default |
-| single bigram | 100.0% | 100.0% | 77.3% | 77.3% | 77% | 72% | default |
-| single skipgram(2,2) | 99.7% | 99.4% | 94.1% | 94.7% | 94.2% | 10% | default |
+|-------|--------|-------|--------|-------|-----------------|------|------|------|
+| stochastic bigram | 98.7% | 97.1% | 94.8% | 92.8% | 93.8% | 61.0% | classifier count: 10, sampling rate: 0.2 |
 
 Confidence Threshold: 0.2
 
@@ -77,11 +74,15 @@ Confidence Threshold: 0.2
 | single bigram | 99.98% | 100.0% | 70.9% | 77.2% | 74.0% | 73% | default |
 | single skipgram(2,2) | 100.0% | 100.0% | 69.3% | 72.0% | 70.7% | 70.5% | default |
 
-Confidence Threshold: 0.25
+Confidence Threshold: 0.05
 
 | Model | Train+ | Train- | Test+ | Test- | Net Accuracy | % of data rated | Misc Parameters |
-|-------|--------|-------|--------|-------|-----------------|------|------|------|
-| stochastic bigram | 98.7% | 97.1% | 94.8% | 92.8% | 93.8% | 93.8% | classifier count: 10, sampling rate: 0.2 |
+|-------|--------|-------|--------|-------|-----------------|-------|------|-------|
+| stochastic bigram | 99.6% | 99.5% | 92.8% | 96.5% | 94.6% | 16% | classifier count: 10, sampling rate: 0.2 |
+| stochastic skipgram(2,2) | 99.8% | 98.9% | 93.8% | 92.05992% | 92.8% | 15% | default |
+| single bigram | 100.0% | 100.0% | 77.3% | 77.3% | 77% | 72% | default |
+| single skipgram(2,2) | 99.7% | 99.4% | 94.1% | 94.7% | 94.2% | 10% | default |
+
 
 ### Tweet Test
 
@@ -92,7 +93,6 @@ Results Generated from StochasticBayesianClassifierTwitterSampleDemo
 | stochastic bigram (kaggle data) | 100.0% | 99.9% | N/A | N/A | 99.95% | 95.7% | classifier count: 15, sampling rate: 0.5 |
 | stochastic bigram (hand rated) | 99.8% | 99.9% | N/A | N/A | 99.85% | 80.5% | classifier count: 15, sampling rate: 0.5 |
 | stochastic bigram (hand rated, 50% train, 50% test) | 99.8% | 99.9% | 86.3 | 95.9 | 91.1% | 64.2%% | classifier count: 15, sampling rate: 0.5 |
-
 
 ### Aggregation Testing
 
@@ -134,7 +134,6 @@ Pruned model:
 - 37,153 reviews/min, 18 days to process 1 billion reviews
 - 571,724 tweets/min, 29 hours to process 1 billion tweets
 
-
 ## Data
 
 Many thanks to the Stanford team to putting together the IMDB movie review dataset. There is a small sample of the IMDB movie review set included in the test resources for quick testing/experimenting. However, the full dataset can be found <a href="http://ai.stanford.edu/~amaas/data/sentiment/" target="blank">here</a>
@@ -147,7 +146,6 @@ tar xvf aclImdb_v1.tar.gz
 ```
 
 Make note of the output directory as the full path to the output will be passed into many of the IMDB "demo" programs.
-
 
 ## Kotlin
 
