@@ -7,16 +7,18 @@ tags: game dev, editor, game, magus, maker, map, mrogramming, rpg, tile
 <b>Note:</b> for a more fully featured map maker, I would recommend using <b>Tiled</b>
 
 This is just something I made a few years back to ease personal game development.
-Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www.purebasic.com" target="_blank">Purebasic</a>. Magus Map Maker Features:
-<b>Multiple Layers</b> - make maps up to 3 layers plus an additional "attribute" layer used to store other information about the map tiles.
-<b>Load tilesets</b> - Supports BMP,JPEG,PNG,TIFF,and TGA.formats.
-<b>Save/Load</b> - After working hard on maps, easily save/load them. Also features a save to image feature, so that you can view your whole map in one image file.
-<b>Tilenator</b> - This feature can turn a tilesheet into a directory of invidual tiles, and vice versa
-<b>Help Files</b> - Online help documentation to ease use  
+Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www.purebasic.com" target="new">Purebasic</a>.
 
-<b>Update, can't seem to find the executable anymore... still hunting for it.</b>
-<!--
-For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="/pdf/mmm/help/"><b>Online Help</b></a>-->
+## Features
+- <b>Multiple Layers</b> - make maps up to 3 layers plus an additional "attribute" layer used to store other information about the map tiles.
+- <b>Load tilesets</b> - Supports BMP,JPEG,PNG,TIFF,and TGA.formats.
+- <b>Save/Load</b> - After working hard on maps, easily save/load them. Also features a save to image feature, so that you can view your whole map in one image file.
+- <b>Tilenator</b> - This feature can turn a tilesheet into a directory of invidual tiles, and vice versa.
+- <b>Help Files</b> - Online help documentation to ease use.
+
+<a href="https://github.com/kennycason/magus-map-maker" target="new"><b>View on GitHub</b></a>
+
+For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="/code/pb/mmm/help/"><b>Online Help</b></a>
 
 <table><tr>
 <td><a href="/code/pb/mmm/2nd_layer.JPG"><img width="333px" src="/code/pb/mmm/2nd_layer.JPG" /></a></td>
