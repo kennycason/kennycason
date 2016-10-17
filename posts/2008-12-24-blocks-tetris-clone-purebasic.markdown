@@ -1,19 +1,18 @@
 ---
-title: Blocks - Advanced Tetris Clone (Written in Purebasic)
+title: Blocks - Tetris Clone - Purebasic
 author: Kenny Cason
 tags: blocks, game, programming, purebasic, tetris
 ---
 
-<p>Blocks is a tetris like game written in <a href="http://www.purebasic.com">Purebasic</a>. Blocks features 3 modes:		
+<p>Blocks is a tetris like game written in <a href="http://www.purebasic.com" target="new">Purebasic</a>. Blocks features 3 modes:		
 <b>Baby Mode</b> - simple pieces constructed from 3 bricks.<br/>
 <b>Normal Mode</b> - standard tetris pieces.<br/>
 <b>Blocks Mode</b> - pieces constructed from 1 - 6 bricks. 27 different pieces, including a randomly generated piece that can take on bizzare shapes. In this mode it is possible to clear 6 lines at once, earning yourself a "Block." I recommend playing it in block mode and large size for the most fun. :) Enjoy!
 High Scores are saved for each of the modes.<br/>
 
-<!-- <a href="/dl/blocks.zip" target="_blank"><b>Download Here</b></a><br/> -->
-<a href="/code/pb/blocks/blocks.pb" target="_blank"><b>Download Source Here</b></a>
+<a href="https://github.com/kennycason/blocks" target="new"><b>View on GitHub</b></a>
 
-<br/>It has been a few years since I compiled it. I believe it was compiled using Purebasic v3.94, However, It should be fairly easy to make changes to get it to recompile in the most recent version, or just to convert it into another language.
+<br/>Blocks was compiled using Purebasic v3.94, However, It should be fairly easy to make changes to get it to recompile in the most recent version, or just to convert it into another language.
 
 <table width="400px;"><tr><td><a href="/code/pb/blocks/screenshot.JPG"><img width="195" src="/code/pb/blocks/screenshot.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="/code/pb/blocks/screenshot2.JPG"><img width="195" src="/code/pb/blocks/screenshot2.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="/code/pb/blocks/screenshot3.JPG"><img width="195" src="/code/pb/blocks/screenshot3.JPG" alt="Blocks 2D Tetris clone"/></a></td  ></tr><tr><td><a href="/code/pb/blocks/screenshot4.JPG"><img width="195" src="/code/pb/blocks/screenshot4.JPG" alt="Blocks 2D Tetris clone"/></a></td><td><a href="/code/pb/blocks/screenshot5.JPG"><img width="195" src="/code/pb/blocks/screenshot5.JPG" alt="Blocks 2D Tetris clone"/></a></td><td width="195"></td></tr></table>
 
