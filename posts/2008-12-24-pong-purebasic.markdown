@@ -1,7 +1,7 @@
 ---
 title: Pong - Purebasic
 author: Kenny Cason
-tags: blocks, game, programming, purebasic, pong
+tags: game, programming, purebasic, pong
 ---
 
 <p>Pong is my first game written in <a href="http://www.purebasic.com">Purebasic</a>. It features the most basic of AI.
