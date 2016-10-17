@@ -16,7 +16,7 @@ Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www
 - <b>Tilenator</b> - This feature can turn a tilesheet into a directory of invidual tiles, and vice versa.
 - <b>Help Files</b> - Online help documentation to ease use.
 
-<a href="https://github.com/kennycason/magus-map-maker" target="new"><b>View on GitHub</b></a>
+<a href="https://github.com/kennycason/magus_map_maker" target="new"><b>View on GitHub</b></a>
 
 For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="/code/pb/mmm/help/"><b>Online Help</b></a>
 
