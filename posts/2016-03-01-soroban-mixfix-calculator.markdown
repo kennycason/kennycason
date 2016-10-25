@@ -7,45 +7,111 @@ tags: java, calculator, mixfix, infix, postfix, parer, lexer, pratt-parser
 A java calculator named Soroban (Japanese for Abacus).
 
 The GitHub repository is maintained <a href="https://github.com/kennycason/soroban" target="blank">here</a>.
+Command Line Calculator Tool in Java.
 
-Contents:
+### Contents
+   - Lexer implementation. Character/Token stream generators.
+   - The Parser, single pass via Pratt Parser. Can parse prefix/postfix/infix/mixfix mathematical grammars. Produces Expression trees.
+   - Expression Evaluator, consumes an expression and attempts to evaluate it recursively. Supports partially solving functions, and variables.
+   - Custom function support via the FunctionDictionary class. Unary, Binary, Poly parameter function support.
+   - BigRational class which supports fraction/decimal math in attempt to delay loss of precision until as late in the calculation as possible.
+   - Variable support.
+   - Variable assignment of numbers and expressions
+   - Constant support.
+   - Interactive Cli.
+   - Lots of tests.
 
-- Lexer implementation. Character/Token stream generators.
-- The Parser, single pass via Pratt Parser. Can parse prefix/postfix/infix/mixfix mathematical grammars. Produces Expression trees.
-- Expression Evaluator, consumes an expression and attempts to evaluate it recursively. Supports partially solving functions, and variables.
-- Custom function support via the FunctionDictionary class. Unary, Binary, Poly parameter function support.
-- BigRational class which supports fraction/decimal math in attempt to delay loss of precision until as late in the calculation as possible.
-- Variable support, assignment of numbers and expressions
-- Constant support.
-- Interactive Cli.
-- Lots of tests.
+#### Todo
+   - Simplify fractions.
+   - Some cases auto convert from integer to decimal in strange ways, investigate.
+   - Variable assignment of expressions.
 
-Todo:
+### Example Expressions
+   - `(x + y) * x`
+   - `log10(10)`
+   - `ln(2.718)`
+   - `10!`
+   - `-n`
+   - `a + b`
+   - `0b101`
+   - `0xFF + 0x01`
+   - `-((10 ^ 2) / 4 + 25) * (1 + 1)`
+   - `sin(rad(45 + 45))`
+   - `sin(45) + cos(45)`
+   - `add(a, b, c)`
+   - `add((a + a), (b + b))`
+   - `a = 10`
+   - `x = a ^ 3`
+   - `reduce(10/30)`
+   - `0b101 & 0b100`
+   - `gcd(50,10)`
+   - `lcm(3,9)`
 
-- Simplify fractions.
-- Some cases auto convert from integer to decimal in strange ways, investigate.
+### Usage
 
-Examples:
-```{.java .numberLines startFrom="1"}
-(x + y) * x
-log10(10)
-ln(2.718)
-10!
--n
-a + b
-0b101
-0xFF + 0x01
--((10 ^ 2) / 4 + 25) * (1 + 1)
-sin(rad(45 + 45))
-sin(45) + cos(45)
-add(a, b, c)
-add((a + a), (b + b))
-a = 10
-x = a ^ 3
+#### Execute a single expression
+
+```bash
+soroban ln(E) * PI / 2
 ```
 
-Interactive CLI Demo:
-```{.java .numberLines startFrom="1"}
+#### Enter Interactive mode
+
+```bash
+soroban -i
+```
+
+#### Load commands from file
+
+Load a file of commands, one command per line, and execute them sequentially.
+
+```bash
+soroban programs/test.soro
+soroban /full/path/to/file.soro
+```
+
+#### Print Help
+
+```bash
+soroban -h
+```
+
+#### Print version
+
+```bash
+soroban -v
+```
+
+### Install
+
+#### Brew Install
+
+```bash
+brew install https://raw.githubusercontent.com/kennycason/soroban/master/script/brew/soroban.rb
+```
+
+#### Install (via Bash Script)
+
+A helper script has been added to install Run. Java is required to run.
+The install is a single a jar from Maven Central.
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/kennycason/soroban/master/script/install.sh)
+```
+
+#### Maven Install (To include in other code)
+
+```xml
+<dependency>
+    <groupId>com.kennycason</groupId>
+    <artifactId>soroban</artifactId>
+    <version>1.5</version>
+</dependency>
+```
+
+
+### Interactive CLI Demo:
+```
 > 10
 10
 > x = 10
