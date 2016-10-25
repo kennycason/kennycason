@@ -10,4 +10,4 @@ The code is found on my Github: <a href="https://github.com/kennycason/ultimate_
 
 Rules are very well explained <a href="http://mathwithbaddrawings.com/2013/06/16/ultimate-tic-tac-toe/" target="blank">here</a>
 
-<img src="https://raw.github.com/kennycason/ultimate_tictactoe/master/screenshot.png" width="500px"/>
+<img src="/games/tictactoe/screenshot.png" width="500px"/>
