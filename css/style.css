@@ -404,6 +404,6 @@ div.info {
   -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
-table, th, td {
+th, td {
    border: 1px solid;
 }

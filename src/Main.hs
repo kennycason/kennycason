@@ -77,6 +77,7 @@ main = hakyllWith config $ do
                     ,"contact.markdown"
                     ,"games.markdown"
                     ,"euler.markdown"
+                    ,"reading.markdown"
                     ,"tags.markdown"
                     ]) $ do
         route   $ setExtension "html"
