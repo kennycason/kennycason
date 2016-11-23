@@ -1,5 +1,5 @@
 ---
-title: Cellular Automata - (Fire,Water, Grass)
+title: Cellular Automata Convergence - (Fire, Water, Grass)
 author: Kenny Cason
 tags: Cellular Automata
 ---
