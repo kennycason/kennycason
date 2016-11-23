@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: Cellular Automata
 ---
 
-The code can all be found on GitHub: <a href="https://github.com/kennycason/cellular-automata-elements/master" target="blank">here</a>
+The code can all be found on GitHub: <a href="https://github.com/kennycason/cellular-automata-elements" target="blank">here</a>
 
 Cells compete with neighboring cells:
 
