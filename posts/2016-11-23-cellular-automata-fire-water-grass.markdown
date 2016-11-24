@@ -18,7 +18,7 @@ A large gif demonstrating the rules being applied with mutual attacks
 
 ![](/images/cellular_automata_elements/fire_water_grass_large_mutual_attacks.gif?raw=true)
 
-A large gif demonstrating the rules being applied with only the attacker attacking. Note how much more smooth the patterns are.
+A large gif demonstrating the rules being applied with only the attacker attacking. Note how much smoother the patterns are.
 
 ![](/images/cellular_automata_elements/fire_water_grass_large_only_attacker_attacks.gif?raw=true)
 
