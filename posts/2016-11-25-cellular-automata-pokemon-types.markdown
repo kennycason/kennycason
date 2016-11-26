@@ -10,16 +10,16 @@ This <a href="https://en.wikipedia.org/wiki/Cellular_automaton" target="blank">C
 
 Simulations include:
 
-- 1. A balanced 3 Typed CA (Fire, Water, Fire).
+- 1. A balanced 3 Typed CA (Fire, Water, Grass).
 - 2. A larger, balanced N Typed CA.
 - 3. The full Pokemon Type CA based on the strength/weakness/immunity charts of <a href="http://bulbapedia.bulbagarden.net/wiki/Type" target="blank">Gen 1 Pokemon games</a>
 
 
-## #1 Balanced 3 Type Simulation (Fire, Water, Fire)
+## #1 Balanced 3 Type Simulation (Fire, Water, Grass)
 
 This demonstration is a CA that simulates three balanced Pokemon types battling against each other.
 
-Balanced meaning that Type A can beat B, and only B. Type B can beat B, and only B. So on and so forth.
+Balanced meaning that Type A can beat B, and only B. Type B can beat C, and only C. So on and so forth.
 
 ### Rules for 3 Type Simulation
 
@@ -142,9 +142,7 @@ Each color represents a type. The color mapping can be found in the source code.
 
 <img src="https://raw.githubusercontent.com/kennycason/cellular-automata-pokemon-types/master/data/pokemon_gen1_types.gif?raw=true" width="500"/>
 
-Some full speed simmulations I recorded with Usetapes.
-
-2 minute instense simulation: <a href="https://v.usetapes.com/i49nEZprwd" target="blank">here</a> (Normal Wins)
+2 minute intense simulation: <a href="https://v.usetapes.com/i49nEZprwd" target="blank">here</a> (Normal Wins)
 
 A long simulation in which I eventually gave up hoping for a winner. However, 40 minutes later, Normal makes an epic comeback and starts conquering from the top right corner. (I did not have world-wrap at the time of this simulation)
 
