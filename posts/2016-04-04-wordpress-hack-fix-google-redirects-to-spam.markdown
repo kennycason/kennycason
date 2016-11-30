@@ -351,7 +351,7 @@ To validate the above worked, using Postman, I made some post calls to `http://w
 
 At this point I've also broken the attack file into three parts:
 
-1. This part is an admin section which deals with updating the spam urls to redirect to. Further investigation shows how the attack script guarantees that a url uniquely maps to a spam site. I'm assuming this is so that it raises less suspicion to bots and search engines.
+1. The admin section which deals with updating the spam urls to redirect to. Further investigation shows how the attack script guarantees that a url uniquely maps to a spam site. I'm assuming this is so that it raises less suspicion to bots and search engines.
 2. The actual content-delivery logic. I call it content-delivery because depending on where the visitor comes from, they will get different content. Search engines, Mobile, and Bots all get different treatment. Using lookups within the `$curx` directory. `$curx` is simply `.` + `md5` of the host, and it lives in the root directory of the Wordpress installation.
 3. Deal with a missing `$curx` directory. A quick scan seems to reveal that the script first fetches the originally intended page, loads a list of links from the file `.fff.sess`, shuffles the links, replace links in the loaded webpage with spam links, then serves the content. This seems to be the scripts last-ditch effort to spam viewers in the event you delete the `$curx` directory. Unfortunately, my friend's blog did not have the `.fff.sess` file so I could not open it up to examine.
 
