@@ -4,15 +4,15 @@ author: Kenny Cason
 tags: Ray Casting, Geometry, Polygon Containment, Even-Odd Rule
 ---
 
-Even before I learned the word algorithm, I have always enjoyed exacting solutions to problems. Particularly, I love very visual algorithms. Such algorithms include the symmetry, and also indirectness that you see when solving a Rubik's Cube and other spatial puzzles. These puzzles certainly have formal grammars and systems defining the these patterns, yet I was attracted to the visual "truth" of the solutions I found.
+Even before I learned the word algorithm, I have always enjoyed exacting solutions to problems. Particularly, I love very visual algorithms. Such algorithms include the symmetry, and also indirectness that you see when solving a Rubik's Cube and other spatial puzzles. These puzzles certainly have formal grammars and systems defining these patterns, yet I was initially attracted to the visual "truth" of the solutions I found.
 
 I unexpectedly found another such "puzzle" when I was building a reverse geocoding service. My first round with the service was to perform city lookup. In this scenario, since cities can be represented as points, a GeoHash lookup was the optimal solution.
 
-However, what about checking to see if a geo coordinate is contained within a polygon? This polygon could be a country, a province, a county, or even a custom area. We can also make a GeoHash work with a few modifications including decreasing resolution, and minimizing object usage by only storing IDs in our GeoHash instead of replicating information that we are searching for in each of the GeoHash "buckets". But there is another way to check for polygon containment.
+However, what about checking to see if a geo coordinate is contained within a polygon? This polygon could be a country, a province, a county, or any custom area. We can make a GeoHash work with a few modifications. But there is another way to check for polygon containment.
 
 ### Ray Casting
 
-Upon discovering this simple but effective algorithm, I found it very interesting and was excited to put it to some use. Note that this algorithm is also sometimes referred to as the [Even-Odd Rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule). I prefer to call it Ray Casting as we will literally be casting a ray (vector), and **then** applying the even-odd rule to determine containment within the polygon.
+Upon discovering this simple but effective algorithm, I found it very interesting and was excited to put it to some use. Note that this algorithm is also sometimes referred to as the [Even-Odd Rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule). I prefer to call it Ray Casting as we will literally be casting a ray (vector), and **then** applying the even-odd rule to determine containment of some point within the polygon. I have also found that this algorithm is intuitive enough to excite people who aren't familiar with algorithms.
 
 The steps of the algorithm are simple.
 
@@ -22,11 +22,11 @@ The steps of the algorithm are simple.
 
 ### Example with Square
 
-First we will begin with a trivial example, a square. The square denoted by blue lines and dots. We have a point *p* that we want to determine if it is inside the square. We will cast our ray from a place to the left of the square. It is important that this ray be placed in a spot that is guaranteed to not exist in the polygon.
+First we will begin with a trivial example, a square. The square is denoted by blue lines and dots. We have a point *p* that we want to determine whether or not it is inside the square. We will cast our ray from a place to the left of the square. It is important that this ray be placed in a spot that is guaranteed to not exist in the polygon.
 
 *fig 1.*<img src="/images/raycasting/raycasting_square_1.png" width="400px"/>
 
-In our first example, (*fig 1*), we will place a point to the left of the square. The ray, when traveling from the cast point to point *p*, does not intersect with any line of the square. The intersection count is zero, which is **even**, therefore the point is *outside* the square.
+In *fig 1*, the ray travels from the cast point to point *p* without intersecting a single line of the square. The intersection count is zero, which is **even**, therefore the point is *outside* the square.
 
 *fig 2.*<img src="/images/raycasting/raycasting_square_2.png" width="450px"/>
 
@@ -34,17 +34,17 @@ We will next look at an example where the point *p* lies to the right of the squ
 
 *fig 3.*<img src="/images/raycasting/raycasting_square_3.png" width="400px"/>
 
-Our next example will be a point that lies in the square as illustrated in *fig 3*. Tracing our ray shows that it intersected with exactly one side of the square, which is **odd**, therefor our point is *inside* the square.
+Our next example will be a point that lies in the square as illustrated in *fig 3*. Tracing our ray shows that it intersected with exactly one side of the square, which is **odd**, therefore our point is *inside* the square.
 
 ### Example with Polygon
 
 *fig 4.*<img src="/images/raycasting/raycasting_polygon_1.png" width="250px"/>
 
-Next we will apply the algorithm to a more complex polygon Illustrated below in *fig 4*.
+Next we will apply the algorithm to a more complex polygon illustrated above in *fig 4*.
 
 *fig 5.*<img src="/images/raycasting/raycasting_polygon_2.png" width="450px"/>
 
-For this test we are going to start with a point *p* that is soundly located inside the polygon, and cast a series of rays from outside, to point *p* and count the number of times each ray intersects with a line in the polygon. If our algorithm holds, each ray will intersect with an odd number of lines. Each of the rays will be labeled in *fig 5*.
+For this test we are going to start with a point *p* that is soundly located inside the polygon, and cast a series of rays from outside to point *p* and count the number of times each ray intersects with a line in the polygon. If our algorithm holds, each ray will intersect with an odd number of lines. Each of the rays are labeled in *fig 5*.
 
 <table cellpadding="2">
 <tr><td>Ray</td><td>Intersections</td></tr>
@@ -57,11 +57,11 @@ For this test we are going to start with a point *p* that is soundly located ins
 <tr><td>r7</td><td>3</td></tr>
 </table>
 
-It seems our luck remains solid. As expected, each ray intersects with our polygon an **odd** number of times. Each verifying that the point is *inside* the polygon.
+It seems our luck holds. As expected, each ray intersects with our polygon an **odd** number of times. Each verifying that the point is *inside* the polygon.
 
 *fig 6.*<img src="/images/raycasting/raycasting_polygon_3.png" width="450px"/>
 
-Next we will place point *p* outside of the polygon as seen in *fig 6*. Once again we will cast rays from external points to point *p* and test our hypothesis that the number of intersections with the polygon should be even.
+Next, we will place point *p* outside of the polygon as seen in *fig 6*. Once again, we will cast rays from external points to point *p* and test our hypothesis that the number of intersections with the polygon should be even.
 
 <table cellpadding="2">
 <tr><td>Ray</td><td>Intersections</td></tr>
@@ -74,29 +74,29 @@ Next we will place point *p* outside of the polygon as seen in *fig 6*. Once aga
 <tr><td>r7</td><td>4</td></tr>
 </table>
 
-Assuming our counting is correct, the algorithm once again holds true. Each ray intersects with our polygon an **even** number of times. Each verifying that the point is *outside* the polygon.
+Assuming our counting is correct, the algorithm holds true. Each ray intersects with our polygon an **even** number of times. Each verifying that the point is *outside* the polygon.
 
 ### Other Polygon types.
 
-So far we have demonstrated Ray Casting with a simple concave and convex polygon. Ray Casting also works with complex polygons such as self-intersecting polygons as well as polygons with holes in them.
+So far we have demonstrated Ray Casting with a simple concave and convex polygon. Ray Casting also works with complex polygons such as self-intersecting polygons and even polygons with holes in them.
 
 ### Pitfalls
 
-The above examples were carefully constructed to avoid common problems with Ray Casting. Common problems are as follows.
+As with any algorithm, you can't have your cake and eat it too.
 
 #### Performance
 
-The algorithm itself is a bit slow. O(n) as you have to check every line in the polygon. If you have m polygons, then it's m * O(n). Given complex polygons such as high resolution polygons used to describe country or province boundaries, this essentially approaches O(n^2).
+The algorithm itself is a bit slow. It runs in O(n) as you have to check every line in the polygon. If you have m polygons, then it becomes m * O(n). Given complex polygons such as high resolution polygons used to describe country or province boundaries, n can approach or even surpass m, and it approaches O(n^2).
 
-A solution to this is to not use high resolution geo polygons. Chances are you can achieve high accuracy even with low resolution. Another options is to use GeoHashing techniques mentioned above.
+A solution to this is to not use high resolution geo polygons. Chances are you can achieve high accuracy even with low resolution polygons. Another options is to use GeoHashing techniques mentioned above, but they too incur their own costs, usually in terms of space/memory.
 
-Another critical optimization is to calculate a bounding rectangle when you are processing the polygon data. You can do this by storing the `(min_x, min_y)` and the `(max_x, max_y)`. Once you have obtained a bounding rectangle, you should first perform rectangle containment **before** performing the expensive polygon containment check. Rectangle containment is substantially cheaper in practice.
+Another critical optimization is to calculate a bounding rectangle when you are processing the polygon data. You can do this by storing the `(min_x, min_y)` and the `(max_x, max_y)`. Once you have obtained a bounding rectangle, you should first perform rectangle containment **before** performing the expensive polygon containment check. Rectangle containment is substantially cheaper in practice. This will be demonstrated below.
 
 #### Vertex Intersection
 
-A ray intersects a vertex in the polygon. Does this mean the ray intersected with a line or not? There is no correct answer to this and it is up to the application to determine how to handle this. That said, there are ways to decrease the chance of a ray intersecting with a vertex. The method I employ is to set the ray cast point to something obscure and with multiple decimal places. e.g. `(-987.654, -876.543)`.
+A ray may intersect a vertex in the polygon. Does this mean the ray intersected with a line or not? There is no correct answer to this and it is up to the application to determine how to handle this. That said, there are ways to decrease the chance of a ray intersecting with a vertex. The method I employ is to set the ray cast point to something obscure and with multiple decimal places. e.g. `(-987.654, -876.543)`.
 
-The example of a square located at `(1, 1), (2, 1), (2, 2), (1, 2)` and point *p* is located in the center of the square at `(1.5, 1.5)`. If a ray is cast from the origin, `(0, 0)`, then it will overlap with the vertex located at `(1, 1)`. By simply offsetting the ray cast point to something obscure like above, it won't overlap.
+An example can be constructed of a square located at `(1, 1), (2, 1), (2, 2), (1, 2)` and point *p* is located in the center of the square at `(1.5, 1.5)`. If a ray is cast from the origin, `(0, 0)`, then it will overlap with the vertex located at `(1, 1)`. By simply offsetting the ray cast point to something obscure like above, it won't overlap.
 
 It should also be noted that dealing with real data like geo coordinates, such an artificial construct is less likely to happen and you will still have to figure out how you want to count vertex intersection. In many cases it's easy enough to just ignore and accept the error.
 
