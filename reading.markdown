@@ -5,14 +5,14 @@ title: Reading List
 <div style="font-size: 10">Select books from my reading list</div>
 
 ### Reading
-<image src="/images/books/i_am_a_strange_loop.jpg" width="170" height="230"/>
+<image src="/images/books/the_origin_of_consciousness_in_the_break_down_of_the_bicameral_mind.jpg" width="170" height="230"/>
 
 ### To Read (Next)
 <image src="/images/books/godel_escher_bach.jpg" width="170" height="230"/>
-<image src="/images/books/the_origin_of_consciousness_in_the_break_down_of_the_bicameral_mind.jpg" width="170" height="230"/>
 <image src="/images/books/the_science_of_fractal_images.jpg" width="170" height="230"/>
 
 ### Read
+<image src="/images/books/i_am_a_strange_loop.jpg" width="170" height="230"/>
 <image src="/images/books/infinite_and_the_mind.jpg" width="170" height="230"/>
 <image src="/images/books/godels_proof.jpg" width="170" height="230"/>
 <image src="/images/books/the_mystery_of_the_aleph.jpg" width="170" height="230"/>
