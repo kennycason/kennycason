@@ -497,7 +497,7 @@ NES Games
 <div class="have">Mighty Bomb Jack</div>
 <div class="dont-have">Mighty Final Fight</div>
 <div class="have">Mike Tyson's Punch-Out!!</div>
-<div class="dont-have">Millipede</div>
+<div class="have">Millipede</div>
 <div class="dont-have">Milon's Secret Castle</div>
 <div class="dont-have">Miracle Piano</div>
 <div class="dont-have">Mission Cobra</div>
@@ -851,4 +851,9 @@ NES Games
 <div class="have">Zelda II: The Adventure of Link</div>
 <div class="dont-have">Zen: Intergalactic Ninja</div>
 <div class="dont-have">Zombie Nation</div>
+</div>
+
+Indie Games
+<div class="game-list">
+<div class="have">Haunted Halloween 86</div>
 </div>

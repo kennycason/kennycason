@@ -24,8 +24,10 @@ Sega Game Gear Games
 <li>NBA Jam</li>
 <li>NBA Jam T.E.</li>
 <li>NHL Hockey</li>
+<li>Phantasy Star (ファンタシースター外伝)</li>
 <li>Poker Face Paul's Black Jack</li>
 <li>Shinobi</li>
+<li>Sonic & Tails 2 (ソニック＆テイルス２)</li>
 <li>Sonic Chaos</li>
 <li>Sonic Drift 2</li>
 <li>Sonic the Hedgehog</li>

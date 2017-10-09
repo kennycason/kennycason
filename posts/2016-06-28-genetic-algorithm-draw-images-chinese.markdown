@@ -47,24 +47,19 @@ tags: 遗传算法, 遗传编程, 蒙娜丽莎
 
 两个进化我最喜欢的口袋妖怪（妙蛙种子）。用双亲遗传算法，随机接受算法，精英选择。
 
-<img src="/images/genetic_draw/bulbasaur_evolved_polygon.png?raw=true" height="250px"/>
-<img src="/images/genetic_draw/bulbasaur_evolved_polygon2.png?raw=true" height="250px"/>
+<img src="/images/genetic_draw/bulbasaur_evolved_polygon.png?raw=true" height="250px"/> <img src="/images/genetic_draw/bulbasaur_evolved_polygon2.png?raw=true" height="250px"/>
 
 两个GIF显示黄色四角的进化。
 
-<img src="/images/genetic_draw/square_evolution.gif"/>
-<img src="/images/genetic_draw/square_evolution2.gif"/>
+<img src="/images/genetic_draw/square_evolution.gif"/> <img src="/images/genetic_draw/square_evolution2.gif"/>
 
 两个GIF显示DataRank公司和Simply Measured公司标志的进化。
 
-<img src="/images/genetic_draw/datarank_whale_evolved.gif?raw=true"/>
-<img src="/images/genetic_draw/sm_logo_evolved.gif?raw=true" height="125px"/>
+<img src="/images/genetic_draw/datarank_whale_evolved.gif?raw=true"/> <img src="/images/genetic_draw/sm_logo_evolved.gif?raw=true" height="125px"/>
 
 马里奥的进化。 左边的用多边形。中间和右边用像素。
 
-<img src="/images/genetic_draw/mario_evolved_polygon.png" width="128px"/>
-<img src="/images/genetic_draw/mario_evolved_pixel4.png" width="128px"/>
-<img src="/images/genetic_draw/mario_evolved_pixel8.png" width="128px"/>
+<img src="/images/genetic_draw/mario_evolved_polygon.png" width="128px"/> <img src="/images/genetic_draw/mario_evolved_pixel4.png" width="128px"/> <img src="/images/genetic_draw/mario_evolved_pixel8.png" width="128px"/>
 
 耀西的进化和收敛速度。
 
@@ -72,15 +67,11 @@ tags: 遗传算法, 遗传编程, 蒙娜丽莎
 
 以下是我老婆头像进化的结果。虽然利用透明的颜色会让算法性能变低，进化结果比较好。左边和中间的画像是利用透明的颜色。右边没有透明的颜色。
 
-<img src="/images/genetic_draw/jing_evolved_2500_genes.png?raw=true" width="230px"/>
-<img src="/images/genetic_draw/jing_evolved.png?raw=true" width="230px"/>
-<img src="/images/genetic_draw/jing_evolved_no_alpha.png?raw=true" width="230px"/>
+<img src="/images/genetic_draw/jing_evolved_2500_genes.png?raw=true" width="230px"/> <img src="/images/genetic_draw/jing_evolved.png?raw=true" width="230px"/> <img src="/images/genetic_draw/jing_evolved_no_alpha.png?raw=true" width="230px"/>
 
 我开发这个遗传算法的时候我发现几个网站有重现蒙娜丽莎的算法。我看了这个决定试试看。结果不错。以下有三个不同的进化，每一个用不同的参数。
 
-<img src="/images/genetic_draw/mona_lisa_evolved_1000_genes.png?raw=true" width="230px"/>
-<img src="/images/genetic_draw/mona_lisa_evolved_2000_genes.png?raw=true" width="230px"/>
-<img src="/images/genetic_draw/mona_lisa_evolved_polygon.png?raw=true" width="230px"/>
+<img src="/images/genetic_draw/mona_lisa_evolved_1000_genes.png?raw=true" width="230px"/> <img src="/images/genetic_draw/mona_lisa_evolved_2000_genes.png?raw=true" width="230px"/> <img src="/images/genetic_draw/mona_lisa_evolved_polygon.png?raw=true" width="230px"/>
 
 以下的三个图片表示突变概率的对学习速度影响。（为了更容易理解结果以后我打算把这三个结果表示在同一个图片）果然突变概率10%比1%和50%有效。
 
@@ -96,12 +87,9 @@ tags: 遗传算法, 遗传编程, 蒙娜丽莎
 
 我们从任天堂的好友，Kirby的进化。
 
-<img src="/images/genetic_draw/kirby_evolved_pixel4.png" height="128px"/>
-<img src="/images/genetic_draw/kirby_evolved_polygon.png" height="128px"/>
+<img src="/images/genetic_draw/kirby_evolved_pixel4.png" height="128px"/> <img src="/images/genetic_draw/kirby_evolved_polygon.png" height="128px"/> <img src="/images/genetic_draw/kirby_evolved_bad_fitness_function.png" width="120px"/>
 
-但是, 看一下进化的Kirby。他明显有点奇怪。形状不错，但是颜色不对。这是用不好适应函数的结果。我原来开发的适应函数评价各画像的像素的时候发生了一个小问题。各像素是24bit，高位8bit是赤，中位8bit是绿，低位8bit是青。想起我们以上谈的误差函数，一个像素的误差等于A画像的像素减B画像的像素。根据RGB（赤，绿，青）的数位，因为赤的数位最高，所以赤的误差比别的数位更影响个体的适应。互相，因为青的数位最低，所以青的误差对个体的适应度比较少。
-
-<img src="/images/genetic_draw/kirby_evolved_bad_fitness_function.png" width="128px"/>
+但是, 看右边的进化的Kirby。他明显有点奇怪。形状不错，但是颜色不对。这是用不好适应函数的结果。我原来开发的适应函数评价各画像的像素的时候发生了一个小问题。各像素是24bit，高位8bit是赤，中位8bit是绿，低位8bit是青。想起我们以上谈的误差函数，一个像素的误差等于A画像的像素减B画像的像素。根据RGB（赤，绿，青）的数位，因为赤的数位最高，所以赤的误差比别的数位更影响个体的适应。互相，因为青的数位最低，所以青的误差对个体的适应度比较少。
 
 更多统计和图片可以下载看看（XLSX）:[这里](https://github.com/kennycason/genetic_draw/raw/master/convergence_stats.xlsx).
 
@@ -111,9 +99,7 @@ tags: 遗传算法, 遗传编程, 蒙娜丽莎
 
 还有之前的几代。
 
-<img src="/images/genetic_draw/my_profile_evolved3.png" width="250px"/>
-<img src="/images/genetic_draw/my_profile_evolved2.png" width="250px"/>
-<img src="/images/genetic_draw/my_profile_evolved1.png" width="250px"/>
-<img src="/images/genetic_draw/my_profile_evolved0.png" width="250px"/>
+<img src="/images/genetic_draw/my_profile_evolved3.png" width="250px"/> <img src="/images/genetic_draw/my_profile_evolved2.png" width="250px"/>
+<img src="/images/genetic_draw/my_profile_evolved1.png" width="250px"/> <img src="/images/genetic_draw/my_profile_evolved0.png" width="250px"/>
 
 谢谢来看！

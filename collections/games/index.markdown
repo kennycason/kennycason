@@ -12,6 +12,7 @@ Game Collection
 <a href="/collections/games/n64.html">Nintendo 64<a/><br/>
 <a href="/collections/games/gamecube.html">Nintendo Gamecube<a/><br/>
 <a href="/collections/games/wii.html">Nintendo Wii<a/><br/>
+<a href="/collections/games/switch.html">Nintendo Switch<a/><br/>
 <a href="/collections/games/gameboy.html">Game Boy / Color<a/><br/>
 <a href="/collections/games/gameboy_advance.html">Game Boy Advance<a/><br/>
 <a href="/collections/games/ds.html">Nintendo DS<a/><br/>

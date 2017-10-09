@@ -12,7 +12,7 @@ However, what about checking to see if a geo coordinate is contained within a po
 
 ### Ray Casting
 
-Upon discovering this simple but effective algorithm, I found it very interesting and was excited to put it to some use. Note that this algorithm is also sometimes referred to as the [Even-Odd Rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule). I prefer to call it Ray Casting as we will literally be casting a ray (vector), and **then** applying the even-odd rule to determine containment of some point within the polygon. I have also found that this algorithm is intuitive enough to excite people who aren't familiar with algorithms.
+Upon discovering this simple but effective algorithm many years back, I was excited to finally put it to some use. Note that this algorithm is also sometimes referred to as the [Even-Odd Rule](https://en.wikipedia.org/wiki/Even%E2%80%93odd_rule). I prefer to call it Ray Casting as we will literally be casting a ray (vector), and **then** applying the even-odd rule to determine containment of some point within the polygon. I have also found that this algorithm is intuitive enough to excite people who aren't familiar with algorithms.
 
 The steps of the algorithm are simple.
 
