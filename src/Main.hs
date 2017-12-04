@@ -198,7 +198,8 @@ metaKeywordCtx = field "metaKeywords" $ \item -> do
 
 config :: Configuration
 config = defaultConfiguration {
-    deployCommand = "rsync -avz --delete --checksum _site/* hallaclean@kennycason.com:/home/hallaclean/public_html/kennycason/"
+    deployCommnd = "rsync -avz --delete --checksum _site/* c3c0lavcdxyd@23.229.242.160:/home/c3c0lavcdxyd/public_html/"
+    -- deployCommand = "rsync -avz --delete --checksum _site/* hallaclean@kennycason.com:/home/hallaclean/public_html/kennycason/"
 }
 
 -- Feed configuration
