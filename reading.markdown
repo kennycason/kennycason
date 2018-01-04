@@ -3,23 +3,294 @@ title: Reading List
 ---
 
 
+<div id="gr_custom_widget_1515039178">
+<div class="gr_custom_container_1515039178">
+<h2 class="gr_custom_header_1515039178">
+<a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/35915246-kenny-cason?shelf=currently-reading&amp;utm_medium=api&amp;utm_source=custom_widget">Reading</a>
+</h2>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Critique of Pure Reason" rel="nofollow" href="https://www.goodreads.com/review/show/2241756108?utm_medium=api&amp;utm_source=custom_widget"><img alt="Critique of Pure Reason" border="0" src="https://images.gr-assets.com/books/1500693198m/35724856.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241756108?utm_medium=api&amp;utm_source=custom_widget">Critique of Pure Reason</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/15734766.Immaneul_Kant">Immaneul Kant</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Deep Learning" rel="nofollow" href="https://www.goodreads.com/review/show/2241766895?utm_medium=api&amp;utm_source=custom_widget"><img alt="Deep Learning" border="0" src="https://images.gr-assets.com/books/1490810628m/24072897.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241766895?utm_medium=api&amp;utm_source=custom_widget">Deep Learning</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/15182060.Ian_Goodfellow">Ian Goodfellow</a>
+</div>
+</div>
+</div>
+</div>
 
-<div id="gr_grid_widget_1515028416">
-<h2>Read</h2>
-<div class="gr_grid_container">
-<div class="gr_grid_book_container"><a title="Infinity and the Mind: The Science and Philosophy of the Infinite" rel="nofollow" href="https://www.goodreads.com/book/show/274050.Infinity_and_the_Mind"><img alt="Infinity and the Mind: The Science and Philosophy of the Infinite" border="0" src="https://images.gr-assets.com/books/1347508303m/274050.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Gödel's Proof" rel="nofollow" href="https://www.goodreads.com/book/show/695429.G_del_s_Proof"><img alt="Gödel's Proof" border="0" src="https://images.gr-assets.com/books/1410131135m/695429.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="The Mystery of the Aleph: Mathematics, the Kabbalah, and the Search for Infinity" rel="nofollow" href="https://www.goodreads.com/book/show/5786.The_Mystery_of_the_Aleph"><img alt="The Mystery of the Aleph: Mathematics, the Kabbalah, and the Search for Infinity" border="0" src="https://images.gr-assets.com/books/1388273031m/5786.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="The Music of the Primes: Searching to Solve the Greatest Mystery in Mathematics" rel="nofollow" href="https://www.goodreads.com/book/show/208916.The_Music_of_the_Primes"><img alt="The Music of the Primes: Searching to Solve the Greatest Mystery in Mathematics" border="0" src="https://images.gr-assets.com/books/1438293838m/208916.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines" rel="nofollow" href="https://www.goodreads.com/book/show/27539.On_Intelligence"><img alt="On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines" border="0" src="https://images.gr-assets.com/books/1441230921m/27539.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Sentiment Analysis: Mining Opinions, Sentiments, and Emotions" rel="nofollow" href="https://www.goodreads.com/book/show/25628320-sentiment-analysis"><img alt="Sentiment Analysis: Mining Opinions, Sentiments, and Emotions" border="0" src="https://images.gr-assets.com/books/1432945574m/25628320.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy" rel="nofollow" href="https://www.goodreads.com/book/show/10672848-the-theory-that-would-not-die"><img alt="The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy" border="0" src="https://images.gr-assets.com/books/1328848187m/10672848.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Learn You a Haskell for Great Good!: A Beginner's Guide" rel="nofollow" href="https://www.goodreads.com/book/show/9282423-learn-you-a-haskell-for-great-good"><img alt="Learn You a Haskell for Great Good!: A Beginner's Guide" border="0" src="https://images.gr-assets.com/books/1328753505m/9282423.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Programming Collective Intelligence" rel="nofollow" href="https://www.goodreads.com/book/show/15854075-programming-collective-intelligence"><img alt="Programming Collective Intelligence" border="0" src="https://images.gr-assets.com/books/1346167259m/15854075.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Introduction to Automata Theory, Languages, and Computation" rel="nofollow" href="https://www.goodreads.com/book/show/1384026.Introduction_to_Automata_Theory_Languages_and_Computation"><img alt="Introduction to Automata Theory, Languages, and Computation" border="0" src="https://images.gr-assets.com/books/1387668734m/1384026.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Assembly Language for the IBM-PC" rel="nofollow" href="https://www.goodreads.com/book/show/1450315.Assembly_Language_for_the_IBM_PC"><img alt="Assembly Language for the IBM-PC" border="0" src="https://images.gr-assets.com/books/1266805934m/1450315.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Assembly Language: Step-By-Step" rel="nofollow" href="https://www.goodreads.com/book/show/1238798.Assembly_Language"><img alt="Assembly Language: Step-By-Step" border="0" src="https://images.gr-assets.com/books/1387666743m/1238798.jpg" /></a></div>
-<br style="clear: both"/><br/>
+<br/>
+
+<div id="gr_custom_widget_1515039178">
+<div class="gr_custom_container_1515039178">
+<h2 class="gr_custom_header_1515039178">
+<a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/35915246-kenny-cason?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">Read</a>
+</h2>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values" rel="nofollow" href="https://www.goodreads.com/review/show/2241757523?utm_medium=api&amp;utm_source=custom_widget"><img alt="Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values" border="0" src="https://images.gr-assets.com/books/1410136019m/629.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241757523?utm_medium=api&amp;utm_source=custom_widget">Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/401.Robert_M_Pirsig">Robert M. Pirsig</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice" rel="nofollow" href="https://www.goodreads.com/review/show/2241767354?utm_medium=api&amp;utm_source=custom_widget"><img alt="Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice" border="0" src="https://images.gr-assets.com/books/1392992935m/402843.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241767354?utm_medium=api&amp;utm_source=custom_widget">Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/62707.Shunryu_Suzuki">Shunryu Suzuki</a>
+</div>
+<div class="gr_custom_review_1515039178">
+Just Sit.
+Even if you do not Sit, to not Sit, is to Sit.
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Tao Te Ching" rel="nofollow" href="https://www.goodreads.com/review/show/2241773018?utm_medium=api&amp;utm_source=custom_widget"><img alt="Tao Te Ching" border="0" src="https://images.gr-assets.com/books/1333578861m/67896.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241773018?utm_medium=api&amp;utm_source=custom_widget">Tao Te Ching</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/2622245.Lao_Tzu">Lao Tzu</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="I Am a Strange Loop" rel="nofollow" href="https://www.goodreads.com/review/show/1831460423?utm_medium=api&amp;utm_source=custom_widget"><img alt="I Am a Strange Loop" border="0" src="https://images.gr-assets.com/books/1442775722m/123471.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831460423?utm_medium=api&amp;utm_source=custom_widget">I Am a Strange Loop</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/3034502.Douglas_R_Hofstadter">Douglas R. Hofstadter</a>
+</div>
+<div class="gr_custom_review_1515039178">
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Gödel, Escher, Bach: An Eternal Golden Braid" rel="nofollow" href="https://www.goodreads.com/review/show/2241788330?utm_medium=api&amp;utm_source=custom_widget"><img alt="Gödel, Escher, Bach: An Eternal Golden Braid" border="0" src="https://images.gr-assets.com/books/1428732588m/24113.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241788330?utm_medium=api&amp;utm_source=custom_widget">Gödel, Escher, Bach: An Eternal Golden Braid</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/3034502.Douglas_R_Hofstadter">Douglas R. Hofstadter</a>
+</div>
+<div class="gr_custom_review_1515039178">
+This is one of those books that can be life changing once all the information sinks in. I highly recommend slowly reading and performing thought experiments as you read. This books does very well to highlight the core problem of what is ...
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="The Electric Kool-Aid Acid Test" rel="nofollow" href="https://www.goodreads.com/review/show/2241760187?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Electric Kool-Aid Acid Test" border="0" src="https://images.gr-assets.com/books/1388205477m/7442.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241760187?utm_medium=api&amp;utm_source=custom_widget">The Electric Kool-Aid Acid Test</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/3083854.Tom_Wolfe">Tom Wolfe</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Gödel's Proof" rel="nofollow" href="https://www.goodreads.com/review/show/1831450545?utm_medium=api&amp;utm_source=custom_widget"><img alt="Gödel's Proof" border="0" src="https://images.gr-assets.com/books/1410131135m/695429.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831450545?utm_medium=api&amp;utm_source=custom_widget">Gödel's Proof</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/34436.Ernest_Nagel">Ernest Nagel</a>
+</div>
+<div class="gr_custom_review_1515039178">
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Infinity and the Mind: The Science and Philosophy of the Infinite" rel="nofollow" href="https://www.goodreads.com/review/show/1831449756?utm_medium=api&amp;utm_source=custom_widget"><img alt="Infinity and the Mind: The Science and Philosophy of the Infinite" border="0" src="https://images.gr-assets.com/books/1347508303m/274050.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831449756?utm_medium=api&amp;utm_source=custom_widget">Infinity and the Mind: The Science and Philosophy of the Infinite</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/130704.Rudy_Rucker">Rudy Rucker</a>
+</div>
+<div class="gr_custom_review_1515039178">
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Sentiment Analysis: Mining Opinions, Sentiments, and Emotions" rel="nofollow" href="https://www.goodreads.com/review/show/1831452199?utm_medium=api&amp;utm_source=custom_widget"><img alt="Sentiment Analysis: Mining Opinions, Sentiments, and Emotions" border="0" src="https://images.gr-assets.com/books/1432945574m/25628320.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831452199?utm_medium=api&amp;utm_source=custom_widget">Sentiment Analysis: Mining Opinions, Sentiments, and Emotions</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/338632.Bing_Liu">Bing Liu</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="The Music of the Primes: Searching to Solve the Greatest Mystery in Mathematics" rel="nofollow" href="https://www.goodreads.com/review/show/1831451330?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Music of the Primes: Searching to Solve the Greatest Mystery in Mathematics" border="0" src="https://images.gr-assets.com/books/1438293838m/208916.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831451330?utm_medium=api&amp;utm_source=custom_widget">The Music of the Primes: Searching to Solve the Greatest Mystery in Mathematics</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/122233.Marcus_du_Sautoy">Marcus du Sautoy</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="The Mystery of the Aleph: Mathematics, the Kabbalah, and the Search for Infinity" rel="nofollow" href="https://www.goodreads.com/review/show/1831450981?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Mystery of the Aleph: Mathematics, the Kabbalah, and the Search for Infinity" border="0" src="https://images.gr-assets.com/books/1388273031m/5786.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831450981?utm_medium=api&amp;utm_source=custom_widget">The Mystery of the Aleph: Mathematics, the Kabbalah, and the Search for Infinity</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/81013.Amir_D_Aczel">Amir D. Aczel</a>
+</div>
+<div class="gr_custom_review_1515039178">
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy" rel="nofollow" href="https://www.goodreads.com/review/show/1831453505?utm_medium=api&amp;utm_source=custom_widget"><img alt="The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy" border="0" src="https://images.gr-assets.com/books/1328848187m/10672848.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831453505?utm_medium=api&amp;utm_source=custom_widget">The Theory That Would Not Die: How Bayes' Rule Cracked the Enigma Code, Hunted Down Russian Submarines, and Emerged Triumphant from Two Centuries of Controversy</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/86315.Sharon_Bertsch_McGrayne">Sharon Bertsch McGrayne</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Programming Collective Intelligence" rel="nofollow" href="https://www.goodreads.com/review/show/1831455556?utm_medium=api&amp;utm_source=custom_widget"><img alt="Programming Collective Intelligence" border="0" src="https://images.gr-assets.com/books/1346167259m/15854075.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831455556?utm_medium=api&amp;utm_source=custom_widget">Programming Collective Intelligence</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/799347.Toby_Segaran">Toby Segaran</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Learn You a Haskell for Great Good!: A Beginner's Guide" rel="nofollow" href="https://www.goodreads.com/review/show/1831453716?utm_medium=api&amp;utm_source=custom_widget"><img alt="Learn You a Haskell for Great Good!: A Beginner's Guide" border="0" src="https://images.gr-assets.com/books/1328753505m/9282423.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831453716?utm_medium=api&amp;utm_source=custom_widget">Learn You a Haskell for Great Good!: A Beginner's Guide</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/2978075.Miran_Lipova_a">Miran Lipovača</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines" rel="nofollow" href="https://www.goodreads.com/review/show/1831451684?utm_medium=api&amp;utm_source=custom_widget"><img alt="On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines" border="0" src="https://images.gr-assets.com/books/1441230921m/27539.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831451684?utm_medium=api&amp;utm_source=custom_widget">On Intelligence: How a New Understanding of the Brain Will Lead to the Creation of Truly Intelligent Machines</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/15461.Jeff_Hawkins">Jeff Hawkins</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="ホームレス中学生" rel="nofollow" href="https://www.goodreads.com/review/show/2241761992?utm_medium=api&amp;utm_source=custom_widget"><img alt="ホームレス中学生" border="0" src="https://images.gr-assets.com/books/1328470825m/2164927.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241761992?utm_medium=api&amp;utm_source=custom_widget">ホームレス中学生</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/6820980._">田村裕</a>
+</div>
+<div class="gr_custom_review_1515039178">
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Introduction to Automata Theory, Languages, and Computation" rel="nofollow" href="https://www.goodreads.com/review/show/1831457808?utm_medium=api&amp;utm_source=custom_widget"><img alt="Introduction to Automata Theory, Languages, and Computation" border="0" src="https://images.gr-assets.com/books/1387668734m/1384026.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831457808?utm_medium=api&amp;utm_source=custom_widget">Introduction to Automata Theory, Languages, and Computation</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/32737.John_E_Hopcroft">John E. Hopcroft</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Rich Dad, Poor Dad" rel="nofollow" href="https://www.goodreads.com/review/show/2241758950?utm_medium=api&amp;utm_source=custom_widget"><img alt="Rich Dad, Poor Dad" border="0" src="https://images.gr-assets.com/books/1388211242m/69571.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241758950?utm_medium=api&amp;utm_source=custom_widget">Rich Dad, Poor Dad</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/600.Robert_T_Kiyosaki">Robert T. Kiyosaki</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo" rel="nofollow" href="https://www.goodreads.com/review/show/2241765956?utm_medium=api&amp;utm_source=custom_widget"><img alt="Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo" border="0" src="https://images.gr-assets.com/books/1399079227m/30292.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/2241765956?utm_medium=api&amp;utm_source=custom_widget">Five Dialogues: Euthyphro, Apology, Crito, Meno, Phaedo</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/879.Plato">Plato</a>
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Assembly Language for the IBM-PC" rel="nofollow" href="https://www.goodreads.com/review/show/1831458099?utm_medium=api&amp;utm_source=custom_widget"><img alt="Assembly Language for the IBM-PC" border="0" src="https://images.gr-assets.com/books/1266805934m/1450315.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831458099?utm_medium=api&amp;utm_source=custom_widget">Assembly Language for the IBM-PC</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/15993.Kip_Irvine">Kip Irvine</a>
+</div>
+<div class="gr_custom_review_1515039178">
+This was my first ever programming book. While it was certainly not an easy entry, I credit this book to being THE book that got me interested in programming. A very good introduction to computer organization and assembly programming.
+</div>
+</div>
+<div class="gr_custom_each_container_1515039178">
+<div class="gr_custom_book_container_1515039178">
+<a title="Assembly Language: Step-By-Step" rel="nofollow" href="https://www.goodreads.com/review/show/1831459791?utm_medium=api&amp;utm_source=custom_widget"><img alt="Assembly Language: Step-By-Step" border="0" src="https://images.gr-assets.com/books/1387666743m/1238798.jpg" /></a>
+</div>
+<div class="gr_custom_title_1515039178">
+<a rel="nofollow" href="https://www.goodreads.com/review/show/1831459791?utm_medium=api&amp;utm_source=custom_widget">Assembly Language: Step-By-Step</a>
+</div>
+<div class="gr_custom_author_1515039178">
+by <a rel="nofollow" href="https://www.goodreads.com/author/show/56724.Jeff_Duntemann">Jeff Duntemann</a>
+</div>
+</div>
 </div>
 </div>
 
