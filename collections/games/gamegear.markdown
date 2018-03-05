@@ -7,6 +7,7 @@ Sega Game Gear Games
 
 <ol>
 <li>Aerial Assault</li>
+<li>Asterix and the Rescue</li>
 <li>Batman & Robin, The Adventures of</li>
 <li>Chessmaster, The</li>
 <li>Columns</li>
@@ -36,6 +37,7 @@ Sega Game Gear Games
 <li>Sonic the Hedgehog Triple Trouble</li>
 <li>Super Columns</li>
 <li>Tazmania</li>
+<lli>Tetris 2</li>
 <li>X-Men</li>
 <li>X-Men Mojo World</li>
 </ol>

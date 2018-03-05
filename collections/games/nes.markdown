@@ -284,6 +284,7 @@ NES Games
 <div class="dont-have">Fire Emblem Gaiden</div>
 <div class="dont-have">Fire Emblem: Dragon of Darkness and Sword of Light</div>
 <div class="dont-have">Fire 'n Ice (Released as Solomon's Key 2 in Japan)</div>
+<div class="have">Firehawk</div>
 <div class="dont-have">Firehouse Rescue</div>
 <div class="dont-have">Fist of the North Star</div>
 <div class="dont-have">Flight of the Intruder</div>

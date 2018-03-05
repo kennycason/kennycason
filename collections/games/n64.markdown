@@ -12,6 +12,7 @@ Nintendo 64 Games
 <li>Bomberman 64</li>
 <li>Diddy Kong Racing</li>
 <li>Donkey Kong 64</li>
+<li>Extreme-G 2</li>
 <li>F-1 World Grand Prix</li>
 <li>Goldeneye 007</li>
 <li>Conker's Bad Fur Day</li>
@@ -19,6 +20,7 @@ Nintendo 64 Games
 <li>Legend of Zelda Ocarina of Time</li>
 <li>Mario Golf</li>
 <li>Mario Party</li>
+<li>Mission:Impossible</li>
 <li>Perfect Dark</li>
 <li>Pokemon Stadium</li>
 <li>Star Fox 64</li>
