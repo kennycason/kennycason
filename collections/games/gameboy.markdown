@@ -35,12 +35,13 @@ Game Boy Games
 <li>Super Mario Land 2 6 Golden Coins</li>
 <li>Star Wars Empire Strikes Back</li>
 <li>Tetris</li>
+<li>Tetris 2</li>
 <li>Turok 2 Seed of Evil</li>
 <li>Wario Land</li>
 <li>Wario Land 3</li>
 </ol>
 
-Game Boy Accessories 
+Game Boy Accessories
 =============
 
 <ol>

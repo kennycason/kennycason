@@ -36,7 +36,7 @@ NES Games
 <div class="dont-have">Advanced Dungeons and Dragons: Heroes of the Lance</div>
 <div class="dont-have">Advanced Dungeons and Dragons: Hillsfar</div>
 <div class="dont-have">Advanced Dungeons and Dragons: Pool of Radiance</div>
-<div class="dont-have">Adventure Island</div>
+<div class="have">Adventure Island</div>
 <div class="dont-have">Adventure Island 2</div>
 <div class="dont-have">Adventure Island 3</div>
 <div class="dont-have">Adventure Island Classic (aka Adventure Island)</div>
@@ -105,7 +105,7 @@ NES Games
 <div class="dont-have">Batman Returns</div>
 <div class="dont-have">Batman: Return of the Joker</div>
 <div class="dont-have">Battle Chess</div>
-<div class="dont-have">The Battle of Olympus</div>
+<div class="have">The Battle of Olympus</div>
 <div class="dont-have">Battle City</div>
 <div class="have">Battle Tank</div>
 <div class="dont-have">Battletoads</div>

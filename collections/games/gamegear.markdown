@@ -37,7 +37,6 @@ Sega Game Gear Games
 <li>Sonic the Hedgehog Triple Trouble</li>
 <li>Super Columns</li>
 <li>Tazmania</li>
-<lli>Tetris 2</li>
 <li>X-Men</li>
 <li>X-Men Mojo World</li>
 </ol>
