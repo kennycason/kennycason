@@ -1,6 +1,9 @@
+a {
+  text-decoration: none;
+}
 
 a :link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 a :visited {
   text-decoration: none;
@@ -15,6 +18,10 @@ a :active {
 header {
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.post-date {
+  font-size: 10px;
 }
 
 

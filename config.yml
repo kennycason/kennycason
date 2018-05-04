@@ -9,6 +9,7 @@ email: kenneth.cason@gmail.com
 description: Software, Math, and Language
 base_url: http://kennycason.com/
 deploy: call deploy_kennycason
+date_format: MMMM d, yyyy
 template_engine: handlebars
 posts:
     directory: posts
