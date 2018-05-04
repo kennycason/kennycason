@@ -1,0 +1,13 @@
+<ul class="list-inline">
+    {{#each tag_cloud}}
+       <a class="tag badge badge-primary" href="/tags/{{ this.url }}.html" style="font-size: 15px" count="{{ this.count }}">{{ this.tag }} ({{ this.count }})</a>
+    {{/each}}
+</ul>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".tag").each(function(i, obj) {
+         $(obj).css("font-size", (16 + parseInt($(obj).attr("count"))) + "px");
+       });
+  });
+</script>

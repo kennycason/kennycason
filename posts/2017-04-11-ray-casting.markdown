@@ -102,7 +102,7 @@ It should also be noted that dealing with real data like geo coordinates, such a
 
 ### Java Code
 
-```{.java .numberLines startFrom="1"}
+```java
 /**
  * Apply the even-odd rule for a ray-cast from an external reference (bottom corner)
  * based on how many lines it intersects with a given polygon.
@@ -168,7 +168,7 @@ public class RayCasting {
 }
 ```
 The core data structures used in the algorithm.
-```{.java .numberLines startFrom="1"}
+```java
 /**
  * A polygon that is aware of it's min/max x/y coords
  */
@@ -210,7 +210,7 @@ public class Polygon {
 ```
 
 Our custom Point class (using doubles)
-```{.java .numberLines startFrom="1"}
+```java
 public class Point {
     private final double x;
     private final double y;
@@ -232,7 +232,7 @@ public class Point {
 ```
 
 A nice unit test to wrap everything up.
-```{.java .numberLines startFrom="1"}
+```java
 public class RayCastingTest {
     // start ray casting from a fairly random start point to avoid vertex overlap
     // for trivial test cases. vertex overlap is much less likely in real geo cases,

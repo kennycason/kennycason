@@ -58,7 +58,7 @@ Below are various scripts written in BrainFuck
 
 <b>Hello World</b><br/>
 
-```{.c .numberLines startFrom="1"}
+```cpp
 +++++ +++++
 [
     > +++++ ++
@@ -86,7 +86,7 @@ M
 
 <b>Hello World Version 2</b><br/>
 
-```{.c .numberLines startFrom="1"}
+```cpp
 +++++
 [
     > +++++ +++++ +++
@@ -118,7 +118,7 @@ M
 
 <b>3 Nested While loops</b><br/>
 
-```{.c .numberLines startFrom="1"}
+```cpp
 +++
 M
 [
@@ -138,7 +138,7 @@ M
 
 <b>Below is the source for the BrainFuck Interpreter</b>
 
-```{.c .numberLines startFrom="1"}
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 

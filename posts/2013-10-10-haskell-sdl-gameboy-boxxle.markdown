@@ -22,7 +22,7 @@ Below is the current version. I am still wrapping my head around the intricacies
 
 <b>Boxxle.hs</b><br/>
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 {-# LANGUAGE FlexibleContexts #-} -- http://stackoverflow.com/questions/10865963/using-the-state-monad-to-hide-explicit-state
 
 -- @author Kenny Cason

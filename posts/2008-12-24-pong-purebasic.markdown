@@ -6,7 +6,7 @@ tags: game, programming, purebasic, pong
 
 <p>Pong is my first game written in <a href="http://www.purebasic.com">Purebasic</a>. It features the most basic of AI.
 
-<a href="https://github.com/kennycason/pong" target="new"><b>View on GitHub</b></a>
+<a href="https://github.com/kennycason/pong" target="_blank"><b>View on GitHub</b></a>
 
 <br/>Pong was compiled using Purebasic v3.94, However, It should be fairly easy to make changes to get it to recompile in the most recent version, or just to convert it into another language.
 
@@ -15,7 +15,7 @@ tags: game, programming, purebasic, pong
 
 My old procedural code :D
 
-```{.java .numberLines startFrom="1"}
+```java
 ;*************************************************
 ; PROJECT   PONG
 ; AUTHOR    Kenneth Cason

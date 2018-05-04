@@ -7,7 +7,7 @@ tags: c++, game, minesweeper
 The other day I was tutoring a freshman programmer program his first minesweeper text game in C++. Here is the resulting code.
 
 
-```{.cpp .numberLines startFrom="1"}
+```cpp
 #include <iostream>
 #include<cstdlib>
 #include<ctime>

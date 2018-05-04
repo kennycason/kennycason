@@ -12,7 +12,7 @@ For a more interesting version using SDL to draw pixel graphics, check out this 
 
 Here is the code for the ASCII Version:
 
-```{.c .numberLines startFrom="1"}
+```cpp
 #include "math.h"
 #include <iostream>
 #include <stdlib.h>

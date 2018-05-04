@@ -10,7 +10,7 @@ To measured the gradient we must be able to take the partial derivative with res
 
 The source can be found on <a href="https://github.com/kennycason/ml" target="blank">GitHub</a>. The exact source can be found in the regression module.
 
-```{.java .numberLines startFrom="1"}
+```java
 public class LinearGradientDescent {
 
     public LinearModel regress(final Parameters parameters) {
@@ -101,7 +101,7 @@ public class LinearGradientDescent {
 ```
 
 Parameters.java - This class contains the basic parameters for linear gradient descent.
-```{.java .numberLines startFrom="1"}
+```java
 public class Parameters {
     private int iterations = 1000;
     private double learningRate = 0.001;
@@ -150,7 +150,7 @@ public class Parameters {
 ```
 
 LinearModel.java - A representation of the regressed line, as well as the fit error.
-```{.java .numberLines startFrom="1"}
+```java
 public class LinearModel {
     public final Line line;
     public final double error;
@@ -187,7 +187,7 @@ public class LinearModel {
 ```
 
 Line.java - A simply line
-```{.java .numberLines startFrom="1"}
+```java
 public class Line {
     private final double slope;
     private final double yIntercept;
@@ -212,7 +212,7 @@ public class Line {
 ```
 
 TestLinearGradientDescent.java
-```{.java .numberLines startFrom="1"}
+```java
 public class TestLinearGradientDescent {
     private static final LinearGradientDescent LINEAR_GRADIENT_DESCENT = new LinearGradientDescent();
     private static final double LEARNING_RATE = 0.001;

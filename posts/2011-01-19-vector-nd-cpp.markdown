@@ -8,7 +8,7 @@ This is a N-Dimensional Vector class written in C++. While it can be used for an
 
 <b>VectorND.cpp</b><br/>
 
-```{.cpp .numberLines startFrom="1"}
+```cpp
 #ifndef __VECTOR_ND_H__
 #define __VECTOR_ND_H__
 
@@ -248,7 +248,7 @@ struct VectorND {
 
 <b>main.cpp</b><br/>
 
-```{.cpp .numberLines startFrom="1"}
+```cpp
 #include <iostream>
 #include "VectorND.h";
 

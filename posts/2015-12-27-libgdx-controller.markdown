@@ -13,7 +13,7 @@ As with any low level code, eventually you get tired of working with it and wrap
 ### Get Library
 
 GDX-Controller is now hosted in Maven Central here:
-```{.xml .numberLines startFrom="1"}
+```xml
 <dependency>
     <groupId>com.kennycason</groupId>
     <artifactId>gdx-controller</artifactId>
@@ -29,13 +29,13 @@ The GitHub repository will be maintained <a href="https://github.com/kennycason/
 We'll start with our basic definition of buttons. This could be expanded depending on needs. Given my love of classic SNES style games, this is sufficient.
 
 A general interface for button enum classes
-```{.java .numberLines startFrom="1"}
+```java
 public interface Controls {
 }
 ```
 
 A simple SNES-like control schema (with L2,R2)
-```{.java .numberLines startFrom="1"}
+```java
 public enum GameControls implements Controls {
     DPAD_UP,
     DPAD_DOWN,
@@ -60,7 +60,7 @@ public enum GameControls implements Controls {
 Now that we have our Button "interface" defined, we need to create mappings to the internal integer key codes and joystick axi. The reason this is important is because different input method's keys may map to different values. The key codes for a logitech controller is significantly different than a computer's keyboard key codes. This abstraction also allows a user to easily map keys differently, for example, inverting up and down, or jump and run.
 
 The class for handling button mappings
-```{.java .numberLines startFrom="1"}
+```java
 public class ButtonMapper<V extends Controls> {
 
     private final ObjectMap<V, Integer> mapping = new ObjectMap<>();
@@ -79,7 +79,7 @@ public class ButtonMapper<V extends Controls> {
 ```
 
 The class for handling axis mappings
-```{.java .numberLines startFrom="1"}
+```java
 public class AxisMapper<V> {
 
     protected final ObjectMap<V, Axis> mapping = new ObjectMap<>();
@@ -98,7 +98,7 @@ public class AxisMapper<V> {
 ```
 
 Now lets start building our controller interface and implementations. Unfortunately this implementation does not directly support input combinations yet, but that will be supported in the near future.
-```{.java .numberLines startFrom="1"}
+```java
 public abstract class Controller<V extends Controls> {
 
     private ObjectMap<V, Long> lastPressed = new ObjectMap<>();
@@ -121,7 +121,7 @@ public abstract class Controller<V extends Controls> {
 ```
 
 Our keyboard input implementation
-```{.java .numberLines startFrom="1"}
+```java
 public class KeyboardController<V extends Controls> extends Controller<V> {
 
     public KeyboardController(final ButtonMapper<V> buttonMapper) {
@@ -139,7 +139,7 @@ public class KeyboardController<V extends Controls> extends Controller<V> {
 ```
 
 Our Logitech controller input implementation. It is very similar to the keyboard implementation with the exception of the handling of it's joystick.
-```{.java .numberLines startFrom="1"}
+```java
 public class LogitechController<V extends Controls> extends Controller<V> {
 
     private final com.badlogic.gdx.controllers.Controller controller;
@@ -182,7 +182,7 @@ public class LogitechController<V extends Controls> extends Controller<V> {
 ```
 
 Now lets bring it all together and wrap our input methods in a "multiplex" controller that is capable of simultaneously supporting configureable keyboard and logitech input without any hassle to either the programmer or the game player. Note how MultiController also implements the Controller interface just as  KeyboardController and LogitechController.
-```{.java .numberLines startFrom="1"}
+```java
 public class MultiplexedController<V extends Controls> extends Controller<V> {
 
     private final Controller[] controllers;
@@ -214,7 +214,7 @@ public class MultiplexedController<V extends Controls> extends Controller<V> {
 ```
 
 Using MultiController in your game should now only require a minimum of code. You must first configure your controller, and then you can use it however you please. Below we will create a sample controller factory.
-```{.java .numberLines startFrom="1"}
+```java
 public class MyControllerFactory {
 
     public static MultiplexedController<GameControls> buildMultiController() {
@@ -273,12 +273,12 @@ public class MyControllerFactory {
 ```
 
 In the beginning of your game screen create a multi controller with the following code.
-```{.java .numberLines startFrom="1"}
+```java
 private Controller<GameControls> controller = MyControllerFactory.buildMultiController();
 ```
 
 A sample handle input method for a space shooter.
-```{.java .numberLines startFrom="1"}
+```java
 private void handleInput(final float deltaTime) {
     // process user input
     ship.vx = 0;

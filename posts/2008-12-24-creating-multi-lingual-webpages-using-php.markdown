@@ -12,7 +12,7 @@ Here is the demo that we are going to create:
 First create your main page: i.e. index.php
 
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
   $language = $_REQUEST['lang'];
   if($language == 'en') {
@@ -56,7 +56,7 @@ background-color: #EEEEEE;
 
 Notice the lines at the top.
 
-```{.php .numberLines startFrom="1"}
+```php
 $language = $_REQUEST['lang'];
 ```
 
@@ -65,7 +65,7 @@ The $_REQUEST['lang']; call would return 'en'. This can be used for use inside y
 Next, notice how when the pages html is 'echoed' to the page every instance where text is displayed, it refers to the hash array $txt
 for example:
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php print $txt['txt_first_name']; ?>
 ```
 
@@ -73,7 +73,7 @@ This looks up the hash called 'txt_first_name' and writes the value.  Note: As w
 Here are the sample language files used in the example.
 language.en.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $txt = array (
   'txt_charset'                 => 'iso-8859-1',
@@ -87,7 +87,7 @@ $txt = array (
 
 language.jp.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $txt = array (
   'txt_charset'                 => 'utf-8',
@@ -101,7 +101,7 @@ $txt = array (
 
 language.zh.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $txt = array (
   'txt_charset'                 => 'utf-8',
@@ -115,7 +115,7 @@ $txt = array (
 
 language.ko.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $txt = array (
   'txt_charset'                 => 'utf-8',

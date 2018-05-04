@@ -7,7 +7,7 @@ tags: game dev, editor, game, magus, maker, map, mrogramming, rpg, tile
 <b>Note:</b> for a more fully featured map maker, I would recommend using <b>Tiled</b>
 
 This is just something I made a few years back to ease personal game development.
-Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www.purebasic.com" target="new">Purebasic</a>.
+Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www.purebasic.com" target="_blank">Purebasic</a>.
 
 ## Features
 - <b>Multiple Layers</b> - make maps up to 3 layers plus an additional "attribute" layer used to store other information about the map tiles.
@@ -16,7 +16,7 @@ Magus Map Maker is a 2D multilayer game map maker written in <a href="http://www
 - <b>Tilenator</b> - This feature can turn a tilesheet into a directory of invidual tiles, and vice versa.
 - <b>Help Files</b> - Online help documentation to ease use.
 
-<a href="https://github.com/kennycason/magus_map_maker" target="new"><b>View on GitHub</b></a>
+<a href="https://github.com/kennycason/magus_map_maker" target="_blank"><b>View on GitHub</b></a>
 
 For more extensive documentation concerning Magus Map Maker refer to the online help files: <a href="/code/pb/mmm/help/"><b>Online Help</b></a>
 

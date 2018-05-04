@@ -20,7 +20,7 @@ for example we know that all phones beginning with 479 fall into Northwest Arkan
 
 So know we know that we can send emails to specific phone emails, but how do you do it? It's also very simple. Again, another quick search on Google will yield many results for how to do it using PHP or various other methods. I prefer PHP. Just stick the below code in a file called something.php and run it over the server. With a few small modifications this can be implemented to send messages one at a time, bulk, or even iteratively send messages to a large number of cell phones. I would not encourage anyone to abuse this. Just some food for thought. 
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
   $to = "479XXXXXXX@txt.att.net";
   $subject = "Spam";

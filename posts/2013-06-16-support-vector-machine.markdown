@@ -33,7 +33,7 @@ Polynomial Kernel
 
 **Problem Loaders**
 
-```{.java .numberLines startFrom="1"}
+```java
 IProblemLoader loader = new LibSVMProblemLoader();
 
 Problem train = loader.load("svm/data/libsvm/linear_train.libsvm");

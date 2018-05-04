@@ -11,7 +11,7 @@ I uploaded most of my Haskell examples to GitHub, found <a href="https://github.
 
 ***Main.hs***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import NN
 import Utils
 import Node
@@ -64,7 +64,7 @@ This yields the following, incorrect, but close output:
 
 ***Node.hs***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 module Node
     (Node(..)
     ,numWeights
@@ -109,7 +109,7 @@ compareNode n1 n2 = abs ((value n2) - (value n1))
 
 ***Layer.hs***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 module Layer
     (Layer(..)
     ,createLayer
@@ -247,7 +247,7 @@ getErrors layer = (errors layer)
 
 ***NN.hs***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 module Layer
     (Layer(..)
     ,createLayer
@@ -385,7 +385,7 @@ getErrors layer = (errors layer)
 
 ***Utils.hs***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 module Utils
     (sigmoid
     ,listProduct

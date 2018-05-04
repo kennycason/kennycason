@@ -1,8 +1,7 @@
 var Main = {};
 
 Main.init = function() {
-    $(".latex").latex();
-    Main.search();
+    // Main.search();
 }
 
 Main.search = function() {

@@ -61,7 +61,7 @@ Current Features
 
 Download from Maven Central
 
-```{.xml .numberLines startFrom="1"}
+```xml
 <dependency>
     <groupId>com.kennycason</groupId>
     <artifactId>kumo</artifactId>
@@ -70,7 +70,7 @@ Download from Maven Central
 ```
 Example to generate a Word Cloud on top of an image.
 
-```{.java .numberLines startFrom="1"}
+```java
 final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 frequencyAnalyzer.setWordFrequenciesToReturn(300);
 frequencyAnalyzer.setMinWordLength(4);
@@ -89,7 +89,7 @@ wordCloud.writeToFile("output/whale_wordcloud_small.png");
 
 Example to generate a circular Word Cloud.
 
-```{.java .numberLines startFrom="1"}
+```java
 final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(getInputStream("text/my_text_file.txt"));
 final Dimension dimension = new Dimension(600, 600);
@@ -104,7 +104,7 @@ wordCloud.writeToFile("output/datarank_wordcloud_circle_sqrt_font.png");
 
 Example to generate a rectangle Word Cloud
 
-```{.java .numberLines startFrom="1"}
+```java
 final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 final List<WordFrequency> wordFrequencies = frequencyAnalyzer.load(getInputStream("text/my_text_file.txt"));
 final Dimension dimension = new Dimension(600, 600);
@@ -119,7 +119,7 @@ wordCloud.writeToFile("output/wordcloud_rectangle.png");
 
 Example of tokenizing chinese text into a circle
 
-```{.java .numberLines startFrom="1"}
+```java
 final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 frequencyAnalyzer.setWordFrequenciesToReturn(600);
 frequencyAnalyzer.setMinWordLength(2);
@@ -138,7 +138,7 @@ wordCloud.writeToFile("output/chinese_language_circle.png");
 
 Create a polarity word cloud to contrast two datasets
 
-```{.java .numberLines startFrom="1"}
+```java
 final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 frequencyAnalyzer.setWordFrequenciesToReturn(750);
 frequencyAnalyzer.setMinWordLength(4);
@@ -158,7 +158,7 @@ wordCloud.writeToFile("output/polar_newyork_circle_blur_sqrt_font.png");
 
 Create a Layered Word Cloud from two images/two word sets
 
-```{.java .numberLines startFrom="1"}
+```java
 final FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
 frequencyAnalyzer.setWordFrequenciesToReturn(300);
 frequencyAnalyzer.setMinWordLength(5);

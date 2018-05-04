@@ -1,0 +1,32 @@
+# Welcome to Kakyll!
+
+# This config is a sample configuration and is used to configure your blog.
+# This is the config that will be used when generating a new site.
+
+
+title: Kenny Cason
+email: kenneth.cason@gmail.com
+description: Software, Math, and Language
+base_url: http://kennycason.com/
+deploy: call deploy_kennycason
+template_engine: handlebars
+posts:
+    directory: posts
+    template: post.hbs
+pages:
+    - index.hbs
+    - about.hbs
+    - tags.hbs
+    - euler.hbs
+    - reading.hbs
+    - games.hbs
+tags:
+    template: index.hbs
+directories:
+    - name: assets
+    - name: images
+    - name: games
+    - name: resume
+    - name: code
+    - name: collections
+      render: true

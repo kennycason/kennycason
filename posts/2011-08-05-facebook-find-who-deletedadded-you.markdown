@@ -17,7 +17,7 @@ Create A folder called "fb" somewhere, this is where we will store our lists of 
 <strong>b. </strong>Find the link prefaced with "Friends: " and click it, this will display a list of your friends in JSON format. 
 i.e.
 
-```{.javascript .numberLines startFrom="1"}
+```javascript
 {
    "data": [
       {
@@ -44,7 +44,7 @@ mv tmp.txt FB_Friends_2011_8_4
 </pre>
 Your file now should look like:
 
-```{.javascript .numberLines startFrom="1"}
+```javascript
          "name": "Person A",
          "name": "Person B",
          "name": "Person C",

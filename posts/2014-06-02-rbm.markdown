@@ -11,7 +11,7 @@ This version includes image encoding/decoding schemes, Contrastive Divergence tr
 Source Code available on GitHub: <a href="https://github.com/kennycason/rbm" target="blank">here</a>
 
 Results RBM(visual=6,hidden=4)
-```{.java .numberLines startFrom="1"}
+```java
 Training Data:
 [[1.0, 1.0, 1.0, 0.0, 0.0, 0.0]
  [1.0, 0.0, 1.0, 0.0, 0.0, 0.0]
@@ -27,7 +27,7 @@ Inputs: [[0.0, 0.0, 0.0, 1.0, 1.0, 0.0] [0.0, 0.0, 1.0, 1.0, 0.0, 0.0]]
 Outputs: [0.0, 0.0, 1.0, 1.0, 1.0, 0.0] [0.0, 0.0, 1.0, 1.0, 0.0, 0.0]]
 ```
 Code for above Output:
-```{.java .numberLines startFrom="1"}
+```java
 final RBM rbm = RBM_FACTORY.build(6, 3);
 final ContrastiveDivergence contrastiveDivergence = new ContrastiveDivergence(new LearningParameters().setEpochs(25000));
 
@@ -92,7 +92,7 @@ RBM - Note how having a white BG (max value input) negatively affects learning, 
 </table>
 
 Number Recognition
-```{.java .numberLines startFrom="1"}
+```java
 // INPUT
 INFO  nn.rbm.TestRBM -
 □□□□□□□□□□□□□□□□□□□□□□□□□□□□

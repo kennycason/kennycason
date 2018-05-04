@@ -16,7 +16,7 @@ I chose a few random examples to demonstrate some of the cool examples that made
 
 ***Simple Functions***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 f x y = x*x + y*y 	-- simple function of x and y
 g y = f 0 Y 		-- partial solved function 
 
@@ -36,14 +36,14 @@ main = do
 
 ***Folding***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 main = do
     print (foldl (+) 0 [1, 2, 3]) -- summation using foldl
 ```
 
 ***Use of Gaurds to create Piecewise Functions:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 guess x
             | x > 27 = "Too high!"
             | x < 27 = "Too low!"
@@ -57,7 +57,7 @@ print (guess 27)
 
 ***Filters:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 main = do
     print (filter even [1..10])
     print (filter (>5) [1..10])
@@ -65,7 +65,7 @@ main = do
 
 ***List Comprehensions, ∀x∈S, p(x):***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 -- ∀x∈S, p(x)
 -- [ x | x <- s, p x ]
 
@@ -89,7 +89,7 @@ main = do
 
 ***Function Composition:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 main = do
     -- f(g(h(k(x)))) - ugly
     -- (f.g.h.k)(x) - pretty
@@ -106,7 +106,7 @@ main = do
 
 ***Function Examples using Let and Where:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 slope (x1,y1) (x2,y2) = let dy = y2-y1
                             dx = x2-x1
                         in dy/dx
@@ -126,7 +126,7 @@ main = do
 
 ***Fibonacci Sequence Implementations:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 -- simple, naive implementation
 slow_fib :: Int -> Integer
 slow_fib 0 = 1
@@ -148,7 +148,7 @@ memoized_fib = (map fib [0 ..] !!)
 This was my first attempt at implementing. 
 I have since found more eloquent solutions :)
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 data Tree = Node { value::Int, left::Tree, right::Tree } | Null deriving (Show, Eq)
 
 total :: Tree -> Int
@@ -169,7 +169,7 @@ add v node
 
 ***Fizz Buzz:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 fizzbuzz x 
 	| (mod x 15) == 0 = "FizzBuzz"
 	| (mod x 3) == 0  = "Fizz"
@@ -181,7 +181,7 @@ main = print(map fizzbuzz [1..100])
 
 ***PI Gregory Series:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 piSum :: Int -> Double
 piSum n = sum (map f [1..n])
 
@@ -203,7 +203,7 @@ main = do
 
 ***Quick Sort:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 qsort [] = []
 
 qsort (p:xs) = (qsort lesser) ++ [p] ++ (qsort greater)
@@ -216,7 +216,7 @@ main = print (qsort [20,3,14,6,1,10])
 
 ***Triangles:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 triangles n = [(a,b,c) 
 				| c<-[1..n]
 				, b<-[1..c]
@@ -231,7 +231,7 @@ main = do
 
 ***Drop piece into Connect 4 Column:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 numEmpty :: [Int] -> Int
 numEmpty board = length $ filter (\x -> x == 0) board
 
@@ -253,7 +253,7 @@ main = do
 
 ***Utf8:***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
  -- 値をゼロにする (utf8 comment works
 f x = 0
 

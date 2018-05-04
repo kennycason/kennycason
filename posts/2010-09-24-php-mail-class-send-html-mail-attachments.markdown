@@ -7,7 +7,7 @@ tags: attachments, html, mail, php
 This is a sample class to send mail using PHP. It also demonstrates how to attach images.
 
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 class Mail {
@@ -102,7 +102,7 @@ class Mail {
 }
 ```
 Usage
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 $fp = fopen("somepicture.jpg","r");
 $data = fread($fp,filesize("somepicture.jpg"));

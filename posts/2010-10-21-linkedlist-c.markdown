@@ -10,7 +10,7 @@ This is a simple Doubly connected LinkedList written in C. It hasn't been thorou
 
 <b>linkedlist.h</b>
 
-```{.cpp .numberLines startFrom="1"}
+```cpp
 #ifndef __C__LINKEDLIST__H__
 #define __C__LINKEDLIST__H__
 

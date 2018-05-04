@@ -140,7 +140,7 @@ Many thanks to the Stanford team to putting together the IMDB movie review datas
 
 To download the IMDB movie review dataset and extract it, run:
 
-```{.bash .numberLines startFrom="1"}
+```bash
 wget http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 tar xvf aclImdb_v1.tar.gz
 ```

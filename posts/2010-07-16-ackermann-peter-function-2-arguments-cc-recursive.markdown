@@ -10,7 +10,7 @@ C Implentation:
 <b>note</b>This function grows extremely fast, such that it quickly out grows any primitive type in C, including the largest "unsigned long long" type. Though the program will likely crash with a 0xC0000005 error from too much recursion :) 
 It should run fine from A(0,0) to A(4,0) and likely crash while computing A(4,1), which is 65533. A(4,0) is 13, so the number of recursive calls jumps up enormously! I will be working on a custom, larger data type as well as a way around the error caused by too much recursion.
 
-```{.c .numberLines startFrom="1"}
+```cpp
 /**
  * Ackermann function - recursive implementation
  */
@@ -42,7 +42,7 @@ Here are some of the values for 0 < m < 5, 0 < n < 6
 Some of the patterns formed are very amazing. For example: A(2, n), 0 <= n < infinite, will list odd numbers starting from 3 to infinite.
 To demonstrate this just insert the below loop into your code:
 
-```{.c .numberLines startFrom="1"}
+```cpp
 for(int n = 0; n < 100; n++) {
       std::cout << "A(2, " << n << ") = " << A(2, n) << std::endl;
 }

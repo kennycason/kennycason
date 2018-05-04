@@ -24,7 +24,7 @@ All examples use these sprites
 <b>Demo using special effects </b>
 
 
-```{.cpp .numberLines startFrom="1"}
+```cpp
 // Initialize SDL, etc
 ...
 ...

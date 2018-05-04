@@ -9,7 +9,7 @@ Mainly written for fun, but this is a configurable Logger written in PHP that su
 <b>update:</b> Now on <a href="https://github.com/kennycason/log4php" title="GitHub" target="blank">GitHub</a> <br/>
 
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 /**
  * PHP Logger

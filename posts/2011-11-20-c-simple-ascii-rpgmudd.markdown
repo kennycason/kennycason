@@ -6,7 +6,7 @@ tags: ascii, c++, mudd, rpg
 
 This is a very simple RPG that uses ASCII art. It's not balanced nor complete, just meant to serve as a tutorial of some procedural coding in C.
 
-```{.c .numberLines startFrom="1"}
+```cpp
 #include <iostream>
 #include <string>
 #include <cstdlib>

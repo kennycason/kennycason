@@ -4,4 +4,4 @@ author: Kenny Cason
 tags: artificial intelligence, back-error propagation, design, learning, neural network
 ---
 
-<embed wmode="transparent" src="/pdf/neuralnetwork-en.pdf" width="100%" height="600">  
+<embed wmode="transparent" src="/assets/pdf/neuralnetwork-en.pdf" width="100%" height="600">  

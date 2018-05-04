@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: blocks, game, programming, purebasic, tetris
 ---
 
-<p>Blocks is a Tetris like game written in <a href="http://www.purebasic.com" target="new">Purebasic</a>. 
+<p>Blocks is a Tetris like game written in <a href="http://www.purebasic.com" target="_blank">Purebasic</a>. 
 
 ## Blocks features 3 modes:		
 - <b>Baby Mode</b> - simple pieces constructed from 3 bricks.<br/>
@@ -12,7 +12,7 @@ tags: blocks, game, programming, purebasic, tetris
 - <b>Blocks Mode</b> - pieces constructed from 1 - 6 bricks. 27 different pieces, including a randomly generated piece that can take on bizzare shapes. In this mode it is possible to clear 6 lines at once, earning yourself a "Block." I recommend playing it in block mode and large size for the most fun. :) Enjoy!
 High Scores are saved for each of the modes.<br/>
 
-<a href="https://github.com/kennycason/blocks" target="new"><b>View on GitHub</b></a>
+<a href="https://github.com/kennycason/blocks" target="_blank"><b>View on GitHub</b></a>
 
 <br/>Blocks was compiled using Purebasic v3.94, However, It should be fairly easy to make changes to get it to recompile in the most recent version, or just to convert it into another language.
 
@@ -33,7 +33,7 @@ Credits
 
 My old procedural code :D
 
-```{.java .numberLines startFrom="1"}
+```java
 If InitSprite()
 Else
   MessageRequester("Blocks","DirectX v.7 or later was unable to be initialized",#MB_ICONERROR)

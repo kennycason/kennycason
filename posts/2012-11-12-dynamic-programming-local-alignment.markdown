@@ -9,7 +9,7 @@ For more information regarding Dynamic Programming check <a href="http://www.bio
 
 DynamicLocalAlignment.java
 
-```{.java .numberLines startFrom="1"}
+```java
 package lib.algo.matching;
 
 import java.util.LinkedList;
@@ -217,7 +217,7 @@ public class DynamicLocalAlignment {
 
 DynamicLocalAlignmentTest.java
 
-```{.java .numberLines startFrom="1"}
+```java
 package lib.algo.matching;
 
 import java.util.List;

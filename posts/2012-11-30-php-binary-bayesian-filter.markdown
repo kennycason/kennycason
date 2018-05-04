@@ -11,7 +11,7 @@ Also notice that this model calculates <pre>P(A|B)</pre> by assigning probabilit
 
 Sample Usage
 
-```{.php .numberLines startFrom="1"}
+```php
 $neg = File::read(LIB_DIR . 'classify/bayes/data/NEG'); // my file loading methods, you can use your own
 $pos = File::read(LIB_DIR . 'classify/bayes/data/POS');
 
@@ -36,7 +36,7 @@ for($i = 0; $i < count($reviews); $i++) {
 
 PositiveNegativeBayesianFilter.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 require_once("AbstractBayesianBinaryFilter.php");
@@ -216,7 +216,7 @@ class PositiveNegativeBayesianFilter extends AbstractBayesianBinaryFilter {
 
 AbstractBayesianBinaryFilter.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 require_once("IBayesianBinaryFilter.php");
@@ -252,7 +252,7 @@ abstract class AbstractBayesianBinaryFilter implements IBayesianBinaryFilter {
 
 IBayesianBinaryFilter.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 require_once("IBayesianFilter.php");
@@ -273,7 +273,7 @@ interface IBayesianBinaryFilter extends IBayesianFilter {
 
 IBayesianFilter.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 /**
@@ -294,7 +294,7 @@ interface IBayesianFilter {
 
 IBayesianFilter.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 /**
@@ -315,7 +315,7 @@ interface IBayesianFilter {
 
 Word.php
 
-```{.php .numberLines startFrom="1"}
+```php
 <?php
 
 /**

@@ -10,7 +10,7 @@ This project's GitHub page can be found <a href="https://github.com/kennycason/e
 
 ***1. Multiples of 3 and 5***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 main = print (sum (filter (divisible [3,5]) [1..999]))
@@ -18,7 +18,7 @@ main = print (sum (filter (divisible [3,5]) [1..999]))
 
 ***2. Even Fibonacci numbers***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 main = print (sum (filter even (fibm 4000000)))
@@ -26,7 +26,7 @@ main = print (sum (filter even (fibm 4000000)))
 
 ***3. Largest prime factor***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 main = print (last [x | x <- factors 600851475143, isPrime x])
@@ -34,7 +34,7 @@ main = print (last [x | x <- factors 600851475143, isPrime x])
 
 ***4. Largest palindrome product***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 main = print (maximum 
@@ -45,7 +45,7 @@ main = print (maximum
 
 ***5. Smallest multiple***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 {--
@@ -68,7 +68,7 @@ main = print (divideLoop 2520)
 
 ***6. Sum square difference***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 sumOfSquares :: Int -> Int
@@ -85,7 +85,7 @@ main = print (diff 100)
 
 ***7. 10001st prime***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 nthPrime :: Int -> Int -> Int
@@ -98,7 +98,7 @@ main = print (nthPrime 1 0)
 
 ***8. Largest product in a series***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 import Data.Char (digitToInt)
 import Data.List (tails)
@@ -113,7 +113,7 @@ main = do
 
 ***9. Special Pythagorean triplet***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 triplets limit = [ a * b * c
@@ -128,7 +128,7 @@ main = print (head (triplets 1000))
 
 ***10. Summation of primes***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import Euler
 
 main = print (sum (primeSieve 2000000))              
@@ -138,7 +138,7 @@ main = print (sum (primeSieve 2000000))
 
 This is where I place common functions that may be used in other Project Euler Problems
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 module Euler
     (divisible
     ,fib

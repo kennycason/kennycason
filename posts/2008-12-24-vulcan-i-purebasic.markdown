@@ -4,9 +4,9 @@ author: Kenny Cason
 tags: game dev, programming, purebasic, shooter, side scroller, space, uagdc, vulcan
 ---
 
-Vulcan I is a side-scrolling space shooter written in <a target="new" href="http://www.purebasic.com">Purebasic</a>. This was my first major attempt at programming a game and is far from perfect. Vulcan I features 7 full length levels, each ending with a boss battle, many of which are redundant. Each level is unique and has its own array of enemies and terrains. Equip various power ups to prepare for the final showdown to save the universe.
+Vulcan I is a side-scrolling space shooter written in <a target="_blank" href="http://www.purebasic.com">Purebasic</a>. This was my first major attempt at programming a game and is far from perfect. Vulcan I features 7 full length levels, each ending with a boss battle, many of which are redundant. Each level is unique and has its own array of enemies and terrains. Equip various power ups to prepare for the final showdown to save the universe.
 
-<a href="https://github.com/kennycason/vulcan" target="new"><b>View on GitHub</b></a>
+<a href="https://github.com/kennycason/vulcan" target="_blank"><b>View on GitHub</b></a>
 
 <table>
 <tr><td><a href="/code/pb/vulcan/screenshot01.JPG"><img width="230px" src="/code/pb/vulcan/screenshot01.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="/code/pb/vulcan/screenshot02.JPG"><img width="230px" src="/code/pb/vulcan/screenshot02.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="/code/pb/vulcan/screenshot03.JPG"><img width="230px" src="/code/pb/vulcan/screenshot03.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td></tr><tr><td><a href="/code/pb/vulcan/screenshot04.JPG"><img width="230px" src="/code/pb/vulcan/screenshot04.JPG" /></a></td><td><a href="/code/pb/vulcan/screenshot05.JPG"><img width="230px" src="/code/pb/vulcan/screenshot05.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td><td><a href="/code/pb/vulcan/screenshot06.JPG"><img width="230px" src="/code/pb/vulcan/screenshot06.JPG" alt="Vulcan Side Scrolling Space Shooter"/></a></td></tr><tr><td><a href="/code/pb/vulcan/screenshot07.JPG"><img width="230px" src="/code/pb/vulcan/screenshot07.JPG" alt="Vulcan Side Scrolling Space Shooter" /></a></td></tr>

@@ -1,0 +1,144 @@
+
+a :link {
+  text-decoration: underline;
+}
+a :visited {
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: underline;
+}
+a :active {
+  text-decoration: underline;
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.logo {
+  background-image: url("/images/logos/kennycason-logo.png");
+  background-position: 0px 0px;
+  margin-left:-30px;
+  display: block;
+  width: 420px;
+  height: 75px;
+  float: left;
+}
+
+.logo :hover {
+  background-position: 0px -75px;
+}
+
+.datarank-small {
+  background-image: url("/images/datarank-main.png");
+  background-position: 0px 0px;
+  display: block;
+  width: 158px;
+  height: 35px;
+  float: left;
+}
+.datarank-small :hover {
+  background-position: 0px -35px;
+}
+
+.game-list {
+
+}
+
+.dont-have-key {
+  background-color: #FFE0E0;
+  border: 1px;
+  margin-left: 10px;
+}
+
+.have-key {
+  background-color: #ADDEBE;
+  border: 1px;
+  margin-left: 10px;
+}
+
+.game-list .dont-have {
+  background-color: #FFE0E0;
+  display: block;
+}
+
+.game-list .have {
+  background-color: #ADDEBE;
+  display: block;
+}
+
+.game-list .letter {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.book-list .dont-have {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+th, td {
+   border: 1px solid;
+}
+
+/* Good Reads */
+.gr_custom_container_1515039178 {
+/* customize your Goodreads widget container here*/
+border: 1px solid gray;
+border-radius:10px;
+padding: 10px 5px 10px 5px;
+background-color: transparent;
+color: #000000;
+
+}
+.gr_custom_header_1515039178 {
+/* customize your Goodreads header here*/
+border-bottom: 1px solid gray;
+width: 100%;
+margin-bottom: 5px;
+text-align: center;
+font-size: 120%
+}
+.gr_custom_each_container_1515039178 {
+/* customize each individual book container here */
+width: 100%;
+clear: both;
+margin-bottom: 10px;
+overflow: auto;
+padding-bottom: 4px;
+border-bottom: 1px solid #aaa;
+}
+.gr_custom_book_container_1515039178 {
+/* customize your book covers here */
+overflow: hidden;
+height: 160px;
+float: left;
+margin-right: 4px;
+width: 98px;
+}
+.gr_custom_author_1515039178 {
+/* customize your author names here */
+font-size: 10px;
+}
+.gr_custom_tags_1515039178 {
+/* customize your tags here */
+font-size: 10px;
+color: gray;
+}
+.gr_custom_rating_1515039178 {
+/* customize your rating stars here */
+float: right;
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 98px;
+  height: 160px;
+  padding: 0px 0px;
+  overflow: hidden;
+}

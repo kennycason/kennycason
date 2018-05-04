@@ -10,7 +10,7 @@ In the end I also include a wrapper Trie.java that wraps ObjectTrie.java providi
 
 Trie.java
 
-```{.java .numberLines startFrom="1"}
+```java
 package krunch.lib.ds.trie;
 
 public class Trie {
@@ -52,7 +52,7 @@ public class Trie {
 
 Node.java
 
-```{.java .numberLines startFrom="1"}
+```java
 package krunch.lib.ds.trie;
 
 import java.util.ArrayList;
@@ -108,7 +108,7 @@ public class Node<T> {
 
 ObjectTrie.java
 
-```{.java .numberLines startFrom="1"}
+```java
 package krunch.lib.ds.trie;
 
 public class ObjectTrie<T> {
@@ -187,7 +187,7 @@ public class ObjectTrie<T> {
 
 TrieTest.java (Unit Test)
 
-```{.java .numberLines startFrom="1"}
+```java
 package krunch.lib.utils.ds.trie;
 
 import static org.junit.Assert.assertEquals;

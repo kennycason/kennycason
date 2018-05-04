@@ -1,22 +1,13 @@
 KennyCason.com
 =============
 
-My personal website/blog built with Hakyll
+My personal website/blog built with Kakyll, a [Kotlin](http://kakyll.com/) static site generator.
 
-
-### Compile
-```bash
-cabal build
-```
 
 ### Clean | Build | Watch | Deploy
 ```bash
-./dist/build/site/site [clean|build|watch|deploy]
+kakyll [clean|build|serve|deploy]
 ```
 
 
-### Compile (Deprecated)
-```bash
-cd src
-./compile.sh
-```
+License: This code is not to be used for any one's personal usage except my own.

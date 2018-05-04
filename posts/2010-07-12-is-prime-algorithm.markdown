@@ -8,7 +8,7 @@ I was randomly surfing around the internet when I stumbled upon Google Labs Apti
 
 The core function isPrime() is below
 
-```{.c .numberLines startFrom="1"}
+```cpp
 bool isPrime(unsigned long long n) {
     // prime numbers are natural by definition
     if(n <= 1) {

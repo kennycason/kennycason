@@ -19,7 +19,7 @@ The whole source can be found here <a href="/code/c/Life2/main.cpp">main.cpp</a>
 
 Rule1()
 
-```{.php .numberLines startFrom="1"}
+```php
 for(int x = 0; x < worldWidth; x++) {
     for(int y = 0; y < worldHeight; y++) {
         int r = world[x][y].r;

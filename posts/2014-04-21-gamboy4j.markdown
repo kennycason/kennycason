@@ -12,7 +12,7 @@ This project was largely motivated by the jsGB project from http://imrannazar.co
 The source code can be found here: <a href="https://github.com/kennycason/gameboy4j" target="blank">github.com/kennycason/gameboy4j</a>
 
 This is some sample output from running:
-```{.java .numberLines startFrom="1"}
+```java
 GameBoy gb = GameBoy.getInstance();
 gb.loadCartridge("src/gameboy/roms/pokemon_red.gb");
 gb.start();

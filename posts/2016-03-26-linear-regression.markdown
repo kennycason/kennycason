@@ -8,7 +8,7 @@ tags: java, machine learning, regression, gradient descent
 
 The source can be found on <a href="https://github.com/kennycason/ml" target="blank">GitHub</a>. The exact source can be found in the regression module.
 
-```{.java .numberLines startFrom="1"}
+```java
 public class LinearRegression {
 
     /*
@@ -75,7 +75,7 @@ public class LinearRegression {
 ```
 
 LinearModel.java - A representation of the regressed line, as well as the fit error.
-```{.java .numberLines startFrom="1"}
+```java
 public class LinearModel {
     public final Line line;
     public final double error;
@@ -112,7 +112,7 @@ public class LinearModel {
 ```
 
 Line.java - A simply line
-```{.java .numberLines startFrom="1"}
+```java
 public class Line {
     private final double slope;
     private final double yIntercept;
@@ -137,7 +137,7 @@ public class Line {
 ```
 
 Unit Test / Demo
-```{.java .numberLines startFrom="1"}
+```java
 public class TestLinearRegression {
 
     private static final LinearRegression LINEAR_REGRESSION = new LinearRegression();

@@ -24,7 +24,7 @@ GitHub Links: <a href="https://github.com/kennycason/haskell/blob/master/monteca
 
 ***Haskell Example***
 
-```{.haskell .numberLines startFrom="1"}
+```haskell
 import System.Random
 import Data.List
 
@@ -58,7 +58,7 @@ main = do
 ```
 
 ***Java Example***
-```{.java .numberLines startFrom="1"}
+```java
 import java.util.Random;
 
 /**
