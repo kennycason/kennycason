@@ -1,7 +1,7 @@
 ---
-title: PHP - Binary Bayesian Filter
+title: Binary Bayesian Filter - PHP
 author: Kenny Cason
-tags: bayesian filter, classfication, nlp, php, spam
+tags: bayesian, machine learning, nlp, php
 ---
 
 This is a simple Binary Bayesian Filter. The reason for the Interfaces and Abstract classes is because I am still mid-ways through my Java to PHP port :)
@@ -17,7 +17,7 @@ $pos = File::read(LIB_DIR . 'classify/bayes/data/POS');
 
 $bayes = new PositiveNegativeBayesianFilter();
 $bayes->trainBad($neg);
-$bayes->trainGood($pos); 
+$bayes->trainGood($pos);
 $bayes->finalizeTraining();
 
 $reviews = array(
@@ -227,7 +227,7 @@ require_once("Word.php");
  * @author Kenny
  */
 abstract class AbstractBayesianBinaryFilter implements IBayesianBinaryFilter {
-   
+
     // A Hashmap maping string to Word
     protected $words = array();
 
@@ -287,7 +287,7 @@ interface IBayesianFilter {
     function analyze($content);
 
     function displayStats();
-    
+
 }
 
 ```
@@ -308,7 +308,7 @@ interface IBayesianFilter {
     function analyze($content);
 
     function displayStats();
-    
+
 }
 
 ```

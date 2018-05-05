@@ -1,7 +1,7 @@
 ---
 title: Genetic Algorithm to Draw Images
 author: Kenny Cason
-tags: genetic algorithm, genetic programming, draw
+tags: genetic algorithm, art
 ---
 
 Draw Images via genetic programming. The code can all be found on GitHub: <a href="https://github.com/kennycason/genetic_draw" target="blank">here</a>

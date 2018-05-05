@@ -1,7 +1,7 @@
 ---
 title: ルービックキューブの論理的なやり方(3x3x3)
 author: Kenny Cason
-tags: やり方, パズル, ルービックキューブ, 仕方, 揃え方, 方法, 考え方
+tags: 論理, ルービックキューブ
 ---
 
 <center>ルービックキューブの論理的なやり方</center>
@@ -18,8 +18,7 @@ tags: やり方, パズル, ルービックキューブ, 仕方, 揃え方, 方�
 3。二段目のエッジキューブを三つ揃えていく。
 <table width="100%"><tr><td><center><img padding="0" width="150" src="/images/rc/rc4.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>まずは、一面目のまだ揃ってないコナーキューブを二面目のまだ揃ってないエッジキューブの上に回す。</td></table>
 
-4。一番下の段のエッジキューブを揃えていく。これらのキューブをそれぞれ三つの動作
-で揃えていく。
+4。一番下の段のエッジキューブを揃えていく。これらのキューブをそれぞれ三つの動作で揃えていく。
 <table width="100%"><tr><td><center><img padding="0" width="150" src="/images/rc/rc5.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>まだ揃えてないエッジキューブを簡単に正しい場所に入れる為、一、二面目の二つの揃えてないキューブのスペースを使うコツがある。</td></table>
 <table width="100%"><tr><td><center><img padding="0" width="150" src="/images/rc/rc6.jpg" alt="Rubik's Cube Tutorial" /></center></td><td>ステップ4が終わったら、すべてのエッジキューブが揃えている。</td></table>
 
@@ -33,5 +32,5 @@ tags: やり方, パズル, ルービックキューブ, 仕方, 揃え方, 方�
 頑張ってください！
 
 PDFは下のリンクからダウンロードできます。
-日本語：<a href="/pdf/rubikscube-jp.pdf">ダウンロード</a> 
-英語<a href="/pdf/rubikscube-en.pdf">ダウンロード</a> 
+日本語：<a href="/pdf/rubikscube-jp.pdf">ダウンロード</a>
+英語<a href="/pdf/rubikscube-en.pdf">ダウンロード</a>

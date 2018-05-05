@@ -1,7 +1,7 @@
 ---
-title: PHP - Binary Tree
+title: Binary Tree - PHP
 author: Kenny Cason
-tags: binary tree, btree, php
+tags: data structure, php
 ---
 
 A simple binary tree in php, will add a delete function later :P

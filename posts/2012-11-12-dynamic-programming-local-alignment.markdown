@@ -1,7 +1,7 @@
 ---
-title: Dynamic Programming Local Alignment
+title: Dynamic Programming - Local Alignment
 author: Kenny Cason
-tags: dynamic programming, java, local alignment, algorithm
+tags: algorithm, dynamic programming, java
 ---
 
 Java example using Dynamic Programming for locally aligning string sequences with each other:

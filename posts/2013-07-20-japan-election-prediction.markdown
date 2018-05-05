@@ -1,7 +1,7 @@
 ---
 title: 日本議会選挙予想、安倍晋三内閣がトップ５０％
 author: Kenny Cason
-tags: 日本議会選挙, 予想, 安倍晋三, 2013
+tags: 日本
 ---
 
 記者：Matthew Seubert 通訳者：Kenny Cason　編集者：和田英己

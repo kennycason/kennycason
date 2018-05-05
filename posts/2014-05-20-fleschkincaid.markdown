@@ -1,12 +1,24 @@
 ---
 title: Flesch/Kincaid Readability Test
 author: Kenny Cason
-tags: url, query, java
+tags: algorithm, nlp, java
 ---
 
 This is a simple implementation of the Flesch-Kincaid readability tests in Java. From <a href="http://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests" target="blank">Wikipedia</a>, The Flesch–Kincaid readability tests are readability tests designed to indicate comprehension difficulty when reading a passage of contemporary academic English.
 
 GitHub Source Code: <a href="https://github.com/kennycason/fleschkincaid" target="blank">here</a>
+
+The basic algorithm is as follows:
+
+```java
+final double f1 = 206.835;
+final double f2 = 84.6;
+final double f3 = 1.015;
+final double r1 = (double) syllableCount / (double) wordCount;
+final double r2 = (double) wordCount / (double) sentences.size();
+
+final double score = f1 - (f2 * r1) - (f3 * r2);
+```
 
 Control Data:
 

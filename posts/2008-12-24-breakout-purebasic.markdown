@@ -1,7 +1,7 @@
 ---
 title: Breakout - Purebasic
 author: Kenny Cason
-tags:  game, programming, purebasic, breakout
+tags:  game development, purebasic
 ---
 
 <p>Breakout is an early game I wrote, written in <a href="http://www.purebasic.com">Purebasic</a>.

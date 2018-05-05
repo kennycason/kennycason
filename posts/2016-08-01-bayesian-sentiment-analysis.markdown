@@ -1,7 +1,7 @@
 ---
 title: Sentiment Analysis - Improving Bayesian Methods
 author: Kenny Cason
-tags: Bayesian, Sentiment Analysis, Machine Learning
+tags: bayesian, sentiment analysis, machine learning, nlp
 ---
 
 The code can all be found on GitHub: <a href="https://github.com/kennycason/bayesian_sentiment_analysis" target="blank">here</a>

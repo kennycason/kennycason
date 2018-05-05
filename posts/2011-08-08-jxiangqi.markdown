@@ -1,7 +1,7 @@
 ---
 title: jXiangQi – Display a XiangQi(象棋) Game State/Animation (jGames)
 author: Kenny Cason
-tags: jgames, jquery, jxiangqi, xiangqi, 象棋
+tags: javascript, jquery
 ---
 
 jXiangQi is one module within the <a href="/posts/2011-08-08-jgames.html">jGames</a> suite used to display xiangqi game states, as well as animations.

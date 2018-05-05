@@ -1,7 +1,7 @@
 ---
-title: Neural Network (Back-Error Propagation) C++
+title: Neural Network - Back-Error Propagation - C++
 author: Kenny Cason
-tags: artificial intelligence, back-error propagation, c++, neural network, ニューラルネット, 人工知能, 誤差逆伝播法
+tags: machine learning, neural network, c , ニューラルネット, 機械学習, 誤差逆伝播法
 ---
 
 Here is yet another simple Neural Network that implements Back-Error Propagation as a form of Reinforced Learning.

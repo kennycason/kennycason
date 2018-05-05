@@ -1,7 +1,7 @@
 ---
 title: 4D Rotation Matrix - Graph 4D
 author: Kenny Cason
-tags: 3d, 4d, graph, java, matrix, projection, rotation, transformation, vector
+tags: math, java
 ---
 
 This program rotates points about the XY, YZ, XZ, XU, YU, and ZU axises. I then projects each 4D vector to the 2D canvas.

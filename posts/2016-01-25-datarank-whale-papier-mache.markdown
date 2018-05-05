@@ -1,7 +1,7 @@
 ---
 title: DataRank Whale Papier-mâché
 author: Kenny Cason
-tags: trebuchet, wood
+tags: art
 ---
 
 After over 2 years of procrastination, I finally made the DataRank whale in papier-mâché. This is following my long overdue 16~ year break from papier-mâché when I made a <a href="http://metroid.wikia.com/wiki/Zeta_Metroid" target="blank">Zeta Metroid</a>

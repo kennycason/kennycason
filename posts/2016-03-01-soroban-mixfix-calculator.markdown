@@ -1,7 +1,7 @@
 ---
 title: Soroban - Java MixFix Calculator
 author: Kenny Cason
-tags: java, calculator, mixfix, infix, postfix, parer, lexer, pratt-parser
+tags: programming language, java
 ---
 
 A java calculator named Soroban (Japanese for Abacus).

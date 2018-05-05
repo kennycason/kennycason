@@ -1,6 +1,6 @@
 <ul class="list-inline">
     {{#each tag_cloud}}
-       <a class="tag badge badge-primary" href="/tags/{{ this.url }}.html" style="font-size: 15px" count="{{ this.count }}">{{ this.tag }} ({{ this.count }})</a>
+       <a class="tag badge badge-primary" href="{{ this.url }}" style="font-size: 15px" count="{{ this.count }}">{{ this.tag }} ({{ this.count }})</a>
     {{/each}}
 </ul>
 

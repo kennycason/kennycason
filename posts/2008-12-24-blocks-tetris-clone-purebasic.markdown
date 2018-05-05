@@ -1,10 +1,10 @@
 ---
 title: Blocks - Tetris Clone - Purebasic
 author: Kenny Cason
-tags: blocks, game, programming, purebasic, tetris
+tags: game development, purebasic
 ---
 
-<p>Blocks is a Tetris like game written in <a href="http://www.purebasic.com" target="_blank">Purebasic</a>. 
+<p>Blocks is a Tetris like game written in <a href="http://www.purebasic.com" target="_blank">Purebasic</a>.
 
 ## Blocks features 3 modes:		
 - <b>Baby Mode</b> - simple pieces constructed from 3 bricks.<br/>

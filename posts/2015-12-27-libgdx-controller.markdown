@@ -1,7 +1,7 @@
 ---
 title: LibGDX Game Controller
 author: Kenny Cason
-tags: java, libgdx, game
+tags: libgdx, game development, java
 ---
 
 As with any low level code, eventually you get tired of working with it and wrap up common behavior. In my case I wanted to design for a few things:

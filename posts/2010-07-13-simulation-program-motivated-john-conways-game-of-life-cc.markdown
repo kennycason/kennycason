@@ -1,7 +1,7 @@
 ---
-title: Simulation Program (Motivated by John Conway's Game of Life) - C/C++
+title: Cellular Automation - Modified Game of Life - C++ + SDL
 author: Kenny Cason
-tags: john conways game of life, programming, simulation
+tags: cellular automata, c++
 ---
 
 In this little simulation demo I created four simple rules, of which can be activated by uncommenting them out in the source code. Though nothing too complex emerges, I still liked some the resulting behavior.

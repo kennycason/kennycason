@@ -1,7 +1,7 @@
 ---
 title: Trebuchet
 author: Kenny Cason
-tags: trebuchet, wood
+tags: art
 ---
 
 I love to build stuff with wood, and it has been way too long since I've done it. This project was to build a large trebuchet. The motivation started way back in my 8th grade wood shop class where I had the privilege to build a 18"x18"x18" wooden trebuchet. The bucket fully loaded with lead could hoist a golf ball almost the length of a football field! I have to thank both my Grandpa, who first nurtured my hobby of building and my teacher Mr. Hager for providing so much hands-on mentoring many years ago. By large I mean a 3x scaled version of my smaller trebuchet.

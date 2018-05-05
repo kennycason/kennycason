@@ -1,7 +1,7 @@
 ---
-title: Rubik's Cube - 2D Implementation - Java
+title: Rubik's Cube 2D - Java
 author: Kenny Cason
-tags: java, learning, programming, rubiks cube, ルービックキューブ
+tags: game development, java
 ---
 
 This is a simple 2D representation of a Rubik's Cube written in Java. Its main purpose to be easily integrated with other software. I.e. A Rubik's Cube solving Neural Network. Therefore, the UI is not extremely eye catching. But it serves a good test to demonstrate that the software is working. Later implementations will better support NxNxN cubes.
@@ -11,7 +11,7 @@ The Jar file can be downloaded here: <a href="/code/java/rc/RC.jar">Rubik's Cube
 <a href="/code/java/rc/RC01.png" target="_blank" ><img src="/code/java/rc/RC01.png" width="340px" alt="Rubik's Cube 2D java"/></a></td><td>
 <a href="/code/java/rc/RC02.png" target="_blank" ><img src="/code/java/rc/RC02.png" width="340px"  alt="Rubik's Cube 2D java"/></a></td></tr></table>
 
-<p><a href="/code/java/rc/RubiksCubeGUI.java">RubiksCubeGUI.java</a></p> 
+<p><a href="/code/java/rc/RubiksCubeGUI.java">RubiksCubeGUI.java</a></p>
 RubiksCube.java is the main wrapper class to Cube3D
 <p><a href="/code/java/rc/RubiksCube.java">RubiksCube.java</a></p>
 <p><a href="/code/java/rc/Cube3D.java">Cube3D.java</a></p>

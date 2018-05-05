@@ -1,13 +1,13 @@
 ---
-title: Haskell - Neural Network Back-Error Propagation
+title: Neural Network - Back-Error Propagation - Haskell
 author: Kenny Cason
-tags: haskell, functional programming, artificial intelligence, λ\=
+tags: neural network, machine learning, functional programming, haskell, λ\=
 ---
 
 After going through various tutorials I decided to try and build something a bit more complicated. I decided to convert my
-<a href="/posts/2008-12-25-neural-network-back-error-propagation-java.html" target="_new">Java implementation of a Back-Error Propagation Neural Network</a> into Haskell. There appears to be a small bug somewhere in the calculations...
+<a href="/posts/2008-12-25-neural-network-back-error-propagation-java.html" target="_blank">Java implementation of a Back-Error Propagation Neural Network</a> into Haskell.
 
-I uploaded most of my Haskell examples to GitHub, found <a href="https://github.com/kennycason/haskell_nn" target="_new">here</a>
+I uploaded most of my Haskell examples to GitHub, found <a href="https://github.com/kennycason/haskell_nn" target="_blank">here</a>
 
 ***Main.hs***
 

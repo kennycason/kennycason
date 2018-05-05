@@ -1,10 +1,10 @@
 ---
 title: Monte-Carlo Method to Approximate PI
 author: Kenny Cason
-tags: haskell, java, monte-carlo, pi
+tags: algorithm, java
 ---
 
-Here are a couple simple examples illustrating how to use Monte-Carlo Method to calculate an approximation of PI. Straight from <a href="http://en.wikipedia.org/wiki/Monte_Carlo_method" target="_new">Wikipedia</a> the algorithm works per the following:
+Here are a couple simple examples illustrating how to use Monte-Carlo Method to calculate an approximation of PI. Straight from <a href="http://en.wikipedia.org/wiki/Monte_Carlo_method" target="_blank">Wikipedia</a> the algorithm works per the following:
 
 1. Draw a square on the ground, then inscribe a circle within it.
 2. Uniformly scatter some objects of uniform size (grains of rice or sand) over the square.
@@ -20,7 +20,7 @@ A_square / A_circle (r = 1) = ratio of areas between square and circle
 = 4 / π
 ```
 
-GitHub Links: <a href="https://github.com/kennycason/haskell/blob/master/montecarlo.hs" target="_new">Haskell Code</a> <a href="https://github.com/kennycason/montecarlo" target="_new">Java Code</a>
+GitHub Links: <a href="https://github.com/kennycason/haskell/blob/master/montecarlo.hs" target="_blank">Haskell Code</a> <a href="https://github.com/kennycason/montecarlo" target="_blank">Java Code</a>
 
 ***Haskell Example***
 
@@ -30,7 +30,7 @@ import Data.List
 
 inCircle :: (Double,Double) -> Bool
 inCircle p = x * x + y * y < 1.0
-            where x = fst p 
+            where x = fst p
                   y = snd p
 
 
@@ -43,7 +43,7 @@ monteCarloPi ps = ratio * 4.0
 
 randList :: Int -> StdGen -> [Double]
 randList n rng = scale $ take n (randoms rng :: [Double])
-                          where scale l = map (\x -> 2 * x - 1) l -- scales doubles in range of 0,1 to random -1,1 
+                          where scale l = map (\x -> 2 * x - 1) l -- scales doubles in range of 0,1 to random -1,1
 
 
 main = do

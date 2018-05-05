@@ -1,7 +1,7 @@
 ---
-title: Neural Networks - Simple Models (PDF)
+title: Neural Networks - Basic Models (PDF)
 author: Kenny Cason
-tags: artificial intelligence, back-error propagation, design, learning, neural network
+tags: machine learning, neural network, java
 ---
 
 <embed wmode="transparent" src="/assets/pdf/neuralnetwork-en.pdf" width="100%" height="600">  

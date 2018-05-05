@@ -1,7 +1,7 @@
 ---
 title: Kumo - Java Word Cloud
 author: Kenny Cason
-tags: kumo, java, word cloud, 标签云, タグクラウド
+tags: kumo, word cloud, 标签云, タグクラウド, java
 ---
 
 Kumo On GitHub: <a href="https://github.com/kennycason/kumo" target="blank">here</a>

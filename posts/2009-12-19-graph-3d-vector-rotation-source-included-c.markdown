@@ -1,7 +1,7 @@
 ---
-title: Graph 3D (Vector Rotation Source Included) C++
+title: Graph 3D - C++
 author: Kenny Cason
-tags: 3d, c++, matrix, rotation, vector
+tags: math, c
 ---
 
 This program implements my simple Vector3D.h source to draw simple graphs using <a href="http://www.libsdl.org" target="blank">SDL</a>. While it's not terribly advanced, it should be pretty fun to tinker with. To learn more about 3D rotations including the mathematics and more source (Java) examples, view my previous post --> <a href="/posts/2008-12-25-graph3d-java-project-3d-points-to-2d.html" target="blank">3D Rotation Matrix - Graph3D</a>.

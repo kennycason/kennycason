@@ -1,7 +1,7 @@
 ---
-title: Linear Gradient Descent
+title: Linear Gradient Descent - Java
 author: Kenny Cason
-tags: java, machine learning, regression, gradient descent
+tags: machine learning, java
 ---
 
 <a href="https://en.wikipedia.org/wiki/Gradient_descent" target="blank">Gradient descent</a> is the foundation of many machine learning algorithms, including the all popular <a href="https://en.wikipedia.org/wiki/Backpropagation" target="blank">Backpropagation</a> algorithm popularly used in neural networks. Gradients can used to determine how much a previous layer's neurons contributed to the current layer's activation.

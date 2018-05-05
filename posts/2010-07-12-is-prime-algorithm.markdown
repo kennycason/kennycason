@@ -1,7 +1,7 @@
 ---
-title: Is Prime Number Algorithm
+title: Basic Primality Checker Algorithm
 author: Kenny Cason
-tags: algorithm, factor, mathematics, number, prime
+tags: algorithm, math
 ---
 
 I was randomly surfing around the internet when I stumbled upon Google Labs Aptitude Test (GLAT)<a href="http://cruftbox.com/blog/archives/001031.html" target="_blank">(Found here)</a>. I can't really remember which links I followed from there but I stumbled into a question that asks to find the first 10 consecutive digits of E that are prime. While not a hard task I wrote a small program in C to test whether or not a number is prime.
@@ -26,4 +26,4 @@ bool isPrime(unsigned long long n) {
 }
 ```
 
-<b>note:</b> If the number gets to large enough this algorithm will be very still as it could potentially have to iterate from 3 to the square root of the number being tested. For trivial cases this algorithm executes likely fast enough.
+<b>note:</b> If the number gets to large enough this algorithm will be very slow as it could potentially have to iterate from 3 to the square root of the number being tested. For trivial cases this algorithm executes likely fast enough.

@@ -1,7 +1,7 @@
 ---
-title: Self-Organizing Map / 自己組織化写像 / 自組織映射網路
+title: Self-Organizing Map - Java
 author: Kenny Cason
-tags: artificial intelligence, machine learning, self-organizing map, 自己組織化写像, 自組織映射網路
+tags: machine learning, java,
 ---
 
 Source code on Github: <a href="https://github.com/kennycason/selforganizingmap" target="blank">here</a>

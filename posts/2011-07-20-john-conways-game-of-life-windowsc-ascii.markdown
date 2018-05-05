@@ -1,10 +1,10 @@
 ---
-title: John Conway's Game of Life - Windows/C++ (ASCII)
+title: John Conway's Game of Life - ASCII - C++
 author: Kenny Cason
-tags: c++, john conways game of life, simulation
+tags: cellular automata, c
 ---
 
-This is a simple version of John Conway's Game of Life written in C/C++ and runs on Windows using ASCII graphics. 
+This is a simple version of John Conway's Game of Life written in C/C++ and runs on Windows using ASCII graphics.
 
 For a more interesting version using SDL to draw pixel graphics, check out this link: <a href="/posts/2009-12-22-john-conways-game-of-life-mutation-cc.html">John Conway's Game of Life - C++/SDL</a><br/>
 

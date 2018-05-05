@@ -1,7 +1,7 @@
 ---
 title: Linear Regression - Least-Squares Estimation
 author: Kenny Cason
-tags: java, machine learning, regression, gradient descent
+tags: machine learning, java
 ---
 
 <a href="https://en.wikipedia.org/wiki/Linear_regression" target="blank">Linear Regression</a> is the process of fitting a line to a plot of points. The simplest and most commonly used estimator is the Least-squares estimation.

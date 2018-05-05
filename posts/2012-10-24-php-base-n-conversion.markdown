@@ -1,7 +1,7 @@
 ---
-title: PHP - Base 2, 8, 16, 62, N Conversion
+title: Base 2, 8, 16, 62, N Conversion - PHP
 author: Kenny Cason
-tags: alphanumeric, base10, base2, base62, base8, baseN, binary, decode, encode, hexidecimal, octal, PHP
+tags: php
 ---
 
 A simple class that can easily be used to convert between Base10 and any other Base.

@@ -1,7 +1,7 @@
 ---
 title: Multi-Linked List (Graph) - Java
 author: Kenny Cason
-tags: double-linked, graph, java, linkedList, list, mult-linked list
+tags: data structure, java
 ---
 
 This program is a standard multi-linked list (aka, <a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)" title="Graph" target="_blank">Graph</a> . <b>Note</b>, this is not a simple linked list. each node of this list can connect to any number of other nodes in the list, including itself. This should be very interesting to build off of and tinker with.

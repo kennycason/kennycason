@@ -1,7 +1,7 @@
 ---
-title: Cellular Automata - (Fire, Water, Grass)
+title: Cellular Automata - Fire, Water, Grass
 author: Kenny Cason
-tags: Cellular Automata
+tags: cellular automata
 ---
 
 The code can all be found on GitHub: <a href="https://github.com/kennycason/cellular-automata-pokemon-types" target="blank">here</a>

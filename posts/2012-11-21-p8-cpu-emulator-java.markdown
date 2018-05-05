@@ -1,7 +1,7 @@
 ---
 title: P8 CPU Emulator - Java
 author: Kenny Cason
-tags: assembly, cpu emulator, java, p8
+tags: emulator, java, assembly
 ---
 
 A Java implementation of the P8 CPU.

@@ -1,7 +1,7 @@
 ---
 title: Dynamic Programming - String Similarity
 author: Kenny Cason
-tags: dynamic programming, java, string similarity
+tags: algorithm, dynamic programming, java
 ---
 
 Java example using Dynamic Programming for measuring String Similarity:

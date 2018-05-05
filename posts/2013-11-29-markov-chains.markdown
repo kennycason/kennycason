@@ -1,7 +1,7 @@
 ---
 title: Markov Chains - Java
 author: Kenny Cason
-tags: markov chains, java
+tags: algorithm, java
 ---
 
 I woke up on Thanksgiving to discover my friend <a href="http://www.grantslatton.com" target="blank">Grant Slatton's</a> #1 HN post using <a href="http://en.wikipedia.org/wiki/Markov_chain" target="blank">Markov Chains</a> to generate random HN Titles based on the daily top 10 posts for the last 1 year. His site can be found here: <a href="http://grantslatton.com/hngen/?lookback=2" target="blank">http://grantslatton.com/hngen/</a>. There you can also find his data sets and source code (python).

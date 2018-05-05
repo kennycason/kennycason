@@ -1,7 +1,7 @@
 ---
-title: C - Simple ASCII RPG/MUDD
+title: Simple ASCII RPG/MUDD - C
 author: Kenny Cason
-tags: ascii, c++, mudd, rpg
+tags: game development, c
 ---
 
 This is a very simple RPG that uses ASCII art. It's not balanced nor complete, just meant to serve as a tutorial of some procedural coding in C.

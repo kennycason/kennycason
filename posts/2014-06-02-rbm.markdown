@@ -1,7 +1,7 @@
 ---
 title: Deep Restricted Boltzmann Machine - Java
 author: Kenny Cason
-tags: rbm, restricted boltzmann machine, AI, Machine Learning, Java
+tags: machine learning, neural network, java
 ---
 
 The initial RBM Contrastive Divergence algorithm implemented from <a href="http://blog.echen.me/2011/07/18/introduction-to-restricted-boltzmann-machines/" target="blank">this blog.</a>

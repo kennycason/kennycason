@@ -1,7 +1,7 @@
 ---
 title: Ultimate TicTacToe
 author: Kenny Cason
-tags: tic-tac-toe
+tags: game development, javascript
 ---
 
 <a href="/games/tictactoe/" target="blank">Click Here to Play!</a>

@@ -1,7 +1,7 @@
 ---
 title: Lego Technic Crane (#42009)
 author: Kenny Cason
-tags: Lego Crane, Lego Movie, Lego
+tags: lego
 ---
 
 I have been a Lego fan for as long as I can remember. Those memories include having my Legos taken away because I left them out and my mom stepped on them, and even losing half of my Legos because my sister would cry and complain that I took her share (which I didn't).

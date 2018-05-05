@@ -1,7 +1,7 @@
 ---
-title: John Conway's Game of Life + Mutation (C/C++)
+title: John Conway's Game of Life + Mutation - C++ + SDL
 author: Kenny Cason
-tags: c++, cellular automata, evolution, john conways game of life, mutation, self-organization, simulation
+tags: cellular automata, c++
 ---
 
 I've always been interested in AI, evolution simulations, and other interesting problems. But I will never forget one of my all time favorite classics, <a href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="blank">John Conway's Game of Life.</a>.

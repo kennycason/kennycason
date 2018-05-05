@@ -1,7 +1,7 @@
 ---
 title: Clay Bulbasaur
 author: Kenny Cason
-tags: Clay, Art, Pokemon, Bulbasaur
+tags: art
 ---
 
 While on a stroll in Ballard I stumbled upon an art store. While I typically shop on Amazon for art supplies due to price, I also like to support local businesses. It also just happened that there was a massive block of air-drying clay for sale. I have spent the last 15 years wanting to work again with clay since my last time in middle school. So I bought it and lugged it home; where it sat for 1.5 months before I finally put it to use making my favorite Pokemon, Bulbasaur.

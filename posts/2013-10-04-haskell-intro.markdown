@@ -1,16 +1,16 @@
 ---
 title: Haskell - Introduction
 author: Kenny Cason
-tags: haskell, functional programming, λ\=
+tags: functional programming, haskell, λ\=
 ---
 
-I have spent the past 4-6 months playing with Haskell on the side. While I've yet come to the conclusion that one paradigm of programming is inherently better than the other, I have at least found it very intellectually rewarding and exciting to take a step back, and try to implement algorithms, data structures, and other hackings using a functional programmer's mindset. I can't say that I've fully grasped everything but I imagine it's just a function of time. 
+I have spent the past 4-6 months playing with Haskell on the side. While I've yet come to the conclusion that one paradigm of programming is inherently better than the other, I have at least found it very intellectually rewarding and exciting to take a step back, and try to implement algorithms, data structures, and other hackings using a functional programmer's mindset. I can't say that I've fully grasped everything but I imagine it's just a function of time.
 
 First, I highly recommend the following book: "Learn You a Haskell for Great Good"
 
-<a href="http://learnyouahaskell.com/" target="_new"><img src="/images/learnyouahaskell.jpg" width="100px"/></a>
+<a href="http://learnyouahaskell.com/" target="_blank"><img src="/images/learnyouahaskell.jpg" width="100px"/></a>
 
-I uploaded most of my Haskell examples to GitHub, found <a href="https://github.com/kennycason/haskell" target="_new">here</a>
+I uploaded most of my Haskell examples to GitHub, found <a href="https://github.com/kennycason/haskell" target="_blank">here</a>
 
 I chose a few random examples to demonstrate some of the cool examples that made me enjoy Haskell
 
@@ -18,7 +18,7 @@ I chose a few random examples to demonstrate some of the cool examples that made
 
 ```haskell
 f x y = x*x + y*y 	-- simple function of x and y
-g y = f 0 Y 		-- partial solved function 
+g y = f 0 Y 		-- partial solved function
 
 h :: Int -> Int -> Int -- typed function
 h x y = x*x + y*y
@@ -95,7 +95,7 @@ main = do
     -- (f.g.h.k)(x) - pretty
     print ((not.odd) 4)
     print ((length.head.words) "University of Arkansas")
-    
+
     let f x = 2 * x + 3
     let g x = x * x
     let h x = sin x
@@ -133,7 +133,7 @@ slow_fib 0 = 1
 slow_fib 1 = 1
 slow_fib n = slow_fib (n-2) + slow_fib (n-1)
 
--- a memoized version. The magic lies in the "map fib [0 ..]" which is 
+-- a memoized version. The magic lies in the "map fib [0 ..]" which is
 -- the fibonacci sequence mapped to an infinite list! ^_^ which is only
 -- possible due to the lazy nature of Haskell.
 memoized_fib :: Int -> Integer
@@ -145,7 +145,7 @@ memoized_fib = (map fib [0 ..] !!)
 
 ***Binary Tree:***
 
-This was my first attempt at implementing. 
+This was my first attempt at implementing.
 I have since found more eloquent solutions :)
 
 ```haskell
@@ -170,7 +170,7 @@ add v node
 ***Fizz Buzz:***
 
 ```haskell
-fizzbuzz x 
+fizzbuzz x
 	| (mod x 15) == 0 = "FizzBuzz"
 	| (mod x 3) == 0  = "Fizz"
 	| (mod x 5) == 0  = "Buzz"
@@ -217,7 +217,7 @@ main = print (qsort [20,3,14,6,1,10])
 ***Triangles:***
 
 ```haskell
-triangles n = [(a,b,c) 
+triangles n = [(a,b,c)
 				| c<-[1..n]
 				, b<-[1..c]
 				, a<-[1..b]
@@ -241,7 +241,7 @@ addToColumn val board  = xs ++ [val] ++ ys
                         where
                             n = (numEmpty board)
                             xs = replicate (n - 1) 0
-                            ys = snd (splitAt n board) 
+                            ys = snd (splitAt n board)
 
 -- simulate dropping a piece into a connect 4 board column                      
 main = do

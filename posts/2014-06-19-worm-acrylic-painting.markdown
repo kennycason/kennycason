@@ -1,7 +1,7 @@
 ---
 title: Acrylic Painting - Monster Worm
 author: Kenny Cason
-tags: worm, acrylic painting, art
+tags: art
 ---
 
 When I was younger I used to draw on a daily basis, though for some reason I have never actually tried to paint. This is my first attempt at painting, and am very much out of practice in drawing as well. Despite that I'm happy with how it turned out and look forward pursuing painting further.

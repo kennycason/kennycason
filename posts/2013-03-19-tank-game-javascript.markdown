@@ -1,10 +1,10 @@
 ---
 title: Tank Game - Javascript
 author: Kenny Cason
-tags: game, javascript
+tags: game development, javascript
 ---
 
-A basic, incomplete 2D tank shoot em' up game.
+A basic, incomplete 2D tank shoot em' up game concept.
 
 [Play here](/games/marine/)
 

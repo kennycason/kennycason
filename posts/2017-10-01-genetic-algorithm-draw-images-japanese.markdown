@@ -1,7 +1,7 @@
 ---
 title: 遺伝的アルゴリズムで画像を生成
 author: Kenny Cason
-tags: 遺伝的アルゴリズム, モナ・リザ,
+tags: 遺伝的アルゴリズム
 ---
 
 このプログラムは遺伝的アルゴリズムの二種類を使用していて、画像を進化させる。ソースコードはGithubにアップしたので、このリンクを辿っていくと面白いものが見られるかもしれない。 <a href="https://github.com/kennycason/genetic_draw" target="blank">ここへクリック</a>

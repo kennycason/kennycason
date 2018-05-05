@@ -1,10 +1,11 @@
 ---
 title: LinkedList - C
 author: Kenny Cason
-tags: c, linkedList
+tags: data structure, c
 ---
 
 This is a simple Doubly connected LinkedList written in C. It hasn't been thoroughly tested, but should be fun to play around with :)
+
 <a target="_blank" href="/code/c/ll/linkedlist.h">linkedlist.h</a><br/>
 <a target="_blank" href="/code/c/ll/main.c">main.c</a><br/>
 

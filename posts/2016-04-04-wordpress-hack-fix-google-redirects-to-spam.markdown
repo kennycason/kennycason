@@ -1,7 +1,7 @@
 ---
 title: Wordpress Hack Fix - Google Redirects to Spam
 author: Kenny Cason
-tags: wordpress, hack, google, spam
+tags: security, wordpress
 ---
 
 I recently received a request from a good friend, who asked to remain anonymous, to help fix his hacked Wordpress installation.

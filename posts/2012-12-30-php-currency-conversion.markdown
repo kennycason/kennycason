@@ -1,7 +1,7 @@
 ---
-title: PHP - Currency Conversion
+title: Currency Conversion - PHP
 author: Kenny Cason
-tags: currency conversion, php
+tags: php
 ---
 
 I can't remember when I wrote this but I found this little snippet in my library and didn't want it to go to waste.

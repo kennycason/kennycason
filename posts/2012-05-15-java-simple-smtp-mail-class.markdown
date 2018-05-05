@@ -1,11 +1,11 @@
 ---
-title: Java - Simple Smtp Mail Class
+title: Smtp Mailer - Java
 author: Kenny Cason
-tags: java, mail, smtp
+tags: java
 ---
 
 Just a few quick classes I whipped up for bare minimum SmtpMail support.
-also don't rely on the default javax.mail package. I believe the Java SDK only provides the APIs and not the implementations. 
+also don't rely on the default javax.mail package. I believe the Java SDK only provides the APIs and not the implementations.
 I ended up downloading the implementation from GlassFish: <a href="http://download.java.net/maven/glassfish/org/glassfish/extras/glassfish-embedded-all/3.1.1/" target="_blank">glassfish-embedded-all-3.1.1.jar</a>
 
 SmtpMail.java
@@ -26,7 +26,7 @@ public class SmtpMail {
 	public SmtpMail(MailConfig config) {
 		this.config = config;
 	}
-	
+
 	public boolean send(String to, String from, String subject, String text) {
 		return send(new String[] {to}, from, subject, text);
 	}
@@ -39,14 +39,14 @@ public class SmtpMail {
 		props.put("mail.smtp.user", config.username);
 		props.put("mail.smtp.port", config.port);
 		props.put("mail.smtp.password", config.password);
-		
+
 		Session session = Session.getInstance(props, new SmtpAuthenticator(config));
 
 		try {
 
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress(from));
-			
+
 			InternetAddress[] addressTo = new InternetAddress[to.length];
 			for (int i = 0; i < to.length; i++) {
 				addressTo[i] = new InternetAddress(to[i]);
@@ -57,7 +57,7 @@ public class SmtpMail {
 
 		   Transport.send(message);
 
-		} catch (MessagingException e) { 
+		} catch (MessagingException e) {
 			e.printStackTrace();
 			return false;
 		}
@@ -76,12 +76,12 @@ import javax.mail.PasswordAuthentication;
 public class SmtpAuthenticator extends Authenticator {
 
 	private MailConfig config;
-	
+
 	public SmtpAuthenticator(MailConfig config) {
 		super();
 		this.config = config;
 	}
-		
+
 	@Override
 	public PasswordAuthentication getPasswordAuthentication() {
 	    if ((config.username != null) && (config.username.length() > 0) &&
@@ -99,13 +99,13 @@ MailConfig.java
 
 ```java
 public class MailConfig {
-	
+
 	public String host = "";
-	
+
 	public int port = 587;
-	
+
 	public String username = "";
-	
+
 	public String password = "";
 
 }
@@ -116,18 +116,18 @@ MailConfigFactory.java
 
 ```java
 public class MailConfigFactory {
-	
+
 	private MailConfigFactory() {
-		
+
 	}
-	
+
 	public static MailConfig buildDefaultConfig() {
 		MailConfig config = new MailConfig();
 		config.host = "smtp.host.com";
 		config.port = 1234;
 		config.username = "username";
 		config.password = "password";
-		
+
 		return config;
 	}
 
@@ -151,7 +151,7 @@ public class SMTPMailTest {
 		String from = "from@gmail.com";
 		String subject = "Test Subject";
 		String text = "This is a sample message body";
-		
+
 		assertTrue(mail.send(to, from, subject, text));
 	}
 

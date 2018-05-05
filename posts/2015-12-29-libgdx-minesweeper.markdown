@@ -1,7 +1,7 @@
 ---
-title: Minesweeper LibGDX
+title: Minesweeper - Java + LibGDX
 author: Kenny Cason
-tags: java, libgdx, game
+tags: libgdx, game development, java
 ---
 
 I previously wrote a Minesweeper game from scratch using Java's native libraries. While this was no great task I was curious how much easier it would be to implement using the LibGDX framework. In a very happy surprise it only took me about 1 hour to port all the code into my LibGDX project and get it running. That's even including some minor improvements!

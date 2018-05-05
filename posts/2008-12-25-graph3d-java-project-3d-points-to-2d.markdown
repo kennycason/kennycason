@@ -1,7 +1,7 @@
 ---
 title: 3D Rotation Matrix - Graph 3D
 author: Kenny Cason
-tags: 2d, 3d, graph3d, java, linear, matrices, matrix, point, programming, projection, rotation, vector
+tags: math
 ---
 
 This was a simple program I wrote that Displays 3D points. It does so by simply projecting a 3D (vector) into 2D.

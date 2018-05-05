@@ -1,7 +1,7 @@
 ---
 title: Gameboy4j, Java Gameboy Emulator
 author: Kenny Cason
-tags: java, gameboy, emulator, gameboy4j
+tags: game development, emulator, java
 ---
 
 I feel a bit bad releasing this un-finished, but perhaps this will motivate me to finish up development on it.

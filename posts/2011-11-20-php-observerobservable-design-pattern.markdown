@@ -1,7 +1,7 @@
 ---
-title: PHP - Observer/Observable Design Pattern
+title: Observer/Observable Design Pattern - PHP
 author: Kenny Cason
-tags: design pattern, observable, observer, php
+tags: design pattern, php
 ---
 
 This is a PHP implementation of the Java Observer/Observable classes.
@@ -108,7 +108,7 @@ A Unit test (using SimpleTest)
 ```php
 <?php
 
-define('SIMPLE_TEST', '../simpletest/'); 
+define('SIMPLE_TEST', '../simpletest/');
 require_once(SIMPLE_TEST . 'unit_tester.php');
 require_once(SIMPLE_TEST . 'reporter.php');
 require_once('Observable.php');
@@ -127,7 +127,7 @@ class MockObservable extends Observable {
         $this->setChanged();
         $this->notifyObservers($object);
     }
-   
+
 }
 
 class MockObserver implements Observer {
@@ -140,7 +140,7 @@ class MockObserver implements Observer {
 }
 
 class ObserverTest extends UnitTestCase {
-   
+
     public function setUp() {
 
     }
@@ -155,7 +155,7 @@ class ObserverTest extends UnitTestCase {
         $this->assertNull($observable->object);
         $this->assertFalse($observable->hasChanged());
         $this->assertEqual($observable->countObservers(), 0);
-        
+
         // test add
         $observable->addObserver($observer);
         $this->assertEqual($observable->countObservers(), 1);

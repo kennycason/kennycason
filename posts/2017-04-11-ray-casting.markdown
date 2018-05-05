@@ -1,7 +1,7 @@
 ---
 title: Ray Casting - Polygon Containment
 author: Kenny Cason
-tags: Ray Casting, Geometry, Polygon Containment, Even-Odd Rule
+tags: algorithm
 ---
 
 Even before I learned the word algorithm, I have always enjoyed exacting solutions to problems. Particularly, I love very visual algorithms. Such algorithms include the symmetry, and also indirectness that you see when solving a Rubik's Cube and other spatial puzzles. These puzzles certainly have formal grammars and systems defining these patterns, yet I was initially attracted to the visual "truth" of the solutions I found.

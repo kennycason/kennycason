@@ -1,7 +1,7 @@
 ---
 title: Cellular Automata - Pokemon Type Battle Simulation
 author: Kenny Cason
-tags: Cellular Automata, Pokemon
+tags: cellular automata
 ---
 
 The code can all be found on GitHub: <a href="https://github.com/kennycason/cellular-automata-pokemon-types" target="blank">here</a>

@@ -1,7 +1,7 @@
 ---
 title: 3D Cube Engine - Java
 author: Kenny Cason
-tags: 3d, development, game, graphics, java, rotation, rubiks cube, vector
+tags: java
 ---
 
 <table ><tr>

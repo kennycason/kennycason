@@ -1,12 +1,12 @@
 ---
-title: Haskell - Project Euler
+title: Project Euler - Haskell
 author: Kenny Cason
-tags: haskell, functional programming, project euler, λ\=
+tags: math, algorithm, functional programming, haskell, λ\=
 ---
 
-Currently I have completed <a href="/euler.html" target="_new">75 Project Euler problems in Java</a> so I decided to give it a go in Haskell. With the help of tutorials and good ol' fashion trial and error here are the first 10 problems.
+Currently I have completed <a href="/euler.html" target="_blank">75 Project Euler problems in Java</a> so I decided to give it a go in Haskell. With the help of tutorials and good ol' fashion trial and error here are the first 10 problems.
 
-This project's GitHub page can be found <a href="https://github.com/kennycason/euler_haskell" target="_new">here</a>
+This project's GitHub page can be found <a href="https://github.com/kennycason/euler_haskell" target="_blank">here</a>
 
 ***1. Multiples of 3 and 5***
 
@@ -37,9 +37,9 @@ main = print (last [x | x <- factors 600851475143, isPrime x])
 ```haskell
 import Euler
 
-main = print (maximum 
-                [z | y<-[1..999], x<-[y..999], 
-                     let z = x * y, 
+main = print (maximum
+                [z | y<-[1..999], x<-[y..999],
+                     let z = x * y,
                      let r = reversei z, r == z])
 ```
 
@@ -58,7 +58,7 @@ therefore cut out 10, 5, and 2
 divides1to10 :: Int -> Bool
 divides1to10 n = let list = [11..20]
                  in all (\i -> (mod n i) == 0) list
-                 
+
 divideLoop :: Int -> Int
 divideLoop n | divides1to10 n = n
              | otherwise = divideLoop (n + 1)
@@ -108,7 +108,7 @@ s = "731671765313306249192251196744265747423553491949349698352031277450632623957
 main = do
     let n = map digitToInt s
     print (maximum (map product [x | x <- map (take 5) (tails n), length x == 5]))
-                
+
 ```
 
 ***9. Special Pythagorean triplet***
@@ -168,33 +168,33 @@ fib = (map fib [0 ..] !!)
    where fib 0 = 1
          fib 1 = 1
          fib n = fib (n-2) + fib (n-1)
-   
+
 -- fibs() - fibonacci sequence, generate n terms      
 fibs :: Int -> [Integer]
-fibs terms = [a | (a,b) <- take 
-                               terms 
-                               (iterate 
-                                     (\(a,b) -> (b, a+b)) 
+fibs terms = [a | (a,b) <- take
+                               terms
+                               (iterate
+                                     (\(a,b) -> (b, a+b))
                                      (0,1))]
-                               
+
 -- fibm() - fibonacci sequence max terms, generate terms up to max term
 fibm :: Int -> [Integer]
-fibm max = [a | (a,b) <- takeWhile 
-                                (\(a,b) -> a <= fromIntegral(max)) 
-                                (iterate 
-                                      (\(a,b) -> (b, a+b)) 
+fibm max = [a | (a,b) <- takeWhile
+                                (\(a,b) -> a <= fromIntegral(max))
+                                (iterate
+                                      (\(a,b) -> (b, a+b))
                                       (0,1))]                   
- 
- 
+
+
 -- isPrime()
 isPrime :: Int -> Bool
 isPrime n | n <= 1 = False
           | otherwise = let root = sqrt (fromIntegral n)
-                        in not (any 
-                                   (\i -> (mod n i) == 0) 
+                        in not (any
+                                   (\i -> (mod n i) == 0)
                                    [2..truncate(root)])
-                                   
-                                   
+
+
 -- primeSieve() - Sieve of Eratosthense
 -- works but needs to go from 1 to root(n), not root(n) to 2
 primeSieveSlow :: Int -> [Int]
@@ -205,19 +205,19 @@ primeSieveSlow n = let upper = truncate (sqrt (fromIntegral n))
                      siever set n | isPrime (head set) = siever (filterMultiples set n) (n - 1)
                                   | otherwise = filterMultiples set n
                                   where filterMultiples set n = filter (\x -> x == n || (mod x n) /= 0) set
-    
+
 
 primeSieve m = 2 : sieve [3,5..m]
              where sieve [] = []
                    sieve (p:xs) = p : sieve (minusl xs [p * p, p * p + 2 * p.. m])
-                   
-                                                    
+
+
 -- factors()
 factors :: Int -> [Int]
 factors n = [x | x <- [2..s], (mod n x) == 0]
     where s = floor (sqrt (fromIntegral n))
-    
-    
+
+
 -- toDigits()
 toDigits :: Int -> [Int]
 toDigits 0 = []

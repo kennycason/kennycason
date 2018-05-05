@@ -1,7 +1,7 @@
 ---
 title: Vulcan I - Purebasic
 author: Kenny Cason
-tags: game dev, programming, purebasic, shooter, side scroller, space, uagdc, vulcan
+tags: game development, purebasic
 ---
 
 Vulcan I is a side-scrolling space shooter written in <a target="_blank" href="http://www.purebasic.com">Purebasic</a>. This was my first major attempt at programming a game and is far from perfect. Vulcan I features 7 full length levels, each ending with a boss battle, many of which are redundant. Each level is unique and has its own array of enemies and terrains. Equip various power ups to prepare for the final showdown to save the universe.

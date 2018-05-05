@@ -1,7 +1,7 @@
 ---
 title: Brain Fuck - C
 author: Kenny Cason
-tags: c, programming
+tags: programming language, c
 ---
 
 Earlier this year I was playing around with making simple programming languages and came across <a href="http://en.wikipedia.org/wiki/Brainfuck" target="blank">"BrainFuck"</a>. I, being bored decided to write my own BrainFuck Interpreter and of course made a few changes along the way (only in I/O functions, added integer support since BrainFuck only deals with characters). If interested, I recommend reading more information about BrainFuck on Wikipedia.

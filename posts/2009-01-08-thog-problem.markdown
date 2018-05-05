@@ -1,7 +1,7 @@
 ---
 title: Thog Problem
 author: Kenny Cason
-tags: iq, logic, problem, thog
+tags: logic
 ---
 
 Given the following combinations of shapes and colors:<br/>

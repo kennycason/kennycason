@@ -1,7 +1,7 @@
 ---
 title: Boxxle in Swift
 author: Kenny Cason
-tags: swift, boxxle, ios
+tags: game development, swift
 ---
 
 Yesterday for the Arkansas Dev Hackathon I decided to try my hands at the Swift programming language. Fortunately I was able to find many online tutorials to slingshot my studies. As a programming language Swift is certainly a lot easier to use than Objective C and with almost no pain I was able to program a simple Hello World program with a ninja throwing shurikens at monsters! (Tutorial <a href="http://www.raywenderlich.com/84434/sprite-kit-swift-tutorial-beginners" target="blank">here</a>)

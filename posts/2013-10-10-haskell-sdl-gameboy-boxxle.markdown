@@ -1,14 +1,14 @@
 ---
-title: Haskell SDL - Boxxle (GameBoy version)
+title: Boxxle in Haskell + SDL
 author: Kenny Cason
-tags: haskell, sdl, gameboy, boxxle, functional programming, λ\=
+tags: game development, functional programming, haskell, λ\=
 ---
 
 **Haskell || Die**
 
-The main driver for me studying programming in the first place was because I love programming video games. After the discovery of SDL bindings for Haskell, along with an <a href="https://github.com/snkkid/LazyFooHaskell" target="blank">amazing tutorial</a>, I couldn't resist trying to make a simple game in Haskell. It took a lottttttt of reading and time in GHCI before I could start making any real progress, but after a couple days I began to wrap my head around things. This is a small remake of the GameBoy game <a href="http://www.youtube.com/watch?v=xK7N7el_R14" target="blank">Boxxle</a>, a very simple but fun puzzle game. 
+The main driver for me studying programming in the first place was because I love programming video games. After the discovery of SDL bindings for Haskell, along with an <a href="https://github.com/snkkid/LazyFooHaskell" target="blank">amazing tutorial</a>, I couldn't resist trying to make a simple game in Haskell. It took a lottttttt of reading and time in GHCI before I could start making any real progress, but after a couple days I began to wrap my head around things. This is a small remake of the GameBoy game <a href="http://www.youtube.com/watch?v=xK7N7el_R14" target="blank">Boxxle</a>, a very simple but fun puzzle game.
 
-The full code (with 40 levels) can be found on my <a href="https://github.com/kennycason/haskell_boxxle/" target="_new">GitHub</a>
+The full code (with 40 levels) can be found on my <a href="https://github.com/kennycason/haskell_boxxle/" target="_blank">GitHub</a>
 
 <table><tr>
 <td><img src="https://raw.github.com/kennycason/haskell_boxxle/master/img/screenshots/boxxle01.png" width="140"/></td>

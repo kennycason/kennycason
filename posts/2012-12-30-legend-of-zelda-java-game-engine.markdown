@@ -1,8 +1,10 @@
 ---
-title: Legend of Zelda - Java Game Engine
+title: Legend of Zelda - Java 
 author: Kenny Cason
-tags: game dev, github, java, legend of zelda
+tags: game development, java
 ---
+
+<b>Note:</b> I now highly recommend LibGDX for Java game development.
 
 Zelda Game written in Java - Still a new project so it's definitely a work in progress.
 This is essentially my pet project to force me to finish my Java 2D Gaming Engine :)

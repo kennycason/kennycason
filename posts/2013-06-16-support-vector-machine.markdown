@@ -1,7 +1,7 @@
 ---
-title: Support Vector Machine / サポートベクターマシン / 支持向量机
+title: Support Vector Machine - Java
 author: Kenny Cason
-tags: artificial intelligence, machine learning, support vector machine, サポートベクターマシン, 支持向量机
+tags: machine learning, java
 ---
 
 Source code on Github: <a href="https://github.com/kennycason/supportvectormachine" target="blank">here</a>

@@ -1,7 +1,7 @@
 ---
-title: 4D Maze - (Java)
+title: 4D Maze Generation - Java
 author: Kenny Cason
-tags: 4d, generation, java, maze
+tags: algorithm, java
 ---
 
 This is a simple implementation of a 4D maze written in Java. As of now it is entirely text based however, a simple GUI is currently under development. Either way, this simple implementation should be useful to modify and/or build off of.

@@ -1,13 +1,12 @@
 ---
-title: PHP - Logger
+title: Logger - PHP
 author: Kenny Cason
-tags: logger, php
+tags: php
 ---
 
 Mainly written for fun, but this is a configurable Logger written in PHP that supports multiple handlers, including Writers (File, SQL, Apache's Error Log, Echo), configurable Formatting. various logging levels (FATAL, ERROR, WARN, INFO, DEBUG, TRACE). Also useful functions like isDebug/TraceEnabled(), to check before building large strings to debug/trace(). While each logger instance can have a unique name, there isn't any parent/child hierarchy attributed to them.
 
-<b>update:</b> Now on <a href="https://github.com/kennycason/log4php" title="GitHub" target="blank">GitHub</a> <br/>
-
+<b>Note:</b> Now on <a href="https://github.com/kennycason/log4php" title="GitHub" target="blank">GitHub</a> <br/>
 
 ```php
 <?php

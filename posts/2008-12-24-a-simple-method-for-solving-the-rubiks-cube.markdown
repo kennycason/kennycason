@@ -1,7 +1,7 @@
 ---
 title: Logical Method for Solving the 3x3x3 Rubik's Cube
 author: Kenny Cason
-tags: how to, layer-by-layer, algorithm, puzzle, rubik's cube
+tags: logic
 ---
 
 How to Logically Solve a Rubik’s Cube<br/>

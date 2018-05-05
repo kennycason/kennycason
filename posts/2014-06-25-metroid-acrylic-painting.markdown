@@ -1,7 +1,7 @@
 ---
 title: Acrylic Painting - Metroid
 author: Kenny Cason
-tags: metroid, acrylic painting, art
+tags: art
 ---
 
 Painting attempt number two. My all time favorite game, Metroid.

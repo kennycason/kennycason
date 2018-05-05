@@ -1,20 +1,20 @@
 ---
 title: Facebook - Find Who Deleted/Added You
 author: Kenny Cason
-tags: detecting deleted driends, facebook
+tags: facebook
 ---
 
 Being a Facebook Junky I spent a bit of time trying to find out how to find out who deleted or added me. These are the general steps I go through (I have not bothered to make a script to automate this yet). Keep in mind you must have a bit of computer knowledge to do this. All my commands are geared towards Unix/Mac users, sorry Windows :)
 
 <h3>1. Setup</h3>
-Create A folder called "fb" somewhere, this is where we will store our lists of Facebook friends for later comparison. 
+Create A folder called "fb" somewhere, this is where we will store our lists of Facebook friends for later comparison.
 
 <h3>2. Get List of current Facebook Friends</h3>
 
-<strong>a. </strong>Go to this URL (This is the Facebook Graph API's home page) 
+<strong>a. </strong>Go to this URL (This is the Facebook Graph API's home page)
 <a href="http://developers.facebook.com/docs/reference/api/">http://developers.facebook.com/docs/reference/api/</a>
 
-<strong>b. </strong>Find the link prefaced with "Friends: " and click it, this will display a list of your friends in JSON format. 
+<strong>b. </strong>Find the link prefaced with "Friends: " and click it, this will display a list of your friends in JSON format.
 i.e.
 
 ```javascript
@@ -67,7 +67,7 @@ Mean that "Person A" is no longer your friend, i.e. you deleted them, or they de
 <strong>lines with: </strong>
 
 ```
->       "name" : "Person A"</pre> 
+>       "name" : "Person A"</pre>
 ```
 Mean that "Person A" is a new friend
 <strong>lines with: </strong>
@@ -81,4 +81,4 @@ Mean that "Person A" is a new friend
 Facebook
 
 
-It's a lot of steps, but it becomes very easy after you've done it a couple times :) 
+It's a lot of steps, but it becomes very easy after you've done it a couple times :)
