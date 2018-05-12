@@ -28,7 +28,7 @@ background-color: #EEEEEE;
 <body style='color:gray'>
 <div class='nav0'>
 <a  href='index.php?lang=en' title='English'><img  src='languages/flag_english.gif' alt='English'\></a>
-<a href='index.php?lang=jp' title='Japanese'><img src='/languages/flag_japan.gif' alt='Japanese'\></a></li>
+<a href='index.php?lang=jp' title='Japanese'><img src='languages/flag_japan.gif' alt='Japanese'\></a></li>
 <a  href='index.php?lang=ko' title='Korean'><img  src='languages/flag_korean.gif' alt='Korean'\></a>
 <a href='index.php?lang=zh' title='Chinese'><img src='languages/flag_chinese.gif' alt='Chinese'\></a></li>
 </div>
