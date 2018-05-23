@@ -50,19 +50,21 @@ The value can be mapped directly to an RGB. However, this does not result in a s
 In code the color function is shown below. `i` in this case is the `ith` element in the sequence being plotted to the grid.
 
 ```kotlin
-private fun toColor(i: Int,
-                    f1: Double = 0.3,
-                    f2: Double = 0.3,
-                    f3: Double = 0.3,
-                    p1: Double = 0.0,
-                    p2: Double = 2.0,
-                    p3: Double = 4.0,
-                    center: Int = 128,
-                    width: Int = 127): Color {
-    val r = Math.sin(f1 * i + p1) * width + center
-    val g = Math.sin(f2 * i + p2) * width + center
-    val b = Math.sin(f3 * i + p3) * width + center
+class SmoothColorizer(private val f1: Double = 0.3,
+                      private val f2: Double = 0.3,
+                      private val f3: Double = 0.3,
+                      private val p1: Double = 0.0,
+                      private val p2: Double = 2.0,
+                      private val p3: Double = 4.0,
+                      private val center: Int = 128,
+                      private val width: Int = 127) : Colorizer {
 
-    return Color(r.toInt(), g.toInt(), b.toInt())
+    override fun apply(i: Int): Color {
+        val r = Math.sin(f1 * i + p1) * width + center
+        val g = Math.sin(f2 * i + p2) * width + center
+        val b = Math.sin(f3 * i + p3) * width + center
+
+        return Color(r.toInt(), g.toInt(), b.toInt())
+    }
 }
 ```
