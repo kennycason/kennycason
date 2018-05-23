@@ -24,6 +24,9 @@ header {
   font-size: 10px;
 }
 
+p {
+  font-size: 18px;
+}
 
 .logo {
   background-image: url("/images/logos/kennycason-logo.png");

@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: libgdx, game development, kotlin
 ---
 
-A common problem when working with Tiled Maps + LibGDX is your maps may flicker when rendering. There are multiple reasons for this with solutions of varying level of complexity. During my development of [Ninja Turdle](http://ninjaturdle.com) I unfortunately encountered this problem and through much frustration I finally solved it through a combination of a few solutions:
+A common problem when working with Tiled Maps + LibGDX is your maps may flicker when rendering. There are multiple reasons for this with solutions of varying levels of complexity. During my development of [Ninja Turdle](http://ninjaturdle.com) I unfortunately encountered this problem and through much frustration I finally solved it through a combination of a few solutions:
 
 1. Smart Rounding
 2. Tilesheet Padding
@@ -33,7 +33,7 @@ I would also expect that rounding to the nearest pixel would be equally successf
 
 The above rounding trick worked pretty well, but I still had a few random errors. I also noticed that the flickers were not totally random. The flicker color was the color of a neighboring tile on the tilesheet! Ultimately I decided to add extra padding around each of my map tiles. The padding algorithm simply extends each tile's border out one pixel. The idea being that even if the tile is offset too far to any direction, the tile color will not change as it will draw whatever color we padded the tile with.
 
-I had one further goal, was that I did not want my primary tilesheet to be padded as that's a bit difficult to work with in many image editors. It's also manual work to add padding. I instead decided to create some code to take a standard, no-padding tilesheet, and automatically add the padding. Currently my Tiled maps are the only thing not being managed by the [Texture Packer](https://github.com/libgdx/libgdx/wiki/Texture-packer). If you are already using Texture Packer with Tiled Maps, then you can set [`padding` and `duplicatePadding`](https://www.reddit.com/r/libgdx/comments/2vt9r1/flicker_problem_on_tile_borders_using/) directly in the pack json file.
+I had one further goal; I did not want my primary tilesheet to be padded as that is difficult to work with in many image editors. It's also manual work to add padding. I instead decided to create some code to take a standard, no-padding tilesheet, and automatically add the padding. Currently my Tiled maps are the only thing not being managed by the [Texture Packer](https://github.com/libgdx/libgdx/wiki/Texture-packer). If you are already using Texture Packer with Tiled Maps, then you can set [`padding` and `duplicatePadding`](https://www.reddit.com/r/libgdx/comments/2vt9r1/flicker_problem_on_tile_borders_using/) directly in the pack json file.
 
 If you're not using the [Texture Packer](https://github.com/libgdx/libgdx/wiki/Texture-packer), then below is helper class to add padding to your Tilesheet.
 
