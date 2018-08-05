@@ -2,7 +2,8 @@
 title: Game Collection
 ---
 
-<b>Systems</b><br/>
+### Systems
+
 <a href="/collections/games/atari.html">Atari<a/><br/>
 <a href="/collections/games/nes.html">Nintendo<a/><br/>
 <a href="/collections/games/snes.html">Super Nintendo<a/><br/>
@@ -16,7 +17,9 @@ title: Game Collection
 <a href="/collections/games/sega.html">Sega<a/><br/>
 <a href="/collections/games/gamegear.html">Game Gear<a/><br/>
 <a href="/collections/games/playstation4.html">Playstation 4<a/><br/>
+<a href="/collections/games/pc.html">PC<a/><br/>
 
-<b>Magazines</b><br/>
+### Magazines
+
 <a href="/collections/games/nintendo_power.html">Nintendo Power<a/><br/>
 <a href="/collections/games/players_guides.html">Players Guides<a/><br/>

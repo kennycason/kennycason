@@ -2,6 +2,8 @@
 title: Game Cube Games
 ---
 
+### Game Cube Games
+
 <ol>
 <li>007 Nightfire</li>
 <li>Cubivore: Survival of the Fittest</li>

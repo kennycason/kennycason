@@ -2,6 +2,8 @@
 title: Sega Game Gear Games
 ---
 
+### Sega Game Gear Games
+
 <ol>
 <li>Aerial Assault</li>
 <li>Asterix and the Rescue</li>
