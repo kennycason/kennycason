@@ -2,9 +2,6 @@
 title: Game Boy Advance
 ---
 
-Game Boy AdvanceGames
-=============
-
 <ol>
 <li>Final Fantasy VI</li>
 <li>Legend of Zelda: A Link to the Past Four Swords</li>

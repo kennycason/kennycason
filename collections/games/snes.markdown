@@ -2,9 +2,6 @@
 title: SNES Games
 ---
 
-SNES Games
-=============
-
 <ol>
 <li>Beauty and the Beast</li>
 <li>Championship Pool</li>

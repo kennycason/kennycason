@@ -2,9 +2,6 @@
 title: Nintendo DS Games
 ---
 
-Nintendo DS Games
-=============
-
 <ol>
 <li>Brain Age</li>
 <li>Final Fantasy VI</li>

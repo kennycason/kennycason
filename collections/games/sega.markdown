@@ -2,9 +2,6 @@
 title: Sega Games
 ---
 
-Sega Games
-=============
-
 <ol>
 <li>Desert Strike: Return to the Gulf</li>
 <li>James Pond 3</li>

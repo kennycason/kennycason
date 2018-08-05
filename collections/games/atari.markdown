@@ -2,9 +2,6 @@
 title: Atari Games
 ---
 
-Atari Games
-=============
-
 <ol>
 <li>Air Sea Battle</li>
 <li>Asteroids</li>

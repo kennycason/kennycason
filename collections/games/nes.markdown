@@ -2,9 +2,6 @@
 title: NES Games
 ---
 
-NES Games
-=============
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		$(".have-key").html($(".game-list .have").length + " Own");

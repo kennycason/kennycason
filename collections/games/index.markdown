@@ -2,9 +2,6 @@
 title: Game Collection
 ---
 
-Game Collection
-===========
-
 <b>Systems</b><br/>
 <a href="/collections/games/atari.html">Atari<a/><br/>
 <a href="/collections/games/nes.html">Nintendo<a/><br/>

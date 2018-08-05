@@ -2,9 +2,6 @@
 title: Game Boy / Color
 ---
 
-Game Boy Games
-=============
-
 <ol>
 <li>4-in-1 Funpack</li>
 <li>Baseball</li>
