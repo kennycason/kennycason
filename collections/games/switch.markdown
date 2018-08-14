@@ -11,6 +11,7 @@ title: Nintendo Switch Games
 <li>Kamiko</li>
 <li>Legend of Zelda: Breath of the Wild</li>
 <li>Mario Kart Deluxe 8</li>
+<li>Omega Fighter</li>
 <li>Pokemon Quest</li>
 <li>Sonic Mania</li>
 <li>Super Mario Odyssey</li>

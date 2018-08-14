@@ -10,4 +10,5 @@ title: PC Games
 <li>Ninja Turdle</li>
 <li>Shenzhen IO</li>
 <li>Stardew Valley</li>
+<li>Terraria</li>
 </ol>
