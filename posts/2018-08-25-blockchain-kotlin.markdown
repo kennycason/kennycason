@@ -43,23 +43,35 @@ class Block(
         val record: Record,
         val previousHash: String) {
 
-    val hash: String = Sha256Hasher.hash(this)
-
+    val hash: String = hash(this) // TODO define the hash function
 }
 ```
 
 Each Block contains a unique hash based on the contents of that block.
-To do this we simply concatenate all our data fields and `sha256` it.
+To compute this we must define a function to concatenate all our data fields and `sha256` it.
+We can add a `companion object` to our Block class containing the hashing logic.
+You do not have to use sha256, and can chose whatever hashing function fits your use-case.
 
 ```kotlin
-object Sha256Hasher {
-    fun hash(block: Block) = DigestUtils.sha256Hex(
-            block.index.toString() +
-                    block.timestamp.toString() +
-                    block.record.hashCode() +
-                    block.previousHash)!!
+class Block(
+        val index: Int,
+        val timestamp: Long,
+        val record: Record,
+        val previousHash: String) {
+
+    val hash: String = hash(this)
+
+    // creating a companion object is similar to Java's `static` keyword.
+    companion object {
+        private fun hash(block: Block) = DigestUtils.sha256Hex(
+                block.index.toString() +
+                        block.timestamp.toString() +
+                        block.record.hashCode() +
+                        block.previousHash)!!
+    }
 }
 ```
+
 
 Note that the previous hash is also included in the current hash.
 This enforces the blocks are `linked` together via their hashes.
@@ -71,21 +83,23 @@ Our blockchain is ultimately just a list of blocks, but we are still going to bu
 Our first iteration will contain a list of blocks, and functionality to generate the first `Genesis Block`.
 
 ```kotlin
-class BlockChain(private val chain: MutableList<Block> = mutableListOf()) {
+class BlockChain(private val chain: MutableList<Block> = initializeWithGenesisBlock()) {
 
-    init {
-        createGenesisBlock()
+    // some other helpful public functions
+    fun length() = chain.size
+    fun last() = chain.last()
+    fun get(i: Int) = chain[i]
+    fun getChain() = chain
+
+    companion object {
+        private fun initializeWithGenesisBlock() =
+                mutableListOf(Block(
+                        index = 0,
+                        timestamp = 0,
+                        record = Record(weight = 0.0, date = 0L),
+                        previousHash = ""
+                ))
     }
-
-    private fun createGenesisBlock() {
-        chain.add(Block(
-                index = 0,
-                timestamp = 0,
-                record = Record(weight = 0.0, date = 0L),
-                previousHash = ""
-        ))
-    }
-
 }
 ```
 
@@ -98,14 +112,14 @@ fun add(record: Record) {
     val block = generate(last(), record)
 
     // validate the new block we are about to add is consistent with the previous block
-    if (!BlockChainValidator.isValid(block, last())) {
+    if (!isValid(block, last())) {
         throw RuntimeException("Invalid Block!")
     }
     // finally add the new block
     chain.add(block)
 
     // for extra validation, re-validate the entire chain
-    if (!BlockChainValidator.isValid(this)) {
+    if (!isValid()) {
         throw RuntimeException("Invalid BlockChain!")
     }
 }
@@ -119,37 +133,35 @@ private fun generate(block: Block, record: Record): Block {
 }
 ```
 
-The `BlockChainValidator.isValid` checks provide two primary functions:
+The `isValid` checks provide two primary functions:
 - Validate a single new block is consistent with the previous block.
 - Perform the above check on each block starting from the genesis block.
 
-Our implementation:
+We will add the functions to the `BlockChain` class.
 ```kotlin
-object BlockChainValidator {
-  fun isValid(blockChain: BlockChain): Boolean {
-      // a blockchain only containing the genesis block is valid by definition
-      if (blockChain.length() == 1) { return true }
+private fun isValid(): Boolean {
+    // a blockchain only containing the genesis block is valid by definition
+    if (length() == 1) { return true }
 
-      // assert full history is valid
-      for (i in (0 until blockChain.length() - 1)) {
-          if (!isValid(blockChain.get(i + 1), blockChain.get(i))) {
-              return false
-          }
-      }
-      return true
-  }
+    // assert full history is valid
+    for (i in (0 until length() - 1)) {
+        if (!isValid(get(i + 1), get(i))) {
+            return false
+        }
+    }
+    return true
+}
 
-  fun isValid(newBlock: Block, oldBlock: Block): Boolean {
-      // assert indices are sequential
-      if (oldBlock.index + 1 != newBlock.index) { return false }
-      // assert hashes are linked correctly
-      if (oldBlock.hash != newBlock.previousHash) { return false }
-      // assert the hashes themselves are correct.
-      // this check is important to ensure our data within the block wasn't altered
-      if (Sha256Hasher.hash(newBlock) != newBlock.hash) { return false }
+private fun isValid(newBlock: Block, oldBlock: Block): Boolean {
+    // assert indices are sequential
+    if (oldBlock.index + 1 != newBlock.index) { return false }
+    // assert hashes are linked correctly
+    if (oldBlock.hash != newBlock.previousHash) { return false }
+    // assert the hashes themselves are correct.
+    // this check is important to ensure our data within the block wasn't altered
+    if (hash(newBlock) != newBlock.hash) { return false }
 
-      return true
-  }
+    return true
 }
 ```
 
