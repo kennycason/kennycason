@@ -91,6 +91,8 @@ class BlockChain(private val chain: MutableList<Block> = initializeWithGenesisBl
     fun get(i: Int) = chain[i]
     fun getChain() = chain
 
+    // ... more functions to come
+
     companion object {
         private fun initializeWithGenesisBlock() =
                 mutableListOf(Block(
