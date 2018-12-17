@@ -27,33 +27,33 @@ $$
 rotX = \\left[\\begin{matrix}
 1 & 0 & 0                          \\\\
 0 & cos(\\theta) & -sin(\\theta)   \\\\
-0 & sin(\\theta) & cos(\\theta)   
+0 & sin(\\theta) & cos(\\theta)    \\\\
 \\end{matrix}\\right]
 $$
 
 $$
-rotY = \\left[\\begin{array}{ccc}
-cos(\\theta) & 0 & sin(\\theta)       \\\\
-0 & 1 & 0      \\\\
--sin(\\theta) & 0 & cos(\\theta)      \\\\   
-\\end{array}\\right]
+rotY = \\left[\\begin{matrix}
+cos(\\theta) & 0 & sin(\\theta)    \\\\
+0 & 1 & 0                          \\\\
+-sin(\\theta) & 0 & cos(\\theta)   \\\\
+\\end{matrix}\\right]
 $$
 
 $$
-rotZ = \\left[\\begin{array}{ccc}
-cos(\\theta) & -sin(\\theta) & 0       \\\\
+rotZ = \\left[\\begin{matrix}
+cos(\\theta) & -sin(\\theta) & 0     \\\\
 sin(\\theta) & cos(\\theta) & 0      \\\\
-0 & 0 & 1      \\\\   
-\\end{array}\\right]
+0 & 0 & 1                            \\\\
+\\end{matrix}\\right]
 $$
 
 It is also important to know that every point in our world is defined by:
 
 $$
 \\vec{p} = \\left[\\begin{array}{c}
-x       \\\\
+x      \\\\
 y      \\\\
-z      \\\\   
+z      \\\\
 \\end{array}\\right]
 $$
 
@@ -73,9 +73,9 @@ $$
 
 $$
 \\hat{p} = \\left[\\begin{array}{c}
-x/d       \\\\
+x/d      \\\\
 y/d      \\\\
-z/d      \\\\   
+z/d      \\\\
 \\end{array}\\right]
 $$
 
@@ -106,19 +106,19 @@ Suppose we have point:
 $$
 \\vec{p} = \\left[\\begin{array}{c}
 1       \\\\
-2      \\\\
-3      \\\\   
+2       \\\\
+3       \\\\
 \\end{array}\\right]
 $$
 
-and we would like to rotate $\\vec{p}$ by 30° around the X axis.
+and we would like to rotate $$\\vec{p}$$ by 30° around the X axis.
 
 $$
 \\vec{p}_{new} = (rotX)\\vec{p} =
 \\left[\\begin{array}{ccc}
-1 & 0 & 0       \\\\
+1 & 0 & 0                             \\\\
 0 & cos(\\theta) & -sin(\\theta)      \\\\
-0 & sin(\\theta) & cos(\\theta)        \\\\
+0 & sin(\\theta) & cos(\\theta)       \\\\
 \\end{array}\\right]
 \\left[\\begin{array}{c}
 x      \\\\
@@ -126,8 +126,8 @@ y      \\\\
 z      \\\\
 \\end{array}\\right] =
 \\left[\\begin{array}{ccc}
-1 & 0 & 0       \\\\
-0 & cos(30) & -sin(30)      \\\\
+1 & 0 & 0                    \\\\
+0 & cos(30) & -sin(30)       \\\\
 0 & sin(30) & cos(30)        \\\\
 \\end{array}\\right]
 \\left[\\begin{array}{c}

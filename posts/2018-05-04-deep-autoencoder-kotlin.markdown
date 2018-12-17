@@ -10,15 +10,15 @@ Code can all be found on GitHub: [here](https://github.com/kennycason/neural_net
 
 The codebase originally started as a simple autoencoder trained via backpropagation. I then extended this to support a stacked (deep) architecture as well as convolution. The premise of an autoencoder is really quite straight forward once you've grasped the basics of a single feed-forward neural network.
 
-The vanilla autoencoder can be thought of as two single-layer neural networks stacked together. The first neural network is commonly referred to as the "encoder" network, and the second network called the "decoder". Given training data $x$, the encoder network will have input size of $|x|$ and an output size of $|h|$, and the decoder network will have input size of $|h|$ and output size of $|x|$.
+The vanilla autoencoder can be thought of as two single-layer neural networks stacked together. The first neural network is commonly referred to as the "encoder" network, and the second network called the "decoder". Given training data %%x%%, the encoder network will have input size of %%|x|%% and an output size of %%|h|%%, and the decoder network will have input size of %%|h|%% and output size of %%|x|%%.
 
 <img src="https://raw.githubusercontent.com/kennycason/neural_network_kotlin/master/autoencoder.png"/>
 
-Typically $|h|$ is smaller than $|x|$ as this has the effect of forcing the neural network to find a way to represent the input data using less bits of information. This bottle necking results in compression, feature clustering, dimension reduction, etc., all of which are some properties of learning. There are also advantages in expanding middle layers in networks but that is outside the scope of this demo.
+Typically %%|h|%% is smaller than %%|x|%% as this has the effect of forcing the neural network to find a way to represent the input data using less bits of information. This bottle necking results in compression, feature clustering, dimension reduction, etc., all of which are some properties of learning. There are also advantages in expanding middle layers in networks but that is outside the scope of this demo.
 
-The training process is to propagate the training data, $x$ sequentially through the encoder and decoder networks. The target, or training data of the final output is the original training data $x$. In other words the autoencoder learns by trying to "learn itself".
+The training process is to propagate the training data, %%x%% sequentially through the encoder and decoder networks. The target, or training data of the final output is the original training data %%x%%. In other words the autoencoder learns by trying to "learn itself".
 
-To stack autoencoders to form a deep autoencoder you first create another autoencoder, and it's job is to learn the encoded feature (output of the encoder network, $|h|$). You can repeat this process as much as you like with a wide variety of possible configurations.
+To stack autoencoders to form a deep autoencoder you first create another autoencoder, and it's job is to learn the encoded feature (output of the encoder network, %%|h|%%). You can repeat this process as much as you like with a wide variety of possible configurations.
 
 # Supported Neural Networks
 
@@ -187,7 +187,7 @@ test accuracy %: 97.4099999293685%
 # Notes
 
 - Since SGD, mini batch = 1, is noisy, the error signal will spike up and down wildly as it converages. A trick I employ is to take the raw errors and group them into batches and compute the average errors after the fact.
-```awk '{sum+=$1} (NR%10)==0{print sum/10; sum=0;}' /tmp/raw_errors.log > /tmp/avg_erros.log```
+```awk '{sum+=%%1} (NR%10)==0{print sum/10; sum=0;}' /tmp/raw_errors.log > /tmp/avg_erros.log```
 You can also batch up groups and average in code.
 
 - Converting everything from Double to Float was an instant 1.5x speedup. I don't suspect the GPU is actually being used and that is a pure Java speedup.

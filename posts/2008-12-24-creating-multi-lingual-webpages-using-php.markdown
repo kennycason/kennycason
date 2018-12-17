@@ -129,6 +129,6 @@ $txt = array (
 
 <b>Scaling further</b><br/>
 
-Because manually managing a language file can be very tedious it is not uncommon to build an interface to manage this values in a database and use an export feature to programmatically export these languague files.
+Because manually managing a language file can be very tedious it is not uncommon to build an interface to manage this values in a database and use an export feature to programmatically export these language files.
 
-Dealing with place holders. It's common for text to be of the form "Welcome Back, ${NAME}" or "{$NAME} liked ${NAME2}'s post.". To support these we need to add support for key/value replacement in our language printing function.  
+Dealing with place holders. It's common for text to be of the form "Welcome Back, ${NAME}" or "${NAME} liked ${NAME2}'s post.". To support these we need to add support for key/value replacement in our language printing function.  

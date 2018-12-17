@@ -130,7 +130,7 @@ Example from my `tiles.tsx` file.
 
 ```xml
 <tileset name="tiles" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="800">
-    <image source="../sprite/tiles_padded.png" width="360" height="720"/>
+<image source="../sprite/tiles_padded.png" width="360" height="720"/>
 ```
 
 ## Other Factors
