@@ -115,7 +115,7 @@ Previously, with the hairy notation of the infinitely continued fraction, it was
 However, now that we have figured out how to exploit it and transform it into a recurrence relation, we can more easily apply operations and analysis to it.
 
 
-An example from Wikipedia that I found afterwards: We can re-arrange the expression as an 2nd degree polynomial and then apply quadratic formula to solve:
+An example from Wikipedia that I found afterwards: We can re-arrange the expression as an 2nd degree polynomial and then apply [*Quadratic Formula*](https://en.wikipedia.org/wiki/Quadratic_formula) to solve:
 
 Original expression:
 $$
@@ -138,7 +138,7 @@ $$
 \end{aligned}
 $$
 
-Applying the [Quadratic Formula](https://en.wikipedia.org/wiki/Quadratic_formula) for %%φ%% yields:
+Applying the Quadratic Formula to solve for %%φ%% yields:
 $$
 \begin{aligned}
 φ = \frac{1 + \sqrt{5}}{2} \\\\
