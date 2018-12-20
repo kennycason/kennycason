@@ -138,7 +138,7 @@ $$
 \end{aligned}
 $$
 
-Applying the [Quadratic Formula] for %%φ%% yields:
+Applying the [Quadratic Formula](https://en.wikipedia.org/wiki/Quadratic_formula) for %%φ%% yields:
 $$
 \begin{aligned}
 φ = \frac{1 + \sqrt{5}}{2} \\\\
