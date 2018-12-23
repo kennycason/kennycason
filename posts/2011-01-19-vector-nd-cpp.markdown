@@ -6,8 +6,9 @@ tags: math, c++
 
 This is a N-Dimensional Vector class written in C++. While it can be used for any dimension, if you would like to use 3 or less dimensions including rotation functions check out my previous post (<a href="/posts/2010-09-16-vector-3d-structure-rotation-functions-c.html">here</a>)
 
-<b>VectorND.cpp</b><br/>
+### Code
 
+VectorND.cpp
 ```cpp
 #ifndef __VECTOR_ND_H__
 #define __VECTOR_ND_H__
@@ -20,7 +21,6 @@ This is a N-Dimensional Vector class written in C++. While it can be used for an
 3D Vector and rotation functions.
 Rotations about X, Y, Z, and any arbitrary vector
 */
-
 struct VectorND {
 
     long double* pts;
@@ -245,9 +245,7 @@ struct VectorND {
 #endif
 ```
 
-
-<b>main.cpp</b><br/>
-
+main.cpp
 ```cpp
 #include <iostream>
 #include "VectorND.h";

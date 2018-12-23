@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cstdlib>
 #include <SDL/SDL.h>
@@ -12,7 +11,6 @@ WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
 DATE: 11-19-2009
 */
-
 
 using namespace std;
 
@@ -30,7 +28,6 @@ int yMax = 250;
 int pointsX = 400;
 int pointsY = 400;
 Vector3D** fx;
-//Vector3D** dx;
 double xaxis = 320;
 double yaxis = 240;
 
@@ -71,11 +68,6 @@ int main ( int argc, char** argv ) {
     for(int x = 0; x < pointsX; ++x) {
         fx[x] = new Vector3D[pointsY];
     }
-/*
-    dx = new Vector3D*[pointsX];
-    for(int x = 0; x < pointsX; ++x) {
-        dx[x] = new Vector3D[pointsY];
-    }*/
 
     thetaX = 0;
     thetaY = 0;
@@ -86,34 +78,32 @@ int main ( int argc, char** argv ) {
             fx[x][y].x = x * (xMax*2)/pointsX - xMax;
             fx[x][y].y = y * (yMax*2)/pointsY - yMax;
             /* UN COMMENT ANY ONE OF THE BELOW FUNCTIONS OF X,Y */
-       //     fx[x][y].z = 0;
-        //   fx[x][y].z = pow(fx[x][y].x/20,2) + pow(fx[x][y].y/20, 2) - 100;  // z = x^2 + y^2;
-          //  dx[x][y].z = 2*fx[x][y].x/20 + -6*pow(fx[x][y].y,2)/20;
-           // fx[x][y].z = 30*sin(fx[x][y].x/20) + -15*cos(fx[x][y].y/20);  // z = sin(x) - cos(x);
-            //fx[x][y].z = pow(fx[x][y].x/20,2) + pow(fx[x][y].y/20, 2);  // z = x^2 + y^2;
-            //fx[x][y].z = sqrt(230*230 - pow(fx[x][y].x,2) - pow(fx[x][y].y, 2)); // x^2 + y^2 + z^2 = r^2
-
-        //    fx[x][y].z =   20*log( sqrt(200*200 - pow(fx[x][y].x/2,2)) - 20*log( pow(fx[x][y].y/2,2)) );
-         //   fx[x][y].z =   20*log(pow(fx[x][y].x/2,2))- 20*log( pow(fx[x][y].y/2,2));
-        //    fx[x][y].z =   (20*log(pow(fx[x][y].x/2,2)+ pow(fx[x][y].y/2,2))) -200;
-            //fx[x][y].z =   (pow(fx[x][y].x/80, fx[x][y].x/20) - pow(fx[x][y].y/80, fx[x][y].y/20)) -200;
-       //     fx[x][y].z =   (pow(fx[x][y].x/25, fx[x][y].x/25) + pow(fx[x][y].y/25, fx[x][y].y/25)) /*- log(fx[x][y].x + fx[x][y].y)*/ -200;
-           //   fx[x][y].z = 20*log(fx[x][y].x)/100 - 20*pow(fx[x][y].y/100, 2);
-        //   fx[x][y].z = pow(fx[x][y].x/2,2)+ 1/pow(fx[x][y].y/2,2);
-         //  fx[x][y].z = 10*tan(fx[x][y].x/40) + -10*tan(fx[x][y].y/40);  // z = sin(x) - cos(x);
-            //fx[x][y].z = 30 / ( pow(fx[x][y].x/20,1) + pow(fx[x][y].y/20, 1));  // z = x^2 + y^2;
-         //   fx[x][y].z = 30 / ( pow(fx[x][y].x/20,1) + pow(fx[x][y].y/20, 1));  // z = x^2 + y^2;
-       // fx[x][y].z = pow(fx[x][y].x/20,2) - pow(fx[x][y].y/20, 2) + (20*log(pow(fx[x][y].x/2,2)+ pow(fx[x][y].y/2,2))) - 100;
-     // fx[x][y].z = 30*sin(fx[x][y].x/40) + -15*cos(fx[x][y].y/40) +  (20*log(pow(fx[x][y].x/2,2)+ pow(fx[x][y].y/2,2))) - 100;
-       //   fx[x][y].z = -(pow(fx[x][y].x/20,2) + pow(fx[x][y].y/20, 2) )+  (40*log(pow(fx[x][y].x,2) - pow(fx[x][y].y,2))) - 175;
-         //   fx[x][y].z = tan(fx[x][y].x)*tan(fx[x][y].y);
-        //    fx[x][y].z = tan(fx[x][y].x)*fx[x][y].x*tan(fx[x][y].y);
-         //  fx[x][y].z = tan(fx[x][y].x)*fx[x][y].x*tan(fx[x][y].y)*fx[x][y].y;
-       //  fx[x][y].z = sin(fx[x][y].x/30)*fx[x][y].x*cos(fx[x][y].y/30)*fx[x][y].y/100;
-        fx[x][y].z = sin(fx[x][y].x/30)*fx[x][y].x*cos(fx[x][y].y/30)*fx[x][y].y/100 +  40*log(pow(fx[x][y].x/2,2) + pow(fx[x][y].y/2,2)) - 200;
-         //  fx[x][y].z = abs((long)(sin(fx[x][y].x/30)*fx[x][y].x*cos(fx[x][y].y/30)*fx[x][y].y/100));
-         //fx[x][y].z = sin(log(fx[x][y].x/30))*fx[x][y].x*cos(log(fx[x][y].y/30))*fx[x][y].y/100;
-     //    fx[x][y].z = 30 * acosf(fx[x][y].x/20) - 30 * asinf(fx[x][y].y/20);
+            // fx[x][y].z = 0;
+            // fx[x][y].z = pow(fx[x][y].x/20,2) + pow(fx[x][y].y/20, 2) - 100;  // z = x^2 + y^2;
+            // fx[x][y].z = 30*sin(fx[x][y].x/20) + -15*cos(fx[x][y].y/20);  // z = sin(x) - cos(x);
+            // fx[x][y].z = pow(fx[x][y].x/20,2) + pow(fx[x][y].y/20, 2);  // z = x^2 + y^2;
+            // fx[x][y].z = sqrt(230*230 - pow(fx[x][y].x,2) - pow(fx[x][y].y, 2)); // x^2 + y^2 + z^2 = r^2
+            // fx[x][y].z =   20*log( sqrt(200*200 - pow(fx[x][y].x/2,2)) - 20*log( pow(fx[x][y].y/2,2)) );
+            // fx[x][y].z =   20*log(pow(fx[x][y].x/2,2))- 20*log( pow(fx[x][y].y/2,2));
+            // fx[x][y].z =   (20*log(pow(fx[x][y].x/2,2)+ pow(fx[x][y].y/2,2))) -200;
+            // fx[x][y].z =   (pow(fx[x][y].x/80, fx[x][y].x/20) - pow(fx[x][y].y/80, fx[x][y].y/20)) -200;
+            // fx[x][y].z =   (pow(fx[x][y].x/25, fx[x][y].x/25) + pow(fx[x][y].y/25, fx[x][y].y/25)) /*- log(fx[x][y].x + fx[x][y].y)*/ -200;
+            // fx[x][y].z = 20*log(fx[x][y].x)/100 - 20*pow(fx[x][y].y/100, 2);
+            // fx[x][y].z = pow(fx[x][y].x/2,2)+ 1/pow(fx[x][y].y/2,2);
+            // fx[x][y].z = 10*tan(fx[x][y].x/40) + -10*tan(fx[x][y].y/40);  // z = sin(x) - cos(x);
+            // fx[x][y].z = 30 / ( pow(fx[x][y].x/20,1) + pow(fx[x][y].y/20, 1));  // z = x^2 + y^2;
+            // fx[x][y].z = 30 / ( pow(fx[x][y].x/20,1) + pow(fx[x][y].y/20, 1));  // z = x^2 + y^2;
+            // fx[x][y].z = pow(fx[x][y].x/20,2) - pow(fx[x][y].y/20, 2) + (20*log(pow(fx[x][y].x/2,2)+ pow(fx[x][y].y/2,2))) - 100;
+            // fx[x][y].z = 30*sin(fx[x][y].x/40) + -15*cos(fx[x][y].y/40) +  (20*log(pow(fx[x][y].x/2,2)+ pow(fx[x][y].y/2,2))) - 100;
+            // fx[x][y].z = -(pow(fx[x][y].x/20,2) + pow(fx[x][y].y/20, 2) )+  (40*log(pow(fx[x][y].x,2) - pow(fx[x][y].y,2))) - 175;
+            // fx[x][y].z = tan(fx[x][y].x)*tan(fx[x][y].y);
+            // fx[x][y].z = tan(fx[x][y].x)*fx[x][y].x*tan(fx[x][y].y);
+            // fx[x][y].z = tan(fx[x][y].x)*fx[x][y].x*tan(fx[x][y].y)*fx[x][y].y;
+            // fx[x][y].z = sin(fx[x][y].x/30)*fx[x][y].x*cos(fx[x][y].y/30)*fx[x][y].y/100;
+            fx[x][y].z = sin(fx[x][y].x/30)*fx[x][y].x*cos(fx[x][y].y/30)*fx[x][y].y/100 +  40*log(pow(fx[x][y].x/2,2) + pow(fx[x][y].y/2,2)) - 200;
+            // fx[x][y].z = abs((long)(sin(fx[x][y].x/30)*fx[x][y].x*cos(fx[x][y].y/30)*fx[x][y].y/100));
+            // fx[x][y].z = sin(log(fx[x][y].x/30))*fx[x][y].x*cos(log(fx[x][y].y/30))*fx[x][y].y/100;
+            // fx[x][y].z = 30 * acosf(fx[x][y].x/20) - 30 * asinf(fx[x][y].y/20);
         }
     }
 
@@ -124,7 +114,6 @@ int main ( int argc, char** argv ) {
                 fx[x][y] = rotateZ(fx[x][y], 0);
         }
     }
-
 
     xaxis = 320;
     yaxis = 240;

@@ -1,6 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine on
-
-RewriteBase /code/php/baseconvert/
-
-RewriteRule ^(([A-Z]*[a-z]*[0-9]*)*)$ main.php?id=$1 [L,QSA]

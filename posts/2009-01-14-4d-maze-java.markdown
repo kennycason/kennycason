@@ -4,43 +4,56 @@ author: Kenny Cason
 tags: algorithm, java
 ---
 
-This is a simple implementation of a 4D maze written in Java. As of now it is entirely text based however, a simple GUI is currently under development. Either way, this simple implementation should be useful to modify and/or build off of.
+This is a simple implementation of a 4D maze written in Java. As of now it is entirely text based however, a simple GUI is currently under development. It should be useful to modify as needed.
 The algorithm used to generate the map is quite simple and always generates a perfect maze.
 
-<b>1.</b> Randomly choose a starting room<br/>
-<b>2.</b> Add all surrounding rooms that have not been visited, or  to a list<br/>
-<b>3.</b> While their are rooms in the list randomly select one<br/>
-<b>4.</b> Set the room to visited, and start again from step 2 using the current room<br/>
 
-Note: the Java version used in this implementation uses recursion to do this.
-This code has not been thoroughly checked for possible bugs, and I am sure there is a more efficient method to write a 4D maze. But, at the very least, it is flexible and each room of the maze is of class type Room4D and should be easy to modify.
+1. Randomly choose a starting room.
+2. Add all surrounding rooms that have not been visited, or  to a list.
+3. While there are rooms in the list randomly select one.
+4. Set the room to visited, and start again from step 2 using the current room.
+
+
+Note: This implementation uses recursion to do this.
+This code has not been thoroughly checked for possible bugs (namely Stack Overflows).
 The Jar file can be downloaded here: <a href="/code/java/maze4D/Maze4D.jar">Maze4D.jar</a>
 
-To run from the command line<br/>
-<code>java -jar Maze4D.java dimXYZU</code>
+### Run
 
-Example<br/>
-<code>java -jar Maze4D.java 5</code>
+#### Example 1
+```bash
+java -jar Maze4D.java dimXYZU
+```
+```bash
+java -jar Maze4D.java 5
+```
 
 This initializes a 5x5x5x5 maze. Start = (0,0,0,0), Finish = (5,5,5,5)
 that's 5^4 rooms, 625 rooms, that's a lot of rooms to navigate in 4D. :)
 
-<code>java -jar Maze4D.java dimX dimY dimZ dimU</code>
+#### Example 2
+```bash
+java -jar Maze4D.java dimX dimY dimZ dimU
+```
 
-Example<br/>
-<code>java -jar Maze4D.java 5 5 3 2</code>
+```bash
+java -jar Maze4D.java 5 5 3 2
+````
+
 This initializes a 5x5x3x2 maze. Start = (0,0,0,0), Finish = (5,5,3,2)
 5x5x3x2 = 150 rooms.
 
-<code>java -jar Maze4D.java</code>
+#### Example 3
+```bash
+java -jar Maze4D.java
+```
 
 creates a default maze of dimensions 4x4x4x4
 
-Note: be careful not to load a 4D maze that's too big or Java will run out of memory, depending on your Java settings. For example creating a room that is 10x10x10x10, 10000 rooms, will likely cause an error caused by using too much memory. besides, a 10000 room is very, very complicated, especially in 4D.<br/>
+### Commands
+
+To move in the positive X direction type "x", to move in the negative X direction type "-x".
+
+All the commands are: `x,-x,y,-y,z,-z,u,-u`
 
 <a href="/code/java/maze4D/maze4D.png" target="_blank" ><img src="/code/java/maze4D/maze4D.png" width="400" alt="4D maze java"/></a></br>
-
-<p><a href="/code/java/maze4D/Rect4D.java">Rect4D.java</a></p>
-<p><a href="/code/java/maze4D/Point4D.java" >Point4D.java</a></p>
-<p><a href="/code/java/maze4D/Room4D.java" >Room4D.java</a></p>
-<p><a href="/code/java/maze4D/Maze4D.java" >Maze4D.java</a></p>
