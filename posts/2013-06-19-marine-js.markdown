@@ -1,0 +1,23 @@
+---
+title: Marine - Javascript
+author: Kenny Cason
+tags: game development, javascript
+---
+
+This is a small prototype for a top-down tank game.
+
+<a href="/games/marine/" target="blank">Click Here to Play!</a>
+
+### Controls
+- Mouse: Aim Cannon
+- Arrow Keys: Move tank
+- Mouse Scroll: Cycle Special Weapons (Missile, Homing Missile, Grenade, Nuke)
+- Primary Mouse Click: Shoot bullet
+- Secondary Mouse Click: Shoot Special Weapon
+- Tank can run over soldiers
+
+### Code
+The code is found on my Github: <a href="https://github.com/kennycason/marine" target="blank">here</a>
+
+### Screenshot
+<img src="/games/marine/marine01.png" width="500px"/>
