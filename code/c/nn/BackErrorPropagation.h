@@ -9,7 +9,7 @@ EMAIL: kenneth.cason@gmail.com
 DATE: 12-1-2009
 */
 
-#include "Cell.h"
+#include "Network.h"
 #include "Node.h"
 #include "math.h"
 
@@ -48,22 +48,22 @@ public:
     /**
      * 出力層から入力層まで逆向きに伝播する: back-propagate from the output layer to the input layer
      */
-    static void backPropagate(Cell *cell, struct parameters &params);
-    static void backPropagate(Cell *cell, struct parameters &params, int i);
+    static void backPropagate(Network *cell, struct parameters &params);
+    static void backPropagate(Network *cell, struct parameters &params, int i);
 
     /**
      * 入力層から出力層まで前向きを伝播する: propagate from the input layer to the output layer
      */
-    static void feedForward(Cell *cell);
-    static void feedForward(Cell *cell, int i);
+    static void feedForward(Network *cell);
+    static void feedForward(Network *cell, int i);
 
     /**
      * 出力と教師信号の平均２乗誤差を計算する: calculate the average squared error between the output layer and teacher signal
      * @return 平均２乗誤差
      */
-    static double calculateOutputError(Cell *cell, struct parameters &params);
+    static double calculateOutputError(Network *cell, struct parameters &params);
 
-    static void initNetwork(Cell* cell);
+    static void initNetwork(Network* cell);
 
 };
 

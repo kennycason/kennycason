@@ -2,7 +2,7 @@
 #define __NETWORK_H__
 
 /*
-ABOUT: In my implementation a "Network" represents a collection of layers, the way they are connected is NOT defined
+ABOUT: In my implementation a "Network" represents a collection of layers, the way they are not connect is NOT defined
    because depending on your implementation, you may want to connect them differently. This implementation does assume that their is
    an input layer, center layer(s), and an output layer. Though there is nothing preventing the ouput layer to feed back into the input layer
    or any layer connecting to a previous layer (recurrent neural networks).
@@ -28,14 +28,9 @@ using namespace std;
 class Network {
 public:
     Network();
-    Network(int numInputNodes, int numCenterLayers, int numCenterNodes, int numOutputNodes); // traditional constructor
+    Network(int numInputNodes, int numCenterLayers, int numCenterNodes, int numOutputNodes);
     ~Network();
 
-    void init();
-    void backPropagate();
-    double calculateOutputError();
-    void feedForward();
-    double activate(double val);
 
     Layer* getInputLayer();
     Layer** getCenterLayers();
@@ -53,19 +48,17 @@ public:
     int getNumOutputNodes();
     int getNumLayers();
 
-    int learningRate; // the default learningRate
-    bool useBias;
-    double* teachingSignals;
-
 private:
     Layer* inputLayer;
     Layer** centerLayers;
     Layer* outputLayer;
 
+
     int numInputNodes;
     int numCenterLayers;
     int numCenterNodes;
     int numOutputNodes;
+    int numLayers;
 
 };
 #endif

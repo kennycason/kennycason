@@ -11,7 +11,6 @@ DATE: 12-1-2009
 
 #include <iostream>
 #include "stdlib.h"
-#include <vector>
 
 #define DEFAULT_WEIGHT  0.5
 #define DEFAULT_VALUE   0.0
@@ -31,25 +30,27 @@ public:
 
     Node* unLink(int i);
 
-    std::vector<Node*> getLinks();
+    Node** getLinks();
     Node* getLink(int i);
     int getNumLinks();
 
-    std::vector<double> getWeights();
+    double* getWeights();
     double getWeight(int i);
-    void setWeights(std::vector<double> weights);
+    void setWeights(double* weights);
     void setWeight(int i, double weight);
 
     void setValue(double value);
     double getValue();
 
-    double learningRate;
-
 private:
-    std::vector<Node*> links;
-    std::vector<double> weights;
+    Node** links;
+    int numLinks;
+    double* weights;
 
     double value;
     double threshold;
+
+    static void link(Node* nodeA, Node *node);
+    static Node* unLink(Node* nodeA, int i);
 };
 #endif

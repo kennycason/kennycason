@@ -2,15 +2,17 @@
 #include "stdlib.h"
 #include "Network.h"
 #include "math.h"
+#include "BackErrorPropagation.h"
 
 /*
 ABOUT: Train a back error propagation neural network to be able to perform Logical AND, three inputs
 AUTHOR: Kenny Cason
 WEBSITE: kennycason.com
 EMAIL: kenneth.cason@gmail.com
-DATE: 7-15-2011
+DATE: 12-1-2009
 */
 
+using namespace std;
 void trainLogicalAND2Inputs();
 void trainLogicalAND3Inputs();
 
@@ -23,52 +25,53 @@ int main() {
 
 void trainLogicalAND2Inputs() {
 
-    int numInputNodes = 2;
-    int numOutputNodes = 1;
-    int numCenterLayers = 1;
-    int numCenterNodes = 10;
+    parameters params;
+    params.numInputNodes = 2;
+    params.inputDimX = 2;
+    params.inputDimY = 1;
+    params.numOutputNodes = 1;
+    params.outputDimX = 1;
+    params.outputDimY = 1;
+    params.numCenterLayers = 1;
+    params.numCenterNodes = 10;
+    params.numLayers = params.numCenterLayers + 2;
+    params.useBias = false;
 
-    Network* network = new Network(numInputNodes, numCenterLayers, numCenterNodes, numOutputNodes);
+    params.learningRate = 5.5;
 
-    network->learningRate = 5.5;
-    network->useBias = false;
+    params.numTrainingSets = 4;
+    params.currentTrainingSet = 0;
 
-    int numTrainingSets = 4;
-    int currentTrainingSet = 0;
-
-    double** trainingInputs;
-    double** trainingOutputs;
-
-    trainingInputs = new double*[numTrainingSets];
-    for(int i = 0; i < numTrainingSets; i++) {
-        trainingInputs[i] = new double[numInputNodes];
+    params.trainingInputs = new double*[params.numTrainingSets];
+    for(int i = 0; i < params.numTrainingSets; i++) {
+        params.trainingInputs[i] = new double[params.numInputNodes];
     }
-    trainingOutputs = new double*[numTrainingSets];
-    for(int i = 0; i < numTrainingSets; i++) {
-        trainingOutputs[i] = new double[numOutputNodes];
+    params.trainingOutputs = new double*[params.numTrainingSets];
+    for(int i = 0; i < params.numTrainingSets; i++) {
+        params.trainingOutputs[i] = new double[params.numOutputNodes];
     }
-    network->teachingSignals = new double[numOutputNodes];
+    params.teachingSignals = new double[params.numOutputNodes];
 
     // 訓練データの作成 // Create Trainig Data
     // 訓練データ０     // Training Set 0
-    trainingInputs[0][0] = 0; // 入力１     // Input 1
-    trainingInputs[0][1] = 0; // 入力２     // Input 2
-    trainingOutputs[0][0] = 0; // 教師信号  // Teacher Signal
+    params.trainingInputs[0][0] = 0; // 入力１     // Input 1
+    params.trainingInputs[0][1] = 0; // 入力２     // Input 2
+    params.trainingOutputs[0][0] = 0; // 教師信号  // Teacher Signal
     // 訓練データ1      // Training Set 1
-    trainingInputs[1][0] = 0; // 入力１     // Input 1
-    trainingInputs[1][1] = 1; // 入力２     // Input 2
-    trainingOutputs[1][0] = 0; // 教師信号   / Teacher Signal
+    params.trainingInputs[1][0] = 0; // 入力１     // Input 1
+    params.trainingInputs[1][1] = 1; // 入力２     // Input 2
+    params.trainingOutputs[1][0] = 0; // 教師信号   / Teacher Signal
     // 訓練データ2     // Training Set 2
-    trainingInputs[2][0] = 1; // 入力１     // Input 1
-    trainingInputs[2][1] = 0; // 入力２     // Input 2
-    trainingOutputs[2][0] = 0; // 教師信号
+    params.trainingInputs[2][0] = 1; // 入力１     // Input 1
+    params.trainingInputs[2][1] = 0; // 入力２     // Input 2
+    params.trainingOutputs[2][0] = 0; // 教師信号
     // 訓練データ3     // Training Set 3
-    trainingInputs[3][0] = 1; // 入力１     // Input 1
-    trainingInputs[3][1] = 1; // 入力２     // Input 2
-    trainingOutputs[3][0] = 1; // 教師信号  // Teacher Signal
+    params.trainingInputs[3][0] = 1; // 入力１     // Input 1
+    params.trainingInputs[3][1] = 1; // 入力２     // Input 2
+    params.trainingOutputs[3][0] = 1; // 教師信号  // Teacher Signal
 
-
-    network->init();
+    Network* cell = new Network(params.numInputNodes, params.numCenterLayers, params.numCenterNodes, params.numOutputNodes);
+    BackErrorPropagation::initNetwork(cell);
 
 
     // 訓練データを学習する // Teach the Training Data
@@ -77,50 +80,49 @@ void trainLogicalAND2Inputs() {
     while(error > 0.00001 && count < 10000) {
         count++;
         error = 0.0;
-        for(currentTrainingSet = 0; currentTrainingSet < numTrainingSets; currentTrainingSet++) {
+        for(params.currentTrainingSet = 0; params.currentTrainingSet < params.numTrainingSets; params.currentTrainingSet++) {
 
-            network->getInputLayer()->getNode(0)->setValue(trainingInputs[currentTrainingSet][0]);
-            network->getInputLayer()->getNode(1)->setValue(trainingInputs[currentTrainingSet][1]);
-            network->teachingSignals[0] = trainingOutputs[currentTrainingSet][0];
-         /*   std::cout << " IDEAL " << network->getInputLayer()->getNode(0)->getValue() << " & " << network->getInputLayer()->getNode(1)->getValue()
-                 << " = " << network->teachingSignals[0] << std::endl;*/
+            cell->getInputLayer()->getNode(0)->setValue(params.trainingInputs[params.currentTrainingSet][0]);
+            cell->getInputLayer()->getNode(1)->setValue(params.trainingInputs[params.currentTrainingSet][1]);
+            params.teachingSignals[0] = params.trainingOutputs[params.currentTrainingSet][0];
+         /*   cout << " IDEAL " << cell->getInputLayer()->getNode(0)->getValue() << " & " << cell->getInputLayer()->getNode(1)->getValue()
+                 << " = " << params.teachingSignals[0] << endl;*/
 
             // feed forward all at once
-            network->feedForward();
-        /*    std::cout << " ACTUAL " << network->getInputLayer()->getNode(0)->getValue() << " & " << network->getInputLayer()->getNode(1)->getValue()
-                    << " = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl; */
-            error += (network->calculateOutputError() / (double)numTrainingSets);
+            BackErrorPropagation::feedForward(cell);
+        /*    cout << " ACTUAL " << cell->getInputLayer()->getNode(0)->getValue() << " & " << cell->getInputLayer()->getNode(1)->getValue()
+                    << " = " << cell->getOutputLayer()->getNode(0)->getValue() << endl; */
+            error += (BackErrorPropagation::calculateOutputError(cell, params) / (double)params.numTrainingSets);
 
             // Back propagate all at once
-            network->backPropagate();
+            BackErrorPropagation::backPropagate(cell, params);
 
         }
-     //   std::cout << count << ": Error = " << error << std::endl; // runs about 100x faster if this is commented out I/O is slow
+     //   cout << count << ": Error = " << error << endl; // runs about 100x faster if this is commented out I/O is slow
     }
-    std::cout << "Trained in " << count << " trails within an error of " << error << std::endl;
+    cout << "Trained in " << count << " trails within an error of " << error << endl;
     // print output
-    network->getInputLayer()->getNode(0)->setValue(0);
-    network->getInputLayer()->getNode(1)->setValue(0);
-    network->feedForward();
-    std::cout << "0 & 0 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(0);
+    cell->getInputLayer()->getNode(1)->setValue(0);
+    BackErrorPropagation::feedForward(cell);
+    cout << "0 & 0 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(0);
-    network->getInputLayer()->getNode(1)->setValue(1);
-    network->feedForward();
-    std::cout << "0 & 1 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(0);
+    cell->getInputLayer()->getNode(1)->setValue(1);
+    BackErrorPropagation::feedForward(cell);
+    cout << "0 & 1 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(1);
-    network->getInputLayer()->getNode(1)->setValue(0);
-    network->feedForward();
-    std::cout << "1 & 0 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(1);
+    cell->getInputLayer()->getNode(1)->setValue(0);
+    BackErrorPropagation::feedForward(cell);
+    cout << "1 & 0 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(1);
-    network->getInputLayer()->getNode(1)->setValue(1);
-    network->feedForward();
-    std::cout << "1 & 1 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(1);
+    cell->getInputLayer()->getNode(1)->setValue(1);
+    BackErrorPropagation::feedForward(cell);
+    cout << "1 & 1 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    std::cout << "Train Logical AND 2 Inputs Demo End" << std::endl;
-
+    cout << "Train Logical AND 2 Inputs Demo End" << endl;
 }
 
 
@@ -131,148 +133,152 @@ void trainLogicalAND2Inputs() {
  */
 void trainLogicalAND3Inputs() {
 
-    int numInputNodes = 3;
-    int numOutputNodes = 1;
-    int numCenterLayers = 1;
-    int numCenterNodes = 10;
+    parameters params;
+    params.numInputNodes = 3;
+    params.inputDimX = 3;
+    params.inputDimY = 1;
+    params.numOutputNodes = 1;
+    params.outputDimX = 1;
+    params.outputDimY = 1;
+    params.numCenterLayers = 1;
+    params.numCenterNodes = 10;
+    params.numLayers = params.numCenterLayers + 2;
+    params.useBias = false;
 
-    Network* network = new Network(numInputNodes, numCenterLayers, numCenterNodes, numOutputNodes);
+    params.learningRate = 5.5;
 
-    network->learningRate = 5.5;
-    network->useBias = false;
+    params.numTrainingSets = 8;
+    params.currentTrainingSet = 0;
 
-    int numTrainingSets = 8;
-    int currentTrainingSet = 0;
-
-    double** trainingInputs;
-    double** trainingOutputs;
-
-    trainingInputs = new double*[numTrainingSets];
-    for(int i = 0; i < numTrainingSets; i++) {
-        trainingInputs[i] = new double[numInputNodes];
+    params.trainingInputs = new double*[params.numTrainingSets];
+    for(int i = 0; i < params.numTrainingSets; i++) {
+        params.trainingInputs[i] = new double[params.numInputNodes];
     }
-    trainingOutputs = new double*[numTrainingSets];
-    for(int i = 0; i < numTrainingSets; i++) {
-        trainingOutputs[i] = new double[numOutputNodes];
+    params.trainingOutputs = new double*[params.numTrainingSets];
+    for(int i = 0; i < params.numTrainingSets; i++) {
+        params.trainingOutputs[i] = new double[params.numOutputNodes];
     }
-    network->teachingSignals = new double[numOutputNodes];
+    params.teachingSignals = new double[params.numOutputNodes];
 
     // Logical OR
     // 訓練データの作成 // Create Trainig Data
     // 訓練データ０     // Training Set 0
-    trainingInputs[0][0] = 0; // 入力１     // Input 1
-    trainingInputs[0][1] = 0; // 入力２     // Input 2
-    trainingInputs[0][2] = 0; // 入力3      // Input 3
-    trainingOutputs[0][0] = 0; // 教師信号  // Teacher Signal
+    params.trainingInputs[0][0] = 0; // 入力１     // Input 1
+    params.trainingInputs[0][1] = 0; // 入力２     // Input 2
+    params.trainingInputs[0][2] = 0; // 入力3      // Input 3
+    params.trainingOutputs[0][0] = 0; // 教師信号  // Teacher Signal
     // 訓練データ1      // Training Set 1
-    trainingInputs[1][0] = 0; // 入力１     // Input 1
-    trainingInputs[1][1] = 0; // 入力２     // Input 2
-    trainingInputs[1][2] = 1; // 入力3      // Input 3
-    trainingOutputs[1][0] = 0; // 教師信号   / Teacher Signal
+    params.trainingInputs[1][0] = 0; // 入力１     // Input 1
+    params.trainingInputs[1][1] = 0; // 入力２     // Input 2
+    params.trainingInputs[1][2] = 1; // 入力3      // Input 3
+    params.trainingOutputs[1][0] = 0; // 教師信号   / Teacher Signal
     // 訓練データ2     // Training Set 2
-    trainingInputs[2][0] = 0; // 入力１     // Input 1
-    trainingInputs[2][1] = 1; // 入力２     // Input 2
-    trainingInputs[2][2] = 0; // 入力3      // Input 3
-    trainingOutputs[2][0] = 0; // 教師信号
+    params.trainingInputs[2][0] = 0; // 入力１     // Input 1
+    params.trainingInputs[2][1] = 1; // 入力２     // Input 2
+    params.trainingInputs[2][2] = 0; // 入力3      // Input 3
+    params.trainingOutputs[2][0] = 0; // 教師信号
     // 訓練データ3     // Training Set 3
-    trainingInputs[3][0] = 0; // 入力１     // Input 1
-    trainingInputs[3][1] = 1; // 入力２     // Input 2
-    trainingInputs[3][2] = 1; // 入力3      // Input 3
-    trainingOutputs[3][0] = 0; // 教師信号  // Teacher Signal
-    // 訓練データ4     // Training Set 4
-    trainingInputs[4][0] = 1; // 入力１     // Input 1
-    trainingInputs[4][1] = 0; // 入力２     // Input 2
-    trainingInputs[4][2] = 0; // 入力3      // Input 3
-    trainingOutputs[4][0] = 0; // 教師信号  // Teacher Signal
-    // 訓練データ5     // Training Set 5
-    trainingInputs[5][0] = 1; // 入力１     // Input 1
-    trainingInputs[5][1] = 0; // 入力２     // Input 2
-    trainingInputs[5][2] = 1; // 入力3      // Input 3
-    trainingOutputs[5][0] = 0; // 教師信号  // Teacher Signal
-    // 訓練データ6     // Training Set 6
-    trainingInputs[6][0] = 1; // 入力１     // Input 1
-    trainingInputs[6][1] = 1; // 入力２     // Input 2
-    trainingInputs[6][2] = 0; // 入力3      // Input 3
-    trainingOutputs[6][0] = 0; // 教師信号  // Teacher Signal
-    // 訓練データ7     // Training Set 7
-    trainingInputs[7][0] = 1; // 入力１     // Input 1
-    trainingInputs[7][1] = 1; // 入力２     // Input 2
-    trainingInputs[7][2] = 1; // 入力3      // Input 3
-    trainingOutputs[7][0] = 1; // 教師信号  // Teacher Signal
+    params.trainingInputs[3][0] = 0; // 入力１     // Input 1
+    params.trainingInputs[3][1] = 1; // 入力２     // Input 2
+    params.trainingInputs[3][2] = 1; // 入力3      // Input 3
+    params.trainingOutputs[3][0] = 0; // 教師信号  // Teacher Signal
 
-    network->init();
+    params.trainingInputs[4][0] = 1; // 入力１     // Input 1
+    params.trainingInputs[4][1] = 0; // 入力２     // Input 2
+    params.trainingInputs[4][2] = 0; // 入力3      // Input 3
+    params.trainingOutputs[4][0] = 0; // 教師信号  // Teacher Signal
+
+    params.trainingInputs[5][0] = 1; // 入力１     // Input 1
+    params.trainingInputs[5][1] = 0; // 入力２     // Input 2
+    params.trainingInputs[5][2] = 1; // 入力3      // Input 3
+    params.trainingOutputs[5][0] = 0; // 教師信号  // Teacher Signal
+
+    params.trainingInputs[6][0] = 1; // 入力１     // Input 1
+    params.trainingInputs[6][1] = 1; // 入力２     // Input 2
+    params.trainingInputs[6][2] = 0; // 入力3      // Input 3
+    params.trainingOutputs[6][0] = 0; // 教師信号  // Teacher Signal
+
+    params.trainingInputs[7][0] = 1; // 入力１     // Input 1
+    params.trainingInputs[7][1] = 1; // 入力２     // Input 2
+    params.trainingInputs[7][2] = 1; // 入力3      // Input 3
+    params.trainingOutputs[7][0] = 1; // 教師信号  // Teacher Signal
 
 
-    std::cout << "Training..." << std::endl;
+
+    Network* cell = new Network(params.numInputNodes, params.numCenterLayers, params.numCenterNodes, params.numOutputNodes);
+    BackErrorPropagation::initNetwork(cell);
+
+
+    cout << "Training..." << endl;
     // 訓練データを学習する // Teach the Training Data
     double error = 1.0;
     int count = 0;
     while(error > 0.00001 && count < 50000) {
         count++;
         error = 0.0;
-        for(currentTrainingSet = 0; currentTrainingSet < numTrainingSets; currentTrainingSet++) {
+        for(params.currentTrainingSet = 0; params.currentTrainingSet < params.numTrainingSets; params.currentTrainingSet++) {
 
-            network->getInputLayer()->getNode(0)->setValue(trainingInputs[currentTrainingSet][0]);
-            network->getInputLayer()->getNode(1)->setValue(trainingInputs[currentTrainingSet][1]);
-            network->getInputLayer()->getNode(2)->setValue(trainingInputs[currentTrainingSet][2]);
+            cell->getInputLayer()->getNode(0)->setValue(params.trainingInputs[params.currentTrainingSet][0]);
+            cell->getInputLayer()->getNode(1)->setValue(params.trainingInputs[params.currentTrainingSet][1]);
+            cell->getInputLayer()->getNode(2)->setValue(params.trainingInputs[params.currentTrainingSet][2]);
 
-            network->teachingSignals[0] = trainingOutputs[currentTrainingSet][0];
+            params.teachingSignals[0] = params.trainingOutputs[params.currentTrainingSet][0];
 
-            network->feedForward();
-            error += (network->calculateOutputError() / (double)numTrainingSets);
-            network->backPropagate();
+            BackErrorPropagation::feedForward(cell);
+            error += (BackErrorPropagation::calculateOutputError(cell, params) / (double)params.numTrainingSets);
+            BackErrorPropagation::backPropagate(cell, params);
 
         }
-     //   std::cout << count << ": Error = " << error << std::endl; // runs about 100x faster if this is commented out I/O is slow
+     //   cout << count << ": Error = " << error << endl; // runs about 100x faster if this is commented out I/O is slow
     }
-    std::cout << "Trained in " << count << " trails within an error of " << error << std::endl;
+    cout << "Trained in " << count << " trails within an error of " << error << endl;
     // print output
-    network->getInputLayer()->getNode(0)->setValue(0);
-    network->getInputLayer()->getNode(1)->setValue(0);
-    network->getInputLayer()->getNode(2)->setValue(0);
-    network->feedForward();
-    std::cout << "0 & 0 & 0 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(0);
+    cell->getInputLayer()->getNode(1)->setValue(0);
+    cell->getInputLayer()->getNode(2)->setValue(0);
+    BackErrorPropagation::feedForward(cell);
+    cout << "0 & 0 & 0 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(0);
-    network->getInputLayer()->getNode(1)->setValue(0);
-    network->getInputLayer()->getNode(2)->setValue(1);
-    network->feedForward();
-    std::cout << "0 & 0 & 1 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(0);
+    cell->getInputLayer()->getNode(1)->setValue(0);
+    cell->getInputLayer()->getNode(2)->setValue(1);
+    BackErrorPropagation::feedForward(cell);
+    cout << "0 & 0 & 1 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(0);
-    network->getInputLayer()->getNode(1)->setValue(1);
-    network->getInputLayer()->getNode(2)->setValue(0);
-    network->feedForward();
-    std::cout << "0 & 1 & 0 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(0);
+    cell->getInputLayer()->getNode(1)->setValue(1);
+    cell->getInputLayer()->getNode(2)->setValue(0);
+    BackErrorPropagation::feedForward(cell);
+    cout << "0 & 1 & 0 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(0);
-    network->getInputLayer()->getNode(1)->setValue(1);
-    network->getInputLayer()->getNode(2)->setValue(1);
-    network->feedForward();
-    std::cout << "0 & 1 & 1 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(0);
+    cell->getInputLayer()->getNode(1)->setValue(1);
+    cell->getInputLayer()->getNode(2)->setValue(1);
+    BackErrorPropagation::feedForward(cell);
+    cout << "0 & 1 & 1 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(1);
-    network->getInputLayer()->getNode(1)->setValue(0);
-    network->getInputLayer()->getNode(2)->setValue(0);
-    network->feedForward();
-    std::cout << "1 & 0 & 0 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(1);
+    cell->getInputLayer()->getNode(1)->setValue(0);
+    cell->getInputLayer()->getNode(2)->setValue(0);
+    BackErrorPropagation::feedForward(cell);
+    cout << "1 & 0 & 0 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(1);
-    network->getInputLayer()->getNode(1)->setValue(0);
-    network->getInputLayer()->getNode(2)->setValue(1);
-    network->feedForward();
-    std::cout << "1 & 0 & 1 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(1);
+    cell->getInputLayer()->getNode(1)->setValue(0);
+    cell->getInputLayer()->getNode(2)->setValue(1);
+    BackErrorPropagation::feedForward(cell);
+    cout << "1 & 0 & 1 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(1);
-    network->getInputLayer()->getNode(1)->setValue(1);
-    network->getInputLayer()->getNode(2)->setValue(0);
-    network->feedForward();
-    std::cout << "1 & 1 & 0 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(1);
+    cell->getInputLayer()->getNode(1)->setValue(1);
+    cell->getInputLayer()->getNode(2)->setValue(0);
+    BackErrorPropagation::feedForward(cell);
+    cout << "1 & 1 & 0 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
 
-    network->getInputLayer()->getNode(0)->setValue(1);
-    network->getInputLayer()->getNode(1)->setValue(1);
-    network->getInputLayer()->getNode(2)->setValue(1);
-    network->feedForward();
-    std::cout << "1 & 1 & 1 = " << network->getOutputLayer()->getNode(0)->getValue() << std::endl;
-    std::cout << "Logical AND 3 Inputs Demo End" << std::endl;
+    cell->getInputLayer()->getNode(0)->setValue(1);
+    cell->getInputLayer()->getNode(1)->setValue(1);
+    cell->getInputLayer()->getNode(2)->setValue(1);
+    BackErrorPropagation::feedForward(cell);
+    cout << "1 & 1 & 1 = " << cell->getOutputLayer()->getNode(0)->getValue() << endl;
+    cout << "Logical AND 3 Inputs Demo End" << endl;
 }

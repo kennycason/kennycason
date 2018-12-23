@@ -31,7 +31,6 @@ public:
     void setParent(Layer* layer);
     void setChild(Layer* layer);
 
-    double* teachingSignals;
 
 private:
     Node** nodes;
