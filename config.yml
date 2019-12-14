@@ -21,6 +21,7 @@ pages:
     - euler.hbs
     - reading.hbs
     - games.hbs
+    - spt.hbs
 tags:
     template: index.hbs
 directories:
