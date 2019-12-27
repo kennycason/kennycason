@@ -7,3 +7,4 @@ hakyll
 /dist/
 gen/*
 .DS_Store
+.idea/

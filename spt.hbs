@@ -1,4 +1,6 @@
-<div style="color:green; font-weight:bold; font-size:70px; margin-top: 20px;">$<span id="value">Loading...</span></div>
+<br/>
+<div style="color:green; font-weight:bold; font-size:70px;">$<span id="value">Loading...</span></div>
+<br/>
 
 <script type="text/javascript">
 function numberWithCommas(x) {
@@ -6,13 +8,13 @@ function numberWithCommas(x) {
 }
 
 $(document).ready(function() {
-  var url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SPT&interval=30min&apikey=9XDUGYY9Y9GQ5LL4';
+  let url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=SPT&interval=30min&apikey=9XDUGYY9Y9GQ5LL4';
   $.getJSON(url, function(data) {
-    var series = data['Time Series (30min)'];
-    var latestKey = Object.keys(series)[0];
-    var latest = series[latestKey];
-    var closingValue = 1 * latest['4. close'];
-    $("#value").text(numberWithCommas(closingValue * 20000));
+    let series = data['Time Series (30min)'];
+    let latestKey = Object.keys(series)[0];
+    let latest = series[latestKey];
+    let closingValue = Math.floor(latest['4. close']);
+    $("#value").text(numberWithCommas(closingValue * 21667));
   });
 });
 </script>
