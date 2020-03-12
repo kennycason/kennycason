@@ -7,15 +7,6 @@ tags: ninjaturdle, game development, steam
 
 # Ninja Turdle is officially released!
 
-## Time
-It's been a long four years of on-and-off development. The more I designed and developed, the more I wanted to keep going.
-I finally decided at the end of 2018 that this game was finally going to happen and I spent a good chunk of all my free time during 2019 making it happen.
-This also explains the lack of posts on my blog for all of 2019. 
-
-<img src="/images/ninjaturdle/code_commits.png" width="100%"/>
-
-My only regret is that I couldn't spend 10x the time making Ninja Turdle even better. However, the past few years for me have been **very** busy. It included two company mergers, two new daughters, and a new venture, and a complete overhaul to my physical health.
-
 ## Purchase 
 
 <div style="display: flex;">
@@ -33,6 +24,15 @@ My only regret is that I couldn't spend 10x the time making Ninja Turdle even be
    height="315" 
    src="https://www.youtube.com/embed/Rcuehiz2WsY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+## Time
+It's been a long four years of on-and-off development. The more I designed and developed, the more I wanted to keep going.
+I finally decided at the end of 2018 that this game was finally going to happen and I spent a good chunk of all my free time during 2019 making it happen.
+This also explains the lack of posts on my blog for all of 2019. 
+
+<img src="/images/ninjaturdle/code_commits.png" width="100%"/>
+
+My only regret is that I couldn't spend 10x the time making Ninja Turdle even better. However, the past few years for me have been **very** busy. It included two company mergers, two new daughters, and a new venture, and a complete overhaul to my physical health.
 
 ## Websites and Social Media
 
