@@ -8,7 +8,7 @@ title: Kenny Cason
 email: kenneth.cason@gmail.com
 description: Software, Math, and Language
 base_url: http://kennycason.com/
-deploy: call deploy_kennycason
+deploy: aws s3 sync _site/ s3://www.kennycason.com/
 date_format: MMMM d, yyyy
 template_engine: handlebars
 posts:
