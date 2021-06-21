@@ -36,8 +36,6 @@ a:visited {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
     min-width: 360px;
 }
 
@@ -54,16 +52,12 @@ a:visited {
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
 }
 
 .top-header .left-column .website-link {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
 }
 
 .top-header .left-column .website-link .full-name {
@@ -117,6 +111,18 @@ a:visited {
     font-size: 16px;
     padding-left: 8px;
     padding-right: 8px;
+}
+
+.experience .experience-photo {
+    margin-top: -5px;
+}
+
+.experience .experience-photo {
+    margin-top: -7px;
+}
+
+.experience .simply-measured.experience-photo {
+    margin-top: -15px;
 }
 
 .experience .name {
