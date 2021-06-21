@@ -1,0 +1,189 @@
+* {
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: #fff;
+}
+.content {
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 4px 0 4px -4px rgba(25, 25, 26, 0.5), -4px 0 4px -4px rgba(25, 25, 26, 0.5);
+    padding: 15px;
+}
+
+a,
+a:hover,
+a:visited {
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.top-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.top-header .left-column {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    min-width: 360px;
+}
+
+.top-header .left-column .profile-photo {
+    margin-right: 10px;
+}
+
+.top-header .left-column .profile-photo img {
+    width: 110px;
+    height: 110px;
+}
+
+.top-header .left-column .profile-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+}
+
+.top-header .left-column .website-link {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+}
+
+.top-header .left-column .website-link .full-name {
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+}
+
+.top-header .left-column .website-link .full-name .dot-com {
+    position: relative;
+    top: 0;
+    left: -5px;
+    font-size: 20px;
+    color:#444;
+}
+
+.top-header .left-column .job-title {
+    color: black;
+}
+
+.top-header .left-column .address {
+    color: black;
+}
+
+.top-header .right-column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+}
+
+.top-header .right-column .phone-number,
+.top-header .right-column .email,
+.top-header .right-column .github,
+.top-header .right-column .linkedin,
+.top-header .right-column .facebook,
+.top-header .right-column .twitter {
+    line-height: 20px;
+    text-align: right;
+}
+
+.top-header .right-column .social-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+}
+
+
+.experience {
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.experience .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.experience .description {
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+.experience .experience-activity {
+    margin-left: 8px;
+}
+
+.experience .experience-activity .name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.experience .experience-activity .activity-title-and-date {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.experience .experience-activity .activity-title-and-date .activity-title {
+    font-weight: bold;
+}
+
+.experience .experience-activity .activity-title-and-date .activity-date {
+    justify-content: flex-end;
+
+}
+
+.experience .experience-activity .technology-list {
+    margin-bottom: 16px;
+}
+
+.experience .experience-activity .activity-description-list {
+    display: flex;
+    flex-flow: column nowrap;
+    list-style-type: square;
+}
+
+.experience .experience-activity .activity-description-list .activity-description-item {
+
+}
+
+.experience .row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.experience .row .left-col {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    width: 68px;
+}
+
+.experience .row .right-col {
+    flex: 1;
+    margin-right: 15px;
+}
+
+
