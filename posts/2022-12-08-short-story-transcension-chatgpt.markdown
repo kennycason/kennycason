@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: chatgpt, machine learning, short story
 ---
 
-<b>Prompt:<b> Write a short story about transcension and the full realization of absolute infinity
+<b>Prompt:</b> Write a short story about transcension and the full realization of absolute infinity
 
 Once upon a time, in a far-off galaxy, there was a civilization of beings who had spent eons striving to understand the true nature of the universe. They had built mighty telescopes to peer into the depths of space, and had developed powerful computers to simulate the workings of the cosmos on a grand scale.
 
