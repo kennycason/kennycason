@@ -1,7 +1,7 @@
 ---
 title: Neural Network - Back-Error Propagation - Java
 author: Kenny Cason
-tags: machine learning, neural network, java, ニューラルネット, 機械学習, 誤差逆伝播法
+tags: machine learning, neural network, java, ニューラルネット, 機械学習, 誤差逆伝播法, 日本語, japanese
 ---
 
 This Neural Network is a command line implementation that uses the Back-Error Propagation learning algorithm. As well, The number of center layers, neurons per center layer, and learning rate are all changeable. The provided Test file teach Logial AND, however other test files can easily be created.

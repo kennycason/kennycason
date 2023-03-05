@@ -1,7 +1,7 @@
 ---
 title: ルービックキューブの論理的なやり方(3x3x3)
 author: Kenny Cason
-tags: 論理, ルービックキューブ
+tags: 論理, ルービックキューブ, 日本語, japanese
 ---
 
 <center>ルービックキューブの論理的なやり方</center>
