@@ -1,7 +1,7 @@
 ---
 title: Chinese Lesson - Microbiology (微生物学) - ChatGPT
 author: Kenny Cason
-tags: chatgpt, machine learning, chinese, 中文
+tags: chatgpt, machine learning, 中文, chinese
 ---
 
 ### 生词 Vocabulary

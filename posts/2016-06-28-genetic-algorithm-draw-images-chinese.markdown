@@ -4,6 +4,8 @@ author: Kenny Cason
 tags: 遗传算法, 遗传编程, 中文, chinese
 ---
 
+[遗传算法与重现画像(更新版)](/posts/2022-12-15-genetic-algorithm-draw-image-improve-chinese-chatgpt.html)
+
 遗传算法是一种解决最优化的搜索算法。以下的遗传算法能用重现画像。编程都在GitHub上传，有兴趣可以去看看: <a href="https://github.com/kennycason/genetic_draw" target="blank">这里</a>
 
 ### 算法概念

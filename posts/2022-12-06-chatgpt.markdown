@@ -216,7 +216,7 @@ Worked after minor editing.
 
 ### 🤖️ Improve Chinese Blog Post - 遗传算法与重现画像
 
-[Google Doc 遗传算法与重现画像](https://docs.google.com/document/d/1hLsP1NeJ-Huv7-mNarOGKzyI_FoeC15tJae2-86gt9U/edit#)
+[遗传算法与重现画像(更新版)](/posts/2022-12-15-genetic-algorithm-draw-image-improve-chinese-chatgpt.html)
 
 This was a blog post I wrote in Chinese previously on the subject of generating images using genetic algorithms. Linked below is a Google Doc which shows the before and after for each paragraph. I was quite impressed with the results and ChatGPT was even able to explain it's reasoning for its changes.
 

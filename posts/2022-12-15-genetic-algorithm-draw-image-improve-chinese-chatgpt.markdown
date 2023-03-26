@@ -1,7 +1,7 @@
 ---
-title: Improve Chinese with ChatGPT - 遗传算法与重现画像
+title: 遗传算法与重现画像 - Improved Chinese with ChatGPT
 author: Kenny Cason
-tags: 遗传算法, 遗传编程, 中文, chinese, chatgpt
+tags: 遗传算法, 遗传编程, chatgpt, 中文, chinese
 ---
 
 This project/experiment was motivated by the success I had using ChatGPT to improve my Chinese post on genetic algorithms.
