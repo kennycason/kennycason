@@ -11,14 +11,14 @@ All code can be found on my GitHub <a href="https://github.com/kennycason/swift_
 Simply touch in the direction you want to move. For example to move right, touch to the right of the character.
 I really tried hard not to use the Virtual D-Pad, per reading many blogs on mobile game design. :)
 
-This port features:
+This clone features:
 
 1. 40 levels from the original Boxxle (GameBoy)
 2. Touch [next] to go to the next level
 3. Touch [reset] to reset the level in case you make a mistake
 4. Step counter for each level
 
-This port doesn't include:
+This clone doesn't include:
 
 1. Level passwords
 2. Walking animations (I couldn't find the sprites)
