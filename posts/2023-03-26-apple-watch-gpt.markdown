@@ -11,6 +11,8 @@ I recently purchased an Apple Watch, with two primary goals:
 
 Having never built anything for the Apple Watch, I was pretty excited to get started and had a ton of ideas. Additionally, it has been almost 10 years since I last programmed in Swift to build a <a href="/posts/2014-10-26-swift-boxxle.html" target="blank">Boxxle Clone</a>. 
 
+The code can be found on GitHub, <a href="https://github.com/kennycason/watchgpt" target="blank">here</a>.
+
 ## Features
 
 ### Supported Versions
