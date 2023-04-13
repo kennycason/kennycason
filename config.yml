@@ -33,3 +33,6 @@ directories:
     - name: code
     - name: collections
       render: true
+#ignore:
+#    - .idea
+#    - workspace.xml

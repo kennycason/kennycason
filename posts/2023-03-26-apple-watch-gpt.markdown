@@ -1,5 +1,5 @@
 ---
-title: Apple Watch + ChatGPT
+title: Apple WatchGPT
 author: Kenny Cason
 tags: ios, chatgpt, apple watch
 ---
@@ -9,7 +9,11 @@ I recently purchased an Apple Watch, with two primary goals:
 2. Build apps.
 
 
-Having never built anything for the Apple Watch, I was pretty excited to get started and had a ton of ideas. Additionally, it has been almost 10 years since I last programmed in Swift to build a <a href="/posts/2014-10-26-swift-boxxle.html" target="blank">Boxxle Clone</a>. 
+Having never built anything for the Apple Watch, I was pretty excited to get started and had a ton of ideas. 
+Additionally, it has been almost 10 years since I last programmed in Swift to build a <a href="/posts/2014-10-26-swift-boxxle.html" target="blank">Boxxle Clone</a>. 
+
+Recently, I have been following along with all the ChatGPT hype, of which I think is well deserved. 
+You can see <a href="http://localhost:8080/tags/chatgpt.html" target="blank">other posts</a> I've written about ChatGPT, as well as <a href="https://github.com/kennycason/chatgpt" target="blank">numerous examples on GitHub</a> to demonstrate the range of problems it is capable of.
 
 The code can be found on GitHub, <a href="https://github.com/kennycason/watchgpt" target="blank">here</a>.
 
@@ -94,9 +98,11 @@ class TextToSpeech {
 }
 ```
 
+
 3. The final step was to add a "🔊" button to trigger the Text-To-Voice feature.
  
 <img class="margin5" src="/images/watchgpt/text_to_voice.png" width="250"/>
+
 
 ### Settings + Other Models
 
@@ -114,6 +120,7 @@ The app supports multiple settings such as:
 ### Questions - Misc
 
 <img class="margin5" src="/images/watchgpt/question_pokemon.png" width="250"/><img class="margin5" src="/images/watchgpt/question_chinese_singer.png" width="250"/><img class="margin5" src="/images/watchgpt/question_wa_governor.png" width="250"/>
+
 
 ### Questions - Top World Cities by Population
 

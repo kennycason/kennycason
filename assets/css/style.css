@@ -53,6 +53,9 @@ body {
 
 }
 
+li {
+    font-size: 18px;
+}
 
 header {
     margin-bottom: 5px;
@@ -158,4 +161,50 @@ footer .container .text {
 
 .margin5 {
     margin: 5px;
+}
+
+.margin2 {
+    margin: 2px;
+}
+
+.yt-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.yt-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*blockquote {*/
+/*    margin: 1em 20px;*/
+/*    padding-left: 50px;*/
+/*    background: #f9f9f9;*/
+/*    quotes: "\201C" "\201D" "\2018" "\2019";*/
+/*}*/
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
