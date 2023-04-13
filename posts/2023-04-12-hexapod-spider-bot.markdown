@@ -40,8 +40,8 @@ For my first robotics project in 15 years, I decided to purchase a <a href="http
 &nbsp;
 
 #### Code & Resources
-- <a href="https://github.com/kennycason/robotics/tree/main/arduino">Hexapod Arduino Code`*`</a>
-- <a href="https://github.com/kennycason/robotics/tree/main/processing">Hexapod Calibration Code`*`</a>
+- <a href="https://github.com/kennycason/robotics/tree/main/arduino">Hexapod Arduino Code</a>`*`
+- <a href="https://github.com/kennycason/robotics/tree/main/processing">Hexapod Calibration Code</a>`*`
 - <a href="https://github.com/kennycason/robotics/tree/main/picamera">Picamera / OpenCV</a>
 - <a href="https://github.com/kennycason/robotics/tree/main/astropi">Astropi HAT</a>
 
