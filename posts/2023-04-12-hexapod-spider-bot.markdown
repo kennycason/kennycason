@@ -167,6 +167,17 @@ I was able to write code that would change the LED display based on the Hexapod'
 
 Code for interfacing with the Astro Pi HAT can be found <a href="https://github.com/kennycason/robotics/tree/main/astropi" target="blank">here</a>.
 
+Example code to read temperature:
+```python
+from sense_hat import SenseHat
+
+sense = SenseHat()
+sense.clear()
+
+temp = sense.get_temperature()
+print(temp) # 21.263586044311523 Celsius
+```
+
 &nbsp;
 
 
@@ -193,12 +204,50 @@ Client using FFPlay
 ```bash
 ffplay -probesize 32 -analyzeduration 0 -fflags nobuffer -fflags flush_packets -flags low_delay -framerate 30 -framedrop tcp://192.168.4.76:8888
 ```
-
 Another option I had success with was to configure the Pi for Virtual Desktop and VNC Viewer as seen below.
+
+&nbsp;
+
+##### OpenCV + Face Detection
 
 <img class="margin2" src="/images/robotics/spiderbot/spiderbot_camera01.jpeg" width="49%"/>
 <img class="margin2" src="/images/robotics/spiderbot/spiderbot_camera02.jpeg" width="49%"/>
 
+Below is sample Python code demonstrating how easy it is to use OpenCV to perform face detection from a camera stream.
+
+```python
+#!/usr/bin/python3
+
+# run the if running from terminal/ssh
+# export DISPLAY=:0
+import cv2
+from time import sleep
+
+from picamera2 import Picamera2
+
+# Grab images as numpy arrays and leave everything else to OpenCV.
+face_detector = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+cv2.startWindowThread()
+
+picam2 = Picamera2()
+picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888', "size": (640, 480)}))
+picam2.start()
+
+i = 0
+while True:
+    image = picam2.capture_array()
+
+    grey = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    faces = face_detector.detectMultiScale(grey, 1.1, 5)
+
+    for (x, y, w, h) in faces:
+        cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0))
+
+    cv2.imwrite("/tmp/camera" + str(i) + ".jpg", image)
+    # cv2.imshow("Camera", image) # uncomment if using Virtual Desktop / VNC Viewer
+    sleep(1)
+    i += 1
+```
 
 &nbsp;
 
