@@ -13,7 +13,7 @@ Having never built anything for the Apple Watch, I was pretty excited to get sta
 Additionally, it has been almost 10 years since I last programmed in Swift to build a <a href="/posts/2014-10-26-swift-boxxle.html" target="blank">Boxxle Clone</a>. 
 
 Recently, I have been following along with all the ChatGPT hype, of which I think is well deserved. 
-You can see <a href="http://localhost:8080/tags/chatgpt.html" target="blank">other posts</a> I've written about ChatGPT, as well as <a href="https://github.com/kennycason/chatgpt" target="blank">numerous examples on GitHub</a> to demonstrate the range of problems it is capable of.
+You can see <a href="/tags/chatgpt.html" target="blank">other posts</a> I've written about ChatGPT, as well as <a href="https://github.com/kennycason/chatgpt" target="blank">numerous examples on GitHub</a> to demonstrate the range of problems it is capable of.
 
 The code can be found on GitHub, <a href="https://github.com/kennycason/watchgpt" target="blank">here</a>.
 

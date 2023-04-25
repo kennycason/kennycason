@@ -5,7 +5,7 @@ tags: robotics, raspberry pi, arduino, astropi,
 ---
 
 <img src="/images/robotics/spiderbot/spiderbot_final.jpeg" width="100%"/>
-Finished Spider Bot equipped with Raspberry Pi 4, Camera, and Astro Pi.
+Finished Hexapod Spider Bot equipped with Raspberry Pi 4, Camera, and Astro Pi.
 
 &nbsp;
 
@@ -17,8 +17,7 @@ Those were some humbling weeks.
 It quickly became clear that I had bit off more than I could chew, and I ultimately gave up.
 I had no idea where to source the parts, and the internet wasn't as robust as it is nowadays.
 
-My next attempt at robotics would by in 2008 during my year of study abroad in Japan. 
-Amazing country and made life-long friends.
+My next attempt at robotics would by in 2008 during my year of study abroad in Japan, an amazing country and where I made many life-long friends.
 I spent my second semester learning about <a href="/posts/2008-12-24-neural-network-jp.html" target="blank">neural networks</a> and robotics.
 - ✅ The robot project was successful and I could control it via code. 
 - ✅ The neural network "research" was also successful and I learned alot.
@@ -34,16 +33,16 @@ For my first robotics project in 15 years, I decided to purchase a <a href="http
 - Mounted Raspberry Pi4 (Now battery powered)
 - Daytime/Nighttime camera mounted on front with virtual display
 - Face/object detection via OpenCV
-- Astropi HAT (temperature, humidity, accelerometer, air pressure, and more)
+- Astro Pi HAT (temperature, humidity, accelerometer, air pressure, and more)
 - KEYESTUDIO GPIO Breakout Board + 37 Sensor Kit (Flashlight / Infrared Sensor)
 
 &nbsp;
 
-#### Code & Resources
-- <a href="https://github.com/kennycason/robotics/tree/main/arduino">Hexapod Arduino Code</a>`*`
-- <a href="https://github.com/kennycason/robotics/tree/main/processing">Hexapod Calibration Code</a>`*`
-- <a href="https://github.com/kennycason/robotics/tree/main/picamera">Picamera / OpenCV</a>
-- <a href="https://github.com/kennycason/robotics/tree/main/astropi">Astropi HAT</a>
+#### Code & Resources on GitHub
+- <a href="https://github.com/kennycason/robotics/tree/main/arduino" target="blank">Hexapod Arduino Code</a>`*`
+- <a href="https://github.com/kennycason/robotics/tree/main/processing" target="blank">Hexapod Calibration Code</a>`*`
+- <a href="https://github.com/kennycason/robotics/tree/main/picamera" target="blank">Picamera / OpenCV</a>
+- <a href="https://github.com/kennycason/robotics/tree/main/astropi" target="blank">Astropi HAT</a>
 
 `*` For Hexapod code, I recommend downloading the latest sources from FREENODE directly.
 
@@ -184,15 +183,16 @@ print(temp) # 21.263586044311523 Celsius
 ##### Stream Video over TCP
 
 To stream video from the Raspberry Pi to a client computer, I used `libcamera-vid` and `ffplay`/`vlc`.
-I configured another Raspberry Pi 3 that I use solely as a camera viewer.
+For my video client I would either use my primary laptop or a Raspberry Pi 3 + Monitor.
+
 
 Server (spider.local)
 ```bash
 libcamera-vid -t 0  -q 100 --framerate 3 -n --codec mjpeg --inline --listen -o tcp://192.168.4.76:8888 -v
 ```
-or
+or with lower quality and a higher framerate.
 ```bash
-libcamera-vid -t 0  -q 75 --framerate 10 -n --codec mjpeg --inline --listen -o tcp://192.168.4.76:8888 -v 
+libcamera-vid -t 0  -q 50 --framerate 10 -n --codec mjpeg --inline --listen -o tcp://192.168.4.76:8888 -v 
 ```
 
 
@@ -204,7 +204,11 @@ Client using FFPlay
 ```bash
 ffplay -probesize 32 -analyzeduration 0 -fflags nobuffer -fflags flush_packets -flags low_delay -framerate 30 -framedrop tcp://192.168.4.76:8888
 ```
-Another option I had success with was to configure the Pi for Virtual Desktop and VNC Viewer as seen below.
+
+Notes:
+- Sometimes I begin to experience video lag after a while. Dropping the quality and framerate seemed to help, but this issue occurred frequently.
+- Another option I had success with was to configure the Pi for Virtual Desktop and VNC Viewer as seen below.
+- Using `libcamera-vid` and `ffplay`/`vlc` means you directly stream the webcam data to clients without any video processing. In order to apply face-detection, I use a Python + OpenCV to read images from the camera directly on the Pi.
 
 &nbsp;
 
