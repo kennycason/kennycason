@@ -1,5 +1,5 @@
 ---
-title: War - 3D Strategy Boardgame 
+title: War - Strategy Boardgame
 author: Kenny Cason
 tags: boardgame, game development
 ---
@@ -233,14 +233,8 @@ They helped apply wood glue, sand pieces, and more. :)
 
 ---------------------
 
-<img src="/images/war/war-scarlett-configuration.jpeg" width="66%"/><br/>
-
-The Official Scarlett Terrain.
-
----------------------
-
 <img src="/images/war/war-chloe-and-scarlett-configuration.jpeg" width="66%"/><br/>
 
-The Official Scarlett & Chloe Terrain.
+The Official Chloe & Scarlett Terrain.
 
 ---------------------
