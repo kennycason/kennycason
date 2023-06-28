@@ -11,6 +11,7 @@ base_url: http://kennycason.com/
 deploy: aws s3 sync _site/ s3://www.kennycason.com/ && export AWS_PAGER='' && aws cloudfront create-invalidation --distribution-id E11BUV5YLJKAQL --paths '/*'
 date_format: MMMM d, yyyy
 template_engine: handlebars
+port: 3000
 posts:
     directory: posts
     template: post.hbs
