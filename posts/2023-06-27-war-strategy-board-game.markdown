@@ -1,7 +1,7 @@
 ---
-title: War - Strategy Boardgame
+title: War - Chess-like, Customizable Strategy Board Game
 author: Kenny Cason
-tags: boardgame, game development
+tags: board game, game development
 ---
 
 <img src="/images/war/war-header.jpeg" width="100%"/>
@@ -18,7 +18,7 @@ Once I committed to building a board game, I established a few criteria for the 
 1. Deterministic, chess-like rules to eliminate luck as a factor in player movement.
 2. Diverse and unique pieces with complementary rules.
 3. Considerations for terrain and/or environment. <sup>[1]</sup>
-4. Customizable and modular terrain to introduce variability in gameplay. <sup>[2]</sup>
+4. Customizable and modular terrain to introduce variability in game-play. <sup>[2]</sup>
 
 <sub>[1] Version 1.0 only contains basic ground tiles, but I plan to introduce mud and water tiles in the future.</sub><br/>
 <sub>[2] My aim here was to primarily eliminate randomness in player movement, but allow players to introduce randomness by creating non-uniform terrains if they choose.</sub><br/>
@@ -48,7 +48,7 @@ Once I committed to building a board game, I established a few criteria for the 
 
 <sub>[1] A fortification is a tile piece with a raised edge which serves to protect from direct attack.</sub><br/>
 <sub>[2] A wall is a tile that is 2 or more units higher than neighboring tile.</sub><br/>
-<sub>[3] A gap is formed when a neigboring tile is 2 or more units lower than current tile.</sub><br/>
+<sub>[3] A gap is formed when a neighboring tile is 2 or more units lower than current tile.</sub><br/>
 
 ### Starting Formation
 - The `Commander` begins in a corner-most tile.
@@ -60,7 +60,7 @@ Once I committed to building a board game, I established a few criteria for the 
 	- `Tank`
 	- `Infantry`
 	- `Transport` (Optional)
-	- `Escavator` (Optional)
+	- `Excavator` (Optional)
 - Note that the resulting shape of the troop formation is meant to be flexible based on player preference, number of players, and size of board.
 - Common formations include: 
 	- A 4x4 grid (16 total pieces)
@@ -129,7 +129,7 @@ Once I committed to building a board game, I established a few criteria for the 
 
 ### Scoring of Pieces
 
-Here's a sample scoring for each piece. However, note that this has not been tested and is based on my qualiti
+Here's a sample scoring for each piece. However, note that this has not been tested and is meant to serve as a starting point.
 
 | &nbsp;Piece&nbsp; | &nbsp;Score&nbsp; |
 |-------------|--------|
@@ -140,18 +140,18 @@ Here's a sample scoring for each piece. However, note that this has not been tes
 | &nbsp;Air Defense&nbsp; | &nbsp;4 |
 | &nbsp;Tank        | &nbsp;3 |
 | &nbsp;Transport   | &nbsp;2 |
-| &nbsp;Escavator   | &nbsp;2 |
+| &nbsp;Excavator   | &nbsp;2 |
 | &nbsp;Infantry    | &nbsp;1 |
 
 
 - A player receives no points for an opponent's `Missile` blowing up after use. `Missiles` must be attacked directly to receive points.
-- A player receives no points if an opponent sacrafices their `Air Defense` to defend against `Missiles` or `Jets`. `Air Defenses` must be attacked directly to receive points. 
+- A player receives no points if an opponent sacrifices their `Air Defense` to defend against `Missiles` or `Jets`. `Air Defenses` must be attacked directly to receive points. 
 
 
 ### Optional Rules
 - `Tank` can overrun own `Infantry` piece in a sacrifice if needed.
 - `Air Defenses` are multi-use. 
-- `Missiles` are be mult-use.
+- `Missiles` are be multi-use.
 - Introduce water tiles that can only be traversed by air.
 - Introduce mud tiles that slow movement by 1. 
 
@@ -163,20 +163,20 @@ Here's a sample scoring for each piece. However, note that this has not been tes
 - In order to verify the "interesting-ness" of the game, I'm aiming to building a video game + AI in order to help with testing. 
 	- AI v1.0 will use Mini-Max + Monte-Carlo searches.
 	- AI v2.0 will use Neural Networks.
-	- The hope is that by observating games played by the NN-backed AI, as well as playing games against the AI, it will more clear if the game has any problems, such as over powered pieces, strategies, or any other problems. Upon discovering a problem, the rule-sets can be updated and the AI re-trained, re-evaluated, rinse and repeat.
+	- The hope is that by observing games played by the NN-backed AI, as well as playing games against the AI, it will more clear if the game has any problems, such as over powered pieces, strategies, or any other problems. Upon discovering a problem, the rule-sets can be updated and the AI re-trained, re-evaluated, rinse and repeat.
 
 
 ### Photo Album
 
 <img src="/images/war/war-evan-and-steve-beta-testers.jpeg" width="100%"/>
 
-My good friends Evan and Steve who were the first two to play test the game as well as numerous convsersations, ideas, and feedback. Thanks!
+My good friends Evan and Steve who were the first two to play test the game as well as numerous conversations, ideas, and feedback. Thanks!
 
 ---------------------
 <img src="/images/war/war-midgame.jpeg" width="100%"/>
 
 Mid-game. 
-Gray team has the right side hill access well defended with their `Tank`, `Bomber`, `Artillary`, and `Missile`. 
+Gray team has the right side hill access well defended with their `Tank`, `Bomber`, `Artillery`, and `Missile`. 
 Meanwhile Black team has a pretty strong hold on the center hill with 4 `Infantry` units backed by a `Bomber` and a rearward `Missile`.
 
 ---------------------
