@@ -1,5 +1,5 @@
 ---
-title: Hexapod Spider Bot - Arduino + Raspberry Pi + Astropi + OpenCV
+title: Hexapod Spider Bot - Raspberry Pi + Arduino + Astropi + Video + OpenCV
 author: Kenny Cason
 tags: robotics, raspberry pi, arduino, astropi, 
 ---
@@ -255,18 +255,18 @@ while True:
 
 &nbsp;
 
-#### Hardware List
+#### Hardware Shopping List
 
-- <a href="https://www.amazon.com/Freenove-Raspberry-Crawling-Detailed-Tutorial/dp/B07FLVZ2DN/" target="blank">"FREENOVE Hexapod Robot Kit with Remote"</a>
+- <a href="https://www.amazon.com/gp/product/B07FLVZ2DN/" target="blank">FREENOVE Hexapod Robot Kit with Remote</a>
 - <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/" target="blank">Raspberry Pi 4</a>
 - <a href="https://www.amazon.com/gp/product/B08ZJ46SKK/" target="blank">Sumolink Mount Holder for Raspberry Pi HQ Camera Module</a>
-- <a href="https://www.amazon.com/KEYESTUDIO-Raspberry-Starter-Resistors-Ultrasonic/dp/B0798DYZQW" target="blank">GPIO Breakout Board + 37 Sensors Kit</a>
+- <a href="https://www.amazon.com/gp/product/B0798DYZQW/" target="blank">GPIO Breakout Board + 37 Sensors Kit</a>
 - <a href="https://www.amazon.com/gp/product/B07DNSSDGG/" target="blank">Dorhea for Raspberry Pi Camera Module Automatic IR-Cut Switching Day/Night Vision 1080p HD</a>
 - <a href="https://www.raspberrypi.com/products/sense-hat/" target="blank">Astro Pi HAT</a>
 - <a href="https://www.amazon.com/gp/product/B09BNRKQD8/" target="blank">VGE Battery Pack for Raspberry Pi 4, 4000mAh, 5V 2.4A, Adhesive (USB-C)</a>
 - <a href="https://www.amazon.com/gp/product/B08C2DJBT2/" target="blank">40-pin GPIO adapters & extenders</a>
-- <a href="https://www.amazon.com/gp/product/B07BFWHD7G/" target="blank">3600mAh Flat Top 3.7V 30A Flat Top Rechargeable Battery </a>
-- <a href="https://www.amazon.com/gp/product/B08H1Q5B98/" target="blank">Universal Smart Battery Charger 4 Bay for Rechargeable Batteries + LCD Display</a>
+- <a href="https://www.amazon.com/gp/product/B09NL155Z9/" target="blank">3600mAh Flat Top 3.7V 30A Flat Top Rechargeable Battery </a>
+- <a href="https://www.amazon.com/gp/product/B07BFWHD7G/" target="blank">Universal Smart Battery Charger 4 Bay for Rechargeable Batteries with LCD Display</a>
 
 &nbsp;
 
