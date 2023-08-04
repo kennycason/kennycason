@@ -5,7 +5,7 @@ tags: robotics, raspberry pi
 ---
 
 <img src="/images/robotics/tankbot/tankbot_main.jpeg" width="100%"/>
-Finished Tank Bot equipped with Raspberry Pi 4, Camera, and other Sensors.
+The finished Tank Bot is equipped with a Raspberry Pi 4, a camera, and other sensors.
 
 
 &nbsp;
@@ -17,58 +17,63 @@ I began to wonder if maybe I should have just started with a tank instead.
 Perhaps it would be a better ROI since the tank will be fast, stable, and easier to code for than 6 jointed legs.
 With a reliable vehicle base that can navigate most terrain, we should then be free to focus on the "brain" of the robot or other features.
 
+When building the [Hexapod Spider Bot](/posts/2023-04-12-hexapod-spider-bot.html) and dealing with the complexities involved in managing legs, 
+I began to wonder if perhaps I should have started with a tank instead. 
+The tank would be fast, stable, and easier to program than six jointed legs. 
+With a reliable vehicle base that can navigate most terrains, we could then focus on the "brain" of the robot or other features.
+
 <div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/n9zXvSuwrjs?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
 
 &nbsp;
 
 #### Notable Components
-1. Choose Tank Chassis
+1. Tank Chassis Selection
 2. L298N Motor Driver
 3. Remote Control via RF24
-4. Tank Client / Server via REST API
+4. Tank Client/Server via REST API
 5. Portable Power Supply
 6. Streaming Video + OpenCV
-7. Extensible Sensor / Peripherals
+7. Extensible Sensor/Peripherals
+
 
 &nbsp;
 
-#### 1. Choose Tank Chassis
+#### 1. Selecting the Tank Chassis
 
-One day while I was browsing Amazon I stumbled into <a href="https://www.amazon.com/gp/product/B089475848/" target="blank">this chassis</a>.
-It is comprised of an extensible metal base and high quality track treads with suspension.
-Assembling the chassis was pretty straight forward. 
+While browsing Amazon one day, I came across <a href="https://www.amazon.com/gp/product/B089475848/" target="blank">this chassis</a>.
+It's made up of an extensible metal base and high-quality track treads with suspension. 
+Assembling the chassis was straightforward.
 
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
 <div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_01.jpeg" width="400px"/><br/>
-Chassis + other components</div>
+Chassis along with other components</div>
 <div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_02.jpeg" width="400px"/><br/>
-Build wheel-mounts + suspension</div>
+Building wheel-mounts and suspension</div>
 </div>
 
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
 <div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_03.jpeg" width="400px"/><br/>
-Attach wheels</div>
+Attaching wheels</div>
 <div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_04.jpeg" width="400px"/><br/>
-Attach base platform</div>
+Attaching the base platform</div>
 </div>
 
 <img class="margin2" src="/images/robotics/tankbot/tankbot_build_05.jpeg" width="400px"/><br/>
-Attach track treads
+Attaching track treads
 
 <br/>
 
 
 #### 2. L298N Motor Driver
 
-The first real challenge I encountered was trying to determine how to power and control the DC motors from a Raspberry Pi.
-<a href="https://www.amazon.com/gp/product/B0798DYZQW/" target="blank">This KEYESTUDIO GPIO Breakout Board</a> has been my go-to choice for easy communication with peripherals.
-
+The first significant challenge I faced was determining how to power and control the DC motors from a Raspberry Pi. 
+I've found that the <a href="https://www.amazon.com/gp/product/B0798DYZQW/" target="blank">KEYESTUDIO GPIO Breakout Board</a> is an excellent choice for easy communication with peripherals.
 Next, I decided to use a <a href="https://www.amazon.com/gp/product/B07BK1QL5T/" target="blank">L298N Motor Driver</a> to interface with the DC motor. 
-The L298N chip makes it easier to implement variable speed + reverse functions, while also protecting the motors and electronics.
+The L298N chip simplifies the implementation of variable speed and reverse functions, while also protecting the motors and electronics.
 
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
 <div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_06.jpeg" width="400px"/><br/>
-a working L298N prototype!</div>
+A working L298N prototype!</div>
 <div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_08.jpeg" width="400px"/><br/>
 Mounted L298N chips</div>
 </div>
@@ -85,25 +90,27 @@ DC Motor</div>
 
 #### 3. Remote Control via RF24
 
-The Hexapod Spider Bot uses two NRF24L01+ wireless transceivers for communication.
-I wanted to re-implement the RF24 code in Python but encountered issues that I couldn't seem to resolve.
-Next I decided to try out C++, which I surprisingly had success.
-The rough code can be found <a href="https://github.com/kennycason/robot-tank/blob/main/server-cpp-rf24/tank.cpp" target="blank">here</a>
+The Hexapod Spider Bot uses two NRF24L01+ wireless transceivers for communication. 
+I initially attempted to re-implement the RF24 code in Python but encountered issues that I couldn't seem to resolve. 
+Subsequently, I decided to try out C++, with which I surprisingly had success. 
+The (very) rough code can be found <a href="https://github.com/kennycason/robot-tank/blob/main/server-cpp-rf24/tank.cpp" target="blank">here</a>.
 
-Here are some videos demonstrations
+Here are some videos demonstrations:
+
 - <a href="https://youtu.be/6S9yTzM_i-E" target="blank">C++ RF24 Remote Control Strobe Light</a>
 - <a href="https://youtu.be/8EaiuuxGgu4" target="blank">C++ RF24 Remote Control Driving</a>
 - <a href="https://youtu.be/CmxOhek5jog" target="blank">C++ RF24 Receive Signal Success</a>
 
 
-#### 4. Tank Client / Server via REST API
+#### 4. Tank Client/Server via REST API
 
-After working with RF24 a bit, I began to suspect that there was an easier way. 
-The plan: 
-- Build a core Tank library to make interacting with the Tank easier.
-- Build a Http Web Server using Flask to run on the Raspberry Pi. 
-- Using Python due to the large number of libraries available for ML, NLP, GPIO, OpenCV, Flask, etc.
-- Build multiple Tank Clients: CLI, PostMan, React App, PyGame + PS5 Controller.
+After working with RF24 a bit, I started to think that there could be an easier way. 
+The plan is as follows:
+
+- Build a core Tank library to simplify interactions with the Tank.
+- Construct an HTTP web server using Flask to run on the Raspberry Pi.
+- Use Python due to ease-of-use and the plethora of libraries available for ML, NLP, GPIO, OpenCV, Flask, etc.
+- Develop multiple Tank clients: CLI, PostMan, React App, PyGame + PS5 Controller.
 
 
 ##### tank.py
@@ -435,9 +442,9 @@ def tank_set_speed(speed: str):
 
 &nbsp;
 
-##### Start the Tank Server
+##### Starting the Tank Server
 
-SSH'd into the Raspberry Pi, run the following commands to start the Flask Server.
+After SSHing into the Raspberry Pi, run the following commands to start the Flask Server.
 
 ```shell
 export FLASK_APP=tank_server
@@ -448,8 +455,9 @@ flask run -h 192.168.4.76 -p 8080
 
 ##### PyGame Client + PS5 Controller
 
-This ended up being my favorite implementation because it was easy to get setup and just worked. 
-Later in this post you will see I again use PyGame to render the Video Stream from the front-mounted camera.
+This ended up being my favorite implementation because it was straightforward to set up and worked seamlessly. 
+The left and right joysticks controlled the left and right tracks respectively.
+Later in this post, we'll use PyGame again to render the video stream from the front-mounted camera.
 
 
 ##### tank_client_ps5_controller.py
@@ -547,44 +555,42 @@ tank_client_controller.start()
 
 ##### React Web 
 
-Built a React/Typescript app to interface with the Tank Server.
+Although I found the PyGame + PS5 controller to be my favorite Tank Client, I initially thought it would be fun to construct a React/Typescript app to interface with the Tank Server.
 
-Code can be found <a href="https://github.com/kennycason/robot-tank/tree/main/web-ui" target="blank">here.</a>
+
+The code can be found <a href="https://github.com/kennycason/robot-tank/tree/main/web-ui" target="blank">here.</a>
 
 <img class="margin2" src="/images/robotics/tankbot/tank_controller2.png" width="80%"/>
 
 
 ##### SSH + Tank CLI
 
-SSH into the Raspberry Pi and run the following script to use.
-
-<a href="https://github.com/kennycason/robot-tank/blob/main/server/tank_cli.py" target="blank">tank_cli.py</a>
+You can SSH into the Raspberry Pi and run <a href="https://github.com/kennycason/robot-tank/blob/main/server/tank_cli.py" target="blank">tank_cli.py</a> to control the tank via CLI.
 
 &nbsp;
 
 #### 5. Portable Power Supply
 
-The two DC motors and two L298N motor steppers are powered by two <a href="https://www.amazon.com/gp/product/B09NL155Z9/" target="blank">3600mAh Flat Top 3.7V 30A Flat Top Rechargeable Batteries</a>.
+The two DC motors and two L298N motor drivers are powered by two <a href="https://www.amazon.com/gp/product/B09NL155Z9/" target="blank">3600mAh Flat Top 3.7V 30A Rechargeable Batteries</a>. 
 These are charged with a <a href="https://www.amazon.com/gp/product/B07BFWHD7G/" target="blank">Universal Smart Battery Charger 4 Bay for Rechargeable Batteries with LCD Display</a>.
 
-For the Raspberry Pi I have been using a <a href="https://www.amazon.com/gp/product/B09BNRKQD8/" target="blank">USB-C Battery Pack</a> specked for the Raspberry Pi 4, 000mAh, 5V 2.4A.
+
+For the Raspberry Pi, I have been using a <a href="https://www.amazon.com/gp/product/B09BNRKQD8/" target="blank">USB-C Battery Pack</a> rated for the Raspberry Pi 4, with a capacity of 10,000mAh and an output of 5V 2.4A. 
 I have been using this setup for over half a year now with no complaints.
 
-
-TODO: I initially installed a <a href="https://www.amazon.com/gp/product/B0788B9YGW/" target="blank">PiJuice HAT</a> but was having issues so paused. I would like to come back and finish setup.
-
+TODO: Initially, I installed a <a href="https://www.amazon.com/gp/product/B0788B9YGW/" target="blank">PiJuice HAT</a> but encountered issues and put it on hold. 
+I would like to come back and finish the setup.
 
 &nbsp;
 
-#### 6. Streaming Video + OpenCV
+#### 6. Video Streaming + OpenCV
 
-Handling Streaming Video + OpenCV for is very similar to how we handled it with the Hexapod Spider Bot.
+Handling streaming video with OpenCV is very similar to the approach we used with the Hexapod Spider Bot.
 
-##### Stream Video over TCP
+##### Video Streaming over TCP
 
-To stream video from the Raspberry Pi to a client computer, I used `libcamera-vid` and `ffplay`/`vlc`.
-For my video client I would either use my primary laptop or a Raspberry Pi 3 + Monitor.
-
+To stream video from the Raspberry Pi to a client computer, I used `libcamera-vid` and `ffplay`/`vlc`. 
+For my video client, I used either my primary laptop or a Raspberry Pi 3 with a monitor.
 
 Server (spider.local)
 ```bash
@@ -606,17 +612,18 @@ ffplay -probesize 32 -analyzeduration 0 -fflags nobuffer -fflags flush_packets -
 ```
 
 Notes:
-- Sometimes I begin to experience video lag after a while. Dropping the quality and framerate seemed to help, but this issue occurred frequently.
-- Another option I had success with was to configure the Pi for Virtual Desktop and VNC Viewer as seen below.
-- Using `libcamera-vid` and `ffplay`/`vlc` means you directly stream the webcam data to clients without any video processing.
+- Occasionally, I began to experience video lag after a while. Reducing the quality and framerate seemed to alleviate the problem, but this issue occurred rather frequently.
+- Another option that proved successful was setting up the Pi for a Virtual Desktop and using VNC Viewer, as detailed below.
+- Using `libcamera-vid` and `ffplay`/`vlc` allows you to stream the webcam data directly to clients, without any need for video processing.
 
 &nbsp;
 
 
-##### Video Stream via PyGame + OpenCV
+##### Video Streaming via PyGame + OpenCV
 
-Below code for using PyGame to read the video stream and draw it to screen.
-This is also where you can process the video data, such as face detection with OpenCV as we did in the Hexapod Spider Bot post.
+Below is the code for using PyGame to read the video stream and display it on the screen. 
+This is where you can process the video data. 
+For instance, you can perform face detection with OpenCV as we did in the Hexapod Spider Bot post.
 
 ```python
 import pygame
@@ -666,40 +673,20 @@ Demonstration of face detection.
 
 &nbsp;
 
-#### 7. Extensible Sensor / Peripherals
+#### 7. Extensible Sensor/Peripherals
 
 <a href="/images/robotics/tankbot/tankbot_gpio_board_schematic.jpeg" target="blank"><img class="margin2" src="/images/robotics/tankbot/tankbot_gpio_board_schematic.jpeg" width="80%"/></a><br/>
-This image illustrates the top view of our GPIO board.
+This image provides a top view of our GPIO board.
 
 Components:
-- An RF24 chip, responsible for RF control
-- A pair of L298N Motor Drivers, for precise motor control
-- A Flash Light, for night adventures
-- A Buzzer, for communication - Morse Code
-- An Infrared (IR) Detector, for motion detection
+- An RF24 chip responsible for RF control
+- A pair of L298N Motor Drivers for precise motor control
+- A Flashlight for night adventures
+- A Buzzer for communication using Morse Code
+- An Infrared (IR) Detector for motion detection
 
-The GPIO board interfaces seamlessly with the Raspberry Pi through a <a href="https://www.amazon.com/gp/product/B08C2DJBT2/" target="blank">"40-pin GPIO T-Shaped Adapter"</a>.
-This allows you to install other devices, such as an <a href="https://www.raspberrypi.com/products/sense-hat/" target="blank">Astro Pi HAT</a> for added functionality.
-
-
-&nbsp;
-
-#### Misc Videos
-
-<div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/mfITrjwZyNE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
-
-&nbsp;
-
-<div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/KokGAQuLTi0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div>
-
-&nbsp;
-
-##### More
-
-- <a href="https://youtu.be/uQYtkRJ6x2M" target="blank">Quality Control with Chloe</a>
-- <a href="https://youtu.be/9v9-Ps4EqtA" target="blank">Quality Control with Scarlett</a>
-- <a href="https://youtu.be/4xELzbSb-CY" target="blank">Robots Dancing Remix</a>
-
+The GPIO board interfaces seamlessly with the Raspberry Pi through a <a href="https://www.amazon.com/gp/product/B08C2DJBT2/" target="blank">"40-pin GPIO T-Shaped Adapter"</a>. 
+This allows for the installation of other devices, such as an <a href="https://www.raspberrypi.com/products/sense-hat/" target="blank">Astro Pi HAT</a>, for added functionality.
 
 &nbsp;
 
@@ -719,3 +706,18 @@ This allows you to install other devices, such as an <a href="https://www.raspbe
 - <a href="https://www.amazon.com/gp/product/B07BFWHD7G/" target="blank">Universal Smart Battery Charger 4 Bay for Rechargeable Batteries with LCD Display</a>
 - <a href="https://www.amazon.com/gp/product/B0788B9YGW/" target="blank">PiJuice HAT – A Portable Power Platform For Every Raspberry Pi (not used, optional)</a>
 - <a href="https://www.raspberrypi.com/products/sense-hat/" target="blank">Astro Pi HAT (optional)</a>
+
+
+&nbsp;
+
+#### Videos
+
+<div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/mfITrjwZyNE?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div><br/>
+<div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/KokGAQuLTi0?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div><br/>
+<div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/4xELzbSb-CY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div><br/>
+And one final bonus music video "Robots Dancing" with music by <a href="https://www.youtube.com/@cyriak" target="blank">Cyriak</a>.
+
+##### More
+
+- <a href="https://youtu.be/uQYtkRJ6x2M" target="blank">Quality Control with Chloe</a>
+- <a href="https://youtu.be/9v9-Ps4EqtA" target="blank">Scarlett attacking me with Spider Bot</a>
