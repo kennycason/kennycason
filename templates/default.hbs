@@ -47,6 +47,9 @@
             integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
             onload="renderMathInElement(document.body);"></script>
 
+    <!-- image popup -->
+    <link href="/assets/css/image-popup.css" rel="stylesheet" type="text/css"/>
+    <script src="/assets/js/image-popup.js"></script>
 
     <!-- custom -->
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
@@ -217,6 +220,12 @@
               </ul>
           </div> -->
         </div>
+    </div>
+    <!-- The Modal -->
+    <div id="modal" class="modal">
+        <span id="modal-close" class="modal-close">&times;</span>
+        <img id="modal-content" class="modal-content" />
+        <div id="modal-caption" class="modal-caption"></div>
     </div>
 </div>
 <footer>

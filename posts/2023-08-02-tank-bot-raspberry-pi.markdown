@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: robotics, raspberry pi
 ---
 
-<img src="/images/robotics/tankbot/tankbot_main.jpeg" width="100%"/>
+<img class="modal-target" src="/images/robotics/tankbot/tankbot_main.jpeg" width="100%"/>
 The finished Tank Bot is equipped with a Raspberry Pi 4, a camera, and other sensors.
 
 
@@ -45,20 +45,20 @@ It's made up of an extensible metal base and high-quality track treads with susp
 Assembling the chassis was straightforward.
 
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
-<div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_01.jpeg" width="400px"/><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/tankbot_build_01.jpeg" width="400px"/><br/>
 Chassis along with other components</div>
-<div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_02.jpeg" width="400px"/><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/tankbot_build_02.jpeg" width="400px"/><br/>
 Building wheel-mounts and suspension</div>
 </div>
 
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
-<div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_03.jpeg" width="400px"/><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/tankbot_build_03.jpeg" width="400px"/><br/>
 Attaching wheels</div>
-<div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_04.jpeg" width="400px"/><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/tankbot_build_04.jpeg" width="400px"/><br/>
 Attaching the base platform</div>
 </div>
 
-<img class="margin2" src="/images/robotics/tankbot/tankbot_build_05.jpeg" width="400px"/><br/>
+<img class="modal-target" src="/images/robotics/tankbot/tankbot_build_05.jpeg" width="400px"/><br/>
 Attaching track treads
 
 <br/>
@@ -71,17 +71,18 @@ I've found that the <a href="https://www.amazon.com/gp/product/B0798DYZQW/" targ
 Next, I decided to use a <a href="https://www.amazon.com/gp/product/B07BK1QL5T/" target="blank">L298N Motor Driver</a> to interface with the DC motor. 
 The L298N chip simplifies the implementation of variable speed and reverse functions, while also protecting the motors and electronics.
 
+
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
-<div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_06.jpeg" width="400px"/><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/tankbot_build_06.jpeg" width="400px"/><br/>
 A working L298N prototype!</div>
-<div><img class="margin2" src="/images/robotics/tankbot/tankbot_build_08.jpeg" width="400px"/><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/tankbot_build_08.jpeg" width="400px"/><br/>
 Mounted L298N chips</div>
 </div>
 
 <div style="display:flex; width: 100%; flex-wrap: wrap;">
-<div><a href="/images/robotics/tankbot/L298N_motor_driver_schematics.jpeg" target="blank"><img class="margin2" src="/images/robotics/tankbot/L298N_motor_driver_schematics.jpeg" width="400px"/></a><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/L298N_motor_driver_schematics.jpeg" width="400px"/><br/>
 L298N Motor Driver</div>
-<div><a href="/images/robotics/tankbot/motor_schematics.jpeg" target="blank"><img class="margin2" src="/images/robotics/tankbot/motor_schematics.jpeg" width="400px"/></a><br/>
+<div><img class="modal-target" src="/images/robotics/tankbot/motor_schematics.jpeg" width="400px"/><br/>
 DC Motor</div>
 </div>
 
@@ -560,7 +561,7 @@ Although I found the PyGame + PS5 controller to be my favorite Tank Client, I in
 
 The code can be found <a href="https://github.com/kennycason/robot-tank/tree/main/web-ui" target="blank">here.</a>
 
-<img class="margin2" src="/images/robotics/tankbot/tank_controller2.png" width="80%"/>
+<img class="modal-target" src="/images/robotics/tankbot/tank_controller2.png" width="80%"/>
 
 
 ##### SSH + Tank CLI
@@ -675,7 +676,7 @@ Demonstration of face detection.
 
 #### 7. Extensible Sensor/Peripherals
 
-<a href="/images/robotics/tankbot/tankbot_gpio_board_schematic.jpeg" target="blank"><img class="margin2" src="/images/robotics/tankbot/tankbot_gpio_board_schematic.jpeg" width="80%"/></a><br/>
+<img class="modal-target" src="/images/robotics/tankbot/tankbot_gpio_board_schematic.jpeg" width="80%"/><br/>
 This image provides a top view of our GPIO board.
 
 Components:
