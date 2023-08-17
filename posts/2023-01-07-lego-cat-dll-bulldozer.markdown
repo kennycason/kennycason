@@ -27,18 +27,18 @@ I was very pleased to see how far LEGO and the open-source community has advance
 
 Mid-Build + Mario Animated Series in BG.
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_02.jpg" width="60%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_02.jpg" width="60%" />
 
 Nearing completion, About to start the blade.
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_03.jpg" width="60%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_03.jpg" width="60%" />
 
 After the Bulldozer is built, the next steps are to use the LEGO Technic CONTROL+ Mobile App to connect to the Bulldozer and then perform calibration.
 I had no issues connecting, however calibration failed a few steps in.
 My first step was to simply try and re-calibrate, and pay more attention to all the gears & shafts.
 Upon further examination, I was able to manually confirm that a yellow, slidable cog seems to installed upside-down.
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_surgery_01.jpg" width="60%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_surgery_01.jpg" width="60%" />
 
 Thought there was still a problem.
 I had no idea how I was going to take it apart.
@@ -46,27 +46,27 @@ There aren't really instructions online for such specific teardowns.
 
 I didn't spend much time mulling over the decision and began taking it apart in the largest chunks I could.
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_surgery_02.jpg" width="60%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_surgery_02.jpg" width="60%" />
 
 I finally got the Bulldozer opened up so that I can swap the gear. 
 Afterwards, I re-assembled everything, and hoped that there weren't any other undiscovered errors.
 
 Calibration Complete!
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_calibration.png" width="60%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_calibration.png" width="60%" />
 
 The default Control Scheme. I enjoy the Joystick version (will upload)
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_controller_01.png" width="60%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_controller_01.png" width="60%" />
 
 
 Final Build + Chloe & Scarlett
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_kids.jpg" width="80%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_kids.jpg" width="80%" />
 
 Close Up
 
-<img class="center" src="/images/lego/bulldozer/bulldozer_01.jpg" width="80%" />
+<img class="center modal-target" src="/images/lego/bulldozer/bulldozer_01.jpg" width="80%" />
 
 
 Next Up, Videos uploads.

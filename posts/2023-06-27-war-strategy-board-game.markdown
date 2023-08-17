@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: board game, game development
 ---
 
-<img src="/images/war/war-header.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-header.jpeg" width="100%"/>
 
 ## Background
 
@@ -168,12 +168,12 @@ Here's a sample scoring for each piece. However, note that this has not been tes
 
 ### Photo Album
 
-<img src="/images/war/war-evan-and-steve-beta-testers.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-evan-and-steve-beta-testers.jpeg" width="100%"/>
 
 My good friends Evan and Steve who were the first two to play test the game as well as numerous conversations, ideas, and feedback. Thanks!
 
 ---------------------
-<img src="/images/war/war-midgame.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-midgame.jpeg" width="100%"/>
 
 Mid-game. 
 Gray team has the right side hill access well defended with their `Tank`, `Bomber`, `Artillery`, and `Missile`. 
@@ -181,20 +181,20 @@ Meanwhile Black team has a pretty strong hold on the center hill with 4 `Infantr
 
 ---------------------
 
-<img src="/images/war/war-side-by-side.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-side-by-side.jpeg" width="100%"/>
 
 The bottom which holds the pieces and tiles alongside the main board.
 
 ---------------------
 
 
-<img src="/images/war/war-top-and-bottom.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-top-and-bottom.jpeg" width="100%"/>
 
 The tiles and pieces packed inside.
 
 ---------------------
 
-<img src="/images/war/war-20x20-scarlett.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-20x20-scarlett.jpeg" width="100%"/>
 
 This is a prototype on a 20x20 board, and was aimed to be a 2x2 4-player game. Players move in round robin, alternating teams each move.
 
@@ -202,7 +202,7 @@ This is a prototype on a 20x20 board, and was aimed to be a 2x2 4-player game. P
 
 ### The Build
 
-<img src="/images/war/war-build-step-1.jpeg" width="100%"/>
+<img class="modal-target" src="/images/war/war-build-step-1.jpeg" width="100%"/>
 
 Using a 1"x1" square dowel rods, I cut a enough variable height tiles to fill a 11x11 tile board. 
 There are 4 different heights on this version. 
@@ -210,7 +210,7 @@ The 20x20 large game board has 6 different heights.
 
 ---------------------
 
-<img src="/images/war/war-build-step-2.jpeg" width="100%"/><br/>
+<img class="modal-target" src="/images/war/war-build-step-2.jpeg" width="100%"/><br/>
 
 Using a miter saw and table router, I cut out a frame which will go own to hold the game board where the tiles are laid.
 The inner dimensions needs to be 11"x11".
@@ -218,14 +218,14 @@ Everything is held together with glue and clamps.
 
 ---------------------
 
-<img src="/images/war/war-build-step-3.jpeg" width="100%"/><br/>
+<img class="modal-target" src="/images/war/war-build-step-3.jpeg" width="100%"/><br/>
 
 Next I installed a thin layer of 11"x11" cedar wood by gluing it into place.
 I enjoy the smell the cedar gives off. 
 
 ---------------------
 
-<img src="/images/war/war-build-step-4.jpeg" width="66%"/><br/>
+<img class="modal-target" src="/images/war/war-build-step-4.jpeg" width="66%"/><br/>
 
 Finally, Chloe and Scarlett get to place tiles and design all kinds of terrains. 
 
@@ -233,7 +233,7 @@ They helped apply wood glue, sand pieces, and more. :)
 
 ---------------------
 
-<img src="/images/war/war-chloe-and-scarlett-configuration.jpeg" width="66%"/><br/>
+<img class="modal-target" src="/images/war/war-chloe-and-scarlett-configuration.jpeg" width="66%"/><br/>
 
 The Official Chloe & Scarlett Terrain.
 

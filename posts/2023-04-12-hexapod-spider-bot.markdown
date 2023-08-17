@@ -4,7 +4,7 @@ author: Kenny Cason
 tags: robotics, raspberry pi, arduino, astropi, 
 ---
 
-<img src="/images/robotics/spiderbot/spiderbot_final.jpeg" width="100%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_final.jpeg" width="100%"/>
 Finished Hexapod Spider Bot equipped with Raspberry Pi 4, Camera, and Astro Pi.
 
 &nbsp;
@@ -62,13 +62,13 @@ The build is broken into three phases:
 2. Build and mount the Raspberry Pi "Brain"
 3. Configure Camera + Live Video Stream w/OpenCV
 
-<img src="/images/robotics/spiderbot/spiderbot_final_zoomed.jpeg" width="75%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_final_zoomed.jpeg" width="75%"/>
 
 &nbsp;
 
 #### Hexapod Base Build
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_assembly01.jpeg" width="47%"/><img class="margin2" src="/images/robotics/spiderbot/spiderbot_assembly02.jpeg" width="47%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_assembly01.jpeg" width="47%"/><img class="modal-target" src="/images/robotics/spiderbot/spiderbot_assembly02.jpeg" width="47%"/>
 
 Before assembly, I examined each piece and read through a couple tutorials + instructions to gain some familiarity.
 
@@ -77,21 +77,21 @@ My first thought was that I was impressed with the quality of the acrylic pieces
 &nbsp;
 
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_assembly03.jpeg" width="75%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_assembly03.jpeg" width="75%"/>
 
 Some late night Netflixing & leg assembly.
 
 &nbsp;
 
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_help01.jpeg" width="38%"/><img class="margin2" src="/images/robotics/spiderbot/spiderbot_help02.jpeg" width="58%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_help01.jpeg" width="38%"/><img class="modal-target" src="/images/robotics/spiderbot/spiderbot_help02.jpeg" width="58%"/>
 
 With some help of course. :)
 
 &nbsp;
 
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_assembly04.jpeg" width="75%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_assembly04.jpeg" width="75%"/>
 
 I recommend paying particularly close attention when you are hooking up the leg wires to the Arduino board. 
 It's very easy to mess up, and you may not know until you begin calibration.
@@ -99,21 +99,21 @@ It's very easy to mess up, and you may not know until you begin calibration.
 &nbsp;
 
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_assembly05.jpeg" width="75%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_assembly05.jpeg" width="75%"/>
 
 Finally, install the bottom plate.
 
 &nbsp;
 
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_assembly06.jpeg" width="50%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_assembly06.jpeg" width="50%"/>
 
 And with that, the Hexapod's assembly is complete.
 
 &nbsp;
 
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_calibration.jpeg" width="60%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_calibration.jpeg" width="60%"/>
 
 After assembly, the servo motors must be calibrated. 
 Calibration is done via a Processing script and was pretty straightforward to use.
@@ -136,17 +136,17 @@ Libraries like Tensorflow and OpenCV are also available.
 Even libraries like Pygame are nice for quick PS5 controller support, which is now my default controller.
 Finally, I wrote a light REST API interface using Flask.
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_brain01.jpeg" width="49%"/>
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_brain02.jpeg" width="49%"/>
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_brain03.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_brain01.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_brain02.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_brain03.jpeg" width="49%"/>
 
 &nbsp;
 
 I found the below references helpful when mapping GPIO pins.
 I unfortunately am not sure where I found these.
 
-<img class="margin2" src="/images/robotics/spiderbot/gpio_board_pins.png" width="49%"/>
-<img class="margin2" src="/images/robotics/spiderbot/pi_gpio_pins.png" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/gpio_board_pins.png" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/pi_gpio_pins.png" width="49%"/>
 
 &nbsp;
 
@@ -159,7 +159,7 @@ From the <a href="https://www.esa.int/Education/AstroPI/What_is_an_Astro_Pi" tar
 > Astro Pi computers come with a set of sensors and gadgets that can be used to run great scientific experiments by means of computer coding. This set of sensors is called ‘Sense HAT’ (that stands for ‘Hardware Attached on Top’).<br/><br/>
 > The Sense HAT add-on board was specially created for the Astro Pi competition. The board gives Astro Pi the ability to ‘sense’ and make many kinds of measurements, from temperature to movement, and to output information using a special display  - the  8x8 LED matrix. The Astro Pis are also equipped with a joystick and buttons -  just like a videogame console!
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_astropi_02.jpeg" width="75%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_astropi_02.jpeg" width="75%"/>
 
 I bought it on a whim, but really enjoyed programming with it.
 I was able to write code that would change the LED display based on the Hexapod's orientation. I'm looking forward to using its sensory as input for other robots.
@@ -214,8 +214,8 @@ Notes:
 
 ##### OpenCV + Face Detection
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_camera01.jpeg" width="49%"/>
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_camera02.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_camera01.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_camera02.jpeg" width="49%"/>
 
 Below is sample Python code demonstrating how easy it is to use OpenCV to perform face detection from a camera stream.
 
@@ -270,6 +270,6 @@ while True:
 
 &nbsp;
 
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_scarlett01.jpeg" width="49%"/>
-<img class="margin2" src="/images/robotics/spiderbot/spiderbot_scarlett02.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_scarlett01.jpeg" width="49%"/>
+<img class="modal-target" src="/images/robotics/spiderbot/spiderbot_scarlett02.jpeg" width="49%"/>
 Scarlett playing with Spider Bot :)
