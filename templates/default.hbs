@@ -86,6 +86,13 @@
         ga('send', 'pageview');
 
     </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".tag").each(function (i, obj) {
+                $(obj).css("font-size", Math.max(12, Math.min(18, 12 + parseInt($(obj).attr("count")) / 4.0)) + "px");
+            });
+        });
+    </script>
 </head>
 <body class="body">
 <header>
@@ -134,7 +141,8 @@
             -->
             <div style="float: right;">
                 <div>
-                    <a class="donate-to-ukraine title-link" href="https://u24.gov.ua/" target="_blank">🇺🇦 Support Ukraine</a>
+                    <a class="donate-to-ukraine title-link" href="https://u24.gov.ua/" target="_blank">🇺🇦 Support
+                        Ukraine</a>
                 </div>
             </div>
         </nav>
@@ -158,13 +166,15 @@
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a class="title-link" href="https://store.steampowered.com/app/1082460/Ninja_Turdle/" target="_blank">
-                            <img src="/images/ninjaturdle/ninjaturdle.png" height="19px" style="margin-top: -4px;"/> Ninja Turdle
+                        <a class="title-link" href="https://store.steampowered.com/app/1082460/Ninja_Turdle/"
+                           target="_blank">
+                            <img src="/images/ninjaturdle/ninjaturdle.png" height="19px" style="margin-top: -4px;"/>
+                            Ninja Turdle
                         </a>
                     </li>
-                    <li class="list-group-item">
-                        <a class="title-link" href="http://kakyll.com/" target="_blank">Kakyll</a>
-                    </li>
+                    <!--                    <li class="list-group-item">-->
+                    <!--                        <a class="title-link" href="http://kakyll.com/" target="_blank">Kakyll</a>-->
+                    <!--                    </li>-->
                 </ul>
 
                 <div class="panel-heading">
@@ -175,7 +185,8 @@
                     <li class="list-group-item"><a class="title-link" href="/music.html">Music</a></li>
                     <li class="list-group-item"><a class="title-link" href="/reading.html">Reading List</a></li>
                     <li class="list-group-item"><a class="title-link" href="/euler.html">Project Euler</a></li>
-                    <li class="list-group-item"><a class="title-link" href="/collections/games/index.html">Game Collection</a></li>
+                    <li class="list-group-item"><a class="title-link" href="/collections/games/index.html">Game
+                        Collection</a></li>
                     <li class="list-group-item"><a class="title-link" href="/tags.html">Tags</a></li>
                     <!-- <li class="list-group-item"><a class="title-link" href="/collections/books/index.html">Book Collection</a></li> -->
                 </ul>
@@ -184,47 +195,53 @@
                     <h4>Social</h4>
                 </div>
                 <ul class="list-group">
-                    <li class="list-group-item"><a class="title-link" href="https://github.com/kennycason" target="_blank">Github</a></li>
-                    <li class="list-group-item"><a class="title-link" href="https://www.linkedin.com/in/kennycason/" target="_blank">LinkedIn</a>
+                    <li class="list-group-item"><a class="title-link" href="https://github.com/kennycason"
+                                                   target="_blank">Github</a></li>
+                    <li class="list-group-item"><a class="title-link" href="https://www.linkedin.com/in/kennycason/"
+                                                   target="_blank">LinkedIn</a>
                     </li>
-                    <li class="list-group-item"><a class="title-link" href="http://stackoverflow.com/users/403682/kenny-cason"
+                    <li class="list-group-item"><a class="title-link"
+                                                   href="http://stackoverflow.com/users/403682/kenny-cason"
                                                    target="_blank">StackOverflow</a></li>
                     <li class="list-group-item"><a class="title-link" href="https://www.facebook.com/kenny.cason"
                                                    target="_blank">Facebook</a></li>
-                    <li class="list-group-item"><a class="title-link" href="https://twitter.com/kenny_cason" target="_blank">Twitter</a>
+                    <li class="list-group-item"><a class="title-link" href="https://twitter.com/kenny_cason"
+                                                   target="_blank">Twitter</a>
                     </li>
-                    <li class="list-group-item"><a class="title-link" href="http://www.weibo.com/kennycason/" target="_blank">微博</a></li>
+                    <li class="list-group-item"><a class="title-link" href="http://www.weibo.com/kennycason/"
+                                                   target="_blank">微博</a></li>
                 </ul>
-            </div>
 
-            <!-- <div class="panel panel-default">
                 <div class="panel-heading">
                     <h4>Tags</h4>
                 </div>
-                <div class="panel-body">
-                    <ul class="list-inline">
-                        {{#each tag_cloud}}
-                            <li><a href="{{ this.url }}">{{ this.tag }} ({{ this.count }})</a></li>
-                        {{/each}}
-                    </ul>
-                </div>
-            </div> -->
-            <!-- <div class="panel panel-default">
-              <div class="panel-heading">
-                  <h4>Latest Posts</h4>
-              </div>
-              <ul class="list-group">
-                  {{#each posts}}
-                      <li class="list-group-item"><a href="{{ this.url }}">{{ this.title }} - {{ this.date }} </a></li>
-                  {{/each}}
-              </ul>
-          </div> -->
+                <ul class="list-inline">
+                    {{#each tag_cloud}}
+                        <a class="tag badge badge-secondary" href="{{ this.url }}" style="font-size: 15px"
+                           count="{{ this.count }}">{{ this.tag }} ({{ this.count }})</a>
+                    {{/each}}
+                </ul>
+
+<!--                <div class="panel panel-default">-->
+<!--                    <div class="panel-heading">-->
+<!--                        <h4>Latest Posts</h4>-->
+<!--                    </div>-->
+<!--                    <ul class="list-group">-->
+<!--                        {{#each posts}}-->
+<!--                            <li class="list-group-item"><a href="{{ this.url }}">{{ this.title }} - {{ this.date }} </a>-->
+<!--                            </li>-->
+<!--                        {{/each}}-->
+<!--                    </ul>-->
+<!--                </div>-->
+            </div>
+
+
         </div>
     </div>
     <!-- The Modal -->
     <div id="modal" class="modal">
         <span id="modal-close" class="modal-close">&times;</span>
-        <img id="modal-content" class="modal-content" />
+        <img id="modal-content" class="modal-content"/>
         <div id="modal-caption" class="modal-caption"></div>
     </div>
 </div>
@@ -233,7 +250,7 @@
         <img src="/images/footer.jpg" width="100%" height="100%"/>
         <!--        <div class="text-center">&nbsp;</div>-->
     </div>
-    <div class="text-center">Copyright © KennyCason.com 2018. All rights reserved.</div>
+    <div class="text-center">Copyright © KennyCason.com 2024. All rights reserved.</div>
     <br/>
 </footer>
 </body>

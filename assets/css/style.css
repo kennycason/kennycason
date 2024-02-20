@@ -154,6 +154,14 @@ footer .container .text {
     text-decoration: none;
 }
 
+ol.posts-list {
+    counter-reset: item;
+}
+ol.posts-list li {
+    counter-increment: item;
+}
+ol.posts-list li:before {
+}
 
 .donate-to-ukraine {
     color: white !important;
