@@ -5,17 +5,17 @@ tags: math, genetic algorithm, kotlin
 ---
 <video width="50%" controls autoplay muted loop><source src="https://cdn.kennycason.com/evofun/1729899046.mp4" type="video/mp4"></video><video width="50%" controls autoplay muted loop><source src="https://cdn.kennycason.com/evofun/1730174530.mp4" type="video/mp4"></video>
 
-EvoFun is a generative art project that uses genetic algorithms to evolve DNA-inspired structures composed of mathematical functions, creating complex, dynamic patterns over time. At its core, EvoFun simulates DNA with two main components: genes, a sequence of mathematical functions that transform coordinates, and color genes, which define the organism’s visual expression. By composing and iterating these functions, each “organism” produces unique patterns on a canvas that evolve continuously, giving rise to intricate designs.
+EvoFun is a generative art project that uses genetic algorithms to evolve DNA-inspired structures composed of mathematical functions, creating complex, dynamic patterns over time. At its core, EvoFun simulates DNA with two main components: genes, a sequence of mathematical functions that transform coordinates, and color genes, which define the organism’s visual expression. By composing and iterating these functions, each “organism” produces unique patterns on a canvas that evolve continuously, giving rise to intricate designs. 
+
+<a href="https://github.com/kennycason/evofun/" target="_blank"><b>Source on GitHub</b></a>
 
 ### DNA Structure: Genes and Color Genes
 
-#### The DNA structure in EvoFun has two key components:
-
-<b>Genes:</b> Each gene in the DNA holds a transformation function over coordinates %%(x, y)%% to create fractal-like patterns. The functions are composed in a chain, where each gene applies a mathematical transformation that subtly alters or distorts the result from the previous step. Functions include options like `ABS`, `SWIRL`, `SPIRAL`, `SQUARED`, `GUASSIAN`, `SIN_COS`, `TRANSLATE`, `ROTATE`, and `SCALE`among others. These functions are recursively applied to generate self-similar, fractal patterns by transforming the coordinates repeatedly. Each gene also includes six numeric parameters, which the transformation functions can use for additional variability.
+<b>Genes:</b> Each gene in the DNA holds a transformation function over coordinates %%(x, y)%% to create fractal-like patterns. The functions are composed in a chain, where each gene applies a mathematical transformation that subtly alters or distorts the result from the previous step. Functions include options like `ABS`, `SWIRL`, `SPIRAL`, `SQUARED`, `GUASSIAN`, `SIN_COS`, `TRANSLATE`, `ROTATE`, and `SCALE` among others. These functions are recursively applied to generate self-similar, fractal patterns by transforming the coordinates repeatedly. Each gene also includes six numeric parameters, which the transformation functions can use for additional variability.
 
 <b>Color Genes:</b> In addition to structural genes, DNA contains color genes, which determine the color of each point based on various characteristics such as height or intensity. The color genes translate the final results into color space by applying a variety of color mixing algorithms. These color genes are independent of the structural genes and thus evolve separately.
 
-Below is an example of how genes are encoded:
+#### Below is an example of how genes are encoded:
 
 ```json
 {
@@ -67,15 +67,13 @@ The main application of EvoFun renders these DNA-driven organisms onto a canvas.
 - <b>Maps Color:</b> After transformation, the color genes assign colors based on accumulated counts, creating depth and intensity gradients in the visual output. Counts are slowly decreased each iteration to prevent over-saturation. 
 - <b>Mutates DNA:</b> Depending on the visual entropy of the current DNA, mutation is applied, adjusting genes slightly to promote further evolution.
 
-The result is a constantly evolving visual displays as seen below:
+The result is a constantly evolving visual displays as seen below.
 
 ### Videos
 
 <div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/bDJs5xCmJcs?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div><br/>
 <div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/xYB6IgKBQOY?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div><br/>
 <div class="yt-container"><iframe class="yt-video" src="//www.youtube.com/embed/iowYCd0iKcg?feature=player_detailpage" frameborder="0" allowfullscreen></iframe></div><br/>
-
-&nbsp;
 
 ### Images
 
