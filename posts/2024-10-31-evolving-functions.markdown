@@ -15,6 +15,35 @@ EvoFun is a generative art project that uses genetic algorithms to evolve DNA-in
 
 <b>Color Genes:</b> In addition to structural genes, DNA contains color genes, which determine the color of each point based on various characteristics such as height or intensity. The color genes translate the final results into color space by applying a variety of color mixing algorithms. These color genes are independent of the structural genes and thus evolve separately.
 
+Below is an example of how genes are encoded:
+
+```json
+{
+  "genes" : [ {
+    "function" : "PARABOLIC",
+    "a" : -0.9211078917930305,
+    "b" : -0.9222121723293334,
+    "c" : -0.8493207679992957,
+    "d" : -0.4664991509256924,
+    "e" : -0.968919175052643,
+    "f" : 0.6850299635998457
+  }, ... ],
+  "colorGene" : {
+    "algorithm" : "FUNCTIONS",
+    "genes" : [ {
+      "function" : "HORSESHOE",
+      "a" : -0.9211078917930305,
+      "b" : -0.9222121723293334,
+      "c" : -0.8493207679992957,
+      "d" : -0.4664991509256924,
+      "e" : -0.968919175052643,
+      "f" : 0.6850299635998457
+    }, ... ],
+    "alpha" : 0.7657284110765499
+  }
+}
+```
+
 #### Applying the Genetic Algorithm: Evolving Patterns Over Time
 
 In EvoFun, the genetic algorithm iteratively evolves the DNA through transformations on a 2D grid (or “buffer”), where each %%(x, y)%% coordinate is manipulated by a chain of functions %%f \circ g \circ h \dots (x, y) \rightarrow (x{\prime}, y{\prime})%%. This transformation chain accumulates a “count” for each intermediate position in the buffer, representing the number of times a coordinate is visited or affected. The count is a key factor in how the color genes later interpret the visual intensity at each point, essentially “mapping the color based on height.”
