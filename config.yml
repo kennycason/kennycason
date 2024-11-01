@@ -3,10 +3,9 @@
 # This config is a sample configuration and is used to configure your blog.
 # This is the config that will be used when generating a new site.
 
-
 title: Kenny Cason
 email: kenneth.cason@gmail.com
-description: Software, Math, and Language
+description:  My Pocket of Low Entropy
 base_url: http://kennycason.com/
 deploy: aws s3 sync _site/ s3://www.kennycason.com/ && export AWS_PAGER='' && aws cloudfront create-invalidation --distribution-id E11BUV5YLJKAQL --paths '/*'
 date_format: MMMM d, yyyy

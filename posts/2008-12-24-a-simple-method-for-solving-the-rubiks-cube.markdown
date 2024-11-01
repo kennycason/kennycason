@@ -1,15 +1,19 @@
 ---
-title: Logical Method for Solving the 3x3x3 Rubik's Cube
+title: A Simple Method for Solving the 3x3x3 Rubik's Cube
 author: Kenny Cason
-tags: logic
+tags: puzzle
 ---
 
-How to Logically Solve a Rubik’s Cube<br/>
 
-First, as with any problem, it is important to understand what your objective is. In the case of the Rubik’s Cube, the main goal is to arrange the pieces in such a way that each side is the same color. Next lets luck at the structure of a standard 3x3 Rubik’s Cube. It is a cube composed of 6 sides, each side composed of 9 stickers (3x3). There are 8 corner pieces, 12 edge pieces and 6 center pieces (one on each side). It is also important to note that on all “odd” Rubik’s Cube’s the center pieces can rotate clockwise or counter clockwise, but the positions are fixed. “odd” meaning that the cube is a 3x3, 5x5, NxN, where N is an odd number. Also, because the center pieces are fixed it becomes immediately obvious which side is which color.
-Now that we know the basic structure of a Rubik’s Cube next lets think about strategies to solve it. First, lets examine what is probably the most common way to solve a Rubik’s Cube, the “Layer by Layer” method. For those not familiar with the Layer by Layer method, it involves solving the top, middle, and bottom layer in that order. However, despite this seeming to be the most logical way to approach the Rubik’s Cube, it is actually farm more difficult to solve in this manner. The problem is very simple. If you solve the first layer completely, in order to solve the second layer without messing up the solved first layer the moves grow in length and complexity. Then to solve the bottom layer without messing up the top and middle ayers, the moves again grow even more complex. To add a quantitative example, lets look at the case of trying to place a piece in the second row without messing up the first row it takes 7 permutations, and to switch the bottom layer edge pieces positions without messing up the top and middle layers, permutations can be as much as 15, in which you are more likely to give up before you ever derive on your own techniques. Not to say that it is impossible, but without any experience cubing can prove to be very difficult. However using the method In this paper, you can place all edge pieces in their correct positions in as  f approximately 3 permutations each. In a nutshell, this is where most people are mistaken, is thinking that the Layer by Layer method is the easiest way to solve a Rubik’s Cube when in fact mathematically it’s more complex to do so.
-Also, until you are comfortable with the feel of a Rubik’s Cube, I highly recommend to avoid checking many websites for solutions as they primarily rely on rote memorization of techniques, though definitely useful after you’ve got a feel for the cube on your own. Plus it’s more rewarding when you do it on your own. Now, the next time you see someone solving a Rubik’s Cube using the Layer by Layer method, you can assume that about 99% of the time they learned how to solve it from either A) a friend or B) the internet. Also, contrary to popular belief, you cannot re-stick the stickers after peeling them off. As encouragement, you may also be happy to know that you need not know or understand any mathematics to solve the Rubik’s Cube. Good Luck!
-Note, as I believe it spoils the reward of solving the Rubik’s Cube, I will NOT write any algorithms that will directly tell you how to move pieces as shown in the following diagrams. This guide is merely designed to guide and kindle your thoughts and let you know that there is a simpler method than the layer-by-layer method.
+As with any problem, the first step is understanding your objective. For the Rubik’s Cube, the goal is straightforward: arrange the pieces so each side shows a single color. To begin, let’s review the structure of a standard 3x3 cube. It has 6 sides, each with 9 stickers in a 3x3 grid. There are 8 corner pieces, 12 edge pieces, and 6 fixed center pieces (one per side). Notably, on all “odd” Rubik’s Cubes (like 3x3, 5x5, NxN), these center pieces can rotate, but they stay in place, making it clear which color each side should display.
+
+Now, about solving it. The popular “Layer by Layer” approach involves solving the top, middle, and then the bottom layer. However, while it sounds intuitive, it’s actually quite complex. Solving each layer without disturbing previous layers quickly requires lengthy and intricate moves. For example, just placing a piece in the second layer without upsetting the first can take around 7 moves; arranging the bottom without affecting the top and middle can demand up to 15.
+
+In contrast, the method I’ll describe here places all edge pieces in about 3 moves each, revealing that “Layer by Layer” isn’t as simple as it seems.
+
+Until you get the feel for the cube, I’d suggest not relying on online solutions that focus on memorization. There’s a real satisfaction in solving it on your own. And when you see someone using “Layer by Layer,” chances are they learned from a friend or the internet. Also, a tip—re-sticking the stickers won’t help!
+
+Finally, solving the Rubik’s Cube doesn’t require any complex math. I won’t provide algorithms here since part of the joy lies in figuring it out yourself. This guide is meant to encourage new perspectives and show that there’s a simpler approach than Layer by Layer. 
 
 Explanation:
 1. First, scramble up the Rubik’s Cube, if it isn’t already.
@@ -36,5 +40,4 @@ Explanation:
 The secret to the Rubik’s Cube is practice. The more you work at it the more you will understand it.
 Good Luck!
 
-PDF Download available <a href="/pdf/rubikscube-en.pdf">here</a>
-Japanese Version available here <a href="/pdf/rubikscube-jp.pdf">here</a>
+<a href="/posts/2008-12-24-rubiks-cube-jp.html">日本語版</a>
